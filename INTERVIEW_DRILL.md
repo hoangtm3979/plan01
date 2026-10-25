@@ -10,6 +10,14 @@ Tôi dùng bộ câu hỏi này để luyện **giải thích dự án bằng ti
 4. **EN:** Define default or adverse event and observation window precisely. **VI:** Phân biệt overdue, charged-off, default và thời điểm đo.
 5. **EN:** How would you deploy and roll back this model? **VI:** Hãy thiết kế API, versioned artifacts, monitoring và rollback.
 
+## 1A. Graph-Assisted Shared Risk Context — KLTN
+
+1. **EN:** Why use Average Precision as the primary metric for DGraphFin? **VI:** Vì sao AP phù hợp dữ liệu lệch lớp hơn accuracy, và khác gì ROC-AUC?
+2. **EN:** Why did graph features improve AP while reducing Top-1% true positives from 62 to 55? **VI:** Phân tích rank distribution, threshold, tied scores và review capacity.
+3. Explain `A @ x` on a directed graph: outgoing versus incoming neighbors, adjacency convention, possible information leakage and a fair ablation.
+4. **EN:** Why normalize LendingClub and DGraphFin outputs into separate contexts instead of combining their scores? **VI:** Phân biệt model score, đối tượng thực thể, dữ liệu và chính sách định tuyến.
+5. Reproduce the 13 controlled routing scenarios, the 100 repeated hashes and the field-preservation checks; identify what each verifies.
+
 ## 2. SNJ Hybrid RAG
 
 1. **EN:** Why not just use a large language model? **VI:** Vì sao phải retrieval/filtering thay vì hỏi LLM trực tiếp?
@@ -17,6 +25,14 @@ Tôi dùng bộ câu hỏi này để luyện **giải thích dự án bằng ti
 3. **EN:** Why is 100% on curated queries insufficient? **VI:** Tại sao 100% trên vài truy vấn chọn không chứng minh tổng quát? Design blind held-out evaluation and negative tests.
 4. Discuss hallucination, grounding, no-match, price/stock freshness, latency and cost.
 5. Draw a private beta architecture: WooCommerce read-only catalog → retrieval service → evaluator → assistant UI; separate real checkout authorization.
+
+## 2A. Intelligent Commerce Chatbot / Context-Aware Sales Decision Intelligence
+
+1. Compare the earlier **SNJ Hybrid RAG** coursework with the new multi-turn commerce assistant: what decision and system states were added?
+2. **EN:** How does the assistant distinguish loose ruby stones from finished ruby jewelry and enforce budget/size constraints? **VI:** Thiết kế ontology, hard filters, ranking và lời giải thích.
+3. Design a memory and reference-resolution test for “sản phẩm thứ hai,” after the user changes budget mid-conversation.
+4. Explain how text, optional image attributes, retrieval, catalog truth, LLM responses and user-confirmed tool calls should interact.
+5. Define held-out evaluation for category correctness, Recall@K, violated constraints, no-match handling, p95 latency and per-turn cost before beta expansion.
 
 ## 3. Big Data — RegimeLens
 
