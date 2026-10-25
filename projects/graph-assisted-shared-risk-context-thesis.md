@@ -1,5 +1,8 @@
 # Graph-Assisted Shared Risk Context — Khóa luận tốt nghiệp AI / AI Undergraduate Thesis
 
+> **Điểm nổi bật:** Nghiên cứu tác động của đặc trưng đồ thị lên phát hiện mẫu rủi ro hiếm và chuẩn hóa đầu ra tín dụng, bất thường để hỗ trợ rà soát.
+
+
 [Tiếng Việt](#tiếng-việt) · [English](#english) · [Code & notebooks](graph-assisted-shared-risk-context/) · [Kết quả kiểm tra](graph-assisted-shared-risk-context/RESULTS.md)
 
 ## Tiếng Việt
@@ -59,6 +62,8 @@ Khi chuẩn bị bản công khai, tôi đối chiếu 31 tệp với bộ bằn
 *Dự án cá nhân · KLTN ngành Trí tuệ nhân tạo · Mã học thuật và hướng dẫn tái lập được liên kết ở trên.*
 
 ## English
+
+> **In one sentence:** Investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.
 
 ### Context and problem
 

@@ -1,5 +1,7 @@
 # PAR Decision-Support Demo / Giao diện hỗ trợ quyết định PAR
 
+> **Điểm nổi bật:** Bản mẫu giao diện hướng dẫn người dùng phòng ngừa, xác minh hoặc khôi phục khi gặp tình huống rủi ro số.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english) · [Personal source repository](https://github.com/hoangtm3979/aegi-par-demo)
 
 > **RELEASE_EVIDENCE_REVIEW:** đã đối chiếu mã cá nhân và nghiệm thu UI 1.1 ngày 25/09/2026; chưa kiểm tra endpoint mới. [Runbook](RUNBOOK.md).
@@ -26,6 +28,8 @@ Một công cụ hỗ trợ quyết định phải làm rõ người dùng đang
 [**Xem mã và tài liệu PAR tại GitHub cá nhân**](https://github.com/hoangtm3979/aegi-par-demo)
 
 ## English
+
+> **In one sentence:** Prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations.
 
 ### Problem
 I developed a **bounded decision-support UI prototype** for users navigating uncertain or potentially risky digital situations. Its three example journeys cover prevention/verification and recovery.

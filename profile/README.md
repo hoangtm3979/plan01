@@ -2,6 +2,8 @@
   <img src="https://raw.githubusercontent.com/hoangtm3979/plan01/main/profile/assets/profile-banner.svg" alt="Trương Minh Hoàng — Applied AI for commerce and risk" width="100%" />
 </p>
 
+<p align="center"><strong>10+ years in e-commerce operations, bringing business context to applied AI.</strong></p>
+
 <p align="center">
   <a href="https://github.com/hoangtm3979/plan01"><strong>Portfolio</strong></a> ·
   <a href="#selected-work"><strong>Selected work</strong></a> ·
@@ -9,11 +11,15 @@
   <a href="#tiếng-việt"><strong>Tiếng Việt</strong></a>
 </p>
 
-## Hello, I'm Hoàng
+## About me
 
-I'm studying Artificial Intelligence at **UIT, VNU-HCM**, with a background in **e-commerce, product sourcing and business operations**. I work from a practical question to data, a baseline, an implementation and an evaluation.
-
-My interests sit at the intersection of **machine learning, retrieval systems and business decisions**. This portfolio brings together team coursework, individual experiments and the smaller exercises behind them.
+I'm **Trương Minh Hoàng**, with **10+ years in e-commerce operations and marketplace growth**.  <br>
+My background spans **Chodientu.vn, AGO Gemstone/HNH and Hoan My Zipper**.  <br>
+I've operated **Amazon, Shopee, Lazada and D2C websites**.  <br>
+My work connects product research, SKU selection, SEO/PPC, orders, inventory and fulfillment.  <br>
+I use product and customer data to guide marketing and operational decisions.  <br>
+I've also worked on SOP improvement and international B2B market research.  <br>
+Now studying **AI at UIT**, I build projects in retrieval, machine learning and risk analysis.
 
 ## Selected work
 
@@ -21,13 +27,13 @@ My interests sit at the intersection of **machine learning, retrieval systems an
 <tr>
 <td width="50%" valign="top">
 <h3>SNJ · Product Retrieval</h3>
-<p>Vietnamese product intent, catalog constraints and retrieval for gemstone and jewelry shopping.</p>
+<p>Turn Vietnamese jewelry-shopping requests into catalog-matched suggestions through product-intent parsing, filters and retrieval.</p>
 <p><sub>RAG · TF-IDF · Product search · Coursework</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/snj-hybrid-rag-jewelry-advisor"><strong>Explore the project →</strong></a></p>
 </td>
 <td width="50%" valign="top">
 <h3>Graph-Assisted Risk Context</h3>
-<p>Thesis research on graph features, rare-event evaluation and consistent risk-output contexts.</p>
+<p>Investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.</p>
 <p><sub>Graph analytics · LightGBM · Model evaluation · Thesis</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/graph-assisted-shared-risk-context"><strong>Code, notebooks &amp; results →</strong></a></p>
 </td>
@@ -35,20 +41,30 @@ My interests sit at the intersection of **machine learning, retrieval systems an
 <tr>
 <td width="50%" valign="top">
 <h3>Wine Quality · ML Pipeline</h3>
-<p>Classification and regression with train-only preprocessing and duplicate-aware cross-validation.</p>
+<p>Predict wine quality from physicochemical measurements, comparing classification and regression with duplicate-aware evaluation.</p>
 <p><sub>Python · scikit-learn · LightGBM · Reproduction</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/wine-quality-prediction"><strong>View the experiment →</strong></a></p>
 </td>
 <td width="50%" valign="top">
 <h3>RegimeLens · Market States</h3>
-<p>HMM state modeling, chronological evaluation and a comparison with a persistence baseline.</p>
+<p>Study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.</p>
 <p><sub>Time series · HMM · XGBoost · Research</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/regimelens-market-regimes"><strong>Read the study →</strong></a></p>
 </td>
 </tr>
 </table>
 
-**More work:** [Credit Risk](https://github.com/hoangtm3979/plan01/tree/main/projects/credit-risk-modeling) · [Traffic-Law QA](https://github.com/hoangtm3979/plan01/tree/main/projects/traffic-law-multimodal-qa) · [Face Attendance](https://github.com/hoangtm3979/plan01/tree/main/projects/multi-camera-face-attendance) · [PAR UI](https://github.com/hoangtm3979/plan01/tree/main/projects/par-decision-support) · [Commerce Chatbot — design](https://github.com/hoangtm3979/plan01/tree/main/projects/intelligent-commerce-chatbot) · [Business cases](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving)
+### More projects
+
+| Project | In one sentence |
+| --- | --- |
+| [Credit Risk](https://github.com/hoangtm3979/plan01/tree/main/projects/credit-risk-modeling) | Compare Logistic Regression and LightGBM for loan-risk estimation while reviewing which features are available at decision time. |
+| [Traffic-Law QA](https://github.com/hoangtm3979/plan01/tree/main/projects/traffic-law-multimodal-qa) | Explore Vietnamese traffic-law lookup and sign-image cues, starting with a separately evaluated text-retrieval baseline. |
+| [Face Attendance — team project](https://github.com/hoangtm3979/plan01/tree/main/projects/multi-camera-face-attendance) | A team project mapping camera input, face matching and event logging into a local-network attendance workflow. |
+| [PAR UI prototype](https://github.com/hoangtm3979/plan01/tree/main/projects/par-decision-support) | Prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations. |
+| [Commerce Chatbot — design](https://github.com/hoangtm3979/plan01/tree/main/projects/intelligent-commerce-chatbot) | Design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations. |
+| [Business cases](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | Examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons. |
+
 
 [**Browse all 10 case studies →**](https://github.com/hoangtm3979/plan01/blob/main/projects/README.md)
 
@@ -72,9 +88,13 @@ Each project links to its code, notebooks and experiment notes, with the scope o
 
 ### Tiếng Việt
 
-Tôi là **Trương Minh Hoàng**, học Trí tuệ nhân tạo tại UIT, ĐHQG TP.HCM. Tôi có kinh nghiệm thương mại điện tử, tìm nguồn hàng và vận hành kinh doanh; hiện tập trung kết nối nền tảng đó với Machine Learning và AI ứng dụng.
-
-Các dự án của tôi trải từ tư vấn sản phẩm SNJ, phân tích rủi ro và dữ liệu đồ thị đến NLP, Computer Vision và chuỗi thời gian. Tôi giữ cả đồ án nhóm, thử nghiệm cá nhân và bài tập cơ bản để người xem theo được quá trình học, cách giải quyết vấn đề và những điểm tôi tiếp tục cải thiện.
+Tôi là **Trương Minh Hoàng**, có hơn **10 năm kinh nghiệm vận hành thương mại điện tử**.  <br>
+Từng làm việc tại **Chodientu.vn, AGO Gemstone/HNH và Hoàn Mỹ Zipper**.  <br>
+Có kinh nghiệm triển khai, vận hành **Amazon, Shopee, Lazada và website D2C**.  <br>
+Phụ trách từ nghiên cứu thị trường, lựa chọn SKU và SEO/PPC đến đơn hàng, tồn kho và fulfillment.  <br>
+Kết nối dữ liệu sản phẩm, hành trình khách hàng và quảng cáo với quyết định vận hành.  <br>
+Có kinh nghiệm cải tiến SOP và nghiên cứu thị trường B2B quốc tế.  <br>
+Hiện học **AI tại UIT**, tôi xây dựng dự án về truy hồi sản phẩm, Machine Learning và phân tích rủi ro.
 
 [Xem danh mục dự án bằng tiếng Việt và tiếng Anh](https://github.com/hoangtm3979/plan01/blob/main/projects/README.md).
 

@@ -1,5 +1,7 @@
 # Intelligent Commerce Chatbot — Context-Aware Sales Decision Intelligence
 
+> **Điểm nổi bật:** Thiết kế trợ lý bán hàng nhiều lượt, ghi nhớ nhu cầu và kiểm tra dữ liệu sản phẩm trước khi đưa ra gợi ý.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
 > **DESIGN_RECORD:** hồ sơ thiết kế và kế hoạch beta; chưa xác nhận artifact thực thi riêng. [Evaluation plan](EVALUATION_PLAN.md).
@@ -53,6 +55,8 @@ Khó khăn chính của bài toán không chỉ là chọn model. Tôi cần là
 *Từ nghiên cứu Hybrid RAG tại UIT (2026) đến hệ thống tư vấn bán hàng theo ngữ cảnh trên SNJ · Dự án đang phát triển.*
 
 ## English
+
+> **In one sentence:** Design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations.
 
 ### Context and goal
 

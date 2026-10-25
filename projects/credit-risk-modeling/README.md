@@ -1,5 +1,7 @@
 # Credit Risk Modeling / Mô hình hóa rủi ro tín dụng
 
+> **Điểm nổi bật:** So sánh Logistic Regression và LightGBM để ước lượng rủi ro khoản vay, đồng thời rà soát dữ liệu có thể biết tại thời điểm xét vay.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english) · [Notebook](https://github.com/hoangtm3979/credit)
 
 > **SOURCE_REVIEW:** 13 code cells syntax PASS; AUC là output lịch sử, chưa huấn luyện lại. [Audit](AUDIT.md).
@@ -25,6 +27,8 @@ Notebook lưu kết quả trên **2.029.952 bản ghi train** và **664.824 bả
 Khi đọc lại pipeline, tôi xác định các điểm cần cải tiến: đảm bảo mọi feature có trước thời điểm xét vay, chỉ `fit` bước điền thiếu trên tập train và tính thời gian lịch sử theo mốc của từng hồ sơ. Đây là phần tôi sẽ sửa trước khi benchmark lại, bổ sung calibration và phân tích theo nhóm.
 
 ## English
+
+> **In one sentence:** Compare Logistic Regression and LightGBM for loan-risk estimation while reviewing which features are available at decision time.
 
 ### Problem and data
 I explored **loan risk probability estimation** on structured historical records, comparing an interpretable Logistic Regression baseline with LightGBM.

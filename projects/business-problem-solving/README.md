@@ -1,5 +1,7 @@
 # Business Problem Solving / Những bài toán kinh doanh tôi từng xử lý
 
+> **Điểm nổi bật:** Các tình huống thực tế về tranh chấp phí SaaS, tìm khách hàng B2B và vận hành marketplace, tập trung vào quyết định và bài học kinh doanh.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
 > **CASE_RECORD:** ba tình huống kinh doanh, kết quả và bài học theo phạm vi nguồn đã nêu.
@@ -33,6 +35,8 @@ Tôi có kinh nghiệm thực hành **nghiên cứu sản phẩm, mua hàng trê
 Phần tôi muốn phát triển tiếp thành case phân tích là: **từ chi phí quảng cáo → hành vi khách hàng → chuyển đổi → hiệu quả kinh tế**. Các hóa đơn và dữ liệu vận hành gốc được dùng để đối chiếu riêng; khi chia sẻ một case sẽ ưu tiên bảng KPI tổng hợp và ẩn thông tin cá nhân/đối tác.
 
 ## English
+
+> **In one sentence:** Examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons.
 
 My earlier e-commerce and sourcing work gave me several concrete lessons in **structured problem solving**, especially when contractual details, pricing and market realities matter as much as technical tools.
 

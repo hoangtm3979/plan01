@@ -1,5 +1,7 @@
 # RegimeLens — Financial Market Regimes / Nghiên cứu trạng thái thị trường tài chính
 
+> **Điểm nổi bật:** Khám phá trạng thái thị trường bằng HMM, rồi kiểm tra dự đoán ngày kế tiếp với đối chứng giữ nguyên trạng thái hôm nay.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
 > **FRESH_EXPERIMENT:** HMM 3 trạng thái chỉ fit train, đánh giá latent-state prediction; chưa đánh giá lợi nhuận. [Audit](AUDIT.md).
@@ -24,6 +26,8 @@ Báo cáo ghi **Macro F1 = 0,563**, **Bear Recall = 0,591**, **High-Volatility R
 Đợt cập nhật bên dưới bổ sung mã nguồn, CSV snapshot đã đối chiếu và một phép thử HMM cố định trên train. Multi-window walk-forward, phí/trượt giá và phân tích độ nhạy vẫn là phần tiếp theo. Đây cũng là bài học của tôi về sự khác nhau giữa một backtest hấp dẫn và một thử nghiệm chuỗi thời gian đáng tin cậy.
 
 ## English
+
+> **In one sentence:** Study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.
 
 ### Research question
 In this UIT Big Data group project, we explored whether financial **market regimes** could be modeled and used to test a hypothetical risk-allocation strategy.

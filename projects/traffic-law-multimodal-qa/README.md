@@ -1,5 +1,7 @@
 # Multimodal Traffic-Law QA / Hỏi đáp luật giao thông bằng văn bản và hình ảnh
 
+> **Điểm nổi bật:** Khám phá cách tra cứu luật giao thông bằng tiếng Việt và hướng kết hợp ảnh biển báo, bắt đầu từ đối chứng truy hồi văn bản.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
 > **DEV_REPLAY_TEXT_ONLY:** đã chạy truy hồi trên train snapshot; ảnh/reranker/generation chưa chạy trong đợt này. [Audit](AUDIT.md).
@@ -24,6 +26,8 @@ Báo cáo nhóm mô tả thử nghiệm Precision@1 từ **0,72 (TF-IDF)** đế
 **Bài học:** đối với chatbot tra cứu quy định, chất lượng không chỉ nằm ở câu trả lời mượt mà; bước tìm đúng văn bản, đúng thời điểm và xử lý trường hợp thiếu căn cứ mới là trọng tâm.
 
 ## English
+
+> **In one sentence:** Explore Vietnamese traffic-law lookup and sign-image cues, starting with a separately evaluated text-retrieval baseline.
 
 ### Problem
 Our UIT coursework explored a **Vietnamese traffic-law assistant** combining text retrieval with traffic-sign image analysis.

@@ -1,6 +1,8 @@
 # Multi-Camera Face Attendance (IoT / Computer Vision)
 # Điểm danh công nhân qua camera bằng nhận diện khuôn mặt
 
+> **Điểm nổi bật:** Đồ án nhóm về quy trình điểm danh từ camera đến nhận diện khuôn mặt, kiểm tra sự kiện và lưu lịch sử trong mạng LAN.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
 > **REPORT_GROUNDED:** đúng báo cáo nhóm Nam Sài Gòn; bộ mã đầy đủ/camera/hardware chưa được kiểm tra độc lập. [System design](SYSTEM_DESIGN.md).
@@ -36,6 +38,8 @@ Tôi muốn đào sâu tiếp phần **FAR/FRR, người lạ, chống giả m�
 **Tài liệu:** báo cáo cuối kỳ nhóm Nam Sài Gòn, UIT, 2026. Các ảnh khuôn mặt và dữ liệu nhân sự được giữ trong bộ tài liệu học tập riêng.
 
 ## English
+
+> **In one sentence:** A team project mapping camera input, face matching and event logging into a local-network attendance workflow.
 
 ### Context and goal
 This was a **five-member UIT team project** exploring a camera-based worker attendance workflow. The team built a **local PC/LAN MVP** that ingests webcam and IP-camera frames, recognizes enrolled workers and stores timestamped attendance events.

@@ -1,5 +1,7 @@
 # SNJ Hybrid RAG Jewelry Advisor / Hệ thống tư vấn trang sức bằng Hybrid RAG
 
+> **Điểm nổi bật:** Hiểu yêu cầu mua trang sức bằng tiếng Việt để lọc đúng loại hàng và tìm sản phẩm phù hợp trong catalog.
+
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
 > **PARTIAL_VERIFICATION:** kiểm tra lexical/rules đã chạy; dense chưa chạy mới, catalog gốc cần xác minh 5 ID lặp. [Audit](AUDIT.md).
@@ -23,6 +25,8 @@ Tôi thiết kế chuỗi xử lý theo hướng **intent → lọc danh mục/t
 Báo cáo đồ án ghi nhận các chỉ số truy hồi đạt **100% trên 9 truy vấn nội bộ đã chọn**, với keyword MRR **1,00**. Quy mô kiểm thử còn nhỏ, nên bước tiếp theo của tôi là lập tập câu hỏi độc lập, so sánh với tìm kiếm mặc định WooCommerce, đo tỷ lệ sai danh mục, latency, tình huống không có kết quả và tính cập nhật của catalog.
 
 ## English
+
+> **In one sentence:** Turn Vietnamese jewelry-shopping requests into catalog-matched suggestions through product-intent parsing, filters and retrieval.
 
 ### Context
 Jewelry shoppers often express purchase intent in natural language rather than matching product titles. The core challenge is retrieving the **right kind of item**—for example, loose ruby stones instead of finished ruby earrings.
