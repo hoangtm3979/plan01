@@ -1,40 +1,36 @@
-# Multimodal Traffic-Law QA / Chatbot luật giao thông đa phương thức
+# Multimodal Traffic-Law QA / Hỏi đáp luật giao thông bằng văn bản và hình ảnh
 
-**Evidence:** Two UIT coursework reports on Drive (NLP and Python for Machine Learning / VLSP 2025-themed project). **Team project.** Code and cloud deployment have not been independently inspected.
-
-## English
-
-**Context:** People often ask questions in Vietnamese or show an image of a traffic sign, yet rules are published as dense legal text.
-
-**Problem:** Retrieve a relevant passage for a natural-language question or interpret visual sign cues and map them to a legal-information answer.
-
-**Input:** a Vietnamese text question (coursework design caps inputs at 512 tokens), or a JPG/PNG traffic-sign image, plus a structured corpus of traffic regulations and sign references.
-
-**Output:** short Vietnamese answer with source reference and, for image requests, a predicted sign type/code and confidence where measurable.
-
-**Approach as described in the reports:**
-1. Normalize text/Unicode and optionally tokenize Vietnamese.
-2. Rank candidate passages with TF-IDF or BM25; rerank with a bi-/cross-encoder where resources permit.
-3. For sign images, inspect HSV color, geometry/contours and OCR tokens.
-4. Map a detected sign to a structured knowledge base; package a short, cited answer via API/UI.
-
-**Reported outcomes (not reproduced):** One group report cites Precision@1 **0.72 TF-IDF vs 0.88 BM25 + Cross-Encoder** and sign vision accuracy of about **92%**, with 1.5–2.2 s response time. Some report material uses placeholders/example tables, and no runnable repository or live Cloud Run revision was verified in this review. Treat the figures as **unverified report values**, not deploy/service-level claims.
-
-**Key constraints:** sign ambiguity under blur/lighting, OCR failures, outdated/repealed legal texts, source traceability, latency, differences between classification confidence and legal correctness, and privacy of uploaded photos.
-
-**Next evidence required:** inspect executable notebooks/Dockerfile; pin the exact law corpus and effective dates; independently score labeled examples; show confusion matrix and query split; test abstention when source is missing; verify actual GCP service logs and deployment revision before listing Cloud Run on a résumé.
-
-**Individual contribution:** Named as a member in the group report; precise task ownership requires confirmation from commit history/team records.
+[Tiếng Việt](#tiếng-việt) · [English](#english)
 
 ## Tiếng Việt
 
-- **Bối cảnh:** người dùng hỏi luật bằng tiếng Việt hoặc đưa ảnh biển báo; nội dung luật khó tra cứu trực tiếp.
-- **Bài toán:** kết hợp xử lý ngôn ngữ tự nhiên và thị giác máy tính để truy hồi nguồn luật phù hợp, không tự suy diễn điều khoản.
-- **Input:** câu hỏi tiếng Việt/ảnh JPG-PNG + dữ liệu quy định và danh mục biển báo.
-- **Output:** câu trả lời ngắn có nguồn; với ảnh là nhãn/loại biển và mô tả kèm mức tin cậy nếu có đo.
-- **Phương pháp:** TF-IDF/BM25, reranking; HSV, contour, OCR; ánh xạ biển báo sang văn bản luật.
-- **Bằng chứng:** báo cáo nhóm ghi Precision@1 **0,72 → 0,88** và độ chính xác ảnh khoảng **92%**, nhưng chưa đối chiếu với code, dataset và deployment.
-- **Ràng buộc:** luật có thể thay đổi, ảnh kém chất lượng, nhiễu OCR, thiếu dữ liệu, latency và căn cứ pháp lý.
-- **Bước tiếp:** tái lập metric, sửa các phần báo cáo còn dạng mẫu, xác minh Docker/Cloud Run, kiểm soát phiên bản dữ liệu pháp luật.
+### Bối cảnh và bài toán
+Trong đồ án nhóm UIT về NLP và xử lý ảnh, nhóm tìm cách giúp người dùng **tra cứu quy định giao thông bằng câu hỏi tiếng Việt hoặc ảnh biển báo**. Thông tin pháp luật cần được gắn với đúng nguồn và hiệu lực theo thời gian.
 
-**Boundary:** This is an educational retrieval assistant, **not authoritative legal advice**.
+- **Input:** câu hỏi tiếng Việt hoặc ảnh biển báo JPG/PNG; văn bản quy định và danh mục biển báo.
+- **Output:** đoạn thông tin pháp luật phù hợp, câu trả lời ngắn có dẫn nguồn; với ảnh là loại/mã biển được nhận dạng.
+- **Ràng buộc:** ngôn ngữ pháp lý, cập nhật văn bản, ánh sáng/góc chụp, lỗi OCR và thời gian phản hồi.
+
+### Hướng giải quyết
+1. Chuẩn hóa tiếng Việt, xây chỉ mục và tìm đoạn liên quan bằng TF-IDF/BM25.
+2. Dùng mô hình xếp hạng lại để chọn đoạn phù hợp hơn với câu hỏi.
+3. Xử lý màu sắc, đường viền và ký tự của ảnh biển báo bằng HSV, contour và OCR.
+4. Liên kết loại biển với kho thông tin để diễn giải kết quả và nguồn tham khảo.
+
+Báo cáo nhóm mô tả thử nghiệm Precision@1 từ **0,72 (TF-IDF)** đến **0,88 (BM25 + Cross-Encoder)**, cùng độ chính xác nhận dạng biển khoảng **92%** trong bộ thử nghiệm được báo cáo. Tôi dành bước rà soát tiếp theo để nối lại phiên bản code, tập dữ liệu và các số đo này.
+
+**Bài học:** đối với chatbot tra cứu quy định, chất lượng không chỉ nằm ở câu trả lời mượt mà; bước tìm đúng văn bản, đúng thời điểm và xử lý trường hợp thiếu căn cứ mới là trọng tâm.
+
+## English
+
+### Problem
+Our UIT coursework explored a **Vietnamese traffic-law assistant** combining text retrieval with traffic-sign image analysis.
+
+- **Input:** Vietnamese question or sign photo, regulatory text and sign references.
+- **Output:** concise source-linked answer and an identified sign category where relevant.
+- **Approach:** text normalization, TF-IDF/BM25, optional reranking, HSV/contours/OCR and a structured sign-to-rule mapping.
+- **Constraints:** law revisions, image quality, OCR errors, source traceability and response latency.
+
+The group report lists Precision@1 of **0.72** for TF-IDF and **0.88** for BM25 plus Cross-Encoder, and around **92%** sign-image accuracy on its described tests. The next engineering step is to match those figures to the exact runnable experiment, version the legal corpus and evaluate difficult or unanswered queries.
+
+*UIT group coursework.*
