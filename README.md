@@ -27,7 +27,9 @@ Portfolio này tập hợp cả **đồ án môn học, dự án ứng dụng, b
 | Dự án / Project | Vấn đề và công việc chính / Focus | Chi tiết / Case study |
 | --- | --- | --- |
 | **Credit Risk Modeling** | Logistic Regression và LightGBM trên dữ liệu khoản vay; đánh giá AUC, pipeline và thời điểm khả dụng của đặc trưng | [VI / EN](projects/credit-risk.md) · [Notebook](https://github.com/hoangtm3979/credit) |
+| **Graph-Assisted Shared Risk Context — KLTN** | LightGBM trên DGraphFin, ablation đặc trưng đồ thị, đánh giá AP/Top-1%; chuẩn hóa đầu ra tín dụng và bất thường theo hợp đồng ngữ cảnh | [VI / EN](projects/graph-assisted-shared-risk-context-thesis.md) |
 | **SNJ Hybrid RAG Jewelry Advisor** | Hiểu yêu cầu mua hàng tiếng Việt, lọc thuộc tính, tìm kiếm kết hợp dense + TF-IDF và xếp hạng sản phẩm | [VI / EN](projects/snj-hybrid-rag.md) |
+| **Intelligent Commerce Chatbot** | Phát triển tư vấn mua hàng nhiều lượt theo ngữ cảnh: catalog, sở thích, lọc điều kiện, truy hồi, xếp hạng và luồng công cụ có kiểm soát | [VI / EN](projects/intelligent-commerce-chatbot.md) |
 | **RegimeLens — Big Data** | HMM, XGBoost và phân tích các trạng thái thị trường; nghiên cứu đánh giá chuỗi thời gian và backtest | [VI / EN](projects/regimelens.md) |
 | **Multimodal Traffic-Law QA** | Kết hợp NLP truy hồi văn bản và xử lý ảnh biển báo giao thông | [VI / EN](projects/traffic-law-qa.md) |
 | **Multi-Camera Face Attendance (IoT/CV)** | Phát hiện/nhận diện khuôn mặt từ webcam và IP camera; FastAPI, SQLite, quản lý sự kiện điểm danh | [VI / EN](projects/edge-face-attendance.md) |
