@@ -8,7 +8,9 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 | --- | --- | --- | --- |
 | **Credit Risk** | [Personal Colab notebook](https://github.com/hoangtm3979/credit) có mã và kết quả lưu | 2,03 triệu train, ~0,665 triệu holdout, Logistic/LightGBM và ROC-AUC | Kiểm tra dữ liệu theo thời điểm, `fit` preprocessing trên train, tái chạy benchmark |
 | **Credit AI Thinking Starter** | [Personal study repo](https://github.com/hoangtm3979/danhgiatindungcanhan), tài liệu khung ML | Cách phân rã bài toán ML và xây lộ trình triển khai | Hoàn thiện các mô-đun huấn luyện/suy luận từng được lên kế hoạch |
+| **Graph-Assisted Shared Risk Context — KLTN** | Báo cáo KLTN cá nhân bản cập nhật 23/10/2026, phụ lục kiểm thử và tài liệu rà soát hướng cạnh | RQ1: DGraphFin, node-only so với node+graph LightGBM (AP 0,025033 → 0,032505; Top-1% 62 → 55). RQ2: chuẩn hóa và định tuyến ngữ cảnh, 13 kịch bản kiểm soát | Ablation hướng cạnh, kiểm tra tied scores tại Top-K, đánh giá theo các review capacity khác nhau |
 | **SNJ Hybrid RAG** | Báo cáo học phần UIT | 376 sản phẩm/22 cột; intent, lọc danh mục, hybrid retrieval | Bổ sung tập query độc lập, đối chứng WooCommerce và test API read-only |
+| **Intelligent Commerce Chatbot** | [Hybrid RAG coursework](projects/snj-hybrid-rag.md), bối cảnh triển khai SNJ và yêu cầu beta nội bộ đã xác định | Đặc tả bài toán tư vấn nhiều lượt, input/output, kiến trúc retrieval + rules + memory + tool orchestration | Chạy bộ tình huống đa lượt, xác nhận catalog, test WooCommerce read-only, đo chất lượng và latency |
 | **RegimeLens** | Báo cáo nhóm Big Data và notebook lịch sử `BIGDATA_mode_test_.ipynb` | Thiết kế HMM/XGBoost, số đo trong báo cáo và bài học về look-ahead | Xác định phiên bản code tương ứng, refit HMM theo thời gian, đánh giá chi phí giao dịch |
 | **Traffic-Law QA** | Hai báo cáo môn học UIT | Kiến trúc truy hồi văn bản + phân tích ảnh biển báo | Đối chiếu notebook, bộ luật theo phiên bản, đánh giá query và API |
 | **PAR** | [Personal demo repository](https://github.com/hoangtm3979/aegi-par-demo) | Luồng giao diện, quản lý trạng thái bất đồng bộ, kiểm thử kịch bản | Kiểm thử luồng người dùng, triển khai và đánh giá UX |
@@ -17,6 +19,9 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 | **Business cases** | Kinh nghiệm và tài liệu giao dịch người dùng lưu riêng | Tranh chấp phí SaaS, B2B Philippines, hoạt động Amazon/eBay/Ads | Gom dữ liệu định lượng, che thông tin đối tác, phân tích KPI/chi phí |
 
 ## Những điểm tôi đã điều chỉnh sau khi đối chiếu nguồn
+
+- **REVISED — KLTN (23/10/2026):** Đánh giá RQ1 phải phản ánh cả hai mặt: AP và ROC-AUC tăng khi bổ sung graph features, nhưng kết quả Top-1% trong lần chạy seed 42 giảm từ 62 xuống 55 trường hợp dương tính. Phân tích sau thí nghiệm xác định đặc trưng láng giềng đang dùng hướng cạnh đi ra và có nhiều tied scores cần kiểm tra thêm.
+- **ONGOING — Intelligent Commerce Chatbot (25/10/2026):** Đây là nhánh phát triển tiếp từ SNJ Hybrid RAG, mới có đặc tả phạm vi và kế hoạch beta nội bộ được đối chiếu ở giai đoạn này. Thông số riêng của chatbot đa lượt sẽ cập nhật sau các lượt chạy thực tế.
 
 - **REVISED — IoT/CV (25/10/2026):** Có hai báo cáo nhận diện khuôn mặt thuộc hai nhóm khác nhau. Báo cáo khớp với tôi là **đồ án nhóm Nam Sài Gòn** về YOLO/ArcFace, FastAPI, SQLite, MVP chạy PC/LAN. Báo cáo MobileNetV2/Pi 5 của một nhóm khác không được dùng để mô tả kết quả của tôi.
 - **REVISED — RegimeLens (25/10/2026):** Mã Colab lịch sử có `bfill` và bước scaler/HMM được huấn luyện trên cả chuỗi trước phép chia thời gian; phương án đó cần sửa để đánh giá walk-forward. Các chỉ số F1/Sharpe nêu tại [case](projects/regimelens.md) thuộc báo cáo môn học, còn mối liên hệ với phiên bản notebook vẫn đang đối chiếu.
