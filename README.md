@@ -1,4 +1,6 @@
-# Trương Minh Hoàng | AI Engineering & Business Problem Solving
+![Trương Minh Hoàng — Applied AI for commerce and risk](profile/assets/profile-banner.svg)
+
+# Applied AI Portfolio / Hồ sơ dự án AI
 
 [English](#english) · [Tiếng Việt](#tiếng-việt) · [Projects / Dự án](#projects--dự-án) · [Learning Labs](labs/README.md)
 
