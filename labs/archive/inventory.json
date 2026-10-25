@@ -190,8 +190,14 @@
     "original_title": "LAB6_21540008.ipynb",
     "source_sha256": "cd2f20c1b18517312c3804320d5f59f5cf77995b0fad0db20258e201ce80fd7b",
     "code_cells": 15,
-    "disposition": "ATTRIBUTION_REVIEW",
-    "note": "Another student identifier/name; ownership not inferred from storage."
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "lab6-25410008-busi-unet.ipynb",
+    "topic": "U-Net: phân đoạn ảnh BUSI / Image segmentation",
+    "learner": "Trương Minh Hoàng",
+    "student_id": "25410008",
+    "provenance_note": "Original source title retained; learner identity does not change source attribution.",
+    "execution": "SMOKE_PASS",
+    "execution_note": "Architecture forward pass and three Dice boundary checks; BUSI training NOT_RUN."
   },
   {
     "entry": "C022",
@@ -231,8 +237,21 @@
     "original_title": "HW_HaMinhTan_03.ipynb",
     "source_sha256": "c48b47f66bec0867b0aebf2c7dd63d489f26185f680f71d117783ac34a797da2",
     "code_cells": 2,
-    "disposition": "ATTRIBUTION_REVIEW",
-    "note": "Another student identifier/name; ownership not inferred from storage."
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "hw-25410008-mnist-tf1-graph.ipynb",
+    "topic": "MNIST: TensorFlow graph và Session / Graph-mode neural network",
+    "learner": "Trương Minh Hoàng",
+    "student_id": "25410008",
+    "provenance_note": "Original source title retained; learner identity does not change source attribution.",
+    "execution": "PASS",
+    "metrics": {
+      "test_accuracy": 0.9745000004768372,
+      "epochs": 10,
+      "train_rows": 54000,
+      "validation_rows": 6000,
+      "test_rows": 10000
+    },
+    "executed_code_cells": 2
   },
   {
     "entry": "C026",

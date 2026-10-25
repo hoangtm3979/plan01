@@ -1,56 +1,87 @@
-# Colab Learning Archive / Nhật ký bài thực hành Colab
+# Colab Learning Journal / Nhật ký thực hành
 
-Tôi giữ cả bài nhỏ và bản thử nghiệm để thấy quá trình học Python, toán, ML và NLP. Bảy bài đã hoàn thiện nằm ở [Learning Labs](../README.md); các bài dưới đây bổ sung mã thực hành gốc và những hướng tôi đã thử.
+Tôi lưu cả những bài tập nhỏ để theo dõi quá trình học: từ Python, xử lý dữ liệu và toán nền tảng đến Machine Learning, NLP và Computer Vision. Mỗi bài giữ phần mã đã thực hành, nguồn tham khảo và ghi chú để tôi có thể đọc lại, thay đổi và giải thích cách làm.
 
-Các bản sao giữ tên nguồn và phần tham khảo trong notebook. Bản trùng mã được gộp; file trống và mã thuộc dự án riêng được ghi trong [bảng kiểm kê](inventory.json). Trạng thái kỹ thuật mô tả đúng lần chạy hiện có.
+[Bảy bài hoàn thiện](../README.md) · [Danh mục kỹ thuật 103 mục](inventory.json)
 
-| Bài | Chủ đề | Trạng thái |
-| --- | --- | --- |
-| [C015](c015-neural-networks.ipynb) | Neural networks / Mạng nơ-ron | ARCHIVED_SOURCE |
-| [C019](c019-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ | ARCHIVED_SOURCE |
-| [C020](c020-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ | ARCHIVED_SOURCE |
-| [C023](c023-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C036](c036-tree-ensembles.ipynb) | Tree ensembles / Mô hình tổ hợp cây | ARCHIVED_SOURCE |
-| [C038](c038-tree-ensembles.ipynb) | Tree ensembles / Mô hình tổ hợp cây | ARCHIVED_SOURCE |
-| [C040](c040-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic | ARCHIVED_SOURCE |
-| [C042](c042-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic | ARCHIVED_SOURCE |
-| [C050](c050-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C051](c051-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C052](c052-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C053](c053-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C055](c055-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C056](c056-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ | ARCHIVED_SOURCE |
-| [C059](c059-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C060](c060-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C061](c061-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C062](c062-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic | ARCHIVED_SOURCE |
-| [C063](c063-matplotlib-diagrams.ipynb) | Matplotlib diagrams / Vẽ sơ đồ bằng Python | PASS |
-| [C064](c064-matplotlib-diagrams.ipynb) | Matplotlib diagrams / Vẽ sơ đồ bằng Python | PASS |
-| [C065](c065-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C066](c066-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C070](c070-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ | ARCHIVED_SOURCE |
-| [C071](c071-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C072](c072-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C073](c073-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C074](c074-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C077](c077-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic | PASS |
-| [C078](c078-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic | PASS |
-| [C080](c080-k-means-and-clustering.ipynb) | K-means and clustering / Phân cụm | ARCHIVED_SOURCE |
-| [C081](c081-linear-regression.ipynb) | Linear regression / Hồi quy tuyến tính | ARCHIVED_SOURCE |
-| [C083](c083-python-practice.ipynb) | Python practice / Thực hành Python | ARCHIVED_SOURCE |
-| [C084](c084-python-practice.ipynb) | Python practice / Thực hành Python | PASS |
+## Hai bài bổ sung đáng xem
 
-## Phạm vi xử lý / Coverage
+- [U-Net — phân đoạn ảnh BUSI](lab6-25410008-busi-unet.ipynb): ghép ảnh/mask, encoder–decoder, skip connections, Dice loss và IoU. Kiểm tra kiến trúc/đầu ra và Dice đã qua smoke test; huấn luyện BUSI cần dữ liệu riêng.
+- [MNIST — TensorFlow graph/session](hw-25410008-mnist-tf1-graph.ipynb): học cách xây đồ thị tính toán tường minh và đối chiếu với Keras. Kết quả chạy mới nằm trong notebook và bảng kỹ thuật.
 
-Đã đọc cấu trúc đủ **103/103** mục notebook từ hai thư mục gốc, đối chiếu mã để gộp bản trùng. Phân bổ: **46 PROJECT_SOURCE**, **10 EMPTY**, **33 ARCHIVED_SOURCE**, **8 COVERED**, **2 ATTRIBUTION_REVIEW**, **4 DUPLICATE**.
+Thông tin người thực hành của hai bài đã thống nhất: **Trương Minh Hoàng · MSSV 25410008**. Nguồn Colab gốc được giữ ở phần ghi nguồn.
 
-ARCHIVED_SOURCE là mã đã được trình bày lại, cần môi trường/dữ liệu hoặc sửa tiếp để chạy. PASS ở bảng trên chỉ xác nhận các cell hoàn tất; không thay thế kiểm tra tính đúng thuật toán. Chi tiết lỗi/phụ thuộc của từng mục ở inventory JSON. Không công bố các nguồn đang chờ xác định tác giả như bài mang tên/mã sinh viên khác.
+## Python & NumPy
 
-## Cách học lại một bài
+| Bài thực hành | Nội dung |
+| --- | --- |
+| [Bản sao của DecisionTree](c023-python-practice.ipynb) | Python practice / Thực hành Python |
+| [problem_12_best_auto](c050-python-practice.ipynb) | Python practice / Thực hành Python |
+| [3566_output](c051-python-practice.ipynb) | Python practice / Thực hành Python |
+| [3582](c052-python-practice.ipynb) | Python practice / Thực hành Python |
+| [3526_output](c053-python-practice.ipynb) | Python practice / Thực hành Python |
+| [1340_output](c071-python-practice.ipynb) | Python practice / Thực hành Python |
+| [1339_output](c072-python-practice.ipynb) | Python practice / Thực hành Python |
+| [1338_output](c073-python-practice.ipynb) | Python practice / Thực hành Python |
+| [1337_output](c074-python-practice.ipynb) | Python practice / Thực hành Python |
+| [25410008_truong minh hoang](c083-python-practice.ipynb) | Python practice / Thực hành Python |
+| [Untitled1](c084-python-practice.ipynb) | Python practice / Thực hành Python |
 
-1. Đọc input/output và các hàm trước khi chạy.
-2. Chuẩn bị đúng CSV hoặc thư viện được import trong mã.
-3. Chạy từ đầu; ghi phiên bản và kết quả mới.
-4. Thử một thay đổi nhỏ và giải thích vì sao kết quả đổi.
+## Classical Machine Learning
 
-The archive preserves coursework and tutorial practice, distinguishes source presentation from successful execution, and links duplicates instead of counting them as separate projects.
+| Bài thực hành | Nội dung |
+| --- | --- |
+| [25410008_Random_ Forests _XGBoost](c036-tree-ensembles.ipynb) | Tree ensembles / Mô hình tổ hợp cây |
+| [Random_ Forests _XGBoost - Copy](c038-tree-ensembles.ipynb) | Tree ensembles / Mô hình tổ hợp cây |
+| [Buoi_04.Multi-class_Classification_BaiTap](c040-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
+| [Logistic_Regression_BaiTap](c042-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
+| [02410008-Truong Minh Hoang](c062-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
+| [Bản sao của LogisticRegression_Application](c077-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
+| [Bản sao của Simple_LogisticRegression](c078-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
+| [Kmeans with Python](c080-k-means-and-clustering.ipynb) | K-means and clustering / Phân cụm |
+| [25410008_LinearRegression a](c081-linear-regression.ipynb) | Linear regression / Hồi quy tuyến tính |
+
+## NLP & Word Representations
+
+| Bài thực hành | Nội dung |
+| --- | --- |
+| [Bản sao của VnCoreNLP](c019-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ |
+| [Bản sao của PhoBert](c020-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ |
+| [3248](c055-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [BT Về nhà 8_Bản sao của DeepSeek-R1-Distill-Qwen-1.5B](c056-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ |
+| [problem 3](c059-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [3104_output (2)](c060-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [3195](c061-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [problem (9)](c065-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [3107](c066-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [problem](c070-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+
+## Deep Learning & Computer Vision
+
+| Bài thực hành | Nội dung |
+| --- | --- |
+| [25410008_Lab_4.1](c015-neural-networks.ipynb) | Neural networks / Mạng nơ-ron |
+| [U-Net / BUSI — 25410008](lab6-25410008-busi-unet.ipynb) | U-Net: phân đoạn ảnh BUSI / Image segmentation |
+| [MNIST graph/session — 25410008](hw-25410008-mnist-tf1-graph.ipynb) | MNIST: TensorFlow graph và Session / Graph-mode neural network |
+
+## Python Visualization
+
+| Bài thực hành | Nội dung |
+| --- | --- |
+| [Untitled4](c063-matplotlib-diagrams.ipynb) | Matplotlib diagrams / Vẽ sơ đồ bằng Python |
+| [Untitled3](c064-matplotlib-diagrams.ipynb) | Matplotlib diagrams / Vẽ sơ đồ bằng Python |
+
+## Cách tôi học lại một bài
+
+1. Xác định đầu vào, đầu ra và từng bước biến đổi dữ liệu.
+2. Chạy từ đầu trong môi trường phù hợp.
+3. Thay đổi một tham số hoặc ví dụ và giải thích kết quả.
+4. Ghi lại lỗi, giới hạn và điều muốn thử tiếp.
+
+## Execution notes / Ghi chú chạy
+
+Danh mục gồm **35 notebook bài tập bổ sung**. Phân biệt bài đã thực thi, bài chỉ kiểm tra kiến trúc và mã cần dữ liệu/thư viện riêng trong [bảng kỹ thuật](inventory.json). Bảy notebook chính có [báo cáo chạy riêng](../EXECUTION_REPORT.md).
+
+**REVISED:** hai mục trước đây chờ đối chiếu đã được thêm làm bài tham khảo/thực hành có thông tin người học chuẩn hóa; tên nguồn gốc vẫn được giữ. Cập nhật này không biến tên người thực hành thành thông tin tác giả gốc.
+
+Các bản trùng mã được dẫn về bản chính. File trống và nguồn thuộc dự án riêng vẫn nằm trong kiểm kê, không được đếm thành dự án độc lập.

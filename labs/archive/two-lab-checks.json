@@ -1,0 +1,33 @@
+{
+  "mnist_graph_session": {
+    "notebook": "hw-25410008-mnist-tf1-graph.ipynb",
+    "source_sha256": "7532e005d6e3179a8890dc12f556f30f5ad2b5398b18f22d71c52842529414b9",
+    "code_cells": 2,
+    "status": "PASS",
+    "executed_code_cells": 2,
+    "started_at_utc": "2026-10-25T10:05:09.149505+00:00",
+    "metrics": {
+      "test_accuracy": 0.9745000004768372,
+      "epochs": 10,
+      "train_rows": 54000,
+      "validation_rows": 6000,
+      "test_rows": 10000
+    },
+    "executed_notebook": "archive/hw-25410008-mnist-tf1-graph.ipynb",
+    "executed_file_sha256": "35eb6aef5a6c646d9451f86485c1d17fc12b62fa6028fba7816ca8e4b1b6fbc0",
+    "duration_seconds": 11.814,
+    "completed_at_utc": "2026-10-25T10:05:20.931895+00:00"
+  },
+  "busi_unet": {
+    "status": "SMOKE_PASS",
+    "shape": [
+      1,
+      256,
+      256,
+      1
+    ],
+    "parameters": 2164593,
+    "dice_boundary_checks": 3,
+    "busi_training": "NOT_RUN"
+  }
+}
