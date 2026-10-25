@@ -1,0 +1,235 @@
+{
+  "started_at_utc": "2026-10-25T09:14:19.283863+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "tensorflow-cpu": "2.21.0",
+    "keras": "3.15.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "jupyter-client": "8.10.0"
+  },
+  "execution_settings": {
+    "PYTHONHASHSEED": "42",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2",
+    "TF_ENABLE_ONEDNN_OPTS": "0",
+    "TF_CPP_MIN_LOG_LEVEL": "2",
+    "PYDEVD_DISABLE_FILE_VALIDATION": "1"
+  },
+  "mode": "full_data",
+  "fresh_kernel_per_notebook": true,
+  "fresh_process_per_notebook": true,
+  "backend": "ipykernel.inprocess",
+  "kernel_transport": "inprocess-no-sockets",
+  "notebooks": [
+    {
+      "notebook": "ecommerce-intent-expected-value.ipynb",
+      "source_sha256": "eae9aa8f4618550b8dc503d32aaa5cbe6c3658bd40bc3bc37818d534cf8aa429",
+      "code_cells": 8,
+      "status": "PASS",
+      "executed_code_cells": 8,
+      "started_at_utc": "2026-10-25T09:14:19.473670+00:00",
+      "metrics": {
+        "data_rows": 12330,
+        "data_sha256": "b3055ee355f59134d851d32641183cb4a8b45def7124d2f50442a042f358e0d9",
+        "features": 16,
+        "train_rows": 7398,
+        "validation_rows": 2466,
+        "test_rows": 2466,
+        "selection_metric": "validation_log_loss",
+        "selected_model": "RandomForest",
+        "validation_metrics": {
+          "DummyPrior": {
+            "roc_auc": 0.5,
+            "average_precision": 0.15450121654501217,
+            "log_loss": 0.4304383720398553,
+            "brier": 0.13063066371664278
+          },
+          "LogisticRegression": {
+            "roc_auc": 0.7409908293837372,
+            "average_precision": 0.3200599223815597,
+            "log_loss": 0.379165166887236,
+            "brier": 0.11836995338739317
+          },
+          "RandomForest": {
+            "roc_auc": 0.767613940343788,
+            "average_precision": 0.35941830792543183,
+            "log_loss": 0.3683431686871613,
+            "brier": 0.11488920586306747
+          }
+        },
+        "test_metrics": {
+          "roc_auc": 0.7577767784466038,
+          "average_precision": 0.35599906133173453,
+          "log_loss": 0.3710052604727534,
+          "brier": 0.11586019996399849
+        },
+        "prior_test_metrics": {
+          "roc_auc": 0.5,
+          "average_precision": 0.1549067315490673,
+          "log_loss": 0.43112679730813547,
+          "brier": 0.13091065434123236
+        },
+        "assumed_ev_difference_per_session": 0.8446745097672475,
+        "sensitivity": [
+          {
+            "assumed_uplift_scale": 1.0,
+            "no_action_ev": 7.922870001306416,
+            "frozen_rule_ev": 7.234901695951224,
+            "frozen_ev_policy": 8.079576205718471,
+            "scenario_oracle_ev": 8.079576205718471
+          },
+          {
+            "assumed_uplift_scale": 0.5,
+            "no_action_ev": 7.922870001306416,
+            "frozen_rule_ev": 6.538373860478774,
+            "frozen_ev_policy": 7.868635061364047,
+            "scenario_oracle_ev": 7.964480675169113
+          },
+          {
+            "assumed_uplift_scale": 0.0,
+            "no_action_ev": 7.922870001306416,
+            "frozen_rule_ev": 5.841846025006325,
+            "frozen_ev_policy": 7.657693917009624,
+            "scenario_oracle_ev": 7.922870001306416
+          }
+        ]
+      },
+      "executed_notebook": "notebooks/ecommerce-intent-expected-value.ipynb",
+      "executed_file_sha256": "054b0d884feb1be8bcd0041b03b18dfe04ee85f4848d8cf89a63de69060256c6",
+      "duration_seconds": 3.09,
+      "completed_at_utc": "2026-10-25T09:14:22.535755+00:00"
+    },
+    {
+      "notebook": "mnist-fully-connected-network.ipynb",
+      "source_sha256": "c7ad37d43ec23976c6ae5bf447dddce3442a39b457aa1aef1782840a824c8707",
+      "code_cells": 8,
+      "status": "PASS",
+      "executed_code_cells": 8,
+      "started_at_utc": "2026-10-25T09:14:22.961473+00:00",
+      "metrics": {
+        "test_loss": 0.08073531091213226,
+        "test_accuracy": 0.9771999716758728,
+        "train_rows": 54000,
+        "validation_rows": 6000,
+        "test_rows": 10000,
+        "epochs": 10,
+        "batch_size": 128,
+        "last_validation_accuracy": 0.9764999747276306,
+        "reload_max_abs_diff": 0.0,
+        "data_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1"
+      },
+      "executed_notebook": "notebooks/mnist-fully-connected-network.ipynb",
+      "executed_file_sha256": "d6005cd4a6138dfd2d7d8ad5c11c3d8b882ba8da3d4043e2ae16fcf5fb9fd47a",
+      "duration_seconds": 13.356,
+      "completed_at_utc": "2026-10-25T09:14:36.288204+00:00"
+    },
+    {
+      "notebook": "nonlinear-clustering-comparison.ipynb",
+      "source_sha256": "07ceb6104a38421b57353de44b4c4ed8081dec52790a252ce0621f275ba120f2",
+      "code_cells": 4,
+      "status": "PASS",
+      "executed_code_cells": 4,
+      "started_at_utc": "2026-10-25T09:14:37.059799+00:00",
+      "metrics": {
+        "K-Means": 0.23933865337288043,
+        "Gaussian Mixture": 0.4979334811689899,
+        "Spectral": 1.0
+      },
+      "executed_notebook": "notebooks/nonlinear-clustering-comparison.ipynb",
+      "executed_file_sha256": "2a48cfdb2e344f8f66acae520540ce426a28008f6b4c577b9c14581046abd3a2",
+      "duration_seconds": 2.366,
+      "completed_at_utc": "2026-10-25T09:14:39.394765+00:00"
+    },
+    {
+      "notebook": "pca-dot-product.ipynb",
+      "source_sha256": "d097521c430a09e581804274e963926e4bca38e72f6ac521db17cf1d344cfb92",
+      "code_cells": 2,
+      "status": "PASS",
+      "executed_code_cells": 2,
+      "started_at_utc": "2026-10-25T09:14:39.879525+00:00",
+      "metrics": {
+        "rounded_projection": 3.5349999999999997,
+        "unit_projection": 3.5355339059327373
+      },
+      "executed_notebook": "notebooks/pca-dot-product.ipynb",
+      "executed_file_sha256": "dfe15cd304fe99669fe8989af8d8e9b12b3ae08fe941d9570bd1ebf242f5d3af",
+      "duration_seconds": 0.454,
+      "completed_at_utc": "2026-10-25T09:14:40.305925+00:00"
+    },
+    {
+      "notebook": "python-input-and-csv-tuples.ipynb",
+      "source_sha256": "bad13adbe966076fc9650c6776738639c9c8d2fabf3e050ba92be3ee7221d2b4",
+      "code_cells": 3,
+      "status": "PASS",
+      "executed_code_cells": 3,
+      "started_at_utc": "2026-10-25T09:18:25.228875+00:00",
+      "metrics": {
+        "parser_checks": 7,
+        "sample_records": 3
+      },
+      "executed_notebook": "notebooks/python-input-and-csv-tuples.ipynb",
+      "executed_file_sha256": "25e7981e54f05e5399d10abe09a21cc19527d4420414c64c7ffd2f160a86d6e0",
+      "duration_seconds": 0.535,
+      "completed_at_utc": "2026-10-25T09:18:25.727077+00:00"
+    },
+    {
+      "notebook": "regression-classification-toy-lab.ipynb",
+      "source_sha256": "e04f3ddcb035ca786692a7b18ded582883d366232a128173da3cf0a84c392c72",
+      "code_cells": 18,
+      "status": "PASS",
+      "executed_code_cells": 18,
+      "started_at_utc": "2026-10-25T09:14:41.401051+00:00",
+      "metrics": {
+        "housing_test_r2": 0.991486186587495,
+        "revenue_test_r2": 0.9758977859187503,
+        "student_test_accuracy": 0.875,
+        "purchase_test_accuracy": 0.85,
+        "attrition_test_accuracy": 0.875
+      },
+      "executed_notebook": "notebooks/regression-classification-toy-lab.ipynb",
+      "executed_file_sha256": "f44b866200e0331f452c2e357910ef83d134666e3c50c395d9cd3d47c83fb8a7",
+      "duration_seconds": 2.008,
+      "completed_at_utc": "2026-10-25T09:14:43.380244+00:00"
+    },
+    {
+      "notebook": "tensorflow-mnist-intro.ipynb",
+      "source_sha256": "57869fec104fb4463cec97f12c45f9844b7d224212de4448d9d4407dc6cf7beb",
+      "code_cells": 6,
+      "status": "PASS",
+      "executed_code_cells": 6,
+      "started_at_utc": "2026-10-25T09:14:43.782702+00:00",
+      "metrics": {
+        "test_loss": 0.09480799734592438,
+        "test_accuracy": 0.9714000225067139,
+        "train_rows": 54000,
+        "validation_rows": 6000,
+        "test_rows": 10000,
+        "epochs": 5,
+        "batch_size": 128,
+        "last_validation_accuracy": 0.9681666493415833,
+        "data_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1"
+      },
+      "executed_notebook": "notebooks/tensorflow-mnist-intro.ipynb",
+      "executed_file_sha256": "a552949e80f729e46a5dc76edf84eed5ff6a150c0fdfb71b870f7698cb46d123",
+      "duration_seconds": 8.408,
+      "completed_at_utc": "2026-10-25T09:14:52.161492+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-10-25T09:18:25.874839+00:00",
+  "passed": 7,
+  "total": 7,
+  "notes": [
+    "Per-notebook timestamps record the latest execution; Python/CSV was rerun after its run-guide wording was updated."
+  ]
+}

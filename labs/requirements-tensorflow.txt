@@ -1,0 +1,4 @@
+-r requirements.txt
+# Linux CPU environment used for both complete MNIST runs.
+tensorflow-cpu==2.21.0
+keras==3.15.1

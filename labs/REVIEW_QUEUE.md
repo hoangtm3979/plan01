@@ -19,6 +19,15 @@ Tôi đã kiểm tra các notebook lưu trên hai tài khoản Drive cũ để h
 
 Những số đếm này giúp tôi **quản lý nguồn bài tập**, không phải số lượng đồ án độc lập. Các nhóm kết quả chạy và lỗi có thể giao nhau; bản copy được xem riêng khi cần.
 
+## Cập nhật bảy bài đã chọn / Selected notebook update
+
+**SUPERSEDED — 25/10/2026:** bảy bài mẫu đã chạy đầy đủ **7/7 notebook, 49/49 code cell**.
+Hai bài MNIST đã huấn luyện/đánh giá trên đủ dữ liệu chính thức; bài e-commerce đã chạy
+trên CSV UCI gốc. Xem [báo cáo và hướng dẫn tái lập](EXECUTION_REPORT.md).
+
+Bảng 103 mục ở trên là kết quả kiểm kê nguồn trước đó. Lượt chạy mới này xác nhận bảy
+notebook công khai; phần phân loại, gộp bản trùng và tái lập các bài còn lại vẫn tiếp tục.
+
 ## Phân nhóm bài tập / Learning topics
 
 | Nhóm | Kết quả rà soát và hướng tiếp tục |
@@ -50,3 +59,4 @@ Bảy notebook đã chọn nằm ở [AI Learning Labs](README.md). Những bài
 5. Viết phần giải thích song ngữ và chia sẻ dữ liệu/mã phù hợp.
 
 [**Xem nhật ký học tập**](README.md) · [**Xem ghi chú dự án**](../EVIDENCE_REGISTER.md)
+

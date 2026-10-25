@@ -43,14 +43,14 @@ Các đồ án nhóm được ghi rõ trong từng case. Phần **AEGI Core / Sh
 
 Tôi lưu lại cả bài tập cơ bản và những thử nghiệm nhỏ trên Google Colab: Python, đại số tuyến tính, PCA, phân cụm, ML cổ điển, mạng nơ-ron, NLP và bài toán thương mại điện tử. Các bài này giúp thấy quá trình học từ khái niệm đến ứng dụng, bên cạnh những đồ án lớn hơn.
 
-- [AI Learning Labs / Nhật ký thực hành](labs/README.md) — danh mục và **7 notebook mẫu** đã được chọn lọc, làm gọn để dễ đọc.
+- [AI Learning Labs / Nhật ký thực hành](labs/README.md) — **7/7 notebook đã chạy từ đầu**, có output, biểu đồ và hướng dẫn tái lập. [Kết quả chạy](labs/EXECUTION_REPORT.md).
 - [Technical review notes / Ghi chú rà soát nguồn](labs/REVIEW_QUEUE.md) — đối chiếu các phiên bản Colab, bài còn lỗi và hướng tái lập.
 - [Interview practice / Câu hỏi đào sâu song ngữ](INTERVIEW_DRILL.md) — cách tôi ôn lại cơ sở thuật toán, thiết kế và đánh giá từng hệ thống.
 - [Project evidence & technical notes / Tài liệu đối chiếu](EVIDENCE_REGISTER.md) — nguồn tài liệu và trạng thái kiểm tra chi tiết.
 
 ## What I'm working on / Hướng đang phát triển
 
-1. Hoàn thiện các notebook có thể chạy lại bằng dữ liệu và môi trường được định nghĩa rõ.
+1. Mở rộng kho thực hành từ bảy notebook đã chạy đầy đủ; tiếp tục chọn lọc và tái lập các bài Colab còn lại.
 2. Đào sâu **Python, SQL, Machine Learning và AI Engineering**, đặc biệt cách tránh sai lệch khi xử lý dữ liệu và đánh giá mô hình.
 3. Phát triển **AI cho thương mại điện tử**, kết nối catalog, ngôn ngữ tự nhiên, hành vi mua hàng và hỗ trợ quyết định.
 4. Thực hành API, Docker, cloud deployment, kiểm thử và giám sát trên các dự án phù hợp.
@@ -59,3 +59,4 @@ Tôi lưu lại cả bài tập cơ bản và những thử nghiệm nhỏ trên
 ---
 
 *Portfolio cá nhân của Trương Minh Hoàng · Cập nhật 25/10/2026.*
+

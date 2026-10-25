@@ -36,21 +36,53 @@ I reviewed **103 notebook-like archived entries** across two Drive folders, incl
 | **MNIST fully connected network** | Cấu trúc FCN, huấn luyện, lưu/tải mô hình | [Open](notebooks/mnist-fully-connected-network.ipynb) |
 | **E-commerce intent & expected value** | Kết hợp dự đoán xác suất và quyết định kinh doanh | [Open](notebooks/ecommerce-intent-expected-value.ipynb) |
 
-### Kiểm thử cập nhật 25/10/2026 / Execution check
+### Kết quả chạy 25/10/2026 / Execution results
 
-| Bài / Notebook | Kiểm tra trong lượt này / Latest check |
-| --- | --- |
-| Python input & CSV | **PASS 2/2 cell**; bổ sung CSV parser và ví dụ chạy tự động |
-| PCA & dot product | **PASS 2/2 cell** với NumPy |
-| Regression & classification toy | **PASS 17/17 cell**; bổ sung import, seed và bỏ đoạn code trùng |
-| Nonlinear clustering | **PASS 4/4 cell**; so sánh ARI K-Means **0,2393**, GMM **0,4979**, Spectral **1,0000** trên dữ liệu `make_moons` mô phỏng |
-| TensorFlow/MNIST intro | **Syntax PASS** sau khi sửa thụt lề; chờ chạy huấn luyện với TensorFlow |
-| MNIST FCN | **Syntax PASS** sau khi sửa f-string, validation split và định dạng lưu model; chờ chạy TensorFlow |
-| E-commerce intent & EV | Đã bổ sung ghi chú giả định EV; cần nguồn dữ liệu OpenML/CSV để chạy lại toàn bộ |
+Tôi đã chạy lại **7/7 notebook, 49/49 code cell** từ đầu trong các kernel riêng.
+Các file hiện có output và biểu đồ mới, kèm [báo cáo chi tiết](EXECUTION_REPORT.md)
+và [kết quả JSON](validation/execution-results.json).
 
-Các số đo ARI là kết quả chạy trên **dữ liệu 2D được tạo mẫu**, không phải hiệu năng trên dữ liệu khách hàng. Notebook TensorFlow và e-commerce cần thêm môi trường hoặc dữ liệu tương ứng trước khi chốt kết quả thực nghiệm.
+| Bài / Notebook | Code cells | Kết quả / Result |
+| --- | ---: | --- |
+| Python input & CSV | **3/3 PASS** | Parser, uppercase, CSV có quote/BOM và kiểm tra dữ liệu lỗi |
+| PCA & dot product | **2/2 PASS** | Phép chiếu theo vector đơn vị: **3,535534** |
+| Regression & classification toy | **18/18 PASS** | Chạy đủ năm ví dụ hồi quy/phân loại trên dữ liệu tạo mẫu |
+| Nonlinear clustering | **4/4 PASS** | ARI: K-Means **0,2393**, GMM **0,4979**, Spectral **1,0000** |
+| TensorFlow/MNIST intro | **6/6 PASS** | Test accuracy **97,14%**, 5 epochs |
+| MNIST FCN | **8/8 PASS** | Test accuracy **97,72%**, 10 epochs; tải lại mô hình giữ nguyên xác suất dự đoán |
+| E-commerce intent & EV | **8/8 PASS** | **12.330 phiên UCI**; Random Forest test AUC **0,7578**, AP **0,3560** |
 
-*Các bản notebook công khai được lược output lịch sử; kết quả kiểm thử ở bảng trên là lần kiểm tra mới của mã và không thay thế đánh giá dữ liệu thực tế.*
+**SUPERSEDED:** bảng cũ “4 bài đã chạy, 2 bài mới kiểm tra syntax, 1 bài chờ dữ liệu”
+được thay bằng kết quả trên sau khi cài TensorFlow và lấy được CSV gốc từ UCI.
+Các cell được gộp hoặc bổ sung kiểm tra nên số cell khác bản trước.
+
+MNIST dùng đủ dữ liệu chính thức: **54.000 train / 6.000 validation / 10.000 test** cho mỗi bài.
+Bài e-commerce chọn mô hình bằng validation log loss; EV là mô phỏng theo giả định,
+chưa phải kết quả lợi nhuận hoặc tác động khuyến mãi được đo ngoài thực tế.
+
+All seven notebooks now have fresh execution outputs. MNIST uses the complete dataset;
+e-commerce uses the original UCI CSV. Toy metrics and assumed EV scenarios retain the
+interpretation limits described in each notebook.
+
+### Cách chạy / Run guide
+
+Môi trường đã kiểm tra: **Linux CPU, Python 3.12.14, TensorFlow CPU 2.21.0**.
+Từ thư mục gốc repository, dùng môi trường Python riêng:
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r labs/requirements-tensorflow.txt
+python labs/run_notebooks.py
+```
+
+Lệnh mặc định lưu bản chạy mới ở `labs/executed/` và báo cáo ở `labs/validation/latest.json`.
+Thêm `--in-place` nếu muốn cập nhật output vào chính notebook. Cần mạng để tải dữ liệu
+lần đầu; lần sau có thể dùng cache hoặc đặt `SHOPPERS_CSV` trỏ đến CSV gốc đã tải.
+
+Có thể mở notebook trong Google Colab và **Run all**. Phiên bản thư viện hoặc phần cứng
+khác có thể cho metric hơi khác. [Nguồn dữ liệu và checksum](DATA_SOURCES.md) ·
+[Môi trường và toàn bộ cách tái chạy](EXECUTION_REPORT.md#reproduce--chạy-lại).
 
 ## Những bài khác tôi đang hệ thống hóa / Other learning topics
 
@@ -74,6 +106,7 @@ Các số đo ARI là kết quả chạy trên **dữ liệu 2D được tạo m
 6. **What I learned / Điều rút ra:** Lỗi, cách sửa và bước thử nghiệm kế tiếp.
 7. **Source / Nguồn:** Phần tôi làm, phần tham khảo tutorial hoặc phần thuộc đồ án nhóm.
 
-Tôi sẽ tiếp tục chuyển các notebook phù hợp thành bài thực hành **có hướng dẫn chạy, dữ liệu mẫu, kết quả dự kiến và ghi chú tiếng Việt/tiếng Anh**.
+Tôi tiếp tục dùng cấu trúc này cho các notebook còn lại trong kho Colab. Bảy bài hiện tại đã có hướng dẫn, nguồn dữ liệu, output và kết quả kiểm tra mới.
 
 [**Xem danh sách rà soát Colab chi tiết**](REVIEW_QUEUE.md)
+

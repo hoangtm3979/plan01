@@ -18,6 +18,20 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 | **Face Attendance (IoT/CV)** | Báo cáo cuối kỳ nhóm năm người, ghi tên Hoàng và vai trò xử lý ảnh | MVP PC/LAN, camera, YOLO/ArcFace/FastAPI/SQLite, ghi nhận điểm danh | Test đa khuôn mặt, FAR/FRR, spoofing, latency và thiết bị edge |
 | **Business cases** | Kinh nghiệm và tài liệu giao dịch người dùng lưu riêng | Tranh chấp phí SaaS, B2B Philippines, hoạt động Amazon/eBay/Ads | Gom dữ liệu định lượng, che thông tin đối tác, phân tích KPI/chi phí |
 
+## Notebook thực hành đã chạy lại / Re-executed learning notebooks
+
+Ngày 25/10/2026: **7/7 notebook, 49/49 code cell PASS**. Các file công khai có output mới,
+nguồn dữ liệu, dependency và lệnh chạy. [Báo cáo](labs/EXECUTION_REPORT.md) ·
+[Kết quả JSON và fingerprint](labs/validation/execution-results.json).
+
+- MNIST intro: test accuracy **97,14%**, 5 epochs; MNIST FCN: **97,72%**, 10 epochs.
+  Cả hai dùng 54.000 train / 6.000 validation / 10.000 test. FCN save/reload giữ nguyên dự đoán.
+- E-commerce: **12.330 phiên UCI**; Random Forest được chọn bằng validation log loss;
+  test ROC-AUC **0,757777**, AP **0,355999**, Brier **0,115860**. Phần EV dùng giả định,
+  chưa có kết luận về tác động khuyến mãi hoặc lợi nhuận thực tế.
+- **SUPERSEDED:** trạng thái 4/7 đã chạy, 2 syntax-only và 1 chờ dữ liệu được thay bởi
+  kết quả chạy đầy đủ trên. Phạm vi xác nhận là bảy bài, không phải toàn bộ kho 103 mục.
+
 ## Những điểm tôi đã điều chỉnh sau khi đối chiếu nguồn
 
 - **REVISED — KLTN (23/10/2026):** Đánh giá RQ1 phải phản ánh cả hai mặt: AP và ROC-AUC tăng khi bổ sung graph features, nhưng kết quả Top-1% trong lần chạy seed 42 giảm từ 62 xuống 55 trường hợp dương tính. Phân tích sau thí nghiệm xác định đặc trưng láng giềng đang dùng hướng cạnh đi ra và có nhiều tied scores cần kiểm tra thêm.
@@ -48,3 +62,4 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 - [ ] Hoàn thiện hướng dẫn chạy và demo song ngữ.
 
 [**Quay về danh mục dự án**](README.md)
+

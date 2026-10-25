@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+labs/data/*.csv
+labs/artifacts/
+labs/executed/
+labs/validation/latest.json
+.ipynb_checkpoints/
