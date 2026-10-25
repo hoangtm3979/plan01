@@ -1,25 +1,26 @@
-# Vietnamese Sentiment Classification (UIT-VSFC) — Learning Note
-# Phân loại cảm xúc tiếng Việt — Ghi chú bài tập
+# Vietnamese Sentiment Classification — UIT-VSFC
+# Phân loại cảm xúc tiếng Việt bằng Machine Learning
 
-**Evidence / Bằng chứng:** private student notebook `02410008-Truong Minh Hoang.ipynb` (8 code cells inspected; **0 historically executed** in the retrieved file). The notebook references `/mnt/data/UIT-VSFC.zip`, which is **not** bundled with the public portfolio.
-
-## English
-
-- **Context:** classic Vietnamese-language sentiment classification without depending on large language models.
-- **Question:** can sparse word features and simple, inspectable classifiers predict sentiment labels?
-- **Input:** train/dev/test text-label splits from the UIT-VSFC dataset.
-- **Output:** class predictions, accuracy/label metrics, high-confidence error list and class-weight vocabulary explanations.
-- **Implementation described in code:** tokenizer → vocabulary → bag-of-words features → custom Multinomial Naive Bayes and one-vs-rest Logistic Regression → hyperparameter selection on dev → final evaluation on test.
-- **Constraints:** dataset not included, licensing/label splits need verification; train-only vocabulary, unknown tokens, Vietnamese word segmentation and class imbalance require audit.
-- **Observed status:** notebook source read, **not run in this review**; no public accuracy is claimed. Test labels appear in the notebook when constructing the union of class identifiers; before a serious benchmark, define the class list strictly from the training protocol and preserve untouched test data.
-- **Next:** obtain permitted dataset, pin preprocessing/tokenizer, run train/dev/test without leakage and report confusion matrix + macro F1 beside majority-class baseline.
+[Tiếng Việt](#tiếng-việt) · [English](#english)
 
 ## Tiếng Việt
 
-- **Bối cảnh/bài toán:** phân loại cảm xúc câu tiếng Việt bằng ML cổ điển.
-- **Input:** tập train/dev/test có câu và nhãn; **Output:** nhãn dự đoán, lỗi sai và từ có trọng số.
-- **Cách làm đã thấy trong code:** tách từ, BoW, tự viết MultinomialNB và Logistic OVR, chọn siêu tham số trên dev.
-- **Ràng buộc:** chưa công bố dataset, không có log chạy hoàn chỉnh; cần kiểm tra cách tách từ, nhãn lớp, mất cân bằng và chia tập.
-- **Kết luận:** bằng chứng là *mã bài tập đã đọc*, **chưa có benchmark tái lập**.
+Tôi thực hành bài toán **phân loại cảm xúc của câu tiếng Việt** bằng những phương pháp ML cổ điển, nhằm hiểu rõ cách biểu diễn từ ngữ trước khi phụ thuộc vào mô hình ngôn ngữ lớn.
 
-**Disclosure:** no original UIT-VSFC dataset or private Drive URL is published.
+- **Input:** văn bản và nhãn từ các tập train/dev/test UIT-VSFC.
+- **Output:** nhãn cảm xúc dự đoán, bảng đánh giá và ví dụ sai.
+- **Cách làm trong notebook:** tokenizer → vocabulary → Bag-of-Words → tự xây Multinomial Naive Bayes và Logistic Regression One-vs-Rest → chọn tham số trên dev.
+- **Ràng buộc:** cách tách từ tiếng Việt, từ ngoài từ điển, mất cân bằng nhãn, thứ tự chia tập và dữ liệu đầu vào.
+
+Bản notebook lưu trên Drive chứa mã triển khai nhưng không có kết quả chạy lưu lại. Tôi sẽ nối bộ dữ liệu có quyền sử dụng, chạy từ đầu và so sánh với majority baseline, confusion matrix và Macro F1.
+
+## English
+
+This learning exercise explores **Vietnamese sentiment classification** with sparse Bag-of-Words features and transparent classical models.
+
+- **Input:** UIT-VSFC train/dev/test texts and labels.
+- **Output:** class predictions, error examples and evaluation metrics.
+- **Implementation:** tokenization, vocabulary, custom Multinomial Naive Bayes and One-vs-Rest Logistic Regression, tuned on a development split.
+- **Focus:** tokenization, class imbalance, train-only vocabulary and robust evaluation.
+
+The archived notebook contains the implementation structure; my next experiment is to reconnect a permitted dataset and establish a reproducible baseline.
