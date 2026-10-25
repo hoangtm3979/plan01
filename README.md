@@ -22,6 +22,14 @@ Tôi học ngành Trí tuệ nhân tạo tại UIT – ĐHQG TP.HCM, đồng th�
 
 **Cách đọc mỗi đồ án:** bối cảnh → mục tiêu → input/output → ràng buộc → baseline → giải pháp → kết quả và mức độ kiểm chứng → giới hạn → hướng tái lập → đóng góp cá nhân.
 
+## Learning journey / Nhật ký học tập
+
+Alongside featured projects, the [**AI Learning Labs / Nhật ký Colab**](labs/README.md) captures smaller exercises, copied/adapted tutorials, incomplete experiments, and the steps from fundamentals to applied systems. The Drive inventory identified 85 notebook-type entries under `lapnhan81` and 18 under `hoangaegi89`; these counts include duplicates/unfinished work and are **not** claimed as 103 finished projects.
+
+The first three sanitized public notebooks are [PCA vectors](labs/notebooks/pca-dot-product.ipynb), [TensorFlow/MNIST](labs/notebooks/tensorflow-mnist-intro.ipynb), and [E-commerce Intent + Expected Value](labs/notebooks/ecommerce-intent-expected-value.ipynb). Historical outputs were removed before publication, and a full reproducibility review remains next.
+
+**Tiếng Việt:** Không chỉ chọn vài đồ án đẹp. Phần nhật ký ghi cả bài cơ bản, bài đang sửa lỗi, phiên bản thử nghiệm và nguồn bài tập có tham khảo tutorial, để người đọc nhìn thấy năng lực phát triển theo thời gian.
+
 ## Project case studies / Hồ sơ dự án
 
 | Project / Dự án | Main evidence / Bằng chứng chính | Public case study |
