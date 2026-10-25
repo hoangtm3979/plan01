@@ -1,6 +1,6 @@
 # Graph-Assisted Shared Risk Context — Khóa luận tốt nghiệp AI / AI Undergraduate Thesis
 
-[Tiếng Việt](#tiếng-việt) · [English](#english)
+[Tiếng Việt](#tiếng-việt) · [English](#english) · [Code & notebooks](graph-assisted-shared-risk-context/) · [Kết quả kiểm tra](graph-assisted-shared-risk-context/RESULTS.md)
 
 ## Tiếng Việt
 
@@ -50,7 +50,13 @@ Khi rà soát sau thí nghiệm, tôi xác định phép tổng hợp láng gi�
 
 Bài học lớn nhất của tôi là: **một mô hình có AP tốt hơn chưa chắc tốt hơn ở điểm ra quyết định mà nghiệp vụ thực sự sử dụng**. Ở tầng hệ thống, ngữ nghĩa và nguồn gốc của đầu ra quan trọng không kém con số điểm số.
 
-*Dự án cá nhân · KLTN ngành Trí tuệ nhân tạo · Báo cáo và mã nghiên cứu lưu trong hồ sơ học thuật cá nhân.*
+### Mã nguồn và cách chạy
+
+Tôi đã bổ sung [thư mục dự án](graph-assisted-shared-risk-context/) với hai notebook minh họa có output mới, mã chức năng và bốn notebook nghiên cứu v2.1. Có thể chạy demo nhanh mà chưa cần tải bộ dữ liệu lớn.
+
+Khi chuẩn bị bản công khai, tôi đối chiếu 31 tệp với bộ bằng chứng đã khóa, tính lại chỉ số từ các tệp dự đoán gốc và kiểm tra RQ2 trên đủ 563.100 đầu ra thuộc ba nguồn. Kết quả khớp trong phạm vi kiểm tra. Đây là kiểm tra lại đầu ra đã lưu; chưa phải lượt huấn luyện LightGBM mới. [Chi tiết và lệnh tái chạy](graph-assisted-shared-risk-context/RESULTS.md).
+
+*Dự án cá nhân · KLTN ngành Trí tuệ nhân tạo · Mã học thuật và hướng dẫn tái lập được liên kết ở trên.*
 
 ## English
 
@@ -85,4 +91,9 @@ A post-experiment review also identified that `A @ x` aggregated **outgoing neig
 
 **What I learned:** aggregate discrimination and performance at a fixed review budget can point in different directions. Reliable decision-support design also requires unambiguous output semantics and provenance, not just model scores.
 
+### Source code and reproduction
+
+The [academic code package](graph-assisted-shared-risk-context/) contains two executed explanatory notebooks, reusable thesis functions, four full research notebooks, tests and a saved-output replay tool. Current checks recomputed ranking metrics from original predictions and replayed context conformance over all 563,100 source outputs. [Verification details](graph-assisted-shared-risk-context/RESULTS.md) distinguish this replay from a fresh model-training run.
+
 *Individual undergraduate thesis · Artificial Intelligence · Academic report revised 23 October 2026.*
+

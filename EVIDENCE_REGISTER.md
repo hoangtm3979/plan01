@@ -8,7 +8,7 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 | --- | --- | --- | --- |
 | **Credit Risk** | [Personal Colab notebook](https://github.com/hoangtm3979/credit) có mã và kết quả lưu | 2,03 triệu train, ~0,665 triệu holdout, Logistic/LightGBM và ROC-AUC | Kiểm tra dữ liệu theo thời điểm, `fit` preprocessing trên train, tái chạy benchmark |
 | **Credit AI Thinking Starter** | [Personal study repo](https://github.com/hoangtm3979/danhgiatindungcanhan), tài liệu khung ML | Cách phân rã bài toán ML và xây lộ trình triển khai | Hoàn thiện các mô-đun huấn luyện/suy luận từng được lên kế hoạch |
-| **Graph-Assisted Shared Risk Context — KLTN** | Báo cáo KLTN cá nhân bản cập nhật 23/10/2026, phụ lục kiểm thử và tài liệu rà soát hướng cạnh | RQ1: DGraphFin, node-only so với node+graph LightGBM (AP 0,025033 → 0,032505; Top-1% 62 → 55). RQ2: chuẩn hóa và định tuyến ngữ cảnh, 13 kịch bản kiểm soát | Ablation hướng cạnh, kiểm tra tied scores tại Top-K, đánh giá theo các review capacity khác nhau |
+| **Graph-Assisted Shared Risk Context — KLTN** | Báo cáo KLTN bản cập nhật 23/10/2026, bộ bằng chứng v2.1 và [mã học thuật + notebook](projects/graph-assisted-shared-risk-context/) | RQ1: DGraphFin, node-only so với node+graph LightGBM (AP 0,025033 → 0,032505; Top-1% 62 → 55). RQ2: chuẩn hóa và định tuyến ngữ cảnh, 13 kịch bản kiểm soát | Ablation hướng cạnh, kiểm tra tied scores tại Top-K, đánh giá theo các review capacity khác nhau |
 | **SNJ Hybrid RAG** | Báo cáo học phần UIT | 376 sản phẩm/22 cột; intent, lọc danh mục, hybrid retrieval | Bổ sung tập query độc lập, đối chứng WooCommerce và test API read-only |
 | **Intelligent Commerce Chatbot** | [Hybrid RAG coursework](projects/snj-hybrid-rag.md), bối cảnh triển khai SNJ và yêu cầu beta nội bộ đã xác định | Đặc tả bài toán tư vấn nhiều lượt, input/output, kiến trúc retrieval + rules + memory + tool orchestration | Chạy bộ tình huống đa lượt, xác nhận catalog, test WooCommerce read-only, đo chất lượng và latency |
 | **RegimeLens** | Báo cáo nhóm Big Data và notebook lịch sử `BIGDATA_mode_test_.ipynb` | Thiết kế HMM/XGBoost, số đo trong báo cáo và bài học về look-ahead | Xác định phiên bản code tương ứng, refit HMM theo thời gian, đánh giá chi phí giao dịch |
@@ -31,6 +31,10 @@ nguồn dữ liệu, dependency và lệnh chạy. [Báo cáo](labs/EXECUTION_RE
   chưa có kết luận về tác động khuyến mãi hoặc lợi nhuận thực tế.
 - **SUPERSEDED:** trạng thái 4/7 đã chạy, 2 syntax-only và 1 chờ dữ liệu được thay bởi
   kết quả chạy đầy đủ trên. Phạm vi xác nhận là bảy bài, không phải toàn bộ kho 103 mục.
+
+## KLTN — kiểm tra mã và bằng chứng công khai
+
+**REVISED — 25/10/2026:** KLTN đã có [thư mục mã riêng](projects/graph-assisted-shared-risk-context/), hai notebook minh họa đã chạy, bốn notebook nghiên cứu, kiểm thử và công cụ replay. Đã đối chiếu 31 tệp với inventory của evidence lock, tính lại metrics từ dự đoán gốc và kiểm tra bảo toàn trường trên đủ 563.100 đầu ra RQ2. Kết quả AP/ROC-AUC/Top‑1% giữ nguyên; chưa huấn luyện lại toàn bộ mô hình. [Báo cáo kiểm tra](projects/graph-assisted-shared-risk-context/RESULTS.md).
 
 ## Những điểm tôi đã điều chỉnh sau khi đối chiếu nguồn
 

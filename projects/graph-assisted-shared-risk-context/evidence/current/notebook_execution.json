@@ -1,0 +1,89 @@
+{
+  "started_at_utc": "2026-10-25T13:56:11.722054+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "jupyter-client": "8.10.0"
+  },
+  "execution_settings": {
+    "PYTHONHASHSEED": "42",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2",
+    "TF_ENABLE_ONEDNN_OPTS": "0",
+    "TF_CPP_MIN_LOG_LEVEL": "2",
+    "PYDEVD_DISABLE_FILE_VALIDATION": "1"
+  },
+  "mode": "full_data",
+  "fresh_kernel_per_notebook": true,
+  "fresh_process_per_notebook": true,
+  "backend": "ipykernel.inprocess",
+  "kernel_transport": "inprocess-no-sockets",
+  "notebooks": [
+    {
+      "notebook": "01_graph_features_and_review_budget.ipynb",
+      "source_sha256": "763e789225f69e36650524cef2d64d05df9daa0af693b7ed6a09f5e2112b8d69",
+      "code_cells": 5,
+      "status": "PASS",
+      "executed_code_cells": 5,
+      "started_at_utc": "2026-10-25T13:56:12.012892+00:00",
+      "metrics": {
+        "scope": "synthetic graph checks and historical table inspection",
+        "fixture_shape": [
+          5,
+          6
+        ],
+        "direction_check": "PASS",
+        "historical_ap": [
+          0.0250325607580735,
+          0.0325054377836055
+        ],
+        "historical_top_1_percent_tp": [
+          62,
+          55
+        ],
+        "tie_check": "PASS",
+        "new_dataset_training": false
+      },
+      "executed_notebook": "notebooks/01_graph_features_and_review_budget.ipynb",
+      "executed_file_sha256": "8b7d2b313e5139b105b36672c692e80d35e9d8a78eae4db4a0cd2b34f0365c1d",
+      "duration_seconds": 2.839,
+      "completed_at_utc": "2026-10-25T13:56:14.822940+00:00"
+    },
+    {
+      "notebook": "02_shared_risk_context_routing.ipynb",
+      "source_sha256": "4f3b63ea7beb3cb34ae82dc00d51b8769bf9c07a95bcb4d54a425b7519089cd1",
+      "code_cells": 4,
+      "status": "PASS",
+      "executed_code_cells": 4,
+      "started_at_utc": "2026-10-25T13:56:15.431052+00:00",
+      "metrics": {
+        "scope": "synthetic controlled scenarios using thesis v2.1 functions",
+        "controlled_cases_passed": 13,
+        "controlled_case_count": 13,
+        "determinism_repetitions": 100,
+        "unique_output_hashes": 1,
+        "multi_context_route": "MULTI_CONTEXT_REVIEW",
+        "order_invariant": true,
+        "entity_linkage_status": "synthetic_not_observed",
+        "joint_score": null
+      },
+      "executed_notebook": "notebooks/02_shared_risk_context_routing.ipynb",
+      "executed_file_sha256": "ab49003bf4b369d25cb76a2590a9e4a6c95dda243dd2e18503341ca909d734e7",
+      "duration_seconds": 0.667,
+      "completed_at_utc": "2026-10-25T13:56:16.070598+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-10-25T13:56:16.383811+00:00",
+  "passed": 2,
+  "total": 2
+}

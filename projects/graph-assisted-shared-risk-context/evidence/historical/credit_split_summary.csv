@@ -1,0 +1,4 @@
+split,rows,month_min,month_max
+train,965366,2007-06,2016-04
+validation,186895,2016-05,2017-02
+holdout,195420,2017-03,2018-12

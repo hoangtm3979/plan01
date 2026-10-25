@@ -1,0 +1,3 @@
+variant,seed,average_precision,roc_auc,top_1_percent_n,top_1_percent_positive
+node_only,42,0.025032560758073565,0.7127446394300898,1839,62
+node_plus_graph,42,0.03250543778360551,0.7684845987448782,1839,55

@@ -1,0 +1,162 @@
+{
+  "scope": "synthetic public examples; no dataset benchmark rerun",
+  "graph_fixture": {
+    "nodes": 5,
+    "edges_including_duplicate": 6,
+    "feature_shape": [
+      5,
+      6
+    ],
+    "outgoing_mean_check": "PASS"
+  },
+  "rq2": {
+    "controlled_cases": [
+      {
+        "case_id": "C01_VALID_CREDIT",
+        "expected_status": "ACCEPTED",
+        "expected_route": "CREDIT_REVIEW",
+        "status": "ACCEPTED",
+        "route": "CREDIT_REVIEW",
+        "reasons": [],
+        "pass": true
+      },
+      {
+        "case_id": "C02_VALID_FRAUD_NODE",
+        "expected_status": "ACCEPTED",
+        "expected_route": "FRAUD_GRAPH_REVIEW",
+        "status": "ACCEPTED",
+        "route": "FRAUD_GRAPH_REVIEW",
+        "reasons": [],
+        "pass": true
+      },
+      {
+        "case_id": "C03_VALID_FRAUD_GRAPH",
+        "expected_status": "ACCEPTED",
+        "expected_route": "FRAUD_GRAPH_REVIEW",
+        "status": "ACCEPTED",
+        "route": "FRAUD_GRAPH_REVIEW",
+        "reasons": [],
+        "pass": true
+      },
+      {
+        "case_id": "C04_MISSING_MANDATORY",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "MISSING:score_semantics"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C05_WRONG_SEMANTICS",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "SCORE_SEMANTICS_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C06_UNSUPPORTED_MODEL",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "MODEL_VERSION_UNREGISTERED"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C07_SCORE_RANGE",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "SCORE_OUT_OF_RANGE"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C08_BAD_PROVENANCE",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "PROVENANCE_HASH_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C09_REFERENCE_UNAVAILABLE",
+        "expected_status": "HELD",
+        "expected_route": "DATA_REVIEW",
+        "status": "HELD",
+        "route": "DATA_REVIEW",
+        "reasons": [
+          "REFERENCE_UNAVAILABLE"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C10_JOINT_SCORE_FORBIDDEN",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "UNAUTHORISED_JOINT_SCORE"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C11_DOMAIN_MISMATCH",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "DOMAIN_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C12_ENTITY_SCOPE_ELEVATION",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "ENTITY_SCOPE_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C13_UNSUPPORTED_CONTEXT_VERSION",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "UNSUPPORTED_CONTEXT_VERSION"
+        ],
+        "pass": true
+      }
+    ],
+    "controlled_cases_passed": 13,
+    "controlled_case_count": 13,
+    "determinism_repetitions": 100,
+    "unique_output_hashes": 1,
+    "multi_context_route": "MULTI_CONTEXT_REVIEW",
+    "order_invariant": true,
+    "entity_linkage_status": "synthetic_not_observed",
+    "joint_score": null
+  },
+  "status": "PASS"
+}

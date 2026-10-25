@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-25",
+  "python": "3.12.14",
+  "unit_tests": {
+    "run": 10,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS",
+    "test_names": [
+      "test_adapter_preserves_all_declared_source_fields (test_thesis.ContextTests.test_adapter_preserves_all_declared_source_fields)",
+      "test_contract_and_policy_match_original_hashes (test_thesis.ContextTests.test_contract_and_policy_match_original_hashes)",
+      "test_nonfinite_scores_rejected (test_thesis.ContextTests.test_nonfinite_scores_rejected)",
+      "test_original_13_expected_statuses_match_historical_table (test_thesis.ContextTests.test_original_13_expected_statuses_match_historical_table)",
+      "test_repeated_and_reordered_contexts_do_not_create_linkage_or_joint_score (test_thesis.ContextTests.test_repeated_and_reordered_contexts_do_not_create_linkage_or_joint_score)",
+      "test_published_aggregates_match_original_bytes (test_thesis.EvidenceTests.test_published_aggregates_match_original_bytes)",
+      "test_directed_neighbors_match_hand_calculation (test_thesis.GraphFeatureTests.test_directed_neighbors_match_hand_calculation)",
+      "test_empty_graph_has_zero_graph_features (test_thesis.GraphFeatureTests.test_empty_graph_has_zero_graph_features)",
+      "test_reversing_edges_changes_the_neighborhood (test_thesis.GraphFeatureTests.test_reversing_edges_changes_the_neighborhood)",
+      "test_top_budget_ties_use_numeric_id (test_thesis.GraphFeatureTests.test_top_budget_ties_use_numeric_id)"
+    ]
+  },
+  "notebooks": [
+    {
+      "path": "notebooks/01_graph_features_and_review_budget.ipynb",
+      "code_cells": 5,
+      "syntax": "PASS",
+      "execution": "PASS"
+    },
+    {
+      "path": "notebooks/02_shared_risk_context_routing.ipynb",
+      "code_cells": 4,
+      "syntax": "PASS",
+      "execution": "PASS"
+    },
+    {
+      "path": "research/00_DATA_FEASIBILITY_v2_1.ipynb",
+      "code_cells": 9,
+      "syntax": "PASS",
+      "execution": "NOT_RUN_FULL_DATA"
+    },
+    {
+      "path": "research/01_CREDIT_OUTPUTS_v2_1.ipynb",
+      "code_cells": 7,
+      "syntax": "PASS",
+      "execution": "NOT_RUN_FULL_DATA"
+    },
+    {
+      "path": "research/02_RQ1_DGRAPHFIN_v2_1.ipynb",
+      "code_cells": 9,
+      "syntax": "PASS",
+      "execution": "NOT_RUN_FULL_DATA"
+    },
+    {
+      "path": "research/03_RQ2_SHARED_CONTEXT_ROUTING_v2_1.ipynb",
+      "code_cells": 8,
+      "syntax": "PASS",
+      "execution": "NOT_RUN_FULL_DATA"
+    }
+  ],
+  "scientific_function_ast_parity": {
+    "status": "PASS",
+    "functions": [
+      "build_graph_features",
+      "score_metrics",
+      "canonical_hash",
+      "adapt_record",
+      "validate_context",
+      "canonical_output",
+      "route_controlled_multi_context"
+    ]
+  },
+  "full_model_retraining": "NOT_RUN",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "pyarrow": "26.0.0",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "matplotlib": "3.10.8"
+  }
+}

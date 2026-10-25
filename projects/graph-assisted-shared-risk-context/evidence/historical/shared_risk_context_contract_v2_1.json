@@ -1,0 +1,32 @@
+{
+  "context_version": "shared_risk_context_v2.1",
+  "score_range": [
+    0.0,
+    1.0
+  ],
+  "joint_score_allowed": false,
+  "real_customer_linkage_claim_allowed": false,
+  "routing_scope": "offline_recommendation_only",
+  "required_fields": [
+    "adapter_version",
+    "assessment_time",
+    "assessment_time_status",
+    "context_version",
+    "entity_scope",
+    "model_version",
+    "quality_flags",
+    "risk_domain",
+    "score_semantics",
+    "score_value",
+    "source_artifact_sha256",
+    "source_dataset",
+    "source_record_reference",
+    "trace_id"
+  ],
+  "optional_fields": [
+    "reason_signals",
+    "risk_band",
+    "risk_band_policy"
+  ],
+  "contract_sha256": "03ac7bf270fa4aae8d66c7762c2a914be90be5bfdb0450e125c40b393dfff432"
+}

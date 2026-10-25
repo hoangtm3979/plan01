@@ -1,0 +1,71 @@
+{
+  "credit": {
+    "source_rows": 195420,
+    "contexts_created": 195420,
+    "one_to_one_mapping_rate": 1.0,
+    "accepted_count": 195420,
+    "held_count": 0,
+    "rejected_count": 0,
+    "schema_and_semantic_accept_rate": 1.0,
+    "preservation_rates": {
+      "score_value": 1.0,
+      "risk_domain": 1.0,
+      "score_semantics": 1.0,
+      "entity_scope": 1.0,
+      "model_version": 1.0,
+      "source_dataset": 1.0,
+      "source_record_reference": 1.0,
+      "assessment_time": 1.0,
+      "assessment_time_status": 1.0
+    },
+    "defaulted_mandatory_field_count": 0,
+    "context_file": "credit_shared_contexts.parquet",
+    "context_file_sha256": "3c8ea365adc2df55f143caa92debd1f7bc57a6c0749f7a604d35bbcb2fbbcfec"
+  },
+  "fraud_node_only": {
+    "source_rows": 183840,
+    "contexts_created": 183840,
+    "one_to_one_mapping_rate": 1.0,
+    "accepted_count": 183840,
+    "held_count": 0,
+    "rejected_count": 0,
+    "schema_and_semantic_accept_rate": 1.0,
+    "preservation_rates": {
+      "score_value": 1.0,
+      "risk_domain": 1.0,
+      "score_semantics": 1.0,
+      "entity_scope": 1.0,
+      "model_version": 1.0,
+      "source_dataset": 1.0,
+      "source_record_reference": 1.0,
+      "assessment_time": 1.0,
+      "assessment_time_status": 1.0
+    },
+    "defaulted_mandatory_field_count": 0,
+    "context_file": "fraud_node_only_shared_contexts.parquet",
+    "context_file_sha256": "4d394440b2d3808a32e607d98362a1a04f4ea0e2180a876412d860c267f27491"
+  },
+  "fraud_node_plus_graph": {
+    "source_rows": 183840,
+    "contexts_created": 183840,
+    "one_to_one_mapping_rate": 1.0,
+    "accepted_count": 183840,
+    "held_count": 0,
+    "rejected_count": 0,
+    "schema_and_semantic_accept_rate": 1.0,
+    "preservation_rates": {
+      "score_value": 1.0,
+      "risk_domain": 1.0,
+      "score_semantics": 1.0,
+      "entity_scope": 1.0,
+      "model_version": 1.0,
+      "source_dataset": 1.0,
+      "source_record_reference": 1.0,
+      "assessment_time": 1.0,
+      "assessment_time_status": 1.0
+    },
+    "defaulted_mandatory_field_count": 0,
+    "context_file": "fraud_node_plus_graph_shared_contexts.parquet",
+    "context_file_sha256": "a78cbc5a976f5add014fb8f91e149e22c9bc619358e46b770fbde1a056486886"
+  }
+}

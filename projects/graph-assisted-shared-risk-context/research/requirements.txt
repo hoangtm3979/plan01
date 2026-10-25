@@ -1,0 +1,12 @@
+# Optional full research environment; original notebook dependency ranges.
+# Captured original versions are recorded in ../PROVENANCE.json.
+lightgbm>=4.3,<5
+torch>=2.2
+torch-geometric>=2.5,<3
+pyarrow
+psutil
+scipy
+scikit-learn
+pandas
+numpy
+matplotlib

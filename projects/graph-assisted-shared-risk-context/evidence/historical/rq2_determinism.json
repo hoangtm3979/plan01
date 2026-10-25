@@ -1,0 +1,6 @@
+{
+  "repetitions": 100,
+  "unique_output_hash_count": 1,
+  "status": "PASS",
+  "order_invariance_for_independent_contexts": true
+}

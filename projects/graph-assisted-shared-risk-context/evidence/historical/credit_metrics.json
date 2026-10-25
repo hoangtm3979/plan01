@@ -1,0 +1,14 @@
+{
+  "model_version": "credit_lightgbm_v2.1",
+  "seed": 42,
+  "holdout_rows": 195420,
+  "holdout_positive": 41113,
+  "average_precision": 0.32861919449151256,
+  "roc_auc": 0.6624414215952523,
+  "brier_score": 0.16382820583878074,
+  "train_end_month": "2016-04",
+  "validation_end_month": "2017-02",
+  "n_features": 9,
+  "score_semantics": "lightgbm_default_class_score",
+  "claim_boundary": "independent credit source output; not calibrated bank PD"
+}

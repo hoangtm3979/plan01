@@ -1,0 +1,16 @@
+{
+  "status": "RQ1_FINAL_COMPLETE",
+  "primary_seed": 42,
+  "test_rows": 183840,
+  "delta_ap": 0.007472877025531947,
+  "delta_ap_ci_95": [
+    0.006048999421841472,
+    0.008812994249018382
+  ],
+  "bootstrap_requested_evaluable": 10000,
+  "bootstrap_evaluable": 10000,
+  "bootstrap_skipped_single_class": 0,
+  "bootstrap_seed": 2026,
+  "classification": "POSITIVE_INDICATION",
+  "interpretation_scope": "paired node resampling; graph dependence remains a limitation"
+}

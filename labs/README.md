@@ -114,3 +114,7 @@ Tôi tiếp tục dùng cấu trúc này cho các notebook còn lại trong kho 
 
 [**Xem danh sách rà soát Colab chi tiết**](REVIEW_QUEUE.md)
 
+
+## KLTN — Graph-Assisted Shared Risk Context
+
+[Code, hai notebook minh họa và bốn notebook nghiên cứu](../projects/graph-assisted-shared-risk-context/) nối phần học graph features, đánh giá mô hình và hợp đồng ngữ cảnh với khóa luận cá nhân. [Case study VI/EN](../projects/graph-assisted-shared-risk-context-thesis.md).

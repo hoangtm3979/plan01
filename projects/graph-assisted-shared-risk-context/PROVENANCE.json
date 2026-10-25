@@ -1,0 +1,43 @@
+{
+  "author": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "report": {
+    "filename": "25410008_Truong_Minh_Hoang_KLTN.docx",
+    "updated_date": "2026-10-23",
+    "sha256": "9aa7a2c245e5b2849f26e814f5a415f8c7d6a746ea531eb78be89fd357ec01b9"
+  },
+  "research_notebooks": [
+    {
+      "notebook": "00_DATA_FEASIBILITY_v2_1.ipynb",
+      "original_colab_sha256": "3e475f3dc8ae1d6366ecb1177bc0d8415489167ea5cc3b2c66b58f8b21bef59c",
+      "original_code_sha256": "e7ae8fa28d0eb71fcbe9f400b6410b09ad96f2e341fab32c09118b75351180e6",
+      "public_notebook_sha256": "34c1d6d88b43b0aac65e9be6eae1c9a04e1ff86fe24e4b7d95a94c83b80daa94"
+    },
+    {
+      "notebook": "01_CREDIT_OUTPUTS_v2_1.ipynb",
+      "original_colab_sha256": "51e285f556086aa1c7c1acd6534eb9aa07a6cd14a05283d2b00028e59609cdab",
+      "original_code_sha256": "67e5b7d8828321d00078d7d0dcac34feb87c1d82293ba29251f01455043a384f",
+      "public_notebook_sha256": "996c1844d6cc23faee964923529173849ee2a11deed2e8bf1ba0ae1c59a97be1"
+    },
+    {
+      "notebook": "02_RQ1_DGRAPHFIN_v2_1.ipynb",
+      "original_colab_sha256": "36875ff5e1ef776f8f2972e933f8724370e068f1df610e715d777fe885a32fbf",
+      "original_code_sha256": "aab79d3523eaf29c12784619fcb51d080ebd6cdb4f9da8c4de609c6ba42efb23",
+      "public_notebook_sha256": "8fafd996df9e1f87a9a1d94f91f16d89e1d9e8dc472346639a009e5685381d20"
+    },
+    {
+      "notebook": "03_RQ2_SHARED_CONTEXT_ROUTING_v2_1.ipynb",
+      "original_colab_sha256": "01117e099e8d1a5e75645dc14e24d665f66075690b9f07ca0e16b23c984869c1",
+      "original_code_sha256": "795624922b69e25cf4fb96e8ebcb0e1d6bb49ae5641701836570af5810aa5e04",
+      "public_notebook_sha256": "3cec849a3a404a9d657e1667e5cfaab5afd5c8d0fe81be50aea33f3c8ccf9fcf"
+    }
+  ],
+  "implementation": "Academic functions extracted from the executed Colab v2.1 sources; synthetic fixtures are new public examples.",
+  "original_training_environment": {
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "numpy": "2.1.3",
+    "lightgbm": "4.6.0",
+    "torch": "2.11.0+cu128",
+    "torch_geometric": "2.8.0.post1"
+  }
+}

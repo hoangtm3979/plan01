@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "scope": "saved-output replay; no model retraining",
+  "verified_input_sha256": {
+    "credit/credit_predictions_for_context.parquet": "c65084e88f8285c47a94182c316302c560be06054209e695cca635d811fdd980",
+    "credit/credit_evaluation_labels.parquet": "c388c917dfce8f59d654ea552bc95f844e18c114a653800b69949f4ca488e444",
+    "rq1/dgraphfin_node_only_predictions_for_context.parquet": "9e64a515d2243649f279b1d290e279f881b5d55b376d602469feec5018286ff0",
+    "rq1/dgraphfin_evaluation_labels.parquet": "eeee3d27d5213b693754e89cc419b1351fa1a879565278269fc75648df4f0ab4",
+    "rq1/dgraphfin_node_plus_graph_predictions_for_context.parquet": "da574419bc2c9e3aa2069c9ff5ea6d95941f04aabde93524685c217b357356e1",
+    "rq1/rq1_paired_bootstrap_10000.npy": "d7b26c7827025673d9ec0db74f0e34b0e2cdf5799005c4d82693369689ad1e47"
+  },
+  "metrics": {
+    "credit": {
+      "rows": 195420,
+      "positives": 41113,
+      "average_precision": 0.32861919449151256,
+      "roc_auc": 0.6624414215952523,
+      "brier_score": 0.16382820583878072
+    },
+    "fraud_node_only": {
+      "rows": 183840,
+      "positives": 2326,
+      "average_precision": 0.025032560758073565,
+      "roc_auc": 0.7127446394300898,
+      "top_1_percent_n": 1839,
+      "top_1_percent_positive": 62
+    },
+    "fraud_node_plus_graph": {
+      "rows": 183840,
+      "positives": 2326,
+      "average_precision": 0.03250543778360551,
+      "roc_auc": 0.7684845987448782,
+      "top_1_percent_n": 1839,
+      "top_1_percent_positive": 55
+    }
+  },
+  "rq2_bulk_replay": {
+    "credit": {
+      "rows": 195420,
+      "status_counts": {
+        "ACCEPTED": 195420,
+        "HELD": 0,
+        "REJECTED": 0
+      },
+      "preservation_rates": {
+        "assessment_time": 1.0,
+        "assessment_time_status": 1.0,
+        "entity_scope": 1.0,
+        "model_version": 1.0,
+        "risk_domain": 1.0,
+        "score_semantics": 1.0,
+        "score_value": 1.0,
+        "source_dataset": 1.0,
+        "source_record_reference": 1.0
+      }
+    },
+    "fraud_node_only": {
+      "rows": 183840,
+      "status_counts": {
+        "ACCEPTED": 183840,
+        "HELD": 0,
+        "REJECTED": 0
+      },
+      "preservation_rates": {
+        "assessment_time": 1.0,
+        "assessment_time_status": 1.0,
+        "entity_scope": 1.0,
+        "model_version": 1.0,
+        "risk_domain": 1.0,
+        "score_semantics": 1.0,
+        "score_value": 1.0,
+        "source_dataset": 1.0,
+        "source_record_reference": 1.0
+      }
+    },
+    "fraud_node_plus_graph": {
+      "rows": 183840,
+      "status_counts": {
+        "ACCEPTED": 183840,
+        "HELD": 0,
+        "REJECTED": 0
+      },
+      "preservation_rates": {
+        "assessment_time": 1.0,
+        "assessment_time_status": 1.0,
+        "entity_scope": 1.0,
+        "model_version": 1.0,
+        "risk_domain": 1.0,
+        "score_semantics": 1.0,
+        "score_value": 1.0,
+        "source_dataset": 1.0,
+        "source_record_reference": 1.0
+      }
+    }
+  },
+  "controlled_checks": {
+    "controlled_cases": [
+      {
+        "case_id": "C01_VALID_CREDIT",
+        "expected_status": "ACCEPTED",
+        "expected_route": "CREDIT_REVIEW",
+        "status": "ACCEPTED",
+        "route": "CREDIT_REVIEW",
+        "reasons": [],
+        "pass": true
+      },
+      {
+        "case_id": "C02_VALID_FRAUD_NODE",
+        "expected_status": "ACCEPTED",
+        "expected_route": "FRAUD_GRAPH_REVIEW",
+        "status": "ACCEPTED",
+        "route": "FRAUD_GRAPH_REVIEW",
+        "reasons": [],
+        "pass": true
+      },
+      {
+        "case_id": "C03_VALID_FRAUD_GRAPH",
+        "expected_status": "ACCEPTED",
+        "expected_route": "FRAUD_GRAPH_REVIEW",
+        "status": "ACCEPTED",
+        "route": "FRAUD_GRAPH_REVIEW",
+        "reasons": [],
+        "pass": true
+      },
+      {
+        "case_id": "C04_MISSING_MANDATORY",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "MISSING:score_semantics"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C05_WRONG_SEMANTICS",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "SCORE_SEMANTICS_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C06_UNSUPPORTED_MODEL",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "MODEL_VERSION_UNREGISTERED"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C07_SCORE_RANGE",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "SCORE_OUT_OF_RANGE"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C08_BAD_PROVENANCE",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "PROVENANCE_HASH_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C09_REFERENCE_UNAVAILABLE",
+        "expected_status": "HELD",
+        "expected_route": "DATA_REVIEW",
+        "status": "HELD",
+        "route": "DATA_REVIEW",
+        "reasons": [
+          "REFERENCE_UNAVAILABLE"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C10_JOINT_SCORE_FORBIDDEN",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "UNAUTHORISED_JOINT_SCORE"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C11_DOMAIN_MISMATCH",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "DOMAIN_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C12_ENTITY_SCOPE_ELEVATION",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "ENTITY_SCOPE_MISMATCH"
+        ],
+        "pass": true
+      },
+      {
+        "case_id": "C13_UNSUPPORTED_CONTEXT_VERSION",
+        "expected_status": "REJECTED",
+        "expected_route": "NONE",
+        "status": "REJECTED",
+        "route": "NONE",
+        "reasons": [
+          "UNSUPPORTED_CONTEXT_VERSION"
+        ],
+        "pass": true
+      }
+    ],
+    "controlled_cases_passed": 13,
+    "controlled_case_count": 13,
+    "determinism_repetitions": 100,
+    "unique_output_hashes": 1,
+    "multi_context_route": "MULTI_CONTEXT_REVIEW",
+    "order_invariant": true,
+    "entity_linkage_status": "synthetic_not_observed",
+    "joint_score": null
+  },
+  "bootstrap": {
+    "scope": "verified existing resamples and recomputed quantiles; not regenerated resamples",
+    "count": 10000,
+    "delta_ap_ci_95": [
+      0.006048999421841472,
+      0.008812994249018382
+    ]
+  },
+  "duration_seconds": 7.622
+}

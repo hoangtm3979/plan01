@@ -1,0 +1,18 @@
+{
+  "status": "RQ2_EVIDENCE_PASS",
+  "contract_version": "shared_risk_context_v2.1",
+  "contract_sha256": "03ac7bf270fa4aae8d66c7762c2a914be90be5bfdb0450e125c40b393dfff432",
+  "routing_policy_version": "routing_policy_v2.1",
+  "routing_policy_sha256": "958a50cab7e6ce28a88a05732df082ec6118deb9c864f04c87f5c7246d797307",
+  "bulk_conformance_pass": true,
+  "controlled_cases_pass": true,
+  "controlled_case_count": 13,
+  "multi_context_scenario_pass": true,
+  "determinism": {
+    "repetitions": 100,
+    "unique_output_hash_count": 1,
+    "status": "PASS",
+    "order_invariance_for_independent_contexts": true
+  },
+  "claim_boundary": "conformance to declared semantics and controlled routing only; no real Credit-Fraud customer linkage, no joint predictive uplift, no bank decision authority"
+}

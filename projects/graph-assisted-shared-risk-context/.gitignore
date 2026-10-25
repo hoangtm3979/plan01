@@ -1,0 +1,8 @@
+outputs/
+kltn_workspace/
+KLTN_REPRODUCTION_CONFIG_POINTER.json
+__pycache__/
+*.pyc
+executed/
+validation/
+.ipynb_checkpoints/

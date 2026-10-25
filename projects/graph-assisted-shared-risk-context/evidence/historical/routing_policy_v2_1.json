@@ -1,0 +1,12 @@
+{
+  "policy_version": "routing_policy_v2.1",
+  "single_context_routes": {
+    "credit": "CREDIT_REVIEW",
+    "fraud_graph": "FRAUD_GRAPH_REVIEW"
+  },
+  "held_route": "DATA_REVIEW",
+  "rejected_route": "NONE",
+  "controlled_multi_context_route": "MULTI_CONTEXT_REVIEW",
+  "decision_authority": "NONE_RECOMMENDATION_ONLY",
+  "policy_sha256": "958a50cab7e6ce28a88a05732df082ec6118deb9c864f04c87f5c7246d797307"
+}

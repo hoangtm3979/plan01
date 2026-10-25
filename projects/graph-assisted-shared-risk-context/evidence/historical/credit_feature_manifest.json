@@ -1,0 +1,23 @@
+{
+  "version": "credit_features_v2.1",
+  "numeric_features": [
+    "revenue",
+    "dti_n",
+    "loan_amnt",
+    "fico_n",
+    "experience_c"
+  ],
+  "categorical_features": [
+    "emp_length",
+    "purpose",
+    "home_ownership_n",
+    "addr_state"
+  ],
+  "post_outcome_excluded_present": [],
+  "high_cardinality_excluded": [
+    "zip_code",
+    "title",
+    "desc"
+  ],
+  "n_features": 9
+}
