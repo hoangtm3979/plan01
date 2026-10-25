@@ -8,7 +8,7 @@
 
 On **2026-10-25** a read-only inventory of the connected `lapnhan81` Colab folder returned **85 notebook-type entries** (70 named and 15 untitled); the `hoangaegi89` Colab folder returned **18 notebook-type entries** (14 named and 4 untitled). These are **file counts, not unique completed assignments**: some are copied versions or shared across accounts, and folders can contain non-notebook files.
 
-**Structural source inspection is now complete for 101/101 native Colab notebooks and two non-native \`.ipynb\` files**. Among native files, 52 show execution counters on all code cells, 21 on some cells, 28 none, and 22 have at least one saved error. See [Source audit & release queue](REVIEW_QUEUE.md). This section publishes seven safety-reviewed examples; a historical run counter is not a fresh reproducibility test.
+**Structural source inspection is now complete for 101/101 native Colab notebooks and two non-native `.ipynb` files**. Among native files, 52 show execution counters on all code cells, 21 on some cells, 28 none, and 22 have at least one saved error. See [Source audit & release queue](REVIEW_QUEUE.md). This section publishes seven safety-reviewed examples; a historical run counter is not a fresh reproducibility test.
 
 ## Tiếng Việt
 
