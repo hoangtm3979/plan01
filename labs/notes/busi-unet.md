@@ -1,23 +1,26 @@
-# Breast Ultrasound U-Net Segmentation — Educational Lab Review
-# Phân đoạn ảnh siêu âm bằng U-Net — Rà soát bài thực hành
+# U-Net Breast Ultrasound Segmentation — Learning Lab
+# Bài thực hành phân đoạn ảnh siêu âm bằng U-Net
 
-**Evidence:** `LAB6_21540008.ipynb`, retrieved from the owner's Colab folder. 15 code cells carried historical execution counters; the saved notebook required a private `Dataset_BUSI.zip` under a mounted Google Drive folder. This page reports **coursework observations, not a clinically evaluated medical AI tool**.
-
-## English
-
-- **Context:** learn pixel-level image segmentation and the roles of a binary ground-truth mask, encoder–decoder network and overlap metric.
-- **Input:** paired breast-ultrasound images and masks after preprocessing/resizing.
-- **Output:** predicted segmentation mask, training/validation loss curves, BinaryIoU and representative images for inspection.
-- **Method seen in code:** combine image/mask pairs → train/validation/test splitting → custom U-Net blocks → Adam training with Dice-style loss and BinaryIoU tracking → threshold predictions at 0.5.
-- **Constraints:** private ZIP and trained `.keras` model not available publicly, data source/license and patient-image sharing permissions require review, performance heavily depends on patient-level splits and mask alignment.
-- **Observed status:** educational code with historical executions; **not independently rerun**. No numeric sensitivity/specificity, patient-level generalization or clinical effect is asserted.
-- **Required improvements:** verify no same-patient leakage across splits; fix seeds and versions; publish only rights-cleared examples; evaluate Dice + IoU with confidence intervals; assess mask annotation uncertainty and external validation.
+[Tiếng Việt](#tiếng-việt) · [English](#english)
 
 ## Tiếng Việt
 
-- **Bài toán:** biến ảnh siêu âm đầu vào thành mặt nạ nhị phân vùng quan tâm.
-- **Pipeline:** ảnh + mask → tiền xử lý → U-Net → xác suất pixel → ngưỡng → mask → IoU/Dice.
-- **Giới hạn:** dữ liệu BUSI đang ở đường dẫn Drive riêng; kết quả trong notebook không tương đương hiệu năng lâm sàng. Cần xét nguồn ảnh, quyền dùng, chia tập theo bệnh nhân, mask chuẩn và tái lập.
-- **Tình trạng:** bài học có mã và dấu vết từng chạy, chưa benchmark lại.
+Trong bài thực hành Deep Learning này, tôi tìm hiểu cách mạng **U-Net phân đoạn vùng quan tâm trên ảnh siêu âm**. Thay vì dự đoán một nhãn cho cả ảnh, mô hình tạo kết quả ở cấp độ pixel.
 
-**Privacy:** no patient images, private ZIP, original masks, model weights or clinical recommendations were released.
+- **Input:** các cặp ảnh siêu âm và mặt nạ vùng quan tâm (mask).
+- **Output:** mask dự đoán, biểu đồ loss và phép đo mức trùng khớp như BinaryIoU/Dice.
+- **Phương pháp trong notebook:** chuẩn bị ảnh/mask → chia dữ liệu → U-Net encoder/decoder → Adam và Dice-style loss → threshold mask.
+- **Ràng buộc:** căn chỉnh ảnh–mask, nguồn ảnh, chia tập theo bệnh nhân, dữ liệu ít và tài nguyên huấn luyện.
+
+Notebook gốc có lịch sử chạy các cell; dữ liệu BUSI được tham chiếu từ Drive riêng. Tôi muốn chạy lại với cách chia tập rõ ràng, báo cáo Dice/IoU theo ảnh và phân tích những vùng mô hình phân đoạn chưa tốt.
+
+## English
+
+This educational lab helped me understand **pixel-level medical image segmentation** using U-Net.
+
+- **Input:** paired ultrasound images and annotation masks.
+- **Output:** predicted masks, training curves and overlap metrics.
+- **Method:** custom U-Net blocks, Adam optimization, Dice-style loss, BinaryIoU and thresholded predictions.
+- **Focus:** patient-level splitting, image/mask alignment, data provenance, reproducibility and error inspection.
+
+My next step is a clean experimental run using a properly sourced dataset and a consistent evaluation protocol.
