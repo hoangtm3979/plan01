@@ -84,6 +84,10 @@ Có thể mở notebook trong Google Colab và **Run all**. Phiên bản thư vi
 khác có thể cho metric hơi khác. [Nguồn dữ liệu và checksum](DATA_SOURCES.md) ·
 [Môi trường và toàn bộ cách tái chạy](EXECUTION_REPORT.md#reproduce--chạy-lại).
 
+## Kho bài tập Colab mở rộng / Extended Colab archive
+
+Đã bổ sung [**33 notebook bài tập**](archive/README.md) từ kho nguồn 103 mục, gồm Python, biểu diễn từ, logistic regression, mô hình cây, NLP và deep learning. Bản trùng được gộp và bản nguồn của bảy bài chính được liên kết lại. [Danh mục và trạng thái từng bài](archive/README.md).
+
 ## Những bài khác tôi đang hệ thống hóa / Other learning topics
 
 | Chủ đề | Nội dung | Ghi chú |

@@ -1,0 +1,1112 @@
+[
+  {
+    "entry": "C001",
+    "original_title": "KLTN_RQ1_EDGE_DIRECTION_AUDIT_COLAB_20261021.ipynb",
+    "source_sha256": "ed8083d5c8234f155986996d476b900845b4dfb5b9373c537909d9e3146ba10b",
+    "code_cells": 2,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C002",
+    "original_title": "Untitled7.ipynb",
+    "source_sha256": "4c462b1c118a128994d8b69a257fcee86613b345b732a7987704a5573e52afff",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C003",
+    "original_title": "AEGI_MEB_EVT_PBM_002_LIBRARY_EVIDENCE_EXPORT_v0.1_COLAB.ipynb",
+    "source_sha256": "7fe76643779f094d16f251f37ff137b3a133501e23a4f9b388ab6b20c449fe15",
+    "code_cells": 14,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C004",
+    "original_title": "00_AEGI_MEB_v0.2_Viability_Evidence_Collector.ipynb",
+    "source_sha256": "4997201845ff82b6440cbace2f200174e14018f5f3e208a383472739e3147683",
+    "code_cells": 6,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C005",
+    "original_title": "00_ieee_cis_smoke_test_COLAB_FULL.ipynb",
+    "source_sha256": "2930a60e349089f84e05dd8ae260362363e21449412124a867e5455536400c6e",
+    "code_cells": 29,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C006",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C007",
+    "original_title": "01_AEGI_MEB_v0.2_Development_Freeze.ipynb",
+    "source_sha256": "18265975254ab8088a9fdb3b4509d3a76ada4ea08691f29492ca46863e44bc23",
+    "code_cells": 4,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C008",
+    "original_title": "SNJ_RAG_Colab_Demo_HYBRID_RAG.ipynb",
+    "source_sha256": "ee758fa04bd9604db58dfbc64fa1fe34751cadbfddb594c5733291baa5dce76a",
+    "code_cells": 12,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C009",
+    "original_title": "SNJ_RAG_Colab_Demo_STRICT_FILTER.ipynb",
+    "source_sha256": "e64875d89b1cffd4d695b897c6a9ae6be4a42c0700bc788cfa3c90ccaace88d6",
+    "code_cells": 11,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C010",
+    "original_title": "SNJ_RAG_Colab_Demo_UPDATED.ipynb",
+    "source_sha256": "14628697587ba638313f1cce5f3edae77b5f5c7059e7140d17987bbd0d4dc06c",
+    "code_cells": 10,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C011",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C012",
+    "original_title": "SNJ_RAG_Colab_Demo.ipynb",
+    "source_sha256": "88cfeb8919842fcf74a1765b0b40ef8481c75a47166ebaba9b3d7cdef66a05db",
+    "code_cells": 11,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C013",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C014",
+    "original_title": "BIGDATA_mode_test_.ipynb",
+    "source_sha256": "ef8c53d5ea63b41b38f3070bf0d7079d20e3fdce2572b62aa6ab3141abb37756",
+    "code_cells": 14,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C015",
+    "original_title": "25410008_Lab_4.1.ipynb",
+    "source_sha256": "bc4eef1921658bc49dd42609bf17a2edc2fe699ba436e22040bf13499068a354",
+    "code_cells": 29,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c015-neural-networks.ipynb",
+    "topic": "Neural networks / Mạng nơ-ron",
+    "libraries": [
+      "google.colab",
+      "kagglehub",
+      "matplotlib.pyplot",
+      "numpy",
+      "pandas",
+      "seaborn",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.preprocessing",
+      "tensorflow",
+      "tensorflow.keras",
+      "tensorflow.keras.layers"
+    ]
+  },
+  {
+    "entry": "C016",
+    "original_title": "Lab 4 - làm quen tensorflow.ipynb",
+    "source_sha256": "ee7667d3e79811b282e5c420fceb5232ef8d222b155d8b838c8a901b4fe91934",
+    "code_cells": 13,
+    "disposition": "COVERED",
+    "path": "../notebooks/tensorflow-mnist-intro.ipynb"
+  },
+  {
+    "entry": "C017",
+    "original_title": "AIVTF AUTO-FILL STARTER # Traditional AI / AEGI Credit Scoring",
+    "source_sha256": "6e26c2d18401fc5d38c591f3e389b291e78149906bd10e8d542b27c18729a5d9",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C018",
+    "original_title": "Lab bài tập buổi 8-logistic regression",
+    "source_sha256": "e3e855099e5708dd38674b9b15e7551e98c5272b57ff1a4e379c361db45f261b",
+    "code_cells": 18,
+    "disposition": "COVERED",
+    "path": "../notebooks/regression-classification-toy-lab.ipynb"
+  },
+  {
+    "entry": "C019",
+    "original_title": "Bản sao của VnCoreNLP.ipynb",
+    "source_sha256": "4bdc0b6dfd421346206fe4213345e3e2961d1c4f33220a2dcc12e0209e193331",
+    "code_cells": 2,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c019-vietnamese-nlp-and-language-models.ipynb",
+    "topic": "Vietnamese NLP and language models / NLP và mô hình ngôn ngữ",
+    "libraries": [
+      "vncorenlp"
+    ]
+  },
+  {
+    "entry": "C020",
+    "original_title": "Bản sao của PhoBert.ipynb",
+    "source_sha256": "bc0e12ddc42f9a1e8fa115a32812bb2b212ce468fbd3c059e3a6471874ec8596",
+    "code_cells": 6,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c020-vietnamese-nlp-and-language-models.ipynb",
+    "topic": "Vietnamese NLP and language models / NLP và mô hình ngôn ngữ",
+    "libraries": [
+      "torch",
+      "torch.nn.functional",
+      "transformers",
+      "vncorenlp"
+    ]
+  },
+  {
+    "entry": "C021",
+    "original_title": "LAB6_21540008.ipynb",
+    "source_sha256": "cd2f20c1b18517312c3804320d5f59f5cf77995b0fad0db20258e201ce80fd7b",
+    "code_cells": 15,
+    "disposition": "ATTRIBUTION_REVIEW",
+    "note": "Another student identifier/name; ownership not inferred from storage."
+  },
+  {
+    "entry": "C022",
+    "original_title": "ecommerce_intent_ev_notebook.ipynb",
+    "source_sha256": "f087d38b7b00c55a6a864e485eb53511f23c0ce58fd69e5185d1c35aa82e52ee",
+    "code_cells": 17,
+    "disposition": "COVERED",
+    "path": "../notebooks/ecommerce-intent-expected-value.ipynb"
+  },
+  {
+    "entry": "C023",
+    "original_title": "Bản sao của DecisionTree.ipynb",
+    "source_sha256": "3a43a0b066c77c5c6d69dd11207b6491bfe5262c24e4a37878e5640136dee5ae",
+    "code_cells": 10,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c023-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "matplotlib.pyplot",
+      "numpy",
+      "pandas",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.tree"
+    ]
+  },
+  {
+    "entry": "C024",
+    "original_title": "Untitled6.ipynb",
+    "source_sha256": "2c1a8bbac171a2e71cdb28466e387d370e3fba9eb9e005f8f2aa09f21c9857bc",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C025",
+    "original_title": "HW_HaMinhTan_03.ipynb",
+    "source_sha256": "c48b47f66bec0867b0aebf2c7dd63d489f26185f680f71d117783ac34a797da2",
+    "code_cells": 2,
+    "disposition": "ATTRIBUTION_REVIEW",
+    "note": "Another student identifier/name; ownership not inferred from storage."
+  },
+  {
+    "entry": "C026",
+    "original_title": "25410008_Lab01.ipynb",
+    "source_sha256": "634a2120b4ee74140b85529df1b10c051384bab293004b428d1a18fd0badeb20",
+    "code_cells": 175,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C027",
+    "original_title": "AEGI_Credit_Scoring_AI_Verify_Test_v1.0.ipynb",
+    "source_sha256": "d30c9180b087d4003cd0ae3344759f6fda8bae8c46e052643fdf3c09af3d4335",
+    "code_cells": 10,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C028",
+    "original_title": "AEGI Credit Scoring – v1.4.1 clean",
+    "source_sha256": "a6133c4b884e286328c74ac4c884d8544699bc53670c8b32d938d07991e404ff",
+    "code_cells": 2,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C029",
+    "original_title": "AEGI Credit Scoring – v1.4.1 clean",
+    "source_sha256": "9a23e1455db43765c69783dfb15cfa4fab29d5b147761cac8f74c0bf59d310f2",
+    "code_cells": 12,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C030",
+    "original_title": "Bản sao AEGI Credit Scoring - Clean colab light v1.4.1",
+    "source_sha256": "a517173d79a145a7edafcaef52a4c9b5b2f40420c7fb34d19c7a35f2d11693db",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C031",
+    "original_title": "AEGI Credit Scoring - Clean colab light v1.4",
+    "source_sha256": "f92127432fcdbd7cfe9e4b65966e265347d1b1f9cfa6eb9582aa111abc42bcca",
+    "code_cells": 3,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C032",
+    "original_title": "final của Đề tài nhóm 9- Chấm điểm tín dụng cá nhân.ipynb",
+    "source_sha256": "072c0fcb11b9f7bd28d4d57401494bfafc69a170e9a1a95813f36ad5935edd3e",
+    "code_cells": 29,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C033",
+    "original_title": "Bản sao của Bản sao của Đề tài nhóm 9- Chấm điểm tín dụng cá nhân.ipynb",
+    "source_sha256": "f79e6f3253f1ee008e8343f55e6b0b4d4b1a0aaf90031faf8a1268c973e75695",
+    "code_cells": 28,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C034",
+    "original_title": "Đề tài nhóm 9- Chấm điểm tín dụng cá nhân.ipynb",
+    "source_sha256": "d715209fe13281421b16af9e3862d8049f57c27ea4521c317f69cb93a663a644",
+    "code_cells": 20,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C035",
+    "original_title": "Aegi.ipynb",
+    "source_sha256": "bc981ac3dff71ebcdd91adb0ed6d48f6c6c9d8a7d0062916c941501e42e44877",
+    "code_cells": 2,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C036",
+    "original_title": "25410008_Random_ Forests _XGBoost.ipynb",
+    "source_sha256": "2a0ce3cc12a0940513be1cbf04121a6479e40d749c990c2162d335abff969bf2",
+    "code_cells": 14,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c036-tree-ensembles.ipynb",
+    "topic": "Tree ensembles / Mô hình tổ hợp cây",
+    "libraries": [
+      "google.colab",
+      "lightgbm",
+      "matplotlib.pyplot",
+      "numpy",
+      "pandas",
+      "sklearn.datasets",
+      "sklearn.ensemble",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "time",
+      "xgboost"
+    ]
+  },
+  {
+    "entry": "C037",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C038",
+    "original_title": "Random_ Forests _XGBoost - Copy.ipynb",
+    "source_sha256": "4589265e21a5e258601e1731458ce48b31d4683b968136e66e366f529ad24b16",
+    "code_cells": 15,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c038-tree-ensembles.ipynb",
+    "topic": "Tree ensembles / Mô hình tổ hợp cây",
+    "libraries": [
+      "google.colab",
+      "lightgbm",
+      "matplotlib.pyplot",
+      "numpy",
+      "sklearn.datasets",
+      "sklearn.ensemble",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "time",
+      "xgboost"
+    ]
+  },
+  {
+    "entry": "C039",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C040",
+    "original_title": "Buoi_04.Multi-class_Classification_BaiTap.ipynb",
+    "source_sha256": "8e14c51bf49b04909207600982918ff573c5a3679ea9dc936d729e3829132a6c",
+    "code_cells": 17,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c040-logistic-regression.ipynb",
+    "topic": "Logistic regression / Hồi quy logistic",
+    "libraries": [
+      "matplotlib.pyplot",
+      "numpy",
+      "pandas",
+      "seaborn",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.multiclass",
+      "sklearn.preprocessing",
+      "warnings"
+    ]
+  },
+  {
+    "entry": "C041",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C042",
+    "original_title": "Logistic_Regression_BaiTap.ipynb",
+    "source_sha256": "ce0fb66851a4b4c53cc059ffe363216e5920e0e0e71cb2f7daad3aea2aab8e7b",
+    "code_cells": 13,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c042-logistic-regression.ipynb",
+    "topic": "Logistic regression / Hồi quy logistic",
+    "libraries": [
+      "matplotlib.pyplot",
+      "numpy",
+      "pandas",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.preprocessing",
+      "warnings"
+    ]
+  },
+  {
+    "entry": "C043",
+    "original_title": "Untitled5.ipynb",
+    "source_sha256": "cf7006965ae9d3b3f275f24beb290d9b17bf8e58b2c2cfbe5e47137429981f98",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C044",
+    "original_title": "Bản sao của V3.ipynb",
+    "source_sha256": "4e54da8041daf2faab7a2617cbdc49ffdbe54ccd886adc29eec35af66525099b",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C045",
+    "original_title": "V3.ipynb",
+    "source_sha256": "1a5ca12e6d12efd0fbf1b49458a4f53e4d701028fd354eef841cf7c2595042fe",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C046",
+    "original_title": "ai-thingking-AUC~1.ipynb",
+    "source_sha256": "c600d59f0fc8625261cce333b55309d219b6b385b4921cc82aaaefd985ae4d05",
+    "code_cells": 3,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C047",
+    "original_title": "Bản sao của Bản sao của V3.ipynb",
+    "source_sha256": "324fd76c0ebce90595629109955efc2c0003e8f33f64fe5d7acddfe1ed26d64b",
+    "code_cells": 4,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C048",
+    "original_title": "Bản sao của Bản sao của V3.ipynb",
+    "source_sha256": "d958304e850f2a8eb7517608c89e39028e2a89f3039bc0c498ef3b3c53049e16",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C049",
+    "original_title": "Untitled2.ipynb",
+    "source_sha256": "ca16fb3fee9b67b5300a28ee7d5ac0347a53a264e45dabd4a5b091734250ebdd",
+    "code_cells": 1,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C050",
+    "original_title": "problem_12_best_auto.ipynb",
+    "source_sha256": "562ae84a4cbd2f37649b27af1f21f66368ee1f06f8897340544df9827b38e659",
+    "code_cells": 9,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c050-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "scipy.spatial.distance",
+      "tqdm",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C051",
+    "original_title": "3566_output.ipynb",
+    "source_sha256": "e1ec573acfdfbf198920a7984e9d7144a564fcf9395139a22fa82c3b95a85178",
+    "code_cells": 10,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c051-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "scipy.spatial.distance",
+      "tqdm",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C052",
+    "original_title": "3582.ipynb",
+    "source_sha256": "51551b9d7ede733a3da9d8dac6c175696336ab114b2ea2592b463dad62d30cbd",
+    "code_cells": 9,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c052-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "scipy.spatial.distance",
+      "tqdm",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C053",
+    "original_title": "3526_output.ipynb",
+    "source_sha256": "239f9eb1d94dba5b54e3db6c3e592f2ca14fcf61fd856780fee17b8810f6e9cd",
+    "code_cells": 9,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c053-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "scipy.spatial.distance",
+      "tqdm",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C054",
+    "original_title": "V4.ipynb",
+    "source_sha256": "c8d038c834b48fdb0c7a2f432ba2307b1a99c2bcd1ba9c6a5be9e423fcd07b12",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C055",
+    "original_title": "3248.ipynb",
+    "source_sha256": "3370971273a8f88cbb05ea240761242c8ebc9bce25a32b00a715f7f11f38fae9",
+    "code_cells": 18,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c055-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C056",
+    "original_title": "BT Về nhà 8_Bản sao của DeepSeek-R1-Distill-Qwen-1.5B.ipynb",
+    "source_sha256": "f1ac351c77ec22b6c5bef69eec105f37656c9f659ad8bce1929df7be9da89aa5",
+    "code_cells": 11,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c056-vietnamese-nlp-and-language-models.ipynb",
+    "topic": "Vietnamese NLP and language models / NLP và mô hình ngôn ngữ",
+    "libraries": [
+      "re",
+      "transformers"
+    ]
+  },
+  {
+    "entry": "C057",
+    "original_title": "Bài tập về nhà buổi 7 - Lập trình python.ipynb",
+    "source_sha256": "2749d0c77a25f548f59be1efc2ea38c4ce02947dcc3dfba9783aa52804a91ad3",
+    "code_cells": 9,
+    "disposition": "COVERED",
+    "path": "../notebooks/mnist-fully-connected-network.ipynb"
+  },
+  {
+    "entry": "C058",
+    "original_title": "Bản sao của handwritten_mnist.ipynb",
+    "source_sha256": "673adb448aa05b062898282460acf425d6a6e52d7bd735a75405d4db1d77db8d",
+    "code_cells": 9,
+    "disposition": "COVERED",
+    "path": "../notebooks/mnist-fully-connected-network.ipynb"
+  },
+  {
+    "entry": "C059",
+    "original_title": "problem 3.ipynb",
+    "source_sha256": "79236abd5dd71b2676eec5be0773856f282f23e354d8dcea6e905871f39eb9cd",
+    "code_cells": 17,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c059-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C060",
+    "original_title": "3104_output (2).ipynb",
+    "source_sha256": "4a808986ae87236e16c0925d05f9f4f244dfa9936fde8b8af7404bf935576352",
+    "code_cells": 18,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c060-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C061",
+    "original_title": "3195.ipynb",
+    "source_sha256": "d1416a65057db62e0b6e73ddd64121e0d8c7500d2a69b7a1947c0189b025cac0",
+    "code_cells": 18,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c061-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "os",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C062",
+    "original_title": "02410008-Truong Minh Hoang.ipynb",
+    "source_sha256": "5488cb21c018b4fc082e19311f9d18caa68c0daac1faca37959a86f259308e18",
+    "code_cells": 8,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c062-logistic-regression.ipynb",
+    "topic": "Logistic regression / Hồi quy logistic",
+    "libraries": [
+      "collections",
+      "os",
+      "pathlib"
+    ]
+  },
+  {
+    "entry": "C063",
+    "original_title": "Untitled4.ipynb",
+    "source_sha256": "73d227d7b7e8ba505b3d0b78fe4a1562d0995923cbcec416fe98d5eb47c16be4",
+    "code_cells": 1,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c063-matplotlib-diagrams.ipynb",
+    "topic": "Matplotlib diagrams / Vẽ sơ đồ bằng Python",
+    "libraries": [
+      "matplotlib.patches",
+      "matplotlib.pyplot"
+    ],
+    "try_run": true,
+    "execution": "PASS",
+    "executed_code_cells": 2,
+    "execution_note": "Source cells executed; this is not an algorithm correctness benchmark."
+  },
+  {
+    "entry": "C064",
+    "original_title": "Untitled3.ipynb",
+    "source_sha256": "7807cb8e2674f02fe50ae910bd3029d4afbff3ed9fce406a51c31320290d1edb",
+    "code_cells": 1,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c064-matplotlib-diagrams.ipynb",
+    "topic": "Matplotlib diagrams / Vẽ sơ đồ bằng Python",
+    "libraries": [
+      "matplotlib.patches",
+      "matplotlib.pyplot"
+    ],
+    "try_run": true,
+    "execution": "PASS",
+    "executed_code_cells": 2,
+    "execution_note": "Source cells executed; this is not an algorithm correctness benchmark."
+  },
+  {
+    "entry": "C065",
+    "original_title": "problem (9).ipynb",
+    "source_sha256": "88e44d151e9df15a3638d162b288067af7ce6a4feab9c9a6e766a5875a9c62fd",
+    "code_cells": 18,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c065-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C066",
+    "original_title": "3107.ipynb",
+    "source_sha256": "c69a5fdff110f64c40fa0be4f4270166e0aae02651c66c3b0d37fd8832e968db",
+    "code_cells": 18,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c066-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C067",
+    "original_title": "3107.ipynb",
+    "source_sha256": "abb1754894d4150e231ea715abaa675fb4a92a628119daa867d8d1a2f5ad25b4",
+    "code_cells": 18,
+    "disposition": "DUPLICATE",
+    "path": "c066-text-processing-and-word-representations.ipynb"
+  },
+  {
+    "entry": "C068",
+    "original_title": "3104_output.ipynb",
+    "source_sha256": "9aa452a4fa6224bf26ee54b55a8eda15856fc1b54cf2e8dda88c3334e9ebca4d",
+    "code_cells": 18,
+    "disposition": "DUPLICATE",
+    "path": "c066-text-processing-and-word-representations.ipynb"
+  },
+  {
+    "entry": "C069",
+    "original_title": "3105.ipynb",
+    "source_sha256": "ea0b8f9224cd4694a0cb3668fb5d02dfcddc97432a3c246178bd9679ddb46573",
+    "code_cells": 18,
+    "disposition": "DUPLICATE",
+    "path": "c066-text-processing-and-word-representations.ipynb"
+  },
+  {
+    "entry": "C070",
+    "original_title": "problem.ipynb",
+    "source_sha256": "86f8e7be2d75476c7fb3f7daa67369fd665a1d59eb672b278c2e548ae86890ec",
+    "code_cells": 18,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c070-text-processing-and-word-representations.ipynb",
+    "topic": "Text processing and word representations / Xử lý văn bản và biểu diễn từ",
+    "libraries": [
+      "collections",
+      "nltk",
+      "nltk.tokenize",
+      "numpy",
+      "typing"
+    ]
+  },
+  {
+    "entry": "C071",
+    "original_title": "1340_output.ipynb",
+    "source_sha256": "5ce21453b7501eb391caae857ce3d037fc639897e6524bc9ee3ceb8126087464",
+    "code_cells": 12,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c071-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "os",
+      "re"
+    ]
+  },
+  {
+    "entry": "C072",
+    "original_title": "1339_output.ipynb",
+    "source_sha256": "7e40ed4dd08232dc7f86ff13df6a0bf7d4247337515b6a63769170945bafcaac",
+    "code_cells": 12,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c072-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "os",
+      "re"
+    ]
+  },
+  {
+    "entry": "C073",
+    "original_title": "1338_output.ipynb",
+    "source_sha256": "e9a708ebb676034dd2773c5a72120b9e0c088805d419027df6aec96e4481e055",
+    "code_cells": 13,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c073-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "os",
+      "re"
+    ]
+  },
+  {
+    "entry": "C074",
+    "original_title": "1337_output.ipynb",
+    "source_sha256": "277f74f8d26609e8f37301ae47dec122063e3dca918b3986bb07359534ed2dfe",
+    "code_cells": 12,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c074-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "os",
+      "re"
+    ]
+  },
+  {
+    "entry": "C075",
+    "original_title": "Untitled",
+    "source_sha256": "4875ef28f50f27f2c53b7c5204911d72aea52f70901631cff23d48252716d9f2",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C076",
+    "original_title": "PCA - Mathematics.ipynb",
+    "source_sha256": "528417f36a943e97e13f3721b503fd2298ca952b5f7a96db2214f008d02bc5e1",
+    "code_cells": 2,
+    "disposition": "COVERED",
+    "path": "../notebooks/pca-dot-product.ipynb"
+  },
+  {
+    "entry": "C077",
+    "original_title": "Bản sao của LogisticRegression_Application.ipynb",
+    "source_sha256": "383ed6dce9f893aa2110f69e01e01702ea12fa296719d9c121cfe550bbdb7859",
+    "code_cells": 14,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c077-logistic-regression.ipynb",
+    "topic": "Logistic regression / Hồi quy logistic",
+    "libraries": [
+      "matplotlib.pyplot",
+      "pandas",
+      "seaborn",
+      "sklearn",
+      "sklearn.datasets",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection"
+    ],
+    "try_run": true,
+    "execution": "PASS",
+    "executed_code_cells": 14,
+    "execution_note": "Source cells executed; this is not an algorithm correctness benchmark."
+  },
+  {
+    "entry": "C078",
+    "original_title": "Bản sao của Simple_LogisticRegression.ipynb",
+    "source_sha256": "912a6364bba637e05cfb787e27938e5f6c032d98b682d4f3bae175d59f043b16",
+    "code_cells": 8,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c078-logistic-regression.ipynb",
+    "topic": "Logistic regression / Hồi quy logistic",
+    "libraries": [
+      "__future__",
+      "matplotlib.pyplot",
+      "numpy",
+      "scipy.spatial.distance",
+      "seaborn",
+      "sklearn.metrics"
+    ],
+    "try_run": true,
+    "execution": "PASS",
+    "executed_code_cells": 8,
+    "execution_note": "Source cells executed; this is not an algorithm correctness benchmark."
+  },
+  {
+    "entry": "C079",
+    "original_title": "Bản sao của Simple_LogisticRegression.ipynb",
+    "source_sha256": "991269c4baf83ca0395b35af62cf77cad9ca04d4711e3596fd679e10ef69c19d",
+    "code_cells": 8,
+    "disposition": "DUPLICATE",
+    "path": "c078-logistic-regression.ipynb"
+  },
+  {
+    "entry": "C080",
+    "original_title": "Kmeans with Python.ipynb",
+    "source_sha256": "85bbfb60cc35e1dc5db2252170e41eded78ccd0435a45107c7cd4b0ca4acfd99",
+    "code_cells": 9,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c080-k-means-and-clustering.ipynb",
+    "topic": "K-means and clustering / Phân cụm",
+    "libraries": [
+      "__future__",
+      "google.colab",
+      "matplotlib.pyplot",
+      "numpy",
+      "scipy.spatial.distance",
+      "sklearn.cluster"
+    ]
+  },
+  {
+    "entry": "C081",
+    "original_title": "25410008_LinearRegression a.ipynb",
+    "source_sha256": "425c236a109eaa84264b14bd2189a2b8aed239d54c6b093284b37c3e5b8dbfee",
+    "code_cells": 6,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c081-linear-regression.ipynb",
+    "topic": "Linear regression / Hồi quy tuyến tính",
+    "libraries": [
+      "numpy",
+      "pandas",
+      "sklearn.linear_model",
+      "sklearn.metrics",
+      "sklearn.model_selection",
+      "sklearn.preprocessing"
+    ]
+  },
+  {
+    "entry": "C082",
+    "original_title": "25410008.ipynb",
+    "source_sha256": "54ea523bd22cf962949d1576733802290705c996781834fa49d63f438ffbca17",
+    "code_cells": 2,
+    "disposition": "COVERED",
+    "path": "../notebooks/python-input-and-csv-tuples.ipynb"
+  },
+  {
+    "entry": "C083",
+    "original_title": "25410008_truong minh hoang.ipynb",
+    "source_sha256": "b08b2ab977966d34c528e8b96f9d593e829c84aa3c2735e9377a6253c1d381ca",
+    "code_cells": 4,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c083-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": []
+  },
+  {
+    "entry": "C084",
+    "original_title": "Untitled1.ipynb",
+    "source_sha256": "fbd9d5af1110abc6724e41436c70b461f96e8fa63b6f39b343ec748160a8bd39",
+    "code_cells": 1,
+    "disposition": "ARCHIVED_SOURCE",
+    "path": "c084-python-practice.ipynb",
+    "topic": "Python practice / Thực hành Python",
+    "libraries": [
+      "matplotlib.pyplot",
+      "numpy",
+      "scipy.linalg"
+    ],
+    "try_run": true,
+    "execution": "PASS",
+    "executed_code_cells": 2,
+    "execution_note": "Source cells executed; this is not an algorithm correctness benchmark."
+  },
+  {
+    "entry": "C085",
+    "original_title": "Untitled0.ipynb",
+    "source_sha256": "1308ccdc8845ec763109d2a7d5d6403c922e5103fffcf882deab94c68787e920",
+    "code_cells": 4,
+    "disposition": "COVERED",
+    "path": "../notebooks/nonlinear-clustering-comparison.ipynb"
+  },
+  {
+    "entry": "C086",
+    "original_title": "KLTN_RQ1_EDGE_DIRECTION_AUDIT_COLAB_20261021.ipynb",
+    "source_sha256": "d64dad7c5c2bb211447800a09f5ccba940cf540b9221b643dadbb57772010724",
+    "code_cells": 2,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C087",
+    "original_title": "KLTN_DEMO_v2.1.ipynb",
+    "source_sha256": "3193a00f5648dba26f7785df08bfc4e6d634f54a9d5c18bcc168b0218134736a",
+    "code_cells": 6,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C088",
+    "original_title": "02_RQ1_DGRAPHFIN_v2_1.ipynb",
+    "source_sha256": "36875ff5e1ef776f8f2972e933f8724370e068f1df610e715d777fe885a32fbf",
+    "code_cells": 9,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C089",
+    "original_title": "AEGI_PAR_M4_2_R1B_LIVE_PROVIDER_SMOKE.ipynb",
+    "source_sha256": "a796e58ae090cb98070fdeb72cb1869e711f5487b15cf2a5044fa5c54d7f4939",
+    "code_cells": 9,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C090",
+    "original_title": "AEGI_PAR_M4_2_ONE_SHOT_LIVE_EVAL.ipynb",
+    "source_sha256": "6507e31e0dec7f15dc5249d726e08c29b6747d643e5fe807d984fe61dce83156",
+    "code_cells": 10,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C091",
+    "original_title": "03_RQ2_SHARED_CONTEXT_ROUTING_v2_1.ipynb",
+    "source_sha256": "01117e099e8d1a5e75645dc14e24d665f66075690b9f07ca0e16b23c984869c1",
+    "code_cells": 8,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C092",
+    "original_title": "00_DATA_FEASIBILITY_v2_1.ipynb",
+    "source_sha256": "3e475f3dc8ae1d6366ecb1177bc0d8415489167ea5cc3b2c66b58f8b21bef59c",
+    "code_cells": 9,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C093",
+    "original_title": "01_CREDIT_OUTPUTS_v2_1.ipynb",
+    "source_sha256": "51e285f556086aa1c7c1acd6534eb9aa07a6cd14a05283d2b00028e59609cdab",
+    "code_cells": 7,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C094",
+    "original_title": "Untitled2.ipynb",
+    "source_sha256": "248052c8d00fe309d4d73db7b819b7628c93754c534c2595dd7d1b8abba37510",
+    "code_cells": 3,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C095",
+    "original_title": "00_DATA_FEASIBILITY_v2.ipynb",
+    "source_sha256": "904a83135dbe2fa7fd9be5f8041964af30ec63426c8cc20247f171d3004b6009",
+    "code_cells": 6,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C096",
+    "original_title": "00_ieee_cis_smoke_test_COLAB_FULL.ipynb",
+    "source_sha256": "9604e5df7d18dd016c0189910c7030d31802569586c2795f41ab50a6bb2d270b",
+    "code_cells": 31,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C097",
+    "original_title": "00_ieee_cis_smoke_test.ipynb",
+    "source_sha256": "517f9346d7ab39870074af128d1b7cff3be8fc1c00eb392ddde9cd77f51945a1",
+    "code_cells": 5,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C098",
+    "original_title": "AEGI_Shield_Benchmark_v0.1_Colab_Training.ipynb",
+    "source_sha256": "3896f63d1e5da7b2a7faedbe53b6e7889505dd3dfb758fbdc620f081bd701e56",
+    "code_cells": 25,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C099",
+    "original_title": "00_AEGI_MEB_v0.2_Viability_Evidence_Collector.ipynb",
+    "source_sha256": "a33803a4463e245ebe74b3f446c2aba241bd3ac6a2f3234429cb629b7693708d",
+    "code_cells": 4,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C100",
+    "original_title": "Untitled0.ipynb",
+    "source_sha256": "918933bf3420d55404be40c6c3a6caa24bc1fb8685a0a451c39819bd8addac13",
+    "code_cells": 2,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  },
+  {
+    "entry": "C101",
+    "original_title": "Untitled1.ipynb",
+    "source_sha256": "4374ae3b91ab5813413d5c021ca03838617d3e5b1c2a572aef756f187861ef4e",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C102",
+    "original_title": "Untitled",
+    "source_sha256": "0d959d2cfb3e4be776c1392546c442eb9f6ad5a31e4c2abdcbd1e5eef1d506f9",
+    "code_cells": 1,
+    "disposition": "EMPTY",
+    "note": "Empty notebook; no separate learning artifact."
+  },
+  {
+    "entry": "C103",
+    "original_title": "AEGI_Shield_Benchmark_v0.1_Colab_Training_RC3_Rerun_FINAL.ipynb",
+    "source_sha256": "102f453d4fbec9afce237eb9821b45c9aa4745513d28a68bb416a1a908facb57",
+    "code_cells": 20,
+    "disposition": "PROJECT_SOURCE",
+    "note": "Tracked with its project; not republished as a mini lab."
+  }
+]
