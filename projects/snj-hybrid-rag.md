@@ -1,39 +1,38 @@
-# SNJ Hybrid RAG Jewelry Advisor / Tư vấn trang sức bằng Hybrid RAG
+# SNJ Hybrid RAG Jewelry Advisor / Hệ thống tư vấn trang sức bằng Hybrid RAG
 
-**Evidence / Bằng chứng:** UIT Advanced ML course report (July 2026), `SNJ_RAG_Colab_Demo_HYBRID_RAG.ipynb` named in report; raw dataset/source not published here.
+[Tiếng Việt](#tiếng-việt) · [English](#english)
 
-## English case study
+## Tiếng Việt
 
-**Context:** Jewelry shoppers describe goals rather than fixed product names: “ruby stones for earrings,” “yellow 8 mm bracelet,” or “certified jade bangle.” Keyword matching alone can confuse loose stones with completed rings or different bracelet types.
+### Bối cảnh và bài toán
+Trong kinh doanh đá quý, khách hàng thường mô tả **nhu cầu** hơn là tên sản phẩm chính xác: “đá ruby để làm bông tai”, “vòng vàng cỡ 8 mm” hoặc “vòng cẩm thạch có kiểm định”. Tôi chọn bài toán **hiểu yêu cầu tiếng Việt và tìm đúng nhóm sản phẩm** để nghiên cứu Hybrid RAG.
 
-**Problem:** Given a Vietnamese natural-language request, identify purchase intent and constraints, retrieve eligible products from a catalog, and produce a grounded response.
+- **Input:** câu hỏi khách hàng và catalog theo loại sản phẩm, đá, màu, kích thước, trọng lượng, giá, chứng thư và mô tả.
+- **Output:** danh sách sản phẩm xếp hạng Top-k, thông tin phù hợp và câu trả lời ngắn dựa trên dữ liệu catalog.
+- **Dữ liệu trong báo cáo môn học:** **376 sản phẩm, 22 cột**.
+- **Ràng buộc:** phân biệt đá rời với trang sức thành phẩm; xử lý thông tin thiếu, tên đá chuyên ngành, thay đổi giá/tồn kho và truy vấn chưa đủ rõ.
 
-**Input:** buyer query, catalog fields (type, gemstone, color, size, weight/ct, price, certification and description). The coursework report lists **376 products and 22 columns**.
+### Phương pháp
+Tôi thiết kế chuỗi xử lý theo hướng **intent → lọc danh mục/thuộc tính → kết hợp dense retrieval và TF-IDF → reranking theo quy tắc → diễn giải kết quả**. LLM có thể giúp diễn đạt tự nhiên; quyết định chọn sản phẩm vẫn dựa trên bước truy hồi và điều kiện nghiệp vụ.
 
-**Output:** ranked top-k candidate products, relevant metadata, a concise text explanation and an explicit insufficient-information response when needed. LLM paraphrasing is optional; retrieval is responsible for selection.
+Điểm tôi muốn giải quyết là **đúng loại hàng trước, diễn đạt hay sau**. Chẳng hạn, khách cần ruby rời để chế tác không nên nhận một danh sách nhẫn ruby hoàn thiện chỉ vì tên đá trùng nhau.
 
-**Approach:** intent routing → strict category/attribute filtering → multilingual dense embeddings + TF-IDF → rule-aware/business reranking → template-grounded answer or optional Gemini wording.
+### Kết quả và hướng cải tiến
+Báo cáo đồ án ghi nhận các chỉ số truy hồi đạt **100% trên nhóm truy vấn thử nghiệm đã chọn**, với keyword MRR **1,00**. Quy mô kiểm thử còn nhỏ, nên bước tiếp theo của tôi là lập tập câu hỏi độc lập, so sánh với tìm kiếm mặc định WooCommerce, đo tỷ lệ sai danh mục, latency, tình huống không có kết quả và tính cập nhật của catalog.
 
-**Constraints:** prevent loose-stone/finished-jewelry mismatches; do not invent certification, stock, price or properties; avoid showing outdated product details; protect store data; ensure an abstention path.
+## English
 
-**Reported evaluation:** The course report states Category Accuracy@k, Top-1/Top-3 keyword match of **100%** and keyword MRR of **1.00** on the selected internal queries. This **does not establish broad generalization**: the test set is small/domain-curated, and no independent WooCommerce A/B test or conversion uplift has been verified.
+### Context
+Jewelry shoppers often express purchase intent in natural language rather than matching product titles. The core challenge is retrieving the **right kind of item**—for example, loose ruby stones instead of finished ruby earrings.
 
-**Decision and trade-off:** Domain rules can reduce obvious category errors more reliably than extra prompt instructions. Dense retrieval improves semantic matching; keywords preserve rare stone terms and certificate names. However, hard filters can suppress relevant items when metadata is missing.
+- **Input:** Vietnamese buyer query and a structured gemstone/jewelry catalog.
+- **Output:** ranked Top-k candidates with relevant metadata and a catalog-grounded answer.
+- **Dataset in the course report:** **376 items and 22 columns**.
+- **Constraints:** strict product-type matching, missing attributes, specialist terminology, and price/stock freshness.
 
-**Next validation:** audit the catalog and licenses; split held-out queries by user intent; compare default WooCommerce search, dense-only, lexical-only, hybrid with ablations; report Recall@k/MRR, wrong-category rate, abstention accuracy, latency, hallucination rate; test on snj.vn privately before any public sales operation.
+### Approach and learning
+I explored intent routing, category and attribute filters, multilingual semantic search plus TF-IDF, business-aware reranking and optional LLM wording. The main design choice was to separate **product selection** from **response generation**.
 
-**Role:** Identified as the author's individual UIT project in its report. Code and reported metrics still require a clean replay before making production claims.
+The coursework reports **100% keyword-based results on its selected internal queries**, including MRR **1.00**. My next step is a broader held-out query set, ablation against lexical/dense-only search and read-only WooCommerce testing on realistic requests.
 
-## Hồ sơ tiếng Việt
-
-- **Bối cảnh:** khách mua đá quý tìm theo ý định, công dụng, màu, size, mệnh hoặc ngân sách; tên sản phẩm có thể không trùng lời hỏi.
-- **Bài toán:** hiểu câu hỏi tiếng Việt, lọc đúng nhóm sản phẩm, xếp hạng và phản hồi có căn cứ từ catalog.
-- **Input:** truy vấn người mua + thuộc tính sản phẩm. Báo cáo dùng **376 sản phẩm / 22 cột**.
-- **Output:** danh sách sản phẩm Top-k và lý do phù hợp; nếu dữ liệu thiếu thì cần từ chối khẳng định.
-- **Phương pháp:** phân loại intent, lọc metadata, tìm kiếm dense + TF-IDF, chấm điểm quy tắc nghiệp vụ, tạo câu trả lời theo template hoặc LLM tùy chọn.
-- **Ràng buộc:** không lẫn đá rời và trang sức hoàn thiện, không tự suy diễn giá/chứng thư/tồn kho, không thực hiện giao dịch thật khi dữ liệu chưa xác minh.
-- **Bằng chứng:** báo cáo môn học ghi các chỉ số 100% trên tập truy vấn chọn lọc. Đây là **thử nghiệm nhỏ**, chưa chứng minh hiệu quả chuyển đổi bán hàng hay triển khai production.
-- **Trade-off:** rule giúp giữ đúng nghiệp vụ nhưng có thể quá chặt với dữ liệu thiếu; LLM làm câu trả lời tự nhiên hơn nhưng không được tự thay đổi kết quả retrieval.
-- **Bước tiếp:** chạy lại notebook, đối chiếu WordPress/WooCommerce baseline, mở rộng test set độc lập, đo latency và các trường hợp thất bại.
-
-**IP/privacy boundary / Phạm vi công bố:** No live product API credentials, private catalog export or customer conversations are uploaded.
+*Coursework: UIT Advanced Machine Learning, July 2026.*
