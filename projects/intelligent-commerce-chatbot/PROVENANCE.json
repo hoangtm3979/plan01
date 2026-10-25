@@ -1,0 +1,14 @@
+{
+  "project": "Intelligent Commerce Chatbot",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "implementation_evidence": "DESIGN_RECORD; no separate runnable artifact verified"
+}

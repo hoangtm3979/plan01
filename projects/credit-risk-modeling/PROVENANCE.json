@@ -1,0 +1,31 @@
+{
+  "project": "Credit Risk Modeling",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [
+    {
+      "project": "credit-risk-modeling",
+      "original_filename": "Bản_V3_1_deploy.ipynb",
+      "source_sha256": "300d0c3f70a595fe696f2187c2794c0d4d096059655a749a39ba239fb163b03d",
+      "published_path": "projects/credit-risk-modeling/research/credit-risk-logistic-lightgbm-v3.1.ipynb",
+      "status": "ARCHIVED_SOURCE",
+      "full_execution": "NOT_RUN",
+      "github_blob_sha": "ae011d2f2d2d1780e30a07ee2e913ac272c0aa85",
+      "source_url": "https://github.com/hoangtm3979/credit/blob/main/B%E1%BA%A3n_V3_1_deploy.ipynb",
+      "published_sha256": "36a88c2d0047c8aab16ee716ff6a156feff7a20041831aad99be3ac4d51db17c"
+    }
+  ],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "historical_publication_edits": [
+    "Removed extraneous syntax token in to_float_percent.",
+    "Replaced machine-specific input/output paths with CREDIT_DATA_DIR/CREDIT_OUTPUT_DIR.",
+    "Removed unverified No-Leakage wording; algorithmic gaps retained in AUDIT.md.",
+    "Old outputs and runtime metadata removed; explanatory source-review heading added."
+  ]
+}

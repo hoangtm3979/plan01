@@ -1,0 +1,124 @@
+{
+  "started_at_utc": "2026-10-25T16:47:56.765242+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "jupyter-client": "8.10.0"
+  },
+  "execution_settings": {
+    "PYTHONHASHSEED": "42",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2",
+    "TF_ENABLE_ONEDNN_OPTS": "0",
+    "TF_CPP_MIN_LOG_LEVEL": "2",
+    "PYDEVD_DISABLE_FILE_VALIDATION": "1"
+  },
+  "mode": "full_data",
+  "fresh_kernel_per_notebook": true,
+  "fresh_process_per_notebook": true,
+  "backend": "ipykernel.inprocess",
+  "kernel_transport": "inprocess-no-sockets",
+  "notebooks": [
+    {
+      "notebook": "01_product_retrieval_and_constraints.ipynb",
+      "source_sha256": "41f243a0734d7e508de558dc2f64f5983e17d693f230d2c8121b7e7562794ba8",
+      "code_cells": 7,
+      "status": "PASS",
+      "executed_code_cells": 7,
+      "started_at_utc": "2026-10-25T16:47:56.972881+00:00",
+      "metrics": {
+        "status": "PASS",
+        "scope": "synthetic catalog constraint checks",
+        "mode": "lexical_rules",
+        "fictional_catalog_rows": 12,
+        "scenario_checks": [
+          {
+            "query": "ruby rời dưới 1 triệu",
+            "expected": [
+              "DEMO-001"
+            ],
+            "actual": [
+              "DEMO-001"
+            ],
+            "passed": true
+          },
+          {
+            "query": "lắc tay citrine 8ly",
+            "expected": [
+              "DEMO-003"
+            ],
+            "actual": [
+              "DEMO-003"
+            ],
+            "passed": true
+          },
+          {
+            "query": "lắc tay citrine 8ly5",
+            "expected": [
+              "DEMO-004"
+            ],
+            "actual": [
+              "DEMO-004"
+            ],
+            "passed": true
+          },
+          {
+            "query": "vòng cẩm thạch size 52 kiểm định PNJ",
+            "expected": [
+              "DEMO-006"
+            ],
+            "actual": [
+              "DEMO-006"
+            ],
+            "passed": true
+          },
+          {
+            "query": "nhẫn nam garnet",
+            "expected": [
+              "DEMO-012"
+            ],
+            "actual": [
+              "DEMO-012"
+            ],
+            "passed": true
+          },
+          {
+            "query": "nhẫn sapphire",
+            "expected": [],
+            "actual": [],
+            "passed": true
+          }
+        ],
+        "local_catalog_audit": {
+          "status": "REQUIRES_ID_REVIEW",
+          "rows": 376,
+          "columns": 22,
+          "sha256": "408df070d1979cc430e5f6c47f50f075d7590696d8cc427af6a2f0bfb253a6e2",
+          "unique_product_ids": 371,
+          "duplicate_product_id_rows": 5,
+          "missing_or_nonpositive_prices": 0
+        },
+        "generation": "NOT_RUN",
+        "live_commerce_api": "NOT_RUN",
+        "fresh_dense_evaluation": "NOT_RUN"
+      },
+      "executed_notebook": "notebooks/01_product_retrieval_and_constraints.ipynb",
+      "executed_file_sha256": "81a8f50b1352bc11c399d0790ad2b44d86d6fa32c8ea3f5f5c9f8845f2383b18",
+      "duration_seconds": 1.432,
+      "completed_at_utc": "2026-10-25T16:47:58.377407+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-10-25T16:47:58.849040+00:00",
+  "passed": 1,
+  "total": 1
+}

@@ -1,0 +1,36 @@
+{
+  "project": "SNJ Hybrid RAG Jewelry Advisor",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [
+    {
+      "project": "snj-hybrid-rag-jewelry-advisor",
+      "original_filename": "MSSV_25410008_SNJ_RAG_Colab_Demo_HYBRID_RAG.ipynb",
+      "source_sha256": "20fb134d5a5dcd9ddb7d32f4ba74f4c7907c416c0da4c857a307d65affb56101",
+      "published_path": "projects/snj-hybrid-rag-jewelry-advisor/research/snj-hybrid-retrieval-coursework.ipynb",
+      "status": "ARCHIVED_SOURCE",
+      "full_execution": "NOT_RUN",
+      "published_sha256": "0e4ad82b7ef773bc39ffa440cd8be1e70a014277bca6d09f7d487fe4b2f86b44"
+    }
+  ],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "private_catalog_sha256": "408df070d1979cc430e5f6c47f50f075d7590696d8cc427af6a2f0bfb253a6e2",
+  "dense_model": {
+    "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "fresh_execution": "NOT_RUN: weight download blocked"
+  },
+  "historical_publication_edits": [
+    "Used newer syntactically valid Colab source instead of corrupted ZIP cells.",
+    "Credential-like literal and private metadata/outputs omitted.",
+    "Model/API configuration moved to environment names; no API called.",
+    "Removed unverified store-policy text and changed local I/O paths.",
+    "Old outputs and runtime metadata removed; explanatory source-review heading added."
+  ]
+}

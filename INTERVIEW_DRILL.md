@@ -6,7 +6,7 @@ Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Vi
 
 1. **EN:** At what timestamp is a feature available? **VI:** Đặc trưng này biết được tại thời điểm nào? Explain as-of joins and why `credit_history_length` cannot use today's date for an old decision.
 2. **EN:** What does ROC-AUC 0.936 tell us, and what does it miss? **VI:** AUC 0,936 phản ánh điều gì và còn thiếu điều gì? Thảo luận leakage, calibration, drift, định nghĩa nhãn và chính sách nghiệp vụ.
-3. **EN:** Show how train-only preprocessing works. **VI:** Minh họa `fit` trên train và `transform` trên test; identify the separate imputation risk in current code.
+3. **EN:** Show how train-only preprocessing works. **VI:** Minh họa `fit` trên train và `transform` trên test; identify the separate imputation risk in the archived v3.1 source.
 4. **EN:** Define default or adverse event and observation window precisely. **VI:** Phân biệt overdue, charged-off, default và thời điểm đo.
 5. **EN:** How would you deploy and roll back this model? **VI:** Hãy thiết kế API, versioned artifacts, monitoring và rollback.
 
@@ -61,7 +61,7 @@ Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Vi
 1. Why BM25 and Cross-Encoder? Which stage dominates latency and how would you measure it?
 2. Explain RGB vs HSV, Canny/contours, OCR, and failure cases under low light or occlusion.
 3. What must happen if the retrieved legal provision is outdated, ambiguous or absent?
-4. Verify the Cloud Run revision and metrics independently. How do source dates, Docker image digests and structured logs connect?
+4. Design a deployment record linking corpus version, image digest, runtime revision and logs; distinguish a proposed deployment from a verified one.
 5. Explain Precision@1 vs Recall@K and how to generate a difficult held-out query set.
 
 ## 5. PAR / Human Decision Support
@@ -112,3 +112,14 @@ For **one** project (recommended: sanitized SNJ read-only retrieval or a UCI Win
 8. **Next step / Bước tiếp:** What single test would reduce uncertainty most?
 
 _Practice routine: one project per week; one live code reading, one failure demonstration, one bilingual mock interview, one short screen recording._
+
+
+## Questions grounded in the latest runs / Câu hỏi từ lần chạy mới
+
+1. **Wine:** vì sao XGBoost nhỉnh hơn trên test mà vẫn giữ LightGBM đã chọn bằng CV? Giải thích 5.318 nhóm feature, 0 nhóm giao nhau, và regression RMSE 0,707821.
+2. **RegimeLens:** vì sao macro F1 ~0,944 chưa chứng minh hiểu trạng thái kinh tế hoặc sinh lời? So sánh với persistence ~0,931; phân biệt filtering và smoothing/Viterbi, 3-state source với 5-state report.
+3. **Traffic-Law QA:** vì sao 530 câu có ảnh nhưng baseline text-only thấp? Xử lý 40 relevance keys không có trong corpus và tránh chia các câu dùng chung ảnh sang hai tập.
+4. **SNJ:** xử lý 5 product_id trùng thế nào trước khi lookup giá/tồn kho? Giải thích vì sao missing price không đạt budget, 8ly khác 8ly5, và lexical smoke PASS chưa là dense benchmark.
+5. **PAR / IoT / Chatbot:** chỉ rõ artifact nào chứng minh UI deployment lịch sử, phần nào chỉ có báo cáo nhóm, phần nào mới là thiết kế.
+
+[Open the project index and evidence](projects/README.md).

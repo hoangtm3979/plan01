@@ -1,0 +1,36 @@
+{
+  "project": "Wine Quality — Classification & Regression",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [
+    {
+      "project": "wine-quality-prediction",
+      "original_filename": "Wine_Quality.ipynb",
+      "source_sha256": "374f9716f3f8b13aecbef01ec9d3d8001d15b0d0eecf6e924c9eb89d888b9f67",
+      "published_path": "projects/wine-quality-prediction/research/wine-quality-team-coursework.ipynb",
+      "status": "ARCHIVED_SOURCE",
+      "full_execution": "NOT_RUN",
+      "published_sha256": "245a626ecae8eed5814dcb6e34083d6b28bd600078deda7f67139082a0a1af15"
+    },
+    {
+      "project": "wine-quality-prediction",
+      "original_filename": "WINE_QUALITY_-_FULL_MACHINE_LEARNING_PIPELINE.ipynb",
+      "source_sha256": "c63d78992d32987bbb8deb26bd3d3cf898a90bdf9c8499d1af8bef73ae2cd089",
+      "published_path": "projects/wine-quality-prediction/research/wine-quality-pipeline-draft.ipynb",
+      "status": "ARCHIVED_SOURCE",
+      "full_execution": "NOT_RUN",
+      "published_sha256": "b8b146b5316907c6d2e6002436835fa08f21860ab28ecfdd5eadb3477ea149ab"
+    }
+  ],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "historical_publication_edits": [
+    "Historical calculations retained, including documented unfinished/regression or test-selection issues.",
+    "Old outputs and runtime metadata removed; explanatory source-review heading added."
+  ]
+}

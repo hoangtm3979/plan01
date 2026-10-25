@@ -1,0 +1,15 @@
+{
+  "project": "PAR Decision-Support UI",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "public_code": "https://github.com/hoangtm3979/aegi-par-demo",
+  "historical_acceptance": "2026-09-25 UI 1.1; public release records, no fresh endpoint run"
+}

@@ -1,0 +1,28 @@
+{
+  "project": "Multimodal Traffic-Law QA",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [
+    {
+      "project": "traffic-law-multimodal-qa",
+      "original_filename": "Question_Traffic.ipynb",
+      "source_sha256": "2cd10294545c2062cbebde004a693aab0bba8d87bf45aeb3d13dca532f275dcf",
+      "published_path": "projects/traffic-law-multimodal-qa/research/traffic-law-rag-exploration.ipynb",
+      "status": "ARCHIVED_SOURCE",
+      "full_execution": "NOT_RUN",
+      "published_sha256": "525974e8166b6e4f48e8aebc243cd9ce2895f605cfa59f1629b10c4ad3eb4dbc"
+    }
+  ],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "historical_publication_edits": [
+    "Private paths and interactive login removed/replaced.",
+    "Exploration, redefinitions and placeholders retained as history.",
+    "Old outputs and runtime metadata removed; explanatory source-review heading added."
+  ]
+}

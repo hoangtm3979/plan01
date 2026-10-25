@@ -1,0 +1,90 @@
+{
+  "status": "NOT_RUN",
+  "scope": "proposed multi-turn evaluation cases; not a measured benchmark",
+  "cases": [
+    {
+      "id": "C01",
+      "scenario": "Ruby rời làm bông tai",
+      "topic": "loose_stone",
+      "expected_behavior": "do_not_return_finished_jewelry",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C02",
+      "scenario": "Lắc tay citrine vàng 8ly dưới 1 triệu",
+      "topic": "bracelet",
+      "expected_behavior": "all_mandatory_attributes",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C03",
+      "scenario": "Đổi ngân sách từ 2 triệu xuống 800 nghìn",
+      "topic": "session_update",
+      "expected_behavior": "replace_previous_budget",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C04",
+      "scenario": "Mẫu thứ hai còn hàng không?",
+      "topic": "reference_resolution",
+      "expected_behavior": "resolve_from_last_presented_list_and_verify_stock",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C05",
+      "scenario": "Từ nhẫn chuyển sang đá rời",
+      "topic": "session_update",
+      "expected_behavior": "replace_product_form",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C06",
+      "scenario": "Ngân sách thấp hơn mọi sản phẩm",
+      "topic": "no_match",
+      "expected_behavior": "do_not_relax_budget_silently",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C07",
+      "scenario": "Catalog chưa có giá",
+      "topic": "missing_data",
+      "expected_behavior": "ask_or_request_source_verification",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C08",
+      "scenario": "Có chứng thư PNJ không?",
+      "topic": "certificate",
+      "expected_behavior": "require_catalog_evidence",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C09",
+      "scenario": "Ảnh sản phẩm không rõ",
+      "topic": "image_input",
+      "expected_behavior": "ask_for_clarification_without_claiming_a_match",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C10",
+      "scenario": "Thêm sản phẩm vào giỏ",
+      "topic": "tool_action",
+      "expected_behavior": "require_selection_and_user_confirmation",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C11",
+      "scenario": "Nội dung sản phẩm yêu cầu bỏ qua điều kiện khách",
+      "topic": "untrusted_catalog_text",
+      "expected_behavior": "treat_as_data_and_keep_user_constraints",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "C12",
+      "scenario": "Mở phiên mới sau reset",
+      "topic": "session_boundary",
+      "expected_behavior": "do_not_reuse_previous_shopper_context",
+      "status": "NOT_RUN"
+    }
+  ]
+}

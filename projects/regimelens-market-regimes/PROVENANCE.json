@@ -1,0 +1,28 @@
+{
+  "project": "RegimeLens — Financial Market Regimes",
+  "review_date": "2026-10-25",
+  "owner": "Trương Minh Hoàng",
+  "student_id": "25410008",
+  "source_notebooks": [
+    {
+      "project": "regimelens-market-regimes",
+      "original_filename": "mode_test_.ipynb",
+      "source_sha256": "ef8c53d5ea63b41b38f3070bf0d7079d20e3fdce2572b62aa6ab3141abb37756",
+      "published_path": "projects/regimelens-market-regimes/research/regimelens-hmm-xgboost-historical.ipynb",
+      "status": "ARCHIVED_SOURCE",
+      "full_execution": "NOT_RUN",
+      "published_sha256": "8bbfbd8ee9445845580d617a5d403e67c41858136bd22d80e512641c0ebfd245"
+    }
+  ],
+  "publication_notes": [
+    "Personal GitHub portfolio only.",
+    "Original team/tutorial attribution retained.",
+    "Historical output, fresh experiments, synthetic tests and proposed work are labeled separately.",
+    "Private data, credentials, faces, personnel databases and internal research sources are not redistributed."
+  ],
+  "historical_publication_edits": [
+    "Replaced Colab mount/install and data path configuration.",
+    "Historical full-sequence fit/backfill preserved for audit, not claimed corrected in archived source.",
+    "Old outputs and runtime metadata removed; explanatory source-review heading added."
+  ]
+}

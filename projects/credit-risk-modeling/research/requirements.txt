@@ -1,0 +1,8 @@
+# Historical notebook only; not an exact recovered runtime lock.
+lightgbm>=4.6
+shap
+scikit-learn>=1.5
+pandas
+numpy
+matplotlib
+joblib

@@ -1,0 +1,124 @@
+{
+  "review_date": "2026-10-25",
+  "project_entry_moves": [
+    {
+      "old": "projects/credit-risk.md",
+      "new": "projects/credit-risk-modeling/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/snj-hybrid-rag.md",
+      "new": "projects/snj-hybrid-rag-jewelry-advisor/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/intelligent-commerce-chatbot.md",
+      "new": "projects/intelligent-commerce-chatbot/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/regimelens.md",
+      "new": "projects/regimelens-market-regimes/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/traffic-law-qa.md",
+      "new": "projects/traffic-law-multimodal-qa/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/par-decision-support.md",
+      "new": "projects/par-decision-support/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/wine-quality.md",
+      "new": "projects/wine-quality-prediction/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/edge-face-attendance.md",
+      "new": "projects/multi-camera-face-attendance/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    },
+    {
+      "old": "projects/business-cases.md",
+      "new": "projects/business-problem-solving/README.md",
+      "old_entry": "compatibility Markdown link retained"
+    }
+  ],
+  "archive_notebook_renames": [
+    {
+      "old": "labs/archive/c019-vietnamese-nlp-and-language-models.ipynb",
+      "new": "labs/archive/c019-vncorenlp-vietnamese-tokenization.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c020-vietnamese-nlp-and-language-models.ipynb",
+      "new": "labs/archive/c020-phobert-language-model-practice.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c023-python-practice.ipynb",
+      "new": "labs/archive/c023-decision-tree-classification.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c040-logistic-regression.ipynb",
+      "new": "labs/archive/c040-multiclass-classification.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c051-python-practice.ipynb",
+      "new": "labs/archive/c051-word-embeddings-similarity.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c052-python-practice.ipynb",
+      "new": "labs/archive/c052-word-embeddings-similarity.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c053-python-practice.ipynb",
+      "new": "labs/archive/c053-word-embeddings-similarity.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    },
+    {
+      "old": "labs/archive/c062-logistic-regression.ipynb",
+      "new": "labs/archive/c062-uit-vsfc-vietnamese-sentiment.ipynb",
+      "content": "code and outputs unchanged; introductory Markdown heading updated"
+    }
+  ],
+  "source_notebook_names": [
+    {
+      "original_filename": "Bản_V3_1_deploy.ipynb",
+      "new": "projects/credit-risk-modeling/research/credit-risk-logistic-lightgbm-v3.1.ipynb",
+      "source_sha256": "300d0c3f70a595fe696f2187c2794c0d4d096059655a749a39ba239fb163b03d"
+    },
+    {
+      "original_filename": "MSSV_25410008_SNJ_RAG_Colab_Demo_HYBRID_RAG.ipynb",
+      "new": "projects/snj-hybrid-rag-jewelry-advisor/research/snj-hybrid-retrieval-coursework.ipynb",
+      "source_sha256": "20fb134d5a5dcd9ddb7d32f4ba74f4c7907c416c0da4c857a307d65affb56101"
+    },
+    {
+      "original_filename": "mode_test_.ipynb",
+      "new": "projects/regimelens-market-regimes/research/regimelens-hmm-xgboost-historical.ipynb",
+      "source_sha256": "ef8c53d5ea63b41b38f3070bf0d7079d20e3fdce2572b62aa6ab3141abb37756"
+    },
+    {
+      "original_filename": "Question_Traffic.ipynb",
+      "new": "projects/traffic-law-multimodal-qa/research/traffic-law-rag-exploration.ipynb",
+      "source_sha256": "2cd10294545c2062cbebde004a693aab0bba8d87bf45aeb3d13dca532f275dcf"
+    },
+    {
+      "original_filename": "Wine_Quality.ipynb",
+      "new": "projects/wine-quality-prediction/research/wine-quality-team-coursework.ipynb",
+      "source_sha256": "374f9716f3f8b13aecbef01ec9d3d8001d15b0d0eecf6e924c9eb89d888b9f67"
+    },
+    {
+      "original_filename": "WINE_QUALITY_-_FULL_MACHINE_LEARNING_PIPELINE.ipynb",
+      "new": "projects/wine-quality-prediction/research/wine-quality-pipeline-draft.ipynb",
+      "source_sha256": "c63d78992d32987bbb8deb26bd3d3cf898a90bdf9c8499d1af8bef73ae2cd089"
+    }
+  ]
+}

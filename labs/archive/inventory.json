@@ -61,7 +61,8 @@
     "source_sha256": "ee758fa04bd9604db58dfbc64fa1fe34751cadbfddb594c5733291baa5dce76a",
     "code_cells": 12,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/snj-hybrid-rag-jewelry-advisor/README.md"
   },
   {
     "entry": "C009",
@@ -69,7 +70,8 @@
     "source_sha256": "e64875d89b1cffd4d695b897c6a9ae6be4a42c0700bc788cfa3c90ccaace88d6",
     "code_cells": 11,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/snj-hybrid-rag-jewelry-advisor/README.md"
   },
   {
     "entry": "C010",
@@ -77,7 +79,8 @@
     "source_sha256": "14628697587ba638313f1cce5f3edae77b5f5c7059e7140d17987bbd0d4dc06c",
     "code_cells": 10,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/snj-hybrid-rag-jewelry-advisor/README.md"
   },
   {
     "entry": "C011",
@@ -93,7 +96,8 @@
     "source_sha256": "88cfeb8919842fcf74a1765b0b40ef8481c75a47166ebaba9b3d7cdef66a05db",
     "code_cells": 11,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/snj-hybrid-rag-jewelry-advisor/README.md"
   },
   {
     "entry": "C013",
@@ -109,7 +113,8 @@
     "source_sha256": "ef8c53d5ea63b41b38f3070bf0d7079d20e3fdce2572b62aa6ab3141abb37756",
     "code_cells": 14,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/regimelens-market-regimes/README.md"
   },
   {
     "entry": "C015",
@@ -164,7 +169,7 @@
     "source_sha256": "4bdc0b6dfd421346206fe4213345e3e2961d1c4f33220a2dcc12e0209e193331",
     "code_cells": 2,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c019-vietnamese-nlp-and-language-models.ipynb",
+    "path": "c019-vncorenlp-vietnamese-tokenization.ipynb",
     "topic": "Vietnamese NLP and language models / NLP và mô hình ngôn ngữ",
     "libraries": [
       "vncorenlp"
@@ -176,7 +181,7 @@
     "source_sha256": "bc0e12ddc42f9a1e8fa115a32812bb2b212ce468fbd3c059e3a6471874ec8596",
     "code_cells": 6,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c020-vietnamese-nlp-and-language-models.ipynb",
+    "path": "c020-phobert-language-model-practice.ipynb",
     "topic": "Vietnamese NLP and language models / NLP và mô hình ngôn ngữ",
     "libraries": [
       "torch",
@@ -213,7 +218,7 @@
     "source_sha256": "3a43a0b066c77c5c6d69dd11207b6491bfe5262c24e4a37878e5640136dee5ae",
     "code_cells": 10,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c023-python-practice.ipynb",
+    "path": "c023-decision-tree-classification.ipynb",
     "topic": "Python practice / Thực hành Python",
     "libraries": [
       "matplotlib.pyplot",
@@ -307,7 +312,8 @@
     "source_sha256": "072c0fcb11b9f7bd28d4d57401494bfafc69a170e9a1a95813f36ad5935edd3e",
     "code_cells": 29,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/credit-risk-modeling/README.md"
   },
   {
     "entry": "C033",
@@ -315,7 +321,8 @@
     "source_sha256": "f79e6f3253f1ee008e8343f55e6b0b4d4b1a0aaf90031faf8a1268c973e75695",
     "code_cells": 28,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/credit-risk-modeling/README.md"
   },
   {
     "entry": "C034",
@@ -323,7 +330,8 @@
     "source_sha256": "d715209fe13281421b16af9e3862d8049f57c27ea4521c317f69cb93a663a644",
     "code_cells": 20,
     "disposition": "PROJECT_SOURCE",
-    "note": "Tracked with its project; not republished as a mini lab."
+    "note": "Tracked with its project; not republished as a mini lab.",
+    "related_public_project": "projects/credit-risk-modeling/README.md"
   },
   {
     "entry": "C035",
@@ -398,7 +406,7 @@
     "source_sha256": "8e14c51bf49b04909207600982918ff573c5a3679ea9dc936d729e3829132a6c",
     "code_cells": 17,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c040-logistic-regression.ipynb",
+    "path": "c040-multiclass-classification.ipynb",
     "topic": "Logistic regression / Hồi quy logistic",
     "libraries": [
       "matplotlib.pyplot",
@@ -519,7 +527,7 @@
     "source_sha256": "e1ec573acfdfbf198920a7984e9d7144a564fcf9395139a22fa82c3b95a85178",
     "code_cells": 10,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c051-python-practice.ipynb",
+    "path": "c051-word-embeddings-similarity.ipynb",
     "topic": "Python practice / Thực hành Python",
     "libraries": [
       "numpy",
@@ -536,7 +544,7 @@
     "source_sha256": "51551b9d7ede733a3da9d8dac6c175696336ab114b2ea2592b463dad62d30cbd",
     "code_cells": 9,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c052-python-practice.ipynb",
+    "path": "c052-word-embeddings-similarity.ipynb",
     "topic": "Python practice / Thực hành Python",
     "libraries": [
       "numpy",
@@ -553,7 +561,7 @@
     "source_sha256": "239f9eb1d94dba5b54e3db6c3e592f2ca14fcf61fd856780fee17b8810f6e9cd",
     "code_cells": 9,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c053-python-practice.ipynb",
+    "path": "c053-word-embeddings-similarity.ipynb",
     "topic": "Python practice / Thực hành Python",
     "libraries": [
       "numpy",
@@ -672,7 +680,7 @@
     "source_sha256": "5488cb21c018b4fc082e19311f9d18caa68c0daac1faca37959a86f259308e18",
     "code_cells": 8,
     "disposition": "ARCHIVED_SOURCE",
-    "path": "c062-logistic-regression.ipynb",
+    "path": "c062-uit-vsfc-vietnamese-sentiment.ipynb",
     "topic": "Logistic regression / Hồi quy logistic",
     "libraries": [
       "collections",

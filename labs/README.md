@@ -97,8 +97,8 @@ khác có thể cho metric hơi khác. [Nguồn dữ liệu và checksum](DATA_S
 | **NumPy, ANN** | Tính toán vector và neural network trên dữ liệu bảng | Kết nối với các bài ML nền tảng |
 | **Vietnamese sentiment — UIT-VSFC** | Bag-of-Words, Naive Bayes, Logistic OVR | [Ghi chú kỹ thuật](notes/uit-vsfc-sentiment.md) |
 | **U-Net / BUSI ultrasound** | Phân đoạn ảnh và đánh giá IoU/Dice | [Ghi chú kỹ thuật](notes/busi-unet.md) |
-| **RegimeLens** | HMM, XGBoost và thử nghiệm chuỗi thời gian | [Case Big Data](../projects/regimelens.md) |
-| **SNJ RAG** | Từ dense retrieval đến lọc danh mục và hybrid ranking | [Case RAG](../projects/snj-hybrid-rag.md) |
+| **RegimeLens** | HMM, XGBoost và thử nghiệm chuỗi thời gian | [Case Big Data](../projects/regimelens-market-regimes/README.md) |
+| **SNJ RAG** | Từ dense retrieval đến lọc danh mục và hybrid ranking | [Case RAG](../projects/snj-hybrid-rag-jewelry-advisor/README.md) |
 
 ## Cách tôi ghi chép một bài / My mini-lab template
 
@@ -118,3 +118,8 @@ Tôi tiếp tục dùng cấu trúc này cho các notebook còn lại trong kho 
 ## KLTN — Graph-Assisted Shared Risk Context
 
 [Code, hai notebook minh họa và bốn notebook nghiên cứu](../projects/graph-assisted-shared-risk-context/) nối phần học graph features, đánh giá mô hình và hợp đồng ngữ cảnh với khóa luận cá nhân. [Case study VI/EN](../projects/graph-assisted-shared-risk-context-thesis.md).
+
+
+## Đồ án và mã nguồn / Project sources
+
+Các đồ án lớn có [danh mục riêng](../projects/README.md), gồm code, notebook, kết quả đã chạy và phần chưa xác nhận. [Bảng đổi tên file](../projects/FILE_MAP.md) giúp nối tên Colab cũ với tên theo nội dung.

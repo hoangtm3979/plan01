@@ -24,20 +24,20 @@ Portfolio này tập hợp cả **đồ án môn học, dự án ứng dụng, b
 
 ## Projects / Dự án
 
-| Dự án / Project | Vấn đề và công việc chính / Focus | Chi tiết / Case study |
+| Dự án / Project | Nội dung / Focus | Hồ sơ và mã / Case & code |
 | --- | --- | --- |
-| **Credit Risk Modeling** | Logistic Regression và LightGBM trên dữ liệu khoản vay; đánh giá AUC, pipeline và thời điểm khả dụng của đặc trưng | [VI / EN](projects/credit-risk.md) · [Notebook](https://github.com/hoangtm3979/credit) |
-| **Graph-Assisted Shared Risk Context — KLTN** | LightGBM trên DGraphFin, ablation đặc trưng đồ thị, đánh giá AP/Top-1%; chuẩn hóa đầu ra tín dụng và bất thường theo hợp đồng ngữ cảnh | [VI / EN](projects/graph-assisted-shared-risk-context-thesis.md) · [Code & notebooks](projects/graph-assisted-shared-risk-context/) |
-| **SNJ Hybrid RAG Jewelry Advisor** | Hiểu yêu cầu mua hàng tiếng Việt, lọc thuộc tính, tìm kiếm kết hợp dense + TF-IDF và xếp hạng sản phẩm | [VI / EN](projects/snj-hybrid-rag.md) |
-| **Intelligent Commerce Chatbot** | Phát triển tư vấn mua hàng nhiều lượt theo ngữ cảnh: catalog, sở thích, lọc điều kiện, truy hồi, xếp hạng và luồng công cụ có kiểm soát | [VI / EN](projects/intelligent-commerce-chatbot.md) |
-| **RegimeLens — Big Data** | HMM, XGBoost và phân tích các trạng thái thị trường; nghiên cứu đánh giá chuỗi thời gian và backtest | [VI / EN](projects/regimelens.md) |
-| **Multimodal Traffic-Law QA** | Kết hợp NLP truy hồi văn bản và xử lý ảnh biển báo giao thông | [VI / EN](projects/traffic-law-qa.md) |
-| **Multi-Camera Face Attendance (IoT/CV)** | Phát hiện/nhận diện khuôn mặt từ webcam và IP camera; FastAPI, SQLite, quản lý sự kiện điểm danh | [VI / EN](projects/edge-face-attendance.md) |
-| **PAR Decision-Support Demo** | Thiết kế luồng hỗ trợ phòng ngừa, xác minh và xử lý tình huống rủi ro; quản lý trạng thái giao diện | [VI / EN](projects/par-decision-support.md) · [Demo source](https://github.com/hoangtm3979/aegi-par-demo) |
-| **Wine Quality Classification** | EDA và so sánh Logistic Regression, Decision Tree, LightGBM, XGBoost trên bộ dữ liệu UCI | [VI / EN](projects/wine-quality.md) |
-| **Business Problem-Solving** | Case về tranh chấp phí SaaS, tìm khách B2B Philippines, Amazon/eBay và quảng cáo | [VI / EN](projects/business-cases.md) |
+| **Graph-Assisted Shared Risk Context — KLTN** | Đặc trưng đồ thị, AP/Top-1% và chuẩn hóa đầu ra rủi ro | [VI / EN](projects/graph-assisted-shared-risk-context/README.md) |
+| **Credit Risk Modeling** | Logistic Regression/LightGBM, xác suất rủi ro và feature availability | [VI / EN](projects/credit-risk-modeling/README.md) |
+| **SNJ Hybrid RAG Jewelry Advisor** | Intent, lọc thuộc tính và tìm sản phẩm bằng dense/TF-IDF/rules | [VI / EN](projects/snj-hybrid-rag-jewelry-advisor/README.md) |
+| **Intelligent Commerce Chatbot** | Tư vấn mua hàng nhiều lượt, bộ nhớ phiên và điều phối công cụ | [VI / EN](projects/intelligent-commerce-chatbot/README.md) |
+| **RegimeLens — Market Regimes** | HMM, dự đoán trạng thái thị trường và đánh giá theo thời gian | [VI / EN](projects/regimelens-market-regimes/README.md) |
+| **Multimodal Traffic-Law QA** | Tra cứu luật theo nguồn và hướng kết hợp ảnh biển báo | [VI / EN](projects/traffic-law-multimodal-qa/README.md) |
+| **PAR Decision-Support UI** | Luồng hỗ trợ quyết định, async state và độ tin cậy giao diện | [VI / EN](projects/par-decision-support/README.md) |
+| **Wine Quality — Classification & Regression** | Phân loại/hồi quy UCI, grouped cross-validation và đối chứng | [VI / EN](projects/wine-quality-prediction/README.md) |
+| **Multi-Camera Face Attendance** | YOLO/ArcFace, camera RTSP, FastAPI/SQLite và điểm danh PC/LAN | [VI / EN](projects/multi-camera-face-attendance/README.md) |
+| **Business Problem Solving** | Tranh chấp SaaS, B2B sourcing và kinh nghiệm marketplace/ads | [VI / EN](projects/business-problem-solving/README.md) |
 
-Các đồ án nhóm được ghi rõ trong từng case. Phần **AEGI Core / Shield / Guard / Ops** là hướng nghiên cứu, phát triển sản phẩm tôi đang tham gia; tôi dành nội dung chuyên sâu phù hợp cho trao đổi trực tiếp và tài liệu sản phẩm.
+[**Xem toàn bộ danh mục, trạng thái chạy và phần còn mở / Full project index and validation scope**](projects/README.md) · [**Tên file cũ → mới / File map**](projects/FILE_MAP.md)
 
 ## Learning journey / Quá trình học
 

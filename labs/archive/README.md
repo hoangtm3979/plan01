@@ -15,11 +15,7 @@ Thông tin người thực hành của hai bài đã thống nhất: **Trương 
 
 | Bài thực hành | Nội dung |
 | --- | --- |
-| [Bản sao của DecisionTree](c023-python-practice.ipynb) | Python practice / Thực hành Python |
 | [problem_12_best_auto](c050-python-practice.ipynb) | Python practice / Thực hành Python |
-| [3566_output](c051-python-practice.ipynb) | Python practice / Thực hành Python |
-| [3582](c052-python-practice.ipynb) | Python practice / Thực hành Python |
-| [3526_output](c053-python-practice.ipynb) | Python practice / Thực hành Python |
 | [1340_output](c071-python-practice.ipynb) | Python practice / Thực hành Python |
 | [1339_output](c072-python-practice.ipynb) | Python practice / Thực hành Python |
 | [1338_output](c073-python-practice.ipynb) | Python practice / Thực hành Python |
@@ -33,20 +29,21 @@ Thông tin người thực hành của hai bài đã thống nhất: **Trương 
 | --- | --- |
 | [25410008_Random_ Forests _XGBoost](c036-tree-ensembles.ipynb) | Tree ensembles / Mô hình tổ hợp cây |
 | [Random_ Forests _XGBoost - Copy](c038-tree-ensembles.ipynb) | Tree ensembles / Mô hình tổ hợp cây |
-| [Buoi_04.Multi-class_Classification_BaiTap](c040-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
+| [Multiclass Classification / Phân loại đa lớp](c040-multiclass-classification.ipynb) | Multiclass Classification / Phân loại đa lớp |
 | [Logistic_Regression_BaiTap](c042-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
-| [02410008-Truong Minh Hoang](c062-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
 | [Bản sao của LogisticRegression_Application](c077-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
 | [Bản sao của Simple_LogisticRegression](c078-logistic-regression.ipynb) | Logistic regression / Hồi quy logistic |
 | [Kmeans with Python](c080-k-means-and-clustering.ipynb) | K-means and clustering / Phân cụm |
 | [25410008_LinearRegression a](c081-linear-regression.ipynb) | Linear regression / Hồi quy tuyến tính |
+| [Decision Tree Classification / Phân loại bằng cây quyết định](c023-decision-tree-classification.ipynb) | Decision Tree Classification / Phân loại bằng cây quyết định |
+
 
 ## NLP & Word Representations
 
 | Bài thực hành | Nội dung |
 | --- | --- |
-| [Bản sao của VnCoreNLP](c019-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ |
-| [Bản sao của PhoBert](c020-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ |
+| [VnCoreNLP — Vietnamese Tokenization / Tách từ tiếng Việt](c019-vncorenlp-vietnamese-tokenization.ipynb) | VnCoreNLP — Vietnamese Tokenization / Tách từ tiếng Việt |
+| [PhoBERT — Language Model Practice / Thực hành mô hình ngôn ngữ](c020-phobert-language-model-practice.ipynb) | PhoBERT — Language Model Practice / Thực hành mô hình ngôn ngữ |
 | [3248](c055-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
 | [BT Về nhà 8_Bản sao của DeepSeek-R1-Distill-Qwen-1.5B](c056-vietnamese-nlp-and-language-models.ipynb) | Vietnamese NLP and language models / NLP và mô hình ngôn ngữ |
 | [problem 3](c059-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
@@ -55,6 +52,11 @@ Thông tin người thực hành của hai bài đã thống nhất: **Trương 
 | [problem (9)](c065-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
 | [3107](c066-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
 | [problem](c070-text-processing-and-word-representations.ipynb) | Text processing and word representations / Xử lý văn bản và biểu diễn từ |
+| [Word Embeddings & Similarity / Vector từ và độ tương đồng](c051-word-embeddings-similarity.ipynb) | Word Embeddings & Similarity / Vector từ và độ tương đồng |
+| [Word Embeddings & Similarity / Vector từ và độ tương đồng](c052-word-embeddings-similarity.ipynb) | Word Embeddings & Similarity / Vector từ và độ tương đồng |
+| [Word Embeddings & Similarity / Vector từ và độ tương đồng](c053-word-embeddings-similarity.ipynb) | Word Embeddings & Similarity / Vector từ và độ tương đồng |
+| [UIT-VSFC — Vietnamese Sentiment / Phân loại cảm xúc tiếng Việt](c062-uit-vsfc-vietnamese-sentiment.ipynb) | UIT-VSFC — Vietnamese Sentiment / Phân loại cảm xúc tiếng Việt |
+
 
 ## Deep Learning & Computer Vision
 

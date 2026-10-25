@@ -1,0 +1,84 @@
+{
+  "started_at_utc": "2026-10-25T16:46:40.719867+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "jupyter-client": "8.10.0"
+  },
+  "execution_settings": {
+    "PYTHONHASHSEED": "42",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "TF_NUM_INTRAOP_THREADS": "2",
+    "TF_NUM_INTEROP_THREADS": "2",
+    "TF_ENABLE_ONEDNN_OPTS": "0",
+    "TF_CPP_MIN_LOG_LEVEL": "2",
+    "PYDEVD_DISABLE_FILE_VALIDATION": "1"
+  },
+  "mode": "full_data",
+  "fresh_kernel_per_notebook": true,
+  "fresh_process_per_notebook": true,
+  "backend": "ipykernel.inprocess",
+  "kernel_transport": "inprocess-no-sockets",
+  "notebooks": [
+    {
+      "notebook": "01_text_retrieval_baselines.ipynb",
+      "source_sha256": "6a730776f9470a9fca46b22fa6f9288acb25f18a6cea89921a412ae50d8fe2e7",
+      "code_cells": 4,
+      "status": "PASS",
+      "executed_code_cells": 4,
+      "started_at_utc": "2026-10-25T16:46:40.910409+00:00",
+      "metrics": {
+        "status": "PASS",
+        "scope": "DEV_REPLAY_TEXT_ONLY",
+        "articles": 395,
+        "questions": 530,
+        "labeled_questions": 530,
+        "questions_with_unknown_article_reference": 40,
+        "queries_with_image_reference": 530,
+        "uses_question_text_only": true,
+        "uses_choices": false,
+        "uses_images": false,
+        "fits_to_question_labels": false,
+        "generation": "NOT_RUN",
+        "cross_encoder": "NOT_RUN",
+        "bm25_parameters": {
+          "k1": 1.5,
+          "b": 0.75
+        },
+        "metrics": {
+          "tfidf": {
+            "precision_at_1": 0.10754716981132076,
+            "recall_at_5": 0.1375,
+            "mrr_at_10": 0.17891209943096736
+          },
+          "bm25": {
+            "precision_at_1": 0.06037735849056604,
+            "recall_at_5": 0.10633647798742138,
+            "mrr_at_10": 0.11670485175202157
+          }
+        },
+        "source_sha256": {
+          "law_json": "e499512ff55703c8489ada1e72a4e7d66042f54bdefe947ab110032a80c4cac0",
+          "question_json": "49d28bcef00906ebf3da4331306d08158150da237d0106ddb28fa9b6a1bf9d03"
+        },
+        "duplicate_article_id_policy": "concatenate source subsections under the labeled (law_id, article_id) key"
+      },
+      "executed_notebook": "notebooks/01_text_retrieval_baselines.ipynb",
+      "executed_file_sha256": "0b29aab05d174860cc1081eff99202870a4fc64880edf1c33a76c6ad1d435ed3",
+      "duration_seconds": 2.551,
+      "completed_at_utc": "2026-10-25T16:46:43.434876+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-10-25T16:46:43.960908+00:00",
+  "passed": 1,
+  "total": 1
+}

@@ -1,0 +1,229 @@
+{
+  "reviewed_at_utc": "2026-10-25T17:02:33.820131+00:00",
+  "status": "PASS",
+  "project_entries_reviewed": 10,
+  "other_project_folders": 9,
+  "fresh_notebooks": [
+    {
+      "project": "wine-quality-prediction",
+      "status": "PASS",
+      "code_cells": 8,
+      "executed_code_cells": 8,
+      "source_sha256": "a1bb24e8119511bcd3dae903c0ac775c8800dce1a4797bd930301bf8923e707e",
+      "executed_file_sha256": "30bea039e3cbf831de1f13ab5c307fe779034e934801a428cae9628ac5ae5c70"
+    },
+    {
+      "project": "snj-hybrid-rag-jewelry-advisor",
+      "status": "PASS",
+      "code_cells": 7,
+      "executed_code_cells": 7,
+      "source_sha256": "41f243a0734d7e508de558dc2f64f5983e17d693f230d2c8121b7e7562794ba8",
+      "executed_file_sha256": "81a8f50b1352bc11c399d0790ad2b44d86d6fa32c8ea3f5f5c9f8845f2383b18"
+    },
+    {
+      "project": "traffic-law-multimodal-qa",
+      "status": "PASS",
+      "code_cells": 4,
+      "executed_code_cells": 4,
+      "source_sha256": "6a730776f9470a9fca46b22fa6f9288acb25f18a6cea89921a412ae50d8fe2e7",
+      "executed_file_sha256": "0b29aab05d174860cc1081eff99202870a4fc64880edf1c33a76c6ad1d435ed3"
+    },
+    {
+      "project": "regimelens-market-regimes",
+      "status": "PASS",
+      "code_cells": 5,
+      "executed_code_cells": 5,
+      "source_sha256": "b51facb0902af3d96b75a890c3163ead5da4a3217b839c7c526dde935df32876",
+      "executed_file_sha256": "bb83c8ba243013ad53ae3e1ae74ed43ca3c6fafd098f3773b00ded876cb294e5"
+    }
+  ],
+  "fresh_code_cells": 24,
+  "historical_sources_syntax_checked": 6,
+  "notebook_checks": [
+    {
+      "path": "projects/credit-risk-modeling/research/credit-risk-logistic-lightgbm-v3.1.ipynb",
+      "code_cells": 13,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "36a88c2d0047c8aab16ee716ff6a156feff7a20041831aad99be3ac4d51db17c",
+      "fresh_execution": "NOT_RUN"
+    },
+    {
+      "path": "projects/snj-hybrid-rag-jewelry-advisor/notebooks/01_product_retrieval_and_constraints.ipynb",
+      "code_cells": 7,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "81a8f50b1352bc11c399d0790ad2b44d86d6fa32c8ea3f5f5c9f8845f2383b18",
+      "fresh_execution": "PASS"
+    },
+    {
+      "path": "projects/snj-hybrid-rag-jewelry-advisor/research/snj-hybrid-retrieval-coursework.ipynb",
+      "code_cells": 12,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "0e4ad82b7ef773bc39ffa440cd8be1e70a014277bca6d09f7d487fe4b2f86b44",
+      "fresh_execution": "NOT_RUN"
+    },
+    {
+      "path": "projects/regimelens-market-regimes/notebooks/01_chronological_hmm_filtering.ipynb",
+      "code_cells": 5,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "bb83c8ba243013ad53ae3e1ae74ed43ca3c6fafd098f3773b00ded876cb294e5",
+      "fresh_execution": "PASS"
+    },
+    {
+      "path": "projects/regimelens-market-regimes/research/regimelens-hmm-xgboost-historical.ipynb",
+      "code_cells": 14,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "8bbfbd8ee9445845580d617a5d403e67c41858136bd22d80e512641c0ebfd245",
+      "fresh_execution": "NOT_RUN"
+    },
+    {
+      "path": "projects/traffic-law-multimodal-qa/notebooks/01_text_retrieval_baselines.ipynb",
+      "code_cells": 4,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "0b29aab05d174860cc1081eff99202870a4fc64880edf1c33a76c6ad1d435ed3",
+      "fresh_execution": "PASS"
+    },
+    {
+      "path": "projects/traffic-law-multimodal-qa/research/traffic-law-rag-exploration.ipynb",
+      "code_cells": 45,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "525974e8166b6e4f48e8aebc243cd9ce2895f605cfa59f1629b10c4ad3eb4dbc",
+      "fresh_execution": "NOT_RUN"
+    },
+    {
+      "path": "projects/wine-quality-prediction/notebooks/01_wine_quality_classification_and_regression.ipynb",
+      "code_cells": 8,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "30bea039e3cbf831de1f13ab5c307fe779034e934801a428cae9628ac5ae5c70",
+      "fresh_execution": "PASS"
+    },
+    {
+      "path": "projects/wine-quality-prediction/research/wine-quality-team-coursework.ipynb",
+      "code_cells": 12,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "245a626ecae8eed5814dcb6e34083d6b28bd600078deda7f67139082a0a1af15",
+      "fresh_execution": "NOT_RUN"
+    },
+    {
+      "path": "projects/wine-quality-prediction/research/wine-quality-pipeline-draft.ipynb",
+      "code_cells": 14,
+      "syntax": "PASS",
+      "schema": "PASS",
+      "file_sha256": "b8b146b5316907c6d2e6002436835fa08f21860ab28ecfdd5eadb3477ea149ab",
+      "fresh_execution": "NOT_RUN"
+    }
+  ],
+  "python_scripts_syntax_checked": 12,
+  "unit_suites": [
+    {
+      "project": "snj-hybrid-rag-jewelry-advisor",
+      "tests": 12,
+      "status": "PASS"
+    },
+    {
+      "project": "traffic-law-multimodal-qa",
+      "tests": 5,
+      "status": "PASS"
+    },
+    {
+      "project": "regimelens-market-regimes",
+      "tests": 3,
+      "status": "PASS"
+    }
+  ],
+  "unit_tests": 20,
+  "local_markdown_links_checked": 288,
+  "broken_links": [],
+  "wine_fingerprint_guard": "valid source accepted; altered input rejected",
+  "secret_pattern_check": "PASS",
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "hmmlearn": "0.3.3",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "sentence-transformers": "6.2.0",
+    "transformers": "5.20.2",
+    "torch": "2.14.1+cpu"
+  },
+  "publication_limits": [
+    "Credit v3.1 not retrained; label/preprocessing audit still open.",
+    "SNJ checks use a fictional catalog; original catalog has five duplicate product IDs; dense weights not executed.",
+    "RegimeLens predicts frozen HMM labels with one chronological split, not economic ground truth or returns.",
+    "Traffic replay is text-only on labeled training questions; image/reranker/generation not evaluated.",
+    "PAR historical public release records reviewed; no fresh endpoint test.",
+    "IoT full source ZIP/runtime/hardware not reviewed; correct group report used.",
+    "Commerce chatbot remains a design record; proposed scenarios not executed."
+  ],
+  "archive_rename_checks": [
+    {
+      "old": "c019-vietnamese-nlp-and-language-models.ipynb",
+      "new": "c019-vncorenlp-vietnamese-tokenization.ipynb",
+      "code_sha256": "faeb34e82fed86b3e4b0314009294f39b8d161d21dd0988a93d1cd05fff26fe2",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c020-vietnamese-nlp-and-language-models.ipynb",
+      "new": "c020-phobert-language-model-practice.ipynb",
+      "code_sha256": "92a385b44dd7950b3f1a3b9bcd9c707f840feb7df311d8d7d0097f6014e3151a",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c023-python-practice.ipynb",
+      "new": "c023-decision-tree-classification.ipynb",
+      "code_sha256": "17c9a7f81870e12f3a061075c886769682e284da21f4bb9a1b261a8580861e75",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c040-logistic-regression.ipynb",
+      "new": "c040-multiclass-classification.ipynb",
+      "code_sha256": "d4f5d9a9dc80425b14a6f70c89d3389e43d193cd1ad826a692bd60af7fbbfa3c",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c051-python-practice.ipynb",
+      "new": "c051-word-embeddings-similarity.ipynb",
+      "code_sha256": "25436e887b29ec58a5484ab35bd23120537fa466791de1e7bc68454069f19f81",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c052-python-practice.ipynb",
+      "new": "c052-word-embeddings-similarity.ipynb",
+      "code_sha256": "bc52d5590c2cafa0d17d3645ce2381c44b627c0fe8c71fd929b2f920f330bccb",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c053-python-practice.ipynb",
+      "new": "c053-word-embeddings-similarity.ipynb",
+      "code_sha256": "fcd0fc63919c07f5947f5056157187a3da700df71941dc9a095e6d40e5122622",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    },
+    {
+      "old": "c062-logistic-regression.ipynb",
+      "new": "c062-uit-vsfc-vietnamese-sentiment.ipynb",
+      "code_sha256": "7ae839578a498617e38818fc4d8f3f5a452ccedc013c3a5e2f24cebf56e7ea1b",
+      "code_unchanged": true,
+      "markdown_heading_updated": true
+    }
+  ]
+}

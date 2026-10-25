@@ -66,3 +66,8 @@ Bảy notebook đã chọn nằm ở [AI Learning Labs](README.md). Những bài
 Đã lấy và đọc cấu trúc đủ 103 mục nguồn. Kết quả: 33 notebook bài tập được trình bày trong [archive](archive/README.md), 4 bản trùng mã, 8 nguồn liên kết về bài chính, 10 file trống, 46 nguồn gắn với dự án riêng, 2 nguồn cần đối chiếu tác giả. Đây là phân loại theo mã và bối cảnh, không chỉ theo tên file. Trong 33 bài bổ sung, 5 bài đã chạy lại; 28 bài được giữ ở trạng thái ARCHIVED_SOURCE. Chi tiết [inventory](archive/inventory.json).
 
 **REVISED — bổ sung hai bài:** U-Net/BUSI và MNIST graph/session đã được đưa vào archive dưới thông tin người thực hành Trương Minh Hoàng, MSSV 25410008; giữ ghi nguồn gốc. Kho bài tập hiện có 35 notebook, hai mục ATTRIBUTION_REVIEW đã chuyển sang ARCHIVED_SOURCE với ghi nguồn. U-Net có smoke test kiến trúc/Dice; chưa có lượt huấn luyện BUSI mới.
+
+
+## Nguồn ngoài hai thư mục Colab / Sources beyond the original inventory
+
+**REVISED — 25/10/2026:** đã đọc thêm notebook Wine, Traffic-Law QA, SNJ, RegimeLens và repo Credit nằm ngoài hai thư mục Colab ban đầu. Sáu bản nguồn được trình bày dưới `projects/*/research/`, kèm bốn notebook mới đã chạy. Mốc **103 mục** vẫn chỉ mô tả lần kiểm kê hai thư mục; không cộng mọi phiên bản thành đồ án mới. [Danh mục dự án và mức kiểm tra](../projects/README.md).
