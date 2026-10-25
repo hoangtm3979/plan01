@@ -1,59 +1,46 @@
-# Commercial Problem Solving / Xử lý vấn đề kinh doanh thực tế
+# Business Problem Solving / Những bài toán kinh doanh tôi từng xử lý
 
-> These case summaries are deliberately anonymized. **No invoices, payment receipts, supplier/client lists, private emails or certificates are published.** Supporting evidence may be shown privately after ownership and redaction checks.
-
-## English
-
-### Case A — SaaS subscription billing dispute
-
-**Context:** While reviewing a promotional option in an e-commerce analytics tool, a subscription charge was disputed.
-
-- **Problem:** determine consent/contract terms, reconstruct the signup and billing sequence, and seek a justified remedy.
-- **Inputs:** account events, payment notice, subscription/offer terms and support correspondence.
-- **Action described by account owner:** opened a written support dispute, distinguished a discount check from affirmative purchase authorization, followed the process to obtain confirmation of a full refund from vendor support.
-- **Output/evidence:** documented support resolution; **actual bank/card settlement is not independently confirmed** by this case page.
-- **What it shows:** structured evidence gathering, vendor negotiation, customer-rights awareness and persistence.
-- **Boundary:** no confidential correspondence or individual staff names published.
-
-### Case B — Philippine B2B garment-accessory sourcing
-
-**Context:** International B2B prospecting for metallic jeans accessories.
-
-- **Problem:** validate demand, qualify leads, quote a meaningful production lot and assess competitive landed pricing.
-- **Inputs:** a working lead spreadsheet (roughly 30–40 contacts according to the owner's account), product specifications, quantity request, manufacturing/logistics price quotes and competitor price anchors.
-- **Event described by owner:** one prospect visited the office and discussed an approximately 30,000-piece order; a competitive price was not achieved, so the sale was **not won**.
-- **Output:** a real negotiation and a negative commercial result with actionable pricing insight — **not** a converted 30,000-piece sale.
-- **What it shows:** market research, B2B qualification, unit economics, price discovery and honest post-mortem analysis.
-
-### Case C — Marketplace operations and advertising
-
-**Context:** Experience spanning e-commerce storefronts, product research, marketplace sourcing, and paid media.
-
-- **Inputs:** marketplace order records (including eBay), advertising invoices, campaign exports, Amazon learning/certification records and product research.
-- **Outputs to assemble privately:** verified order chronology, advertising spend/attribution with account ownership, campaign KPI tables, certificates with date/validity and an anonymized sourcing decision.
-- **Current evidence level:** historical records have been discussed but not all have been reconciled to business ownership, campaign outcomes or revenue. Billing spend alone **does not equal demonstrated advertising ROI**.
+[Tiếng Việt](#tiếng-việt) · [English](#english)
 
 ## Tiếng Việt
 
-### Case A — Khiếu nại thanh toán SaaS
+Trước khi tập trung vào AI, tôi đã làm thương mại điện tử, nghiên cứu sản phẩm, quảng cáo, tìm nguồn hàng và làm việc với đối tác. Những tình huống dưới đây giúp tôi hình thành thói quen **đọc điều khoản, phân tích chi phí, kiểm tra dữ kiện và ra quyết định từ ràng buộc thực tế**.
 
-- **Bối cảnh:** tranh chấp phí đăng ký khi kiểm tra ưu đãi phần mềm phân tích thương mại điện tử.
-- **Input:** trình tự thao tác, thông báo charge, điều khoản và email hỗ trợ.
-- **Cách giải:** lập luận theo bằng chứng về sự chấp thuận giao dịch; trao đổi có hệ thống với bộ phận hỗ trợ.
-- **Kết quả theo hồ sơ đang mô tả:** phía nhà cung cấp xác nhận phương án hoàn 100%; **chưa kiểm chứng tiền đã về sao kê ngân hàng**.
-- **Giá trị:** năng lực phân tích tình huống, thương lượng và theo sát ngoại lệ.
+### 1. Helium 10 — Xử lý tranh chấp phí phần mềm
 
-### Case B — Tìm khách B2B Philippines
+**Bối cảnh:** khi tìm hiểu chương trình ưu đãi của phần mềm nghiên cứu sản phẩm thương mại điện tử, tôi gặp một khoản thu mà tôi cho rằng chưa có sự đồng ý mua gói dịch vụ tương ứng.
 
-- **Bài toán:** thu thập nguồn khách hàng, tìm hiểu nhu cầu, thông số sản phẩm và khả năng cạnh tranh giá.
-- **Input:** danh sách khoảng 30–40 đầu mối, yêu cầu số lượng, báo giá nhà máy và chi phí logistics.
-- **Sự kiện:** có khách đến văn phòng trao đổi đơn khoảng 30.000 sản phẩm phụ liệu jeans, nhưng báo giá chưa đủ cạnh tranh.
-- **Kết quả:** **không chốt đơn**; rút ra hạn chế về định giá và cấu trúc cung ứng. Tuyệt đối không mô tả là đã bán thành công.
+- **Input:** lịch sử thao tác, thông báo thanh toán, điều khoản ưu đãi và chuỗi trao đổi hỗ trợ.
+- **Cách xử lý:** tôi đối chiếu trình tự sự kiện, phân biệt thao tác xem ưu đãi với xác nhận đăng ký, trao đổi bằng văn bản và theo sát phản hồi.
+- **Kết quả:** phía hỗ trợ xác nhận **hoàn lại 100% khoản phí tranh chấp**.
+- **Bài học:** muốn giải quyết tranh chấp khó, cần trình bày đúng sự kiện, căn cứ và yêu cầu cụ thể.
 
-### Case C — Amazon/eBay và Meta/Google Ads
+### 2. Philippines — Tìm kiếm và đàm phán khách hàng B2B
 
-- **Phạm vi:** nghiên cứu sản phẩm, đặt hàng từ marketplace, chứng chỉ quảng cáo/bán lẻ, kiểm soát hóa đơn và đánh giá hiệu quả chiến dịch.
-- **Yêu cầu hoàn thiện:** đối chiếu tài khoản quảng cáo với chủ thể vận hành, tổng hợp KPI thực (CPA, ROAS, ACOS/TACOS nếu có), phân biệt hóa đơn và doanh thu.
-- **Bảo mật:** không đăng public PDF hóa đơn, địa chỉ giao dịch, thẻ, email hay danh sách khách.
+**Bối cảnh:** tôi tìm đầu mối doanh nghiệp Philippines cho nhóm phụ liệu kim loại của ngành may mặc.
 
-**Main interview lesson:** Business credibility comes from showing assumptions, negotiations, constraints and even losses — not only positive outcomes.
+- **Input:** bảng khảo sát khoảng **30–40 khách hàng tiềm năng**, nhu cầu sản phẩm, yêu cầu số lượng, báo giá nhà máy và chi phí cung ứng.
+- **Thực tế:** có một khách đến tận văn phòng trao đổi về đơn khoảng **30.000 sản phẩm phụ liệu kim loại dùng cho quần jeans**.
+- **Kết quả:** đơn hàng **không chốt** vì giá báo ra chưa cạnh tranh với mức tham chiếu tại thị trường, trong đó có YKK.
+- **Bài học:** một lead chất lượng và nhu cầu rõ ràng vẫn chưa đủ; cấu trúc giá, lợi thế nguồn hàng và landed cost quyết định khả năng thắng đơn.
+
+### 3. Amazon, eBay và quảng cáo số
+
+Tôi có kinh nghiệm thực hành **nghiên cứu sản phẩm, mua hàng trên eBay, tìm nguồn hàng, hoạt động Amazon và quảng cáo trên Meta/Google**. Tôi cũng lưu các tài liệu học tập/chứng chỉ liên quan đến Amazon Ads và retail.
+
+Phần tôi muốn phát triển tiếp thành case phân tích là: **từ chi phí quảng cáo → hành vi khách hàng → chuyển đổi → hiệu quả kinh tế**. Các hóa đơn và dữ liệu vận hành gốc được dùng để đối chiếu riêng; khi chia sẻ một case sẽ ưu tiên bảng KPI tổng hợp và ẩn thông tin cá nhân/đối tác.
+
+## English
+
+My earlier e-commerce and sourcing work gave me several concrete lessons in **structured problem solving**, especially when contractual details, pricing and market realities matter as much as technical tools.
+
+### 1. Helium 10 — SaaS billing dispute
+While exploring a promotional option, I challenged a subscription charge based on the difference between checking an offer and approving a purchase. I reconstructed the event sequence, reviewed terms, pursued a written support case and received **vendor-support confirmation of a 100% refund**.
+
+### 2. Philippines — B2B garment-accessory sourcing
+I researched about **30–40 Philippine business leads**. One prospect visited our office to discuss approximately **30,000 metal jeans accessories**. The opportunity did not convert because our quotation was not competitive against local reference prices, including YKK. This was a useful lesson in lead quality, unit economics, supplier selection and landed-cost competitiveness.
+
+### 3. Amazon, eBay and paid media
+I have worked with product research, eBay purchases, Amazon-related learning and marketplace operations, and Meta/Google advertising. I am organizing these experiences around campaign economics, product decisions and measurable business outcomes.
+
+*These are condensed business case studies; original commercial correspondence and transaction records are kept separately.*
