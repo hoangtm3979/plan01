@@ -1,83 +1,65 @@
-# AI Learning Labs — Google Colab Journey / Nhật ký thực hành AI
+# AI Learning Labs / Nhật ký thực hành AI trên Google Colab
 
-[English](#english) · [Tiếng Việt](#tiếng-việt) · [Lab inventory](#verified-sample-inventory--danh-mục-đã-đối-chiếu)
-
-> **Purpose:** show the progression from mathematical/Python foundations to classical ML, deep learning, NLP and applied decision systems. This is **not** a list of production-grade or wholly original projects. Course handouts, tutorials and copied starter notebooks are treated as practice materials.
-
-## English
-
-On **2026-10-25** a read-only inventory of the connected `lapnhan81` Colab folder returned **85 notebook-type entries** (70 named and 15 untitled); the `hoangaegi89` Colab folder returned **18 notebook-type entries** (14 named and 4 untitled). These are **file counts, not unique completed assignments**: some are copied versions or shared across accounts, and folders can contain non-notebook files.
-
-**Structural source inspection is now complete for 101/101 native Colab notebooks and two non-native `.ipynb` files**. Among native files, 52 show execution counters on all code cells, 21 on some cells, 28 none, and 22 have at least one saved error. See [Source audit & release queue](REVIEW_QUEUE.md). This section publishes seven safety-reviewed examples; a historical run counter is not a fresh reproducibility test.
+[Tiếng Việt](#tiếng-việt) · [English](#english) · [Notebooks](#notebooks--bài-thực-hành)
 
 ## Tiếng Việt
 
-Tôi giữ lại cả bài tập nhỏ để thể hiện **quá trình học, thử, gặp lỗi, sửa và nâng độ khó**, bên cạnh các project lớn.
+Tôi giữ lại các bài thực hành nhỏ bên cạnh đồ án chính vì chúng cho thấy quá trình học: **nắm khái niệm → tự viết code → thử dữ liệu → gặp lỗi → kiểm tra và cải tiến**.
 
-Hai thư mục Colab có **85 + 18 mục dạng notebook**, bao gồm bản sao và Untitled, **không phải 103 đồ án độc lập**. Đã đọc cấu trúc mã/đầu ra của **101 notebook Colab gốc và 2 file notebook lưu dạng khác**. Trong 101 bản Colab: 52 bản có dấu chạy ở mọi cell code, 21 chạy một phần, 28 chưa chạy, 22 có ít nhất một output lỗi lưu lại. [Bảng kiểm tra đầy đủ](REVIEW_QUEUE.md) phân biệt nguồn đã đọc và bản chạy tái lập (chưa đạt).
+Các chủ đề đi từ Python/NumPy và đại số tuyến tính đến phân loại, phân cụm, mạng nơ-ron, NLP và bài toán ứng dụng. Một số notebook xuất phát từ bài tập môn học hoặc tutorial; tôi dùng chúng để luyện cách đọc, chỉnh sửa và giải thích code.
 
-### Learning progression / Tiến trình theo chủ đề
+Tôi đã rà lại hai thư mục Colab cũ trên Drive, với **103 mục dạng notebook** (bao gồm bản sao và bản nháp). Sau khi xem cấu trúc mã, tôi chọn **7 bài mẫu** để giới thiệu trước. Các bài còn lại được gom theo nhóm chủ đề và lưu [ghi chú nguồn](REVIEW_QUEUE.md), giúp tôi biết bài nào cần chạy lại hoặc tiếp tục học sâu.
 
-1. **Math & Python:** vectors, dot products, PCA projection, NumPy, Python exercises.
-2. **Classical ML:** linear/logistic regression, K-means, decision trees, multi-class classification, Random Forest, XGBoost.
-3. **Deep Learning:** TensorFlow basics, MNIST, fully connected neural networks, ANN lab.
-4. **NLP:** Vietnamese tokenization (VnCoreNLP), PhoBERT introduction, co-occurrence and transformer experiments.
-5. **Applied AI/Decision Systems:** e-commerce purchase-intent prediction + expected-value decisions; credit scoring; SNJ RAG; financial-regime research.
-6. **Software engineering & MLOps (next):** clean data contracts, tests, reproducible environments, Docker, monitored cloud API.
+### Các mảng đã học và thực hành
 
-## Verified sample inventory / Danh mục đã đối chiếu
+1. **Python và toán nền tảng:** biến, vòng lặp, CSV, vector, dot product, NumPy, PCA.
+2. **Machine Learning:** Linear/Logistic Regression, cây quyết định, Random Forest, XGBoost, K-Means, GMM và đánh giá mô hình.
+3. **Deep Learning:** TensorFlow, MNIST, fully connected network, cấu trúc U-Net.
+4. **NLP tiếng Việt:** tiền xử lý, tách từ, BoW, Naive Bayes, Logistic OVR, VnCoreNLP và PhoBERT.
+5. **Applied AI:** dự đoán ý định mua hàng và expected value, credit risk, Hybrid RAG và phân tích trạng thái thị trường.
 
-| Date | Exercise / Bài tập | Skills | Observed state / Trạng thái quan sát | Public artifact |
-| --- | --- | --- | --- | --- |
-| 2025-04 | Linear Regression | train/test, MAE/MSE/R² | **Incomplete:** 1/6 code cells executed; stored `FileNotFoundError` for local CSV | Not uploaded / Chưa đưa source |
-| 2025-05 | Nonlinear clustering comparison | K-Means vs Spectral vs GMM, circles/moons | 1/4 saved code cells executed; not replayed | [Notebook](notebooks/nonlinear-clustering-comparison.ipynb) |
-| 2025-06 | Python interactive input & CSV tuples | loops, input, file upload, parsing | 2/2 saved code cells executed; interactive steps | [Notebook](notebooks/python-input-and-csv-tuples.ipynb) |
-| 2025-07 | K-means with Python | clustering, distances | **Incomplete:** 1/9 code cells executed; stored `NameError` | Not uploaded |
-| 2025-08 | PCA Mathematics | vectors, dot product, projection | 2/2 code cells show historical execution; outputs removed in public copy | [Notebook](notebooks/pca-dot-product.ipynb) |
-| 2025-08 | MNIST Fully Connected Neural Network | TensorFlow FCN, train/test, save/load | 9/9 saved code cells executed, not independently rerun | [Notebook](notebooks/mnist-fully-connected-network.ipynb) |
-| 2025-08 | Vietnamese sentiment (UIT-VSFC) | custom Naive Bayes + Logistic OVR | 0/8 saved executions; unavailable private ZIP; [review](notes/uit-vsfc-sentiment.md) | Withheld source |
-| 2025-08 | Handwritten MNIST (copy) | FCN, MNIST | 0/9 code cells executed in inspected copy; source provenance needs review | Not uploaded |
-| 2025-12 | Logistic Regression practice | scaling, log loss, classification | 13/13 code cells show historical execution; course tutorial attribution (Skills Network) | Not republished due to third-party material |
-| 2025-12 | Multi-class Classification | class encodings, One-vs-One | 17/17 code cells show historical execution; assignment text partly tutorial-derived | Not uploaded |
-| 2025-12 | Random Forest vs XGBoost | boosted trees, regression metrics | 14/14 code cells show historical execution; not replayed | Not uploaded |
-| 2026-04 | NumPy Lab 01 | arrays, vectorized computation | 175/175 code cells show historical execution; 291-cell educational notebook | Not uploaded; source/provenance review |
-| 2026-04 | Toy regression & classification | linear regression, logistic, synthetic training data | 18/18 saved code cells executed; not independently rerun | [Notebook](notebooks/regression-classification-toy-lab.ipynb) |
-| 2026-04 | Medical image segmentation with U-Net | paired ultrasound/masks, Dice/BinaryIoU | 15/15 saved code cells executed; [privacy/source review](notes/busi-unet.md) | Withheld source and data |
-| 2026-04 | Decision Tree (copy) | supervised trees | 0/10 code cells executed in inspected copy | Not uploaded |
-| 2026-04 | VnCoreNLP (copy) | Vietnamese NLP tools | 2/2 code cells show historical execution | Not uploaded; origin review |
-| 2026-04 | PhoBERT (copy) | Transformer embeddings | 0/6 code cells executed in inspected copy | Not uploaded; origin review |
-| 2026-04 | E-commerce Intent + EV | purchase propensity, decision optimization | 17/17 code cells show historical execution; no stored errors noted | [Notebook](notebooks/ecommerce-intent-expected-value.ipynb) |
-| 2026-05 | TensorFlow/MNIST Intro | neural networks, training/evaluation | 13/13 code cells show historical execution; output removed | [Notebook](notebooks/tensorflow-mnist-intro.ipynb) |
-| 2026-05 | ANN Lab 4.1 | TensorFlow, tabular preprocessing | 29/29 code cells show historical execution; not replayed | Not uploaded |
-| 2026-06 | Big Data mode test | market regimes, historical HMM/XGBoost | Source inspected: full-sample HMM fit and price `.bfill()` before split; [REVISED case](../projects/regimelens.md) | Not uploaded: leakage risk/version mismatch |
-| 2026-06 | SNJ RAG evolution | dense → strict filter → hybrid retrieval | Multiple versioned notebooks found; separate [case study](../projects/snj-hybrid-rag.md) | Source under IP/data review |
+## English
 
-*Note / Lưu ý:* `n/n executed` reflects saved Colab execution counters, **not fresh passing tests**. A notebook can have executed cells and still contain incorrect assumptions, dependency problems, outdated data or hidden errors. All uploaded notebooks were cleaned of historical outputs and Colab metadata; public files therefore open with no stored outputs.
+I keep smaller exercises alongside full projects to show **how I learn, experiment, debug and improve**. My Colab work spans Python and mathematical fundamentals, classical machine learning, deep learning, Vietnamese NLP and applied decision modeling.
 
-## Why keep failed or incomplete exercises? / Vì sao giữ bài chưa hoàn thiện?
+I reviewed **103 notebook-like archived entries** across two Drive folders, including drafts and copies, and selected **seven representative notebooks** for this public learning journal. The [source review notes](REVIEW_QUEUE.md) track additional labs and topics for future clean reruns.
 
-A genuine learning portfolio can show the failure-to-fix path. **Audit summary and source release gates:** [REVIEW_QUEUE.md](REVIEW_QUEUE.md). Examples identified:
+## Notebooks / Bài thực hành
 
-- **Linear Regression:** the notebook references a CSV that is absent from its expected Colab path. Fix by recording data provenance, using a stable public dataset, and keeping evaluation code reproducible.
-- **K-means:** a historical `NameError` calls for defining and checking execution order/dependencies.
-- **Copied tutorials:** explicitly credit teaching material and distinguish personal modifications; do not claim an imported notebook as original work.
+| Notebook | Tôi luyện tập gì / What I practiced | File |
+| --- | --- | --- |
+| **Python input & CSV tuples** | Đọc dữ liệu, điều kiện, vòng lặp, xử lý tương tác | [Open](notebooks/python-input-and-csv-tuples.ipynb) |
+| **PCA & dot product** | Vector, phép chiếu, nền tảng giảm chiều | [Open](notebooks/pca-dot-product.ipynb) |
+| **Regression & classification toy lab** | Hồi quy và phân loại với dữ liệu tạo mẫu | [Open](notebooks/regression-classification-toy-lab.ipynb) |
+| **Nonlinear clustering** | So sánh K-Means, Spectral, GMM trên hình dạng cụm | [Open](notebooks/nonlinear-clustering-comparison.ipynb) |
+| **TensorFlow / MNIST intro** | TensorFlow, train/test và đánh giá mạng nơ-ron | [Open](notebooks/tensorflow-mnist-intro.ipynb) |
+| **MNIST fully connected network** | Cấu trúc FCN, huấn luyện, lưu/tải mô hình | [Open](notebooks/mnist-fully-connected-network.ipynb) |
+| **E-commerce intent & expected value** | Kết hợp dự đoán xác suất và quyết định kinh doanh | [Open](notebooks/ecommerce-intent-expected-value.ipynb) |
 
-**Release policy / Nguyên tắc công khai:** Never bulk-upload private Drive folders. For each lab: identify origin/license → inspect code/data/secrets → reproduce in clean environment → write a small README → publish only the permitted, sanitized artifact.
+*Các bản notebook công khai đã được làm gọn phần output lịch sử để dễ đọc mã. Bản chạy lại độc lập với dữ liệu/môi trường cố định là công việc tiếp theo của tôi.*
 
-## Bilingual mini-lab template / Mẫu ghi chú cho từng bài
+## Những bài khác tôi đang hệ thống hóa / Other learning topics
 
-1. **Context / Bối cảnh:** What concept was I learning? Học khái niệm gì?
-2. **Problem / Bài toán:** What should the code solve?
-3. **Input → Output:** What exact data and result?
-4. **Method / Phương pháp:** Why this algorithm?
-5. **Constraints / Ràng buộc:** Data, CPU/GPU, runtime, license.
-6. **Result / Kết quả:** Executed, error, not run, or independently reproduced?
-7. **Failure & fix / Lỗi và cách sửa:** What changed and why?
-8. **Next experiment:** One thing to test next.
-9. **Attribution / Nguồn:** Original, adapted from teaching material, or group work?
+| Chủ đề | Nội dung | Ghi chú |
+| --- | --- | --- |
+| **Linear Regression, K-Means** | Bài tập đầu giai đoạn, có tình huống thiếu CSV hoặc chạy cell chưa đúng thứ tự | Tôi dùng để ôn cách chuẩn bị dữ liệu, debug và chạy lại |
+| **Random Forest, XGBoost, Multiclass** | So sánh mô hình, encoding, One-vs-One và các metric | Tiếp tục gom các ví dụ có thể chạy lại |
+| **NumPy, ANN** | Tính toán vector và neural network trên dữ liệu bảng | Kết nối với các bài ML nền tảng |
+| **Vietnamese sentiment — UIT-VSFC** | Bag-of-Words, Naive Bayes, Logistic OVR | [Ghi chú kỹ thuật](notes/uit-vsfc-sentiment.md) |
+| **U-Net / BUSI ultrasound** | Phân đoạn ảnh và đánh giá IoU/Dice | [Ghi chú kỹ thuật](notes/busi-unet.md) |
+| **RegimeLens** | HMM, XGBoost và thử nghiệm chuỗi thời gian | [Case Big Data](../projects/regimelens.md) |
+| **SNJ RAG** | Từ dense retrieval đến lọc danh mục và hybrid ranking | [Case RAG](../projects/snj-hybrid-rag.md) |
 
-## Next promotion gates / Khi nào thành project mạnh?
+## Cách tôi ghi chép một bài / My mini-lab template
 
-A lab is promoted to a standalone project **only if** its code runs from a fresh clone, its dataset and license are identified, a meaningful baseline and evaluation protocol exist, and the owner can defend design decisions in Vietnamese and English.
+1. **Context / Bối cảnh:** Tôi đang học hoặc giải quyết điều gì?
+2. **Input → Output:** Dữ liệu nào đi vào, kết quả mong đợi là gì?
+3. **Method / Phương pháp:** Vì sao chọn thuật toán hoặc cấu trúc code này?
+4. **Constraints / Ràng buộc:** Dữ liệu, tài nguyên, thời gian và giới hạn kỹ thuật?
+5. **Result / Kết quả:** Tôi chạy ra gì, đo bằng gì?
+6. **What I learned / Điều rút ra:** Lỗi, cách sửa và bước thử nghiệm kế tiếp.
+7. **Source / Nguồn:** Phần tôi làm, phần tham khảo tutorial hoặc phần thuộc đồ án nhóm.
 
-_Inventory date: 2026-10-25. No private Colab links, source customer data or proprietary AEGI notebooks are exposed here._
+Tôi sẽ tiếp tục chuyển các notebook phù hợp thành bài thực hành **có hướng dẫn chạy, dữ liệu mẫu, kết quả dự kiến và ghi chú tiếng Việt/tiếng Anh**.
+
+[**Xem danh sách rà soát Colab chi tiết**](REVIEW_QUEUE.md)
