@@ -1,6 +1,6 @@
-# Technical Interview Practice / Luyện trình bày dự án và phỏng vấn
+# Technical Interview Practice / Trình bày dự án và phỏng vấn
 
-Tôi dùng bộ câu hỏi này để luyện **giải thích dự án bằng tiếng Việt và tiếng Anh**, mỗi ngôn ngữ khoảng 2–3 phút. Mục tiêu là hiểu và diễn giải được dữ liệu, thuật toán, lựa chọn kỹ thuật, kết quả và hướng cải tiến.
+Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Việt và tiếng Anh**, mỗi ngôn ngữ khoảng 2–3 phút. Mục tiêu là hiểu và diễn giải được dữ liệu, thuật toán, lựa chọn kỹ thuật, kết quả và hướng cải tiến.
 
 ## 1. Credit Risk / Tín dụng
 
