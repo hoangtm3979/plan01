@@ -1,72 +1,59 @@
-# Truong Minh Hoang — AI Engineering & Business Systems Portfolio
+# Trương Minh Hoàng | AI Engineering & Business Problem Solving
 
-[English](#english) · [Tiếng Việt](#tiếng-việt) · [Project case studies](#project-case-studies--hồ-sơ-dự-án)
-
-> Personal portfolio and public-facing case studies. This repository belongs to the personal GitHub account `hoangtm3979`, independently of any company/organization repository.
->
-> **Evidence policy:** Academic/group reports, notebook-recorded results, reproducible runs, deployed demonstrations, and commercial outcomes are different kinds of evidence. They are labeled separately. Nothing here asserts that an internal/synthetic result is a production outcome.
+[English](#english) · [Tiếng Việt](#tiếng-việt) · [Projects / Dự án](#projects--dự-án) · [Learning Labs](labs/README.md)
 
 ## English
 
-I study Artificial Intelligence at the University of Information Technology (VNU-HCM) while drawing on hands-on experience in e-commerce operations, advertising, sourcing, and business analysis. My focus is building AI systems that connect a clearly defined decision problem with data, modeling, evaluation, deployment, and human review.
+I'm Trương Minh Hoàng, an Artificial Intelligence student at the University of Information Technology (VNU-HCM), with a background in e-commerce, digital advertising, product sourcing, and business operations.
 
-**Areas:** tabular machine learning, retrieval-augmented systems, NLP/CV, time-series ML, evaluation, API engineering, and learning-stage MLOps (Docker, cloud deployment, monitoring). Cloud proficiency is a development goal, not a claimed production certification.
+I enjoy working from a real problem toward an implementable solution: understanding the decision, preparing data, choosing a simple baseline, developing a model or system, then evaluating its behavior and finding where it needs improvement.
 
-**How I present work:** business context → objective → inputs/outputs → constraints → baseline → approach → evidence/results → limitations → reproducibility → ownership/contribution.
+My work covers **machine learning for structured data, Vietnamese NLP, computer vision, retrieval-augmented generation (RAG), financial time-series research, and decision-support systems**. I also bring commercial experience in marketplaces, supplier negotiation and performance-oriented marketing.
+
+I use this GitHub portfolio to explain my projects in both English and Vietnamese. Each case covers the **context, problem, input, output, approach, practical constraints, results, lessons and next steps**.
 
 ## Tiếng Việt
 
-Tôi học ngành Trí tuệ nhân tạo tại UIT – ĐHQG TP.HCM, đồng thời có kinh nghiệm thực hành thương mại điện tử, quảng cáo, tìm nguồn hàng và phân tích kinh doanh. Hướng phát triển của tôi là **AI Engineering gắn với bài toán thực tế**: xác định vấn đề, chuẩn hóa dữ liệu, xây mô hình, đánh giá, triển khai và hỗ trợ người ra quyết định.
+Tôi là **Trương Minh Hoàng**, học ngành Trí tuệ nhân tạo tại Trường Đại học Công nghệ Thông tin (ĐHQG TP.HCM). Trước và trong quá trình học AI, tôi có kinh nghiệm làm thương mại điện tử, quảng cáo, nghiên cứu sản phẩm, tìm nguồn hàng và vận hành kinh doanh.
 
-**Năng lực đang xây dựng:** Machine Learning dữ liệu bảng, RAG, NLP/CV, chuỗi thời gian, đánh giá mô hình, API và MLOps (Docker, cloud, monitoring). Kỹ năng AWS/GCP đang được củng cố; không tự nhận đã vận hành production nếu thiếu log và bằng chứng.
+Tôi quan tâm đến việc **đưa AI vào những bài toán có ý nghĩa thực tế**. Khi làm một dự án, tôi bắt đầu từ bối cảnh và yêu cầu đầu ra, tìm hiểu dữ liệu và các ràng buộc, thử phương án đơn giản làm đối chứng, phát triển giải pháp, kiểm tra kết quả rồi tiếp tục cải tiến.
 
-**Cách đọc mỗi đồ án:** bối cảnh → mục tiêu → input/output → ràng buộc → baseline → giải pháp → kết quả và mức độ kiểm chứng → giới hạn → hướng tái lập → đóng góp cá nhân.
+Những hướng tôi đã thực hành gồm **Machine Learning, NLP tiếng Việt, Computer Vision, RAG, dữ liệu chuỗi thời gian và hệ thống hỗ trợ quyết định**. Tôi cũng đang củng cố Python, SQL, API engineering và cách triển khai, theo dõi ứng dụng AI.
 
-## Learning journey / Nhật ký học tập
+Portfolio này tập hợp cả **đồ án môn học, dự án ứng dụng, bài thực hành Colab và các tình huống kinh doanh thực tế**. Tôi trình bày hai ngôn ngữ để người xem hiểu tôi đã tiếp cận và giải quyết từng vấn đề như thế nào.
 
-Alongside featured projects, the [**AI Learning Labs / Nhật ký Colab**](labs/README.md) captures smaller exercises, copied/adapted tutorials, incomplete experiments, and the steps from fundamentals to applied systems. The connected Drive inventory identified 85 notebook-looking entries under `lapnhan81` and 18 under `hoangaegi89`; **all 101 native Colab JSONs plus 2 differently stored notebook files have now been structurally inspected**. These are not 103 distinct finished projects; see [audit classification](labs/REVIEW_QUEUE.md).
+## Projects / Dự án
 
-**Seven sanitized learning notebooks** are now public, including Python/CSV basics, PCA vectors, toy regression/classification, nonlinear clustering, TensorFlow/MNIST, an MNIST fully connected network, and E-commerce Intent + Expected Value. Start with the [Colab Learning Journey](labs/README.md) and the [complete source audit & release queue](labs/REVIEW_QUEUE.md). Historical outputs were removed; source inventory and publication safety review **are complete for the 103 notebook-looking entries**, while clean replay/reproducibility is a separate unfinished gate.
-
-**Tiếng Việt:** Không chỉ chọn vài đồ án đẹp. Phần nhật ký ghi cả bài cơ bản, bài đang sửa lỗi, phiên bản thử nghiệm và nguồn bài tập có tham khảo tutorial, để người đọc nhìn thấy năng lực phát triển theo thời gian.
-
-## Project case studies / Hồ sơ dự án
-
-| Project / Dự án | Main evidence / Bằng chứng chính | Public case study |
+| Dự án / Project | Vấn đề và công việc chính / Focus | Chi tiết / Case study |
 | --- | --- | --- |
-| **Credit Risk Modeling** — Logistic + LightGBM | [Executed Colab notebook](https://github.com/hoangtm3979/credit); notebook outputs; independent leakage audit pending | [Bilingual case](projects/credit-risk.md) |
-| **SNJ Hybrid RAG Product Advisor** | UIT course report; 376 catalog items; evaluation is small/internal; source review pending | [Bilingual case](projects/snj-hybrid-rag.md) |
-| **RegimeLens Financial Market Regimes** — Rolling HMM + XGBoost | UIT Big Data team report; metrics are report-stated, not reproduced here | [Bilingual case](projects/regimelens.md) |
-| **Traffic-Law Text + Sign-Image QA** | UIT NLP team report; implementation/deployment verification pending | [Bilingual case](projects/traffic-law-qa.md) |
-| **AEGI PAR — Decision Support Demo** | [Existing personal repository](https://github.com/hoangtm3979/aegi-par-demo); local UI test evidence; no claim of real-world prevention effect | [Bilingual case](projects/par-decision-support.md) |
-| **Wine Quality ML Benchmark** | UIT ML team report; model comparisons; source and metric replay pending | [Bilingual case](projects/wine-quality.md) |
-| **Commercial Problem-Solving** — marketplace operations, vendor dispute, B2B sourcing | Private receipts/email/certificates; public text only, identities redacted | [Bilingual case](projects/business-cases.md) |
-| **Multi-Camera Edge Face Attendance / IoT** | Matched five-person UIT final report names Hoàng and the image-processing role; local MVP, not field/Pi benchmark | [Bilingual case](projects/edge-face-attendance.md) |
-| **AEGI Shield / Core / Ops** | Internal synthetic/integration evidence; proprietary code/IP not replicated here | **Limited to high-level, non-sensitive discussion in interviews** |
+| **Credit Risk Modeling** | Logistic Regression và LightGBM trên dữ liệu khoản vay; đánh giá AUC, pipeline và thời điểm khả dụng của đặc trưng | [VI / EN](projects/credit-risk.md) · [Notebook](https://github.com/hoangtm3979/credit) |
+| **SNJ Hybrid RAG Jewelry Advisor** | Hiểu yêu cầu mua hàng tiếng Việt, lọc thuộc tính, tìm kiếm kết hợp dense + TF-IDF và xếp hạng sản phẩm | [VI / EN](projects/snj-hybrid-rag.md) |
+| **RegimeLens — Big Data** | HMM, XGBoost và phân tích các trạng thái thị trường; nghiên cứu đánh giá chuỗi thời gian và backtest | [VI / EN](projects/regimelens.md) |
+| **Multimodal Traffic-Law QA** | Kết hợp NLP truy hồi văn bản và xử lý ảnh biển báo giao thông | [VI / EN](projects/traffic-law-qa.md) |
+| **Multi-Camera Face Attendance (IoT/CV)** | Phát hiện/nhận diện khuôn mặt từ webcam và IP camera; FastAPI, SQLite, quản lý sự kiện điểm danh | [VI / EN](projects/edge-face-attendance.md) |
+| **PAR Decision-Support Demo** | Thiết kế luồng hỗ trợ phòng ngừa, xác minh và xử lý tình huống rủi ro; quản lý trạng thái giao diện | [VI / EN](projects/par-decision-support.md) · [Demo source](https://github.com/hoangtm3979/aegi-par-demo) |
+| **Wine Quality Classification** | EDA và so sánh Logistic Regression, Decision Tree, LightGBM, XGBoost trên bộ dữ liệu UCI | [VI / EN](projects/wine-quality.md) |
+| **Business Problem-Solving** | Case về tranh chấp phí SaaS, tìm khách B2B Philippines, Amazon/eBay và quảng cáo | [VI / EN](projects/business-cases.md) |
 
-### Review & interview preparation / Rà soát và luyện phỏng vấn
+Các đồ án nhóm được ghi rõ trong từng case. Phần **AEGI Core / Shield / Guard / Ops** là hướng nghiên cứu, phát triển sản phẩm tôi đang tham gia; tôi dành nội dung chuyên sâu phù hợp cho trao đổi trực tiếp và tài liệu sản phẩm.
 
-- [Evidence Register / Sổ bằng chứng](EVIDENCE_REGISTER.md): which outputs were inspected, report-only results, what must be reproduced, and publication boundaries.
-- [Interview Drill / Bộ câu hỏi đào sâu song ngữ](INTERVIEW_DRILL.md): ML, RAG, financial time series, NLP/CV, PAR, business operations and AWS/GCP deployment questions.
+## Learning journey / Quá trình học
 
-### Evidence labels / Quy ước bằng chứng
+Tôi lưu lại cả bài tập cơ bản và những thử nghiệm nhỏ trên Google Colab: Python, đại số tuyến tính, PCA, phân cụm, ML cổ điển, mạng nơ-ron, NLP và bài toán thương mại điện tử. Các bài này giúp thấy quá trình học từ khái niệm đến ứng dụng, bên cạnh những đồ án lớn hơn.
 
-- **Executed notebook / Notebook đã chạy:** code and stored outputs exist; may still need re-execution or audit.
-- **Reported academic result / Kết quả trong báo cáo môn học:** reported by a course document, not independently reproduced here.
-- **Prototype/demo / Bản mẫu:** demonstrates a bounded workflow, not production readiness.
-- **Pending verification / Chờ kiểm chứng:** no public metrics or deployment claim.
-- **Private supporting evidence / Bằng chứng riêng tư:** can be discussed with appropriate redaction, not uploaded as raw invoices, customer lists, correspondence, or proprietary data.
+- [AI Learning Labs / Nhật ký thực hành](labs/README.md) — danh mục và **7 notebook mẫu** đã được chọn lọc, làm gọn để dễ đọc.
+- [Technical review notes / Ghi chú rà soát nguồn](labs/REVIEW_QUEUE.md) — đối chiếu các phiên bản Colab, bài còn lỗi và hướng tái lập.
+- [Interview practice / Câu hỏi đào sâu song ngữ](INTERVIEW_DRILL.md) — cách tôi ôn lại cơ sở thuật toán, thiết kế và đánh giá từng hệ thống.
+- [Project evidence & technical notes / Tài liệu đối chiếu](EVIDENCE_REGISTER.md) — nguồn tài liệu và trạng thái kiểm tra chi tiết.
 
-### Engineering work in progress / Công việc đang tiếp tục
+## What I'm working on / Hướng đang phát triển
 
-1. Re-run selected academic notebooks with pinned dependencies and a deterministic evaluation protocol; the source inventory is complete, **fresh reruns are not**.
-2. Audit target leakage, train/test boundaries, feature timing, and reliability of reported metrics.
-3. Release sanitized code/dataset samples only after confirming rights, team contribution, privacy, and intellectual-property boundaries.
-4. Add reproducible Docker/API demonstrations, then independent AWS/GCP deployment with cost limits, logging, security, and teardown instructions.
-5. Practice explaining each project in English and Vietnamese, including failures and trade-offs.
-
-**Ethics & ownership:** Team projects are identified as team work. Individual authorship is not asserted for unreviewed portions. AEGI intellectual property, pending patent details, customer/contact lists, private billing records, and personal data are intentionally excluded.
+1. Hoàn thiện các notebook có thể chạy lại bằng dữ liệu và môi trường được định nghĩa rõ.
+2. Đào sâu **Python, SQL, Machine Learning và AI Engineering**, đặc biệt cách tránh sai lệch khi xử lý dữ liệu và đánh giá mô hình.
+3. Phát triển **AI cho thương mại điện tử**, kết nối catalog, ngôn ngữ tự nhiên, hành vi mua hàng và hỗ trợ quyết định.
+4. Thực hành API, Docker, cloud deployment, kiểm thử và giám sát trên các dự án phù hợp.
+5. Rèn khả năng trình bày thiết kế, kết quả và đánh đổi kỹ thuật bằng **tiếng Việt và tiếng Anh**.
 
 ---
 
-_Last reviewed: 2026-10-25. This portfolio is an evolving public index, not a claim that all projects are production-ready._
+*Portfolio cá nhân của Trương Minh Hoàng · Cập nhật 25/10/2026.*
