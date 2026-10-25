@@ -26,7 +26,21 @@ Use this as a self-assessment sheet. Answer each prompt first in **Vietnamese (2
 4. Why does a backtest without fees, slippage and multiple walk-forward periods overstate expected performance?
 5. Defend macro F1 and Bear Recall for imbalanced multiclass classification.
 
-## 4. NLP / CV Traffic QA
+## 3A. Critical Big Data code audit / Kiểm toán mã RegimeLens
+
+1. **EN:** In the inspected notebook, where are `StandardScaler.fit_transform` and `GaussianHMM.fit` called relative to the chronological 70/15/15 split? **VI:** Vì sao huấn luyện HMM toàn chuỗi có thể làm nhãn ngày trước phụ thuộc dữ liệu ngày sau?
+2. What happens if stock prices are filled using `.bfill()`? How can that affect historical features and model selection?
+3. What exact version/commit produced the final report's Macro F1 and Sharpe numbers? What evidence would establish parity?
+
+## 4. Multi-Camera Edge Face Attendance / Nhận diện khuôn mặt IoT
+
+1. Explain why **multi-camera** support does not imply **multi-face** recognition; the reported main path selected the largest detected face.
+2. Compare YOLO→ArcFace→cosine matching with Haar/LBP fallbacks. How is degraded quality surfaced to the operator?
+3. Why is slide target **80–95%** not a measured accuracy? Design a consented test suite for FAR, FRR, spoofing, low light and unseen identities.
+4. Demonstrate race-safe attendance deduplication, reconnect/backpressure handling, face-data retention, authorization and deletion.
+5. Separate local LAN MVP evidence from Raspberry Pi 5 latency/FPS/quantization claims.
+
+## 5. NLP / CV Traffic QA
 
 1. Why BM25 and Cross-Encoder? Which stage dominates latency and how would you measure it?
 2. Explain RGB vs HSV, Canny/contours, OCR, and failure cases under low light or occlusion.
