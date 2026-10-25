@@ -36,7 +36,21 @@ I reviewed **103 notebook-like archived entries** across two Drive folders, incl
 | **MNIST fully connected network** | Cấu trúc FCN, huấn luyện, lưu/tải mô hình | [Open](notebooks/mnist-fully-connected-network.ipynb) |
 | **E-commerce intent & expected value** | Kết hợp dự đoán xác suất và quyết định kinh doanh | [Open](notebooks/ecommerce-intent-expected-value.ipynb) |
 
-*Các bản notebook công khai đã được làm gọn phần output lịch sử để dễ đọc mã. Bản chạy lại độc lập với dữ liệu/môi trường cố định là công việc tiếp theo của tôi.*
+### Kiểm thử cập nhật 25/10/2026 / Execution check
+
+| Bài / Notebook | Kiểm tra trong lượt này / Latest check |
+| --- | --- |
+| Python input & CSV | **PASS 2/2 cell**; bổ sung CSV parser và ví dụ chạy tự động |
+| PCA & dot product | **PASS 2/2 cell** với NumPy |
+| Regression & classification toy | **PASS 17/17 cell**; bổ sung import, seed và bỏ đoạn code trùng |
+| Nonlinear clustering | **PASS 4/4 cell**; so sánh ARI K-Means **0,2393**, GMM **0,4979**, Spectral **1,0000** trên dữ liệu `make_moons` mô phỏng |
+| TensorFlow/MNIST intro | **Syntax PASS** sau khi sửa thụt lề; chờ chạy huấn luyện với TensorFlow |
+| MNIST FCN | **Syntax PASS** sau khi sửa f-string, validation split và định dạng lưu model; chờ chạy TensorFlow |
+| E-commerce intent & EV | Đã bổ sung ghi chú giả định EV; cần nguồn dữ liệu OpenML/CSV để chạy lại toàn bộ |
+
+Các số đo ARI là kết quả chạy trên **dữ liệu 2D được tạo mẫu**, không phải hiệu năng trên dữ liệu khách hàng. Notebook TensorFlow và e-commerce cần thêm môi trường hoặc dữ liệu tương ứng trước khi chốt kết quả thực nghiệm.
+
+*Các bản notebook công khai được lược output lịch sử; kết quả kiểm thử ở bảng trên là lần kiểm tra mới của mã và không thay thế đánh giá dữ liệu thực tế.*
 
 ## Những bài khác tôi đang hệ thống hóa / Other learning topics
 
