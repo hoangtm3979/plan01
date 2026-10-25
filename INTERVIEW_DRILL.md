@@ -1,11 +1,11 @@
-# Project Defense & Interview Drill / Câu hỏi đào sâu phỏng vấn
+# Technical Interview Practice / Luyện trình bày dự án và phỏng vấn
 
-Use this as a self-assessment sheet. Answer each prompt first in **Vietnamese (2–3 minutes)** and then in **English (2–3 minutes)**. Do not memorize conclusions you cannot derive from the source or reproduce.
+Tôi dùng bộ câu hỏi này để luyện **giải thích dự án bằng tiếng Việt và tiếng Anh**, mỗi ngôn ngữ khoảng 2–3 phút. Mục tiêu là hiểu và diễn giải được dữ liệu, thuật toán, lựa chọn kỹ thuật, kết quả và hướng cải tiến.
 
 ## 1. Credit Risk / Tín dụng
 
 1. **EN:** At what timestamp is a feature available? **VI:** Đặc trưng này biết được tại thời điểm nào? Explain as-of joins and why `credit_history_length` cannot use today's date for an old decision.
-2. **EN:** Why can ROC-AUC be 0.936 yet the project fail in production? **VI:** Vì sao AUC cao vẫn chưa đủ? Discuss leakage, calibration, drift, label semantics, representativeness and human policies.
+2. **EN:** What does ROC-AUC 0.936 tell us, and what does it miss? **VI:** AUC 0,936 phản ánh điều gì và còn thiếu điều gì? Thảo luận leakage, calibration, drift, định nghĩa nhãn và chính sách nghiệp vụ.
 3. **EN:** Show how train-only preprocessing works. **VI:** Minh họa `fit` trên train và `transform` trên test; identify the separate imputation risk in current code.
 4. **EN:** Define default or adverse event and observation window precisely. **VI:** Phân biệt overdue, charged-off, default và thời điểm đo.
 5. **EN:** How would you deploy and roll back this model? **VI:** Hãy thiết kế API, versioned artifacts, monitoring và rollback.
@@ -51,7 +51,7 @@ Use this as a self-assessment sheet. Answer each prompt first in **Vietnamese (2
 ## 5. PAR / Human Decision Support
 
 1. Show async state transitions, reset behavior, stale-response handling and upload cancellation.
-2. Explain why a 40/40 match with baseline proves compatibility at most, not fraud reduction.
+2. Explain what the 40/40 PAR and baseline exercise measures, and design a separate user study for decision quality.
 3. What data leave the browser during image upload? Who decides, who stores evidence, and what user disclosures are needed?
 4. Discuss accessibility, mobile UI, auditability, fail-safe error states and incidents.
 5. Draw a boundary between public user experience and proprietary core/service implementation.
@@ -82,7 +82,7 @@ For **one** project (recommended: sanitized SNJ read-only retrieval or a UCI Win
 - Record model/data version, latency p50/p95, RAM, cold-start behavior, error rate and per-request cost.
 - Produce a runbook: deploy → verify → monitor → rollback → delete nonessential infrastructure.
 
-**Do not claim AWS/GCP production experience solely because you have cloud accounts.** Demonstrate an actual controlled deployment and include its measured cost and logs.
+**Mục tiêu thực hành:** hoàn thành một bản triển khai có thể trình diễn, kèm log, chi phí, kết quả kiểm thử và hướng rollback.
 
 ## Interview answer template / Khung trả lời
 
@@ -91,8 +91,8 @@ For **one** project (recommended: sanitized SNJ read-only retrieval or a UCI Win
 3. **Constraints / Ràng buộc:** What cannot be violated?
 4. **Baseline / Đối chứng:** What simple method was tried?
 5. **Engineering / Triển khai:** Why that architecture or parameter choice?
-6. **Evidence / Bằng chứng:** How was it measured and reproduced?
-7. **Failure / Giới hạn:** Which counterexample breaks it?
+6. **Evidence / Kết quả:** Đã đo như thế nào? Làm sao chạy lại?
+7. **Lessons / Bài học:** Trường hợp nào làm mô hình hoặc quy trình sai, và tôi sẽ cải tiến ra sao?
 8. **Next step / Bước tiếp:** What single test would reduce uncertainty most?
 
 _Practice routine: one project per week; one live code reading, one failure demonstration, one bilingual mock interview, one short screen recording._
