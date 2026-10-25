@@ -36,6 +36,11 @@ Tôi học ngành Trí tuệ nhân tạo tại UIT – ĐHQG TP.HCM, đồng th�
 | **CV Face Detection / IoT** | Project identified by owner; source/report match not yet confirmed | **Held from detailed public claims** |
 | **AEGI Shield / Core / Ops** | Internal synthetic/integration evidence; proprietary code/IP not replicated here | **Limited to high-level, non-sensitive discussion in interviews** |
 
+### Review & interview preparation / Rà soát và luyện phỏng vấn
+
+- [Evidence Register / Sổ bằng chứng](EVIDENCE_REGISTER.md): which outputs were inspected, report-only results, what must be reproduced, and publication boundaries.
+- [Interview Drill / Bộ câu hỏi đào sâu song ngữ](INTERVIEW_DRILL.md): ML, RAG, financial time series, NLP/CV, PAR, business operations and AWS/GCP deployment questions.
+
 ### Evidence labels / Quy ước bằng chứng
 
 - **Executed notebook / Notebook đã chạy:** code and stored outputs exist; may still need re-execution or audit.
