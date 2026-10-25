@@ -24,9 +24,9 @@ Tôi học ngành Trí tuệ nhân tạo tại UIT – ĐHQG TP.HCM, đồng th�
 
 ## Learning journey / Nhật ký học tập
 
-Alongside featured projects, the [**AI Learning Labs / Nhật ký Colab**](labs/README.md) captures smaller exercises, copied/adapted tutorials, incomplete experiments, and the steps from fundamentals to applied systems. The Drive inventory identified 85 notebook-type entries under `lapnhan81` and 18 under `hoangaegi89`; these counts include duplicates/unfinished work and are **not** claimed as 103 finished projects.
+Alongside featured projects, the [**AI Learning Labs / Nhật ký Colab**](labs/README.md) captures smaller exercises, copied/adapted tutorials, incomplete experiments, and the steps from fundamentals to applied systems. The connected Drive inventory identified 85 notebook-looking entries under `lapnhan81` and 18 under `hoangaegi89`; **all 101 native Colab JSONs plus 2 differently stored notebook files have now been structurally inspected**. These are not 103 distinct finished projects; see [audit classification](labs/REVIEW_QUEUE.md).
 
-The first three sanitized public notebooks are [PCA vectors](labs/notebooks/pca-dot-product.ipynb), [TensorFlow/MNIST](labs/notebooks/tensorflow-mnist-intro.ipynb), and [E-commerce Intent + Expected Value](labs/notebooks/ecommerce-intent-expected-value.ipynb). Historical outputs were removed before publication, and a full reproducibility review remains next.
+**Seven sanitized learning notebooks** are now public, including Python/CSV basics, PCA vectors, toy regression/classification, nonlinear clustering, TensorFlow/MNIST, an MNIST fully connected network, and E-commerce Intent + Expected Value. Start with the [Colab Learning Journey](labs/README.md) and the [complete source audit & release queue](labs/REVIEW_QUEUE.md). Historical outputs were removed; source inventory and publication safety review **are complete for the 103 notebook-looking entries**, while clean replay/reproducibility is a separate unfinished gate.
 
 **Tiếng Việt:** Không chỉ chọn vài đồ án đẹp. Phần nhật ký ghi cả bài cơ bản, bài đang sửa lỗi, phiên bản thử nghiệm và nguồn bài tập có tham khảo tutorial, để người đọc nhìn thấy năng lực phát triển theo thời gian.
 
@@ -41,7 +41,7 @@ The first three sanitized public notebooks are [PCA vectors](labs/notebooks/pca-
 | **AEGI PAR — Decision Support Demo** | [Existing personal repository](https://github.com/hoangtm3979/aegi-par-demo); local UI test evidence; no claim of real-world prevention effect | [Bilingual case](projects/par-decision-support.md) |
 | **Wine Quality ML Benchmark** | UIT ML team report; model comparisons; source and metric replay pending | [Bilingual case](projects/wine-quality.md) |
 | **Commercial Problem-Solving** — marketplace operations, vendor dispute, B2B sourcing | Private receipts/email/certificates; public text only, identities redacted | [Bilingual case](projects/business-cases.md) |
-| **CV Face Detection / IoT** | Project identified by owner; source/report match not yet confirmed | **Held from detailed public claims** |
+| **Multi-Camera Edge Face Attendance / IoT** | Matched five-person UIT final report names Hoàng and the image-processing role; local MVP, not field/Pi benchmark | [Bilingual case](projects/edge-face-attendance.md) |
 | **AEGI Shield / Core / Ops** | Internal synthetic/integration evidence; proprietary code/IP not replicated here | **Limited to high-level, non-sensitive discussion in interviews** |
 
 ### Review & interview preparation / Rà soát và luyện phỏng vấn
@@ -59,7 +59,7 @@ The first three sanitized public notebooks are [PCA vectors](labs/notebooks/pca-
 
 ### Engineering work in progress / Công việc đang tiếp tục
 
-1. Re-run selected academic notebooks with pinned dependencies and a deterministic evaluation protocol.
+1. Re-run selected academic notebooks with pinned dependencies and a deterministic evaluation protocol; the source inventory is complete, **fresh reruns are not**.
 2. Audit target leakage, train/test boundaries, feature timing, and reliability of reported metrics.
 3. Release sanitized code/dataset samples only after confirming rights, team contribution, privacy, and intellectual-property boundaries.
 4. Add reproducible Docker/API demonstrations, then independent AWS/GCP deployment with cost limits, logging, security, and teardown instructions.
