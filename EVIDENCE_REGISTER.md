@@ -1,57 +1,45 @@
-# Public Portfolio Evidence Register / Sổ đối chiếu bằng chứng
+# Project Sources & Technical Notes / Nguồn tư liệu và ghi chú kỹ thuật
 
-**Review date / Ngày rà soát:** 2026-10-25
+*Cập nhật 25/10/2026 · Updated 25 October 2026*
 
-This register distinguishes files that have actually been inspected from evidence that is still missing. A course report is **not** the same as an independently reproducible benchmark. A GitHub repository is **not** the same as a live service.
+Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực hành để khi cần có thể **giải thích cách làm, tái lập thí nghiệm và phát triển dự án**. Trang giới thiệu chính nằm tại [README](README.md); đây là ghi chú chuyên sâu.
 
-| Case | Source checked / Nguồn đã xem | Claim allowed / Có thể nói | Missing evidence / Còn thiếu |
+| Dự án / Case | Nguồn tôi đã đối chiếu / Materials | Điều đã thể hiện / What I can discuss | Hướng tiếp tục / Next technical work |
 | --- | --- | --- | --- |
-| Credit Risk | Public `credit` notebook with stored code and execution outputs | A Colab run recorded 2.03m training / 0.665m holdout rows; ROC-AUC values stored | Dataset rights/lineage, clean replay, temporal leakage & imputation audit, fresh environment |
-| Credit AI Thinking Starter | Public `danhgiatindungcanhan` root file listing + report outline | Educational scaffold and planning of ML pipeline | Missing `src/train.py`/`src/infer.py` referred to in former README; real trained pipeline |
-| SNJ RAG | Owner's UIT PDF course report | Coursework describes 376 items/22 fields, hybrid retrieval, curated evaluation | Sanitized code/dataset, independent held-out queries, WooCommerce baseline, service logs |
-| RegimeLens | UIT Big Data team report + historical `BIGDATA_mode_test_.ipynb` inspected | Report-stated metrics only; inspected notebook version is **not leakage-safe** | Notebook/report version link; rolling point-in-time replay; remove full-sample HMM fit and price `.bfill()`; costs and owner contributions |
-| Traffic QA | Two UIT NLP/Python team reports | Team designed text and sign-image retrieval system | Source, non-template experiment log, current law corpus, validated GCP deployment |
-| PAR | Public `aegi-par-demo` README/source listing | Local UI workflow and scoped synthetic/benchmark narrative | Current deployment verification, third-party test, real-world outcome evidence |
-| Wine Quality | UIT ML team DOCX | Team compared standard ML models on UCI Wine Quality | Full notebook, metrics and reproducible run, contribution breakdown |
-| IoT/CV Face | Final five-person UIT report `Final Bao cao do an nhom Nam Sai Gon.docx` names Hoàng and his image-recognition role | Report-described local multi-camera attendance MVP; **not Pi-5 field deployment or validated accuracy** | Inspect original 555 MB ZIP safely; confirm exact commits, consent, FAR/FRR/latency; separate largest-face current path from full multi-face goal |
-| Commercial | User-supplied business history; records remain private | Describe negotiation/refund/sourcing as anonymized case studies | Verify ownership and settlement; redact supplier/buyer/client names; KPI/revenue mapping |
+| **Credit Risk** | [Personal Colab notebook](https://github.com/hoangtm3979/credit) có mã và kết quả lưu | 2,03 triệu train, ~0,665 triệu holdout, Logistic/LightGBM và ROC-AUC | Kiểm tra dữ liệu theo thời điểm, `fit` preprocessing trên train, tái chạy benchmark |
+| **Credit AI Thinking Starter** | [Personal study repo](https://github.com/hoangtm3979/danhgiatindungcanhan), tài liệu khung ML | Cách phân rã bài toán ML và xây lộ trình triển khai | Hoàn thiện các mô-đun huấn luyện/suy luận từng được lên kế hoạch |
+| **SNJ Hybrid RAG** | Báo cáo học phần UIT | 376 sản phẩm/22 cột; intent, lọc danh mục, hybrid retrieval | Bổ sung tập query độc lập, đối chứng WooCommerce và test API read-only |
+| **RegimeLens** | Báo cáo nhóm Big Data và notebook lịch sử `BIGDATA_mode_test_.ipynb` | Thiết kế HMM/XGBoost, số đo trong báo cáo và bài học về look-ahead | Xác định phiên bản code tương ứng, refit HMM theo thời gian, đánh giá chi phí giao dịch |
+| **Traffic-Law QA** | Hai báo cáo môn học UIT | Kiến trúc truy hồi văn bản + phân tích ảnh biển báo | Đối chiếu notebook, bộ luật theo phiên bản, đánh giá query và API |
+| **PAR** | [Personal demo repository](https://github.com/hoangtm3979/aegi-par-demo) | Luồng giao diện, quản lý trạng thái bất đồng bộ, kiểm thử kịch bản | Kiểm thử luồng người dùng, triển khai và đánh giá UX |
+| **Wine Quality** | Báo cáo nhóm Machine Learning UIT | EDA và so sánh mô hình phân loại UCI | Chạy lại với cross-validation và bảng metrics cố định |
+| **Face Attendance (IoT/CV)** | Báo cáo cuối kỳ nhóm năm người, ghi tên Hoàng và vai trò xử lý ảnh | MVP PC/LAN, camera, YOLO/ArcFace/FastAPI/SQLite, ghi nhận điểm danh | Test đa khuôn mặt, FAR/FRR, spoofing, latency và thiết bị edge |
+| **Business cases** | Kinh nghiệm và tài liệu giao dịch người dùng lưu riêng | Tranh chấp phí SaaS, B2B Philippines, hoạt động Amazon/eBay/Ads | Gom dữ liệu định lượng, che thông tin đối tác, phân tích KPI/chi phí |
 
-## Audit corrections — 2026-10-25 / Đính chính
+## Những điểm tôi đã điều chỉnh sau khi đối chiếu nguồn
 
-- **REVISED — IoT identity match:** A different report named `Bao_Cao_Face_Recognition_MobileNetV2_Pi5.pdf` (six-person team, without Hoàng) was initially encountered. **Do not attribute its 96% test accuracy, 33 ms inference or Pi 5 evaluation to Hoàng.** His matching five-person report is the YOLO/ArcFace/FastAPI/SQLite attendance MVP and states that multi-face inference and Pi deployment remain to be validated.
-- **REVISED — RegimeLens source/evidence mismatch:** The inspected historical Colab uses full-sample HMM fitting and backward filling before model evaluation. It is not evidence of leakage-free rolling HMM reported elsewhere. Keep published F1/Sharpe in **report-only** status, not validated notebook output.
-- **STILL VALID — privacy/IP:** Neither biological identifiers nor internal AEGI system/patent artifacts should be mirrored to the personal repository.
+- **REVISED — IoT/CV (25/10/2026):** Có hai báo cáo nhận diện khuôn mặt thuộc hai nhóm khác nhau. Báo cáo khớp với tôi là **đồ án nhóm Nam Sài Gòn** về YOLO/ArcFace, FastAPI, SQLite, MVP chạy PC/LAN. Báo cáo MobileNetV2/Pi 5 của một nhóm khác không được dùng để mô tả kết quả của tôi.
+- **REVISED — RegimeLens (25/10/2026):** Mã Colab lịch sử có `bfill` và bước scaler/HMM được huấn luyện trên cả chuỗi trước phép chia thời gian; phương án đó cần sửa để đánh giá walk-forward. Các chỉ số F1/Sharpe nêu tại [case](projects/regimelens.md) thuộc báo cáo môn học, còn mối liên hệ với phiên bản notebook vẫn đang đối chiếu.
+- **STILL VALID — dữ liệu và IP:** Mã nghiên cứu nội bộ, dữ liệu sinh trắc, hồ sơ giao dịch và thông tin đối tác được giữ trong nguồn phù hợp, không đưa nguyên bản vào portfolio công khai.
 
-## Evidence classification / Phân loại
+## Cách tôi phân biệt các mức kết quả
 
-- **E0 — Narrative only / Chỉ lời kể:** user description, no inspected artifact.
-- **E1 — Report / Báo cáo:** a document describes inputs, methods or results.
-- **E2 — Executed artifact / Artifact có output:** source with saved execution result, still subject to audit.
-- **E3 — Reproduced / Tái lập độc lập:** pinned data/dependencies, fresh repeat and acceptance checks.
-- **E4 — Operational / Vận hành:** controlled deployment, logs, monitoring, security and outcome evidence.
-- **E5 — External outcome / Kết quả thực tế:** independent customer/user/business evidence.
+| Mức | Ví dụ |
+| --- | --- |
+| **Bài thực hành / Lab** | Mã môn học, tutorial được tham khảo, notebook thử nghiệm |
+| **Kết quả lưu trong notebook** | Output của một lần chạy lịch sử |
+| **Kết quả trong báo cáo nhóm** | Số liệu nhóm tổng hợp cho đồ án môn học |
+| **Bài chạy tái lập** | Dữ liệu, môi trường và hướng dẫn để chạy lại từ đầu |
+| **Bản demo** | Luồng phần mềm có thể dùng thử trong phạm vi xác định |
+| **Vận hành thực tế** | Triển khai có người dùng, theo dõi và số đo hoạt động |
 
-**The current portfolio makes no E4/E5 claim for these academic or synthetic AI projects.**
+## Checklist khi nâng một bài lên bản demo
 
-## Immediate public-repository exposure check / Kiểm tra phơi lộ hiện hữu
+- [ ] Xác định nguồn dữ liệu, quyền sử dụng và phân công của nhóm.
+- [ ] Ghi phiên bản data/model, seed, thư viện và cấu hình.
+- [ ] Chạy lại từ môi trường sạch, lưu bảng đối chiếu baseline.
+- [ ] Kiểm tra leakage, đúng thời điểm dữ liệu và nhóm tình huống lỗi.
+- [ ] Tạo ví dụ dữ liệu mẫu dễ chia sẻ; tách tài khoản, khóa và thông tin riêng tư.
+- [ ] Hoàn thiện hướng dẫn chạy và demo song ngữ.
 
-The **already-public** `hoangtm3979/aegi-par-demo` repository contains a file named `AEGI_PAR_P3_APP_BUNDLE.zip` (~80 KB) in addition to source/documentation. Its exact binary contents were **not audited** in this review. The owner should inspect its archive manifest and contents against current IP/security authority **before promoting the link more widely**. Do not infer the archive is safe merely because it was previously committed.
-
-AEGI Shield's internal public-claim guard is a **release-candidate control**, not blanket permission to republish Shield/Core implementation, private evidence, or patent-sensitive details in a personal portfolio. Consequently, the portfolio uses high-level references only.
-
-## Before publishing original files / Trước khi upload tài liệu gốc
-
-- [ ] Verify that all code, data and model weights can legally be redistributed.
-- [ ] Obtain agreement for identifying team member contributions.
-- [ ] Remove personal identifiers, order/customer details, bank and vendor emails, receipts and private addresses.
-- [ ] Scan notebooks and datasets for API keys, Colab mount references and embedded secrets.
-- [ ] Strip proprietary AEGI/patent-sensitive details and unpublished internals.
-- [ ] Record dataset version, training seed, environment, model parameters and expected metric tolerances.
-- [ ] Run source from a clean clone without unpublished Drive dependencies.
-- [ ] Verify cloud demo isolation and avoid ongoing charges.
-
-## Không công bố / Do not publish raw
-
-AEGI private Core/Shield/Ops source or PCT specification; personal eBay/Meta/Google advertising receipts; Helium10 support thread; Philippines B2B spreadsheet; customers' identities; credentials; private SNJ catalog exports; photos/face datasets without appropriate permission.
-
-_Goal: evidence that can withstand technical questions, not merely a polished project description._
+[**Quay về danh mục dự án**](README.md)
