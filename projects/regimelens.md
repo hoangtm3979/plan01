@@ -1,40 +1,40 @@
-# RegimeLens — Financial Market Regime Research / Nghiên cứu chế độ thị trường tài chính
+# RegimeLens — Financial Market Regimes / Nghiên cứu trạng thái thị trường tài chính
 
-**Evidence / Bằng chứng:** UIT Big Data group report `BaoCao_Bigdata.pdf` plus an inspected historical Colab file named `BIGDATA_mode_test_.ipynb`. The **version link between the notebook and the reported final model/backtest is unverified**, and deployment is not independently reproduced.
+[Tiếng Việt](#tiếng-việt) · [English](#english)
 
-> **REVISED — 2026-10-25 / ĐÍNH CHÍNH:** An inspected notebook fits `StandardScaler` and `GaussianHMM` to the **full regime series before a subsequent 70/15/15 chronological split**; an earlier stock-level preparation step also uses backward fill (`.bfill()`). Thus **that notebook version is not a leakage-safe walk-forward experiment**. The course report describes a rolling/expanding HMM methodology, but the inspected code does not establish that it was implemented in this file. Previous wording implying the inspected implementation was rolling is superseded; report-stated metrics remain only report evidence.
+## Tiếng Việt
 
-## English case study
+### Bối cảnh và bài toán
+Đây là **đồ án nhóm môn Big Data tại UIT**. Nhóm nghiên cứu việc phân loại trạng thái thị trường—tăng, giảm, biến động mạnh, hồi phục hoặc đi ngang—để hỗ trợ phân tích rủi ro và kiểm thử quy tắc phân bổ tài sản mô phỏng.
 
-**Context:** Market behavior varies across trend and volatility regimes. A portfolio analyst may want to understand the current state and systematically test a risk-allocation rule.
+- **Input:** dữ liệu giá/khối lượng, chỉ báo kỹ thuật, VIX và biến vĩ mô trong giai đoạn nghiên cứu 2021–2026.
+- **Output:** nhãn một trong năm trạng thái, mô hình dự báo, chỉ số phân loại, SHAP, dashboard nghiên cứu và backtest.
+- **Ràng buộc:** thứ tự thời gian, ngày công bố dữ liệu vĩ mô, cách tạo nhãn HMM, biến động giữa các giai đoạn, chi phí giao dịch và trượt giá.
 
-**Problem:** Forecast a next-period market regime using information available up to the decision time and evaluate whether a regime-dependent hypothetical allocation changes simulated risk.
+### Thiết kế trong đồ án
+Theo báo cáo nhóm, bài toán gồm: tích hợp dữ liệu → tạo đặc trưng → gán trạng thái bằng HMM → so sánh Logistic Regression/Random Forest với XGBoost → đánh giá phân loại → mô phỏng chiến lược theo regime.
 
-**Input:** historical S&P 500/market data, technical factors, volatility indicators and macro variables. The report analyzes a 2021–2026 research window.
+Báo cáo ghi **Macro F1 = 0,563**, **Bear Recall = 0,591**, **High-Volatility Recall = 0,548** với XGBoost; Sharpe của backtest regime khoảng **0,90** so với **0,48** của buy-and-hold. Đây là kết quả của báo cáo nhóm.
 
-**Output:** one of five modeled regimes (Bull, Bear, High Volatility, Recovery, Sideways), evaluation metrics, interpretability artifacts, a Streamlit-style research dashboard and simulated backtest.
+### Điều tôi rút ra khi xem lại mã
+**REVISED — 25/10/2026:** Khi đối chiếu một bản Colab lịch sử, tôi thấy `StandardScaler` và HMM được `fit` trên toàn chuỗi trước khi chia dữ liệu theo thời gian; bước xử lý giá còn có `.bfill()`. Điều này có thể đưa thông tin tương lai vào quan sát quá khứ và khác quy trình rolling/expanding mô tả trong báo cáo. Tôi giữ riêng **số liệu trong báo cáo** và **hành vi của notebook được kiểm tra**, vì chưa xác định được đây có phải cùng phiên bản chạy benchmark cuối hay không.
 
-**Report-described approach:** data collection/merge → feature engineering → rolling/expanding HMM labeling → time-based training/validation/testing → Logistic Regression and Random Forest baselines vs XGBoost → confusion matrix, SHAP and a rule-based backtest. **Inspected notebook differs** at the HMM-label stage; source/report parity is not established.
+Bước tiếp theo: dựng lại lịch sử dữ liệu và phiên bản nguồn, thử walk-forward đúng thời điểm, so sánh baseline, thêm phí/trượt giá và phân tích độ nhạy theo giai đoạn. Đây cũng là bài học của tôi về sự khác nhau giữa một backtest hấp dẫn và một thử nghiệm chuỗi thời gian đáng tin cậy.
 
-**Report-stated results** (not independently replayed): XGBoost **Macro F1 0.563**, **Bear Recall 0.591**, **High-Volatility Recall 0.548**; a regime-switching backtest reports **Sharpe ~0.90** versus **~0.48** for buy-and-hold. These values must not be marketed as live investment performance or reliable alpha.
+## English
 
-**Constraints and risks:** severe temporal leakage risk (especially regime labels and rolling transforms), label instability as the HMM is refitted, relatively short test window/class imbalance, point-in-time availability of revised macro series, unrealistic transaction-cost assumptions, and overfitting through repeated backtests.
+### Research question
+In this UIT Big Data group project, we explored whether financial **market regimes** could be modeled and used to test a hypothetical risk-allocation strategy.
 
-**Critical reflection:** This is a concrete leakage warning, not a theoretical possibility for the inspected notebook: its scaler/HMM see later observations before chronological model evaluation, and stock-price backward-filling can put future information into earlier rows. The measured F1 must be rerun after fixing these steps. The report may refer to a different version; identifying its actual source commit is prerequisite to attributing results.
+- **Input:** price, volume, technical/volatility and macroeconomic features.
+- **Output:** five-regime labels, predictive models, evaluation, interpretability views and a simulated backtest.
+- **Methods described in the group report:** HMM regime labeling, Logistic Regression and Random Forest baselines, XGBoost, SHAP and a regime-based allocation rule.
 
-**Next validation:** rebuild data provenance; frozen seeds/snapshots; walk-forward with no future data; purged/embargoed testing where appropriate; fees/slippage/turnover; regime confusion by period; model and random-strategy baselines.
+The report records **Macro F1 0.563**, **Bear Recall 0.591**, **High-Volatility Recall 0.548**, and simulated Sharpe figures of about **0.90 vs 0.48**.
 
-**Collaboration:** This is a **UIT group project**. This page describes the group's reported system; the author's exact individual code contribution remains to be documented with commits or team confirmation.
+### Code review and next iteration
+**REVISED (25 Oct 2026):** An inspected historical notebook fits its scaler/HMM on the full sequence and backfills price data before the chronological split. That implementation differs from the report's rolling/expanding design and raises look-ahead concerns. I am treating the report metrics and inspected notebook as **different evidence until their versions are matched**.
 
-## Hồ sơ tiếng Việt
+I would rebuild this experiment with point-in-time features, walk-forward fitting and transaction-cost sensitivity. The main learning is that a time-series model is only as credible as its information boundaries.
 
-- **Bối cảnh:** trạng thái thị trường thay đổi giữa tăng, giảm, biến động mạnh, phục hồi và đi ngang.
-- **Bài toán:** dự báo regime tại bước thời gian tiếp theo và kiểm thử nguyên tắc phân bổ tài sản mô phỏng.
-- **Input:** dữ liệu giá/khối lượng, VIX, chỉ báo kỹ thuật, dữ liệu vĩ mô; cần xác định thời điểm mỗi biến thật sự khả dụng.
-- **Output:** nhãn chế độ thị trường, metric phân loại, SHAP, dashboard và backtest.
-- **Mô hình theo báo cáo:** HMM tạo nhãn mở rộng; Logistic/Random Forest làm baseline; XGBoost làm candidate. **Trong notebook được xem**, HMM học toàn bộ chuỗi trước khi chia 70/15/15, khác với mô tả walk-forward.
-- **Số liệu trong báo cáo:** Macro F1 **0,563**, Bear Recall **59,1%**, High-Volatility Recall **54,8%**; Sharpe backtest **~0,90 so với ~0,48**. **Đó là báo cáo môn học, chưa tái lập độc lập.**
-- **Ràng buộc và phát hiện mới:** notebook có `.bfill()` trên giá từng mã, `StandardScaler.fit_transform(X_hmm)` và `hmm_model.fit(X_hmm_scaled)` toàn chuỗi trước khi chia tập; đây là nguy cơ nhìn trước **đã thấy trong mã**, không chỉ rủi ro giả định. Cần đối chiếu phiên bản và huấn luyện lại theo từng thời điểm; chưa có kiểm chứng phí/trượt giá.
-- **Bước tiếp:** kiểm toán time-series pipeline, tái lập kết quả, walk-forward theo nhiều giai đoạn, báo cáo turnover và sensitivity.
-
-**Scope:** educational financial research only; no investment advice and no deployed trading system claim.
+*UIT team project. Results are from the course report; the historical notebook is under version and evaluation review.*
