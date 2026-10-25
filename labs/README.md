@@ -8,13 +8,13 @@
 
 On **2026-10-25** a read-only inventory of the connected `lapnhan81` Colab folder returned **85 notebook-type entries** (70 named and 15 untitled); the `hoangaegi89` Colab folder returned **18 notebook-type entries** (14 named and 4 untitled). These are **file counts, not unique completed assignments**: some are copied versions or shared across accounts, and folders can contain non-notebook files.
 
-This section publishes a small, safety-reviewed selection, while preserving a transparent record of other lessons. A saved execution count is not the same as a successful independent rerun or proof of correctness.
+**Structural source inspection is now complete for 101/101 native Colab notebooks and two non-native \`.ipynb\` files**. Among native files, 52 show execution counters on all code cells, 21 on some cells, 28 none, and 22 have at least one saved error. See [Source audit & release queue](REVIEW_QUEUE.md). This section publishes seven safety-reviewed examples; a historical run counter is not a fresh reproducibility test.
 
 ## Tiếng Việt
 
 Tôi giữ lại cả bài tập nhỏ để thể hiện **quá trình học, thử, gặp lỗi, sửa và nâng độ khó**, bên cạnh các project lớn.
 
-Hai thư mục Colab hiện cho thấy **85 + 18 mục notebook**, có bản trùng, bản sao và Untitled. Tôi chưa coi đó là 103 đồ án độc lập. Danh mục dưới chỉ nêu những bài đã đối chiếu tên/mã một phần; các phần chưa rà soát sẽ bổ sung dần.
+Hai thư mục Colab có **85 + 18 mục dạng notebook**, bao gồm bản sao và Untitled, **không phải 103 đồ án độc lập**. Đã đọc cấu trúc mã/đầu ra của **101 notebook Colab gốc và 2 file notebook lưu dạng khác**. Trong 101 bản Colab: 52 bản có dấu chạy ở mọi cell code, 21 chạy một phần, 28 chưa chạy, 22 có ít nhất một output lỗi lưu lại. [Bảng kiểm tra đầy đủ](REVIEW_QUEUE.md) phân biệt nguồn đã đọc và bản chạy tái lập (chưa đạt).
 
 ### Learning progression / Tiến trình theo chủ đề
 
@@ -30,27 +30,33 @@ Hai thư mục Colab hiện cho thấy **85 + 18 mục notebook**, có bản tr�
 | Date | Exercise / Bài tập | Skills | Observed state / Trạng thái quan sát | Public artifact |
 | --- | --- | --- | --- | --- |
 | 2025-04 | Linear Regression | train/test, MAE/MSE/R² | **Incomplete:** 1/6 code cells executed; stored `FileNotFoundError` for local CSV | Not uploaded / Chưa đưa source |
+| 2025-05 | Nonlinear clustering comparison | K-Means vs Spectral vs GMM, circles/moons | 1/4 saved code cells executed; not replayed | [Notebook](notebooks/nonlinear-clustering-comparison.ipynb) |
+| 2025-06 | Python interactive input & CSV tuples | loops, input, file upload, parsing | 2/2 saved code cells executed; interactive steps | [Notebook](notebooks/python-input-and-csv-tuples.ipynb) |
 | 2025-07 | K-means with Python | clustering, distances | **Incomplete:** 1/9 code cells executed; stored `NameError` | Not uploaded |
 | 2025-08 | PCA Mathematics | vectors, dot product, projection | 2/2 code cells show historical execution; outputs removed in public copy | [Notebook](notebooks/pca-dot-product.ipynb) |
+| 2025-08 | MNIST Fully Connected Neural Network | TensorFlow FCN, train/test, save/load | 9/9 saved code cells executed, not independently rerun | [Notebook](notebooks/mnist-fully-connected-network.ipynb) |
+| 2025-08 | Vietnamese sentiment (UIT-VSFC) | custom Naive Bayes + Logistic OVR | 0/8 saved executions; unavailable private ZIP; [review](notes/uit-vsfc-sentiment.md) | Withheld source |
 | 2025-08 | Handwritten MNIST (copy) | FCN, MNIST | 0/9 code cells executed in inspected copy; source provenance needs review | Not uploaded |
 | 2025-12 | Logistic Regression practice | scaling, log loss, classification | 13/13 code cells show historical execution; course tutorial attribution (Skills Network) | Not republished due to third-party material |
 | 2025-12 | Multi-class Classification | class encodings, One-vs-One | 17/17 code cells show historical execution; assignment text partly tutorial-derived | Not uploaded |
 | 2025-12 | Random Forest vs XGBoost | boosted trees, regression metrics | 14/14 code cells show historical execution; not replayed | Not uploaded |
 | 2026-04 | NumPy Lab 01 | arrays, vectorized computation | 175/175 code cells show historical execution; 291-cell educational notebook | Not uploaded; source/provenance review |
+| 2026-04 | Toy regression & classification | linear regression, logistic, synthetic training data | 18/18 saved code cells executed; not independently rerun | [Notebook](notebooks/regression-classification-toy-lab.ipynb) |
+| 2026-04 | Medical image segmentation with U-Net | paired ultrasound/masks, Dice/BinaryIoU | 15/15 saved code cells executed; [privacy/source review](notes/busi-unet.md) | Withheld source and data |
 | 2026-04 | Decision Tree (copy) | supervised trees | 0/10 code cells executed in inspected copy | Not uploaded |
 | 2026-04 | VnCoreNLP (copy) | Vietnamese NLP tools | 2/2 code cells show historical execution | Not uploaded; origin review |
 | 2026-04 | PhoBERT (copy) | Transformer embeddings | 0/6 code cells executed in inspected copy | Not uploaded; origin review |
 | 2026-04 | E-commerce Intent + EV | purchase propensity, decision optimization | 17/17 code cells show historical execution; no stored errors noted | [Notebook](notebooks/ecommerce-intent-expected-value.ipynb) |
 | 2026-05 | TensorFlow/MNIST Intro | neural networks, training/evaluation | 13/13 code cells show historical execution; output removed | [Notebook](notebooks/tensorflow-mnist-intro.ipynb) |
 | 2026-05 | ANN Lab 4.1 | TensorFlow, tabular preprocessing | 29/29 code cells show historical execution; not replayed | Not uploaded |
-| 2026-06 | Big Data mode test | time series / market modeling | Notebook found by filename; detailed code audit pending | Not uploaded |
+| 2026-06 | Big Data mode test | market regimes, historical HMM/XGBoost | Source inspected: full-sample HMM fit and price `.bfill()` before split; [REVISED case](../projects/regimelens.md) | Not uploaded: leakage risk/version mismatch |
 | 2026-06 | SNJ RAG evolution | dense → strict filter → hybrid retrieval | Multiple versioned notebooks found; separate [case study](../projects/snj-hybrid-rag.md) | Source under IP/data review |
 
 *Note / Lưu ý:* `n/n executed` reflects saved Colab execution counters, **not fresh passing tests**. A notebook can have executed cells and still contain incorrect assumptions, dependency problems, outdated data or hidden errors. All uploaded notebooks were cleaned of historical outputs and Colab metadata; public files therefore open with no stored outputs.
 
 ## Why keep failed or incomplete exercises? / Vì sao giữ bài chưa hoàn thiện?
 
-A genuine learning portfolio can show the failure-to-fix path. Examples identified:
+A genuine learning portfolio can show the failure-to-fix path. **Audit summary and source release gates:** [REVIEW_QUEUE.md](REVIEW_QUEUE.md). Examples identified:
 
 - **Linear Regression:** the notebook references a CSV that is absent from its expected Colab path. Fix by recording data provenance, using a stable public dataset, and keeping evaluation code reproducible.
 - **K-means:** a historical `NameError` calls for defining and checking execution order/dependencies.
