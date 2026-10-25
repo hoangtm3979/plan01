@@ -27,6 +27,12 @@ This register distinguishes files that have actually been inspected from evidenc
 
 **The current portfolio makes no E4/E5 claim for these academic or synthetic AI projects.**
 
+## Immediate public-repository exposure check / Kiểm tra phơi lộ hiện hữu
+
+The **already-public** `hoangtm3979/aegi-par-demo` repository contains a file named `AEGI_PAR_P3_APP_BUNDLE.zip` (~80 KB) in addition to source/documentation. Its exact binary contents were **not audited** in this review. The owner should inspect its archive manifest and contents against current IP/security authority **before promoting the link more widely**. Do not infer the archive is safe merely because it was previously committed.
+
+AEGI Shield's internal public-claim guard is a **release-candidate control**, not blanket permission to republish Shield/Core implementation, private evidence, or patent-sensitive details in a personal portfolio. Consequently, the portfolio uses high-level references only.
+
 ## Before publishing original files / Trước khi upload tài liệu gốc
 
 - [ ] Verify that all code, data and model weights can legally be redistributed.
