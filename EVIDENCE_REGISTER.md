@@ -16,6 +16,8 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 | [Wine Quality](projects/wine-quality-prediction/README.md) | 2 recovered source notebooks; new grouped-holdout notebook | 6.497 rows; 4 classifiers, 2 regressors, train-only CV | External/batch validation beyond supplied columns |
 | [Face Attendance](projects/multi-camera-face-attendance/README.md) | Correct Nam Sài Gòn report and report-grounded API/design | Hoàng role and PC/LAN scope verified from report | Full 555 MB source ZIP/runtime/hardware not reviewed |
 | [Business cases](projects/business-problem-solving/README.md) | Narrative summaries; private source records retained | Results remain within stated case scope | Public quantitative KPI/settlement reconciliation not added |
+| [Credit AI Thinking Starter](https://github.com/hoangtm3979/danhgiatindungcanhan) | Personal learning scaffold: problem decomposition, Streamlit/configuration and report outlines | Source README reviewed; planning record, not an additional model benchmark | Complete training/inference and sample-data pipeline in a separate implementation step |
+
 
 ## Notebook thực hành đã chạy lại / Re-executed learning notebooks
 

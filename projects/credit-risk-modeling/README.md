@@ -54,6 +54,13 @@ The saved notebook records **2,029,952 training** and **664,824 holdout** rows, 
 The syntax fix makes the historical source inspectable. It does not resolve the label horizon, point-in-time feature availability or holdout-fitted imputation. See the audit before reusing the training/inference code.
 
 
+### Bộ khung học tập trước đó / Earlier learning scaffold
+
+[Credit Scoring — AI Thinking Starter Pack](https://github.com/hoangtm3979/danhgiatindungcanhan) ghi lại bước phân rã bài toán, cấu hình, giao diện Streamlit và đề cương báo cáo. Đây là bộ khung học tập; README nguồn vẫn ghi train/inference là phần dự kiến hoàn thiện. Tôi giữ liên kết này để nối quá trình từ thiết kế ban đầu tới notebook thực nghiệm v3.1.
+
+The starter pack records the planning stage and is kept as learning history; it is not counted as another validated credit model.
+
+
 ---
 
 [Danh mục dự án / Project index](../README.md) · [Portfolio](../../README.md)
