@@ -8,9 +8,17 @@
 
 ### Vai trò và mục tiêu
 
-Song song với việc triển khai Amazon tại Hoàn Mỹ Zipper, tôi phụ trách **nghiên cứu thị trường quốc tế và phát triển cơ hội B2B**. Tôi dẫn dắt dự án nghiên cứu thị trường **tháng 01–08/2025**, bao gồm Indonesia, Thái Lan, Philippines, cùng Trung Quốc và Mỹ để đối chiếu thị trường, cạnh tranh và chuỗi cung ứng.
+Từ năm **2024**, tôi phụ trách dự án thương mại điện tử tại **Hoàn Mỹ Zipper**, với mục tiêu phát triển thương hiệu và khách hàng quốc tế tại **Mỹ và ASEAN**. Song song với triển khai Amazon, tôi dẫn dắt dự án nghiên cứu thị trường **tháng 01–08/2025**.
+
+Tôi cùng **ban giám đốc** chọn **Philippines, Thái Lan và Indonesia** để khảo sát sâu. Tôi phân tích giá cả, đối thủ, hành vi và cách mua hàng, mạng lưới phân phối cùng khả năng đáp ứng của doanh nghiệp, sau đó tập trung triển khai tại **Philippines**. Tài liệu về **Trung Quốc và Mỹ** cung cấp thêm góc nhìn đối chiếu cạnh tranh và chuỗi cung ứng.
 
 Tôi kết hợp góc nhìn thương mại điện tử với nghiên cứu ngành: thị trường có nhu cầu gì, ai có quyền lựa chọn nhà cung cấp, đối thủ đang phục vụ phân khúc nào và doanh nghiệp cần thay đổi điều gì để tiếp cận khách hàng.
+
+### Nghiên cứu đa ngôn ngữ và dữ liệu phân tán
+
+Các thị trường khác nhau về ngôn ngữ, thuật ngữ ngành, cách mô tả sản phẩm và tập quán mua hàng. Tôi tìm kiếm theo bối cảnh địa phương, đối chiếu các nguồn về giá, sản phẩm và nhà cung cấp, rồi diễn giải lại theo câu hỏi doanh nghiệp cần trả lời. Cách làm này đòi hỏi kiểm tra ý nghĩa thương mại của thông tin và khả năng so sánh giữa các thị trường.
+
+Với nghiên cứu chuỗi cung ứng, tôi tổng hợp **tài liệu ngành tiếng Trung và tiếng Anh**, kết hợp khung phân tích chuỗi giá trị với kinh nghiệm doanh nghiệp Trung Quốc như **SAB và SBS**: cách phát triển năng lực, tiếp cận buyer, nâng vị thế nhà cung cấp và cạnh tranh với YKK. Tôi đối chiếu những bài học đó với năng lực, ràng buộc và bối cảnh doanh nghiệp Việt Nam để xây hướng đi cụ thể.
 
 ### Bản nghiên cứu riêng về chiến lược thâm nhập
 
@@ -53,7 +61,11 @@ Tôi đưa thông tin thị trường về dạng doanh nghiệp có thể sử 
 
 > **In one sentence:** I independently researched garment-accessory markets and supply-chain entry strategies, then developed B2B prospects and tested commercial opportunities through buyer discussions and quotations.
 
-Alongside Amazon operations at **Hoan My Zipper**, I led international market research covering **Indonesia, Thailand and the Philippines**, with **China and the US** informing competitive and market comparisons. I led the market research project from **January to August 2025**.
+From **2024**, my work at **Hoan My Zipper** combined e-commerce, brand development and international customer development in **the US and ASEAN**. I led the market research project from **January to August 2025** alongside Amazon operations.
+
+Management and I selected **the Philippines, Thailand and Indonesia** for deeper research. After comparing prices, competitors, buying behavior, distribution and supply capabilities, I prioritized **the Philippines** for execution. Chinese and US sources informed broader competitive and supply-chain comparisons.
+
+I researched local-market terminology and fragmented commercial sources, checking product and price information in context. For the supply-chain study, I combined **Chinese- and English-language industry material** with value-chain frameworks and lessons from **SAB and SBS**, then assessed their relevance to a Vietnamese manufacturer's capabilities and constraints.
 
 My **48-page independent draft study** examines global sourcing changes and deeper market entry for zipper manufacturers. I synthesize industry sources and apply global-value-chain and competitive analysis to buyer influence, supplier nomination, BOM approval, product differentiation and the capabilities needed to reach higher-value customers.
 
