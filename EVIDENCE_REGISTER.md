@@ -1,6 +1,6 @@
 # Project Sources & Technical Notes / Nguồn tư liệu và ghi chú kỹ thuật
 
-*Cập nhật 25/10/2026 · Updated 25 October 2026*
+*Cập nhật 26/10/2026 · Updated 26 October 2026*
 
 Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực hành để khi cần có thể **giải thích cách làm, tái lập thí nghiệm và phát triển dự án**. Trang giới thiệu chính nằm tại [README](README.md); đây là ghi chú chuyên sâu.
 
@@ -15,7 +15,9 @@ Tôi ghi lại nguồn tài liệu đã xem và phần sẽ tiếp tục thực 
 | [PAR](projects/par-decision-support/README.md) | Public personal code and release/acceptance records | Historical 25/09 UI 1.1 deployment acceptance reviewed | Fresh runtime/user-effectiveness study not performed |
 | [Wine Quality](projects/wine-quality-prediction/README.md) | 2 recovered source notebooks; new grouped-holdout notebook | 6.497 rows; 4 classifiers, 2 regressors, train-only CV | External/batch validation beyond supplied columns |
 | [Face Attendance](projects/multi-camera-face-attendance/README.md) | Correct Nam Sài Gòn report and report-grounded API/design | Hoàng role and PC/LAN scope verified from report | Full 555 MB source ZIP/runtime/hardware not reviewed |
-| [Business cases](projects/business-problem-solving/README.md) | Narrative summaries; private source records retained | Results remain within stated case scope | Public quantitative KPI/settlement reconciliation not added |
+| [Amazon launch & operations](projects/amazon-manufacturing-launch/README.md) | Personal CV and first-person operating account | Employer, role, launch scope and CV outcomes mapped in [sources](projects/business-problem-solving/SOURCES.md) | Private Seller Central records remain outside the public portfolio |
+| [Market research & B2B development](projects/garment-accessories-market-entry/README.md) | Independent 48-page draft, CV and buyer-development account | Text read across 48 pages; image-only strategy charts inspected; strategic proposals separated from buyer outcomes | No new verification of historical industry statistics; original draft kept private |
+| [Commercial leadership](projects/business-problem-solving/README.md) | CV roles at Hoan My Zipper, AGO Gemstone/HNH and Chodientu.vn | Responsibilities and self-reported outcomes matched to source sections | Original operational and commercial records retained privately |
 | [Credit AI Thinking Starter](https://github.com/hoangtm3979/danhgiatindungcanhan) | Personal learning scaffold: problem decomposition, Streamlit/configuration and report outlines | Source README reviewed; planning record, not an additional model benchmark | Complete training/inference and sample-data pipeline in a separate implementation step |
 
 

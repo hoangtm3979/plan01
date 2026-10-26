@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hoangtm3979/plan01/main/profile/assets/profile-banner.svg" alt="Trương Minh Hoàng — Applied AI for commerce and risk" width="100%" />
+  <img src="https://raw.githubusercontent.com/hoangtm3979/plan01/main/profile/assets/profile-banner.svg" alt="Trương Minh Hoàng — E-commerce leadership and applied AI" width="100%" />
 </p>
 
-<p align="center"><strong>10+ years in e-commerce operations, bringing business context to applied AI.</strong></p>
+<p align="center"><strong>E-commerce leadership · International market development · Applied AI</strong></p>
 
 <p align="center">
   <a href="https://github.com/hoangtm3979/plan01"><strong>Portfolio</strong></a> ·
@@ -13,17 +13,31 @@
 
 ## About me
 
-I'm **Trương Minh Hoàng**, with **10+ years in e-commerce operations and marketplace growth**.  <br>
-My background spans **Chodientu.vn, AGO Gemstone/HNH and Hoan My Zipper**.  <br>
-I've operated **Amazon, Shopee, Lazada and D2C websites**.  <br>
-My work connects product research, SKU selection, SEO/PPC, orders, inventory and fulfillment.  <br>
-I use product and customer data to guide marketing and operational decisions.  <br>
-I've also worked on SOP improvement and international B2B market research.  <br>
-Now studying **AI at UIT**, I build projects in retrieval, machine learning and risk analysis.
+I'm **Trương Minh Hoàng**, with **10+ years leading e-commerce operations and business development**.  <br>
+At **Hoan My Zipper**, I led the **Amazon US launch and operations** for a garment-accessory manufacturer with an approximately **70-hectare site and 1,000 employees**.  <br>
+My ownership spanned market research, SKU selection, packaging, trademark/Brand Registry, logistics/FBA, launch and SEO/PPC.  <br>
+The new brand generated sales from its first day on Amazon; I continued improving advertising, inventory, customer experience and operating processes.  <br>
+I also independently researched international markets and supply chains, and developed B2B prospects.  <br>
+Earlier, I headed e-commerce at **AGO Gemstone/HNH** and led a B2B sales team at **Chodientu.vn**.  <br>
+Now studying **AI at UIT**, I connect this business experience with product retrieval, machine learning and risk-analysis projects.
 
 ## Selected work
 
 <table>
+<tr>
+<td width="50%" valign="top">
+<h3>Amazon · Manufacturing to Marketplace</h3>
+<p>I led an Amazon US launch for a garment-accessory manufacturer, from market research and brand setup to FBA logistics, first-day sales and ongoing operations.</p>
+<p><sub>Amazon · Brand Registry · SEO/PPC · Operations leadership</sub></p>
+<p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/amazon-manufacturing-launch"><strong>Launch, ownership &amp; outcomes →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<h3>Market Strategy · International B2B</h3>
+<p>I independently researched garment-accessory markets and supply-chain entry, then developed prospects and tested commercial opportunities with buyers.</p>
+<p><sub>Market research · Supply chains · Buyer development · Strategy</sub></p>
+<p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/garment-accessories-market-entry"><strong>Research &amp; commercial execution →</strong></a></p>
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 <h3>SNJ · Product Retrieval</h3>
@@ -63,10 +77,10 @@ Now studying **AI at UIT**, I build projects in retrieval, machine learning and 
 | [Face Attendance — team project](https://github.com/hoangtm3979/plan01/tree/main/projects/multi-camera-face-attendance) | My team project maps camera input, face matching and event logging into a local-network attendance workflow. |
 | [PAR UI prototype](https://github.com/hoangtm3979/plan01/tree/main/projects/par-decision-support) | I prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations. |
 | [Commerce Chatbot — design](https://github.com/hoangtm3979/plan01/tree/main/projects/intelligent-commerce-chatbot) | I design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations. |
-| [Business cases](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | I examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons. |
+| [E-commerce leadership & business cases](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | I connect leadership roles at Hoan My Zipper, AGO Gemstone/HNH and Chodientu.vn with practical commercial decisions and outcomes. |
 
 
-[**Browse all 10 case studies →**](https://github.com/hoangtm3979/plan01/blob/main/projects/README.md)
+[**Browse all 12 projects & cases →**](https://github.com/hoangtm3979/plan01/blob/main/projects/README.md)
 
 ## How I work
 
@@ -74,7 +88,7 @@ Now studying **AI at UIT**, I build projects in retrieval, machine learning and 
 
 - **Data & ML:** Python, pandas, NumPy, scikit-learn, LightGBM, XGBoost, TensorFlow.
 - **Applications:** product retrieval, Vietnamese NLP, computer vision and risk analysis.
-- **Business context:** e-commerce operations, product sourcing, paid media and B2B work.
+- **Business leadership:** Amazon launch and operations, D2C/marketplace management, independent market research and B2B development.
 - **Currently strengthening:** SQL, API engineering and reproducible application development.
 
 ## Learning in public
@@ -88,13 +102,13 @@ Each project links to its code, notebooks and experiment notes, with the scope o
 
 ### Tiếng Việt
 
-Tôi là **Trương Minh Hoàng**, có hơn **10 năm kinh nghiệm vận hành thương mại điện tử**.  <br>
-Từng làm việc tại **Chodientu.vn, AGO Gemstone/HNH và Hoàn Mỹ Zipper**.  <br>
-Có kinh nghiệm triển khai, vận hành **Amazon, Shopee, Lazada và website D2C**.  <br>
-Phụ trách từ nghiên cứu thị trường, lựa chọn SKU và SEO/PPC đến đơn hàng, tồn kho và fulfillment.  <br>
-Kết nối dữ liệu sản phẩm, hành trình khách hàng và quảng cáo với quyết định vận hành.  <br>
-Có kinh nghiệm cải tiến SOP và nghiên cứu thị trường B2B quốc tế.  <br>
-Hiện học **AI tại UIT**, tôi xây dựng dự án về truy hồi sản phẩm, Machine Learning và phân tích rủi ro.
+Tôi là **Trương Minh Hoàng**, có hơn **10 năm kinh nghiệm vận hành và phát triển thương mại điện tử cho doanh nghiệp**.  <br>
+Tại **Hoàn Mỹ Zipper**, tôi là trưởng nhóm phụ trách triển khai và vận hành **Amazon Mỹ** cho doanh nghiệp phụ liệu may mặc với nhà máy khoảng **70 ha, 1.000 lao động**.  <br>
+Tôi chịu trách nhiệm từ nghiên cứu thị trường, lựa chọn SKU và đóng gói đến đăng ký thương hiệu, logistics/FBA, mở bán và SEO/PPC.  <br>
+Thương hiệu mới có đơn ngay ngày đầu lên kệ; tôi tiếp tục tối ưu quảng cáo, tồn kho, trải nghiệm khách hàng và quy trình vận hành.  <br>
+Tôi tự thực hiện nghiên cứu thị trường quốc tế, phân tích chuỗi cung ứng và triển khai tiếp cận khách hàng B2B.  <br>
+Trước đó, tôi phụ trách thương mại điện tử tại **AGO Gemstone/HNH** và dẫn dắt đội kinh doanh B2B tại **Chodientu.vn**.  <br>
+Hiện học **AI tại UIT**, tôi kết hợp kinh nghiệm kinh doanh với dự án truy hồi sản phẩm, Machine Learning và phân tích rủi ro.
 
 [Xem danh mục dự án bằng tiếng Việt và tiếng Anh](https://github.com/hoangtm3979/plan01/blob/main/projects/README.md).
 

@@ -1,35 +1,37 @@
-![Trương Minh Hoàng — Applied AI for commerce and risk](profile/assets/profile-banner.svg)
+![Trương Minh Hoàng — E-commerce leadership and applied AI](profile/assets/profile-banner.svg)
 
-# Applied AI Portfolio / Hồ sơ dự án AI
+# E-commerce & Applied AI Portfolio / Kinh nghiệm thương mại điện tử và dự án AI
 
-> Hơn 10 năm vận hành thương mại điện tử, kết hợp kinh nghiệm kinh doanh với Machine Learning và AI ứng dụng.
+> Dẫn dắt triển khai thương mại điện tử cho doanh nghiệp — từ nghiên cứu thị trường đến vận hành, phát triển khách hàng và ứng dụng AI.
 
 [English](#english) · [Tiếng Việt](#tiếng-việt) · [Projects / Dự án](#projects--dự-án) · [Learning Labs](labs/README.md)
 
 ## English
 
-I'm **Trương Minh Hoàng**, with **10+ years in e-commerce operations and marketplace growth**.  <br>
-My background spans **Chodientu.vn, AGO Gemstone/HNH and Hoan My Zipper**.  <br>
-I've operated **Amazon, Shopee, Lazada and D2C websites**.  <br>
-My work connects product research, SKU selection, SEO/PPC, orders, inventory and fulfillment.  <br>
-I use product and customer data to guide marketing and operational decisions.  <br>
-I've also worked on SOP improvement and international B2B market research.  <br>
-Now studying **AI at UIT**, I build projects in retrieval, machine learning and risk analysis.
+I'm **Trương Minh Hoàng**, with **10+ years leading e-commerce operations and business development**.  <br>
+At **Hoan My Zipper**, I led the **Amazon US launch and operations** for a garment-accessory manufacturer with an approximately **70-hectare site and 1,000 employees**.  <br>
+My ownership spanned market research, SKU selection, packaging, trademark/Brand Registry, logistics/FBA, launch and SEO/PPC.  <br>
+The new brand generated sales from its first day on Amazon; I continued improving advertising, inventory, customer experience and operating processes.  <br>
+I also independently researched international markets and supply chains, and developed B2B prospects.  <br>
+Earlier, I headed e-commerce at **AGO Gemstone/HNH** and led a B2B sales team at **Chodientu.vn**.  <br>
+Now studying **AI at UIT**, I connect this business experience with product retrieval, machine learning and risk-analysis projects.
 
 ## Tiếng Việt
 
-Tôi là **Trương Minh Hoàng**, có hơn **10 năm kinh nghiệm vận hành thương mại điện tử**.  <br>
-Từng làm việc tại **Chodientu.vn, AGO Gemstone/HNH và Hoàn Mỹ Zipper**.  <br>
-Có kinh nghiệm triển khai, vận hành **Amazon, Shopee, Lazada và website D2C**.  <br>
-Phụ trách từ nghiên cứu thị trường, lựa chọn SKU và SEO/PPC đến đơn hàng, tồn kho và fulfillment.  <br>
-Kết nối dữ liệu sản phẩm, hành trình khách hàng và quảng cáo với quyết định vận hành.  <br>
-Có kinh nghiệm cải tiến SOP và nghiên cứu thị trường B2B quốc tế.  <br>
-Hiện học **AI tại UIT**, tôi xây dựng dự án về truy hồi sản phẩm, Machine Learning và phân tích rủi ro.
+Tôi là **Trương Minh Hoàng**, có hơn **10 năm kinh nghiệm vận hành và phát triển thương mại điện tử cho doanh nghiệp**.  <br>
+Tại **Hoàn Mỹ Zipper**, tôi là trưởng nhóm phụ trách triển khai và vận hành **Amazon Mỹ** cho doanh nghiệp phụ liệu may mặc với nhà máy khoảng **70 ha, 1.000 lao động**.  <br>
+Tôi chịu trách nhiệm từ nghiên cứu thị trường, lựa chọn SKU và đóng gói đến đăng ký thương hiệu, logistics/FBA, mở bán và SEO/PPC.  <br>
+Thương hiệu mới có đơn ngay ngày đầu lên kệ; tôi tiếp tục tối ưu quảng cáo, tồn kho, trải nghiệm khách hàng và quy trình vận hành.  <br>
+Tôi tự thực hiện nghiên cứu thị trường quốc tế, phân tích chuỗi cung ứng và triển khai tiếp cận khách hàng B2B.  <br>
+Trước đó, tôi phụ trách thương mại điện tử tại **AGO Gemstone/HNH** và dẫn dắt đội kinh doanh B2B tại **Chodientu.vn**.  <br>
+Hiện học **AI tại UIT**, tôi kết hợp kinh nghiệm kinh doanh với dự án truy hồi sản phẩm, Machine Learning và phân tích rủi ro.
 
 ## Projects / Dự án
 
 | Dự án / Project | Nội dung / Focus | Hồ sơ và mã / Case & code |
 | --- | --- | --- |
+| **Amazon Launch & Operations** | Tôi phụ trách triển khai Amazon Mỹ cho doanh nghiệp sản xuất, từ nghiên cứu thị trường, thương hiệu và logistics đến mở bán, vận hành tăng trưởng. | [VI / EN](projects/amazon-manufacturing-launch/README.md) |
+| **International Market Research & B2B Development** | Tôi tự nghiên cứu thị trường ngành phụ liệu may mặc, xây chiến lược thâm nhập và triển khai tiếp cận khách hàng quốc tế. | [VI / EN](projects/garment-accessories-market-entry/README.md) |
 | **Graph-Assisted Shared Risk Context — KLTN** | Nghiên cứu tác động của đặc trưng đồ thị lên phát hiện mẫu rủi ro hiếm và chuẩn hóa đầu ra tín dụng, bất thường để hỗ trợ rà soát. | [VI / EN](projects/graph-assisted-shared-risk-context/README.md) |
 | **Credit Risk Modeling** | So sánh Logistic Regression và LightGBM để ước lượng rủi ro khoản vay, đồng thời rà soát dữ liệu có thể biết tại thời điểm xét vay. | [VI / EN](projects/credit-risk-modeling/README.md) |
 | **SNJ Hybrid RAG Jewelry Advisor** | Hiểu yêu cầu mua trang sức bằng tiếng Việt để lọc đúng loại hàng và tìm sản phẩm phù hợp trong catalog. | [VI / EN](projects/snj-hybrid-rag-jewelry-advisor/README.md) |
@@ -39,7 +41,7 @@ Hiện học **AI tại UIT**, tôi xây dựng dự án về truy hồi sản p
 | **PAR Decision-Support UI** | Bản mẫu giao diện hướng dẫn người dùng phòng ngừa, xác minh hoặc khôi phục khi gặp tình huống rủi ro số. | [VI / EN](projects/par-decision-support/README.md) |
 | **Wine Quality — Classification & Regression** | Dự đoán chất lượng rượu vang từ chỉ số hóa lý, so sánh phân loại và hồi quy với cách chia dữ liệu kiểm soát mẫu trùng. | [VI / EN](projects/wine-quality-prediction/README.md) |
 | **Multi-Camera Face Attendance** | Đồ án nhóm về quy trình điểm danh từ camera đến nhận diện khuôn mặt, kiểm tra sự kiện và lưu lịch sử trong mạng LAN. | [VI / EN](projects/multi-camera-face-attendance/README.md) |
-| **Business Problem Solving** | Các tình huống thực tế về tranh chấp phí SaaS, tìm khách hàng B2B và vận hành marketplace, tập trung vào quyết định và bài học kinh doanh. | [VI / EN](projects/business-problem-solving/README.md) |
+| **E-commerce Leadership & Business Cases** | Kinh nghiệm quản lý Amazon, D2C và marketplace tại Hoàn Mỹ Zipper, AGO Gemstone/HNH và Chodientu.vn, cùng các tình huống kinh doanh thực tế. | [VI / EN](projects/business-problem-solving/README.md) |
 
 [**Xem toàn bộ danh mục, trạng thái chạy và phần còn mở / Full project index and validation scope**](projects/README.md) · [**Tên file cũ → mới / File map**](projects/FILE_MAP.md)
 

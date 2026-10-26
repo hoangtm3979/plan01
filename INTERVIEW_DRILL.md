@@ -82,11 +82,15 @@ Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Vi
 
 ## 7. Commercial / Kinh doanh
 
-1. **Vendor dispute:** distinguish authorization, refund promise, settlement and business learning — which document supports which assertion?
-2. **B2B Philippines:** why did an interested buyer not convert? Discuss landed cost, competitor pricing, margins, MOQ and what I would change.
-3. **Ads:** distinguish billed amount from actual spend, revenue, attributable conversions, incrementality and ROAS/ACOS.
-4. **eBay:** compare marketplace purchase versus off-platform direct sourcing, payment protection and authenticity risk.
-5. **Portfolio ownership:** describe decisions I made personally versus actions by teams, suppliers or platforms.
+1. **Amazon launch ownership:** tôi phụ trách quyết định nào từ nghiên cứu thị trường, chọn SKU, đóng gói, thương hiệu đến vận chuyển/FBA và mở bán? Tôi phối hợp với bộ phận nào?
+2. **Launch outcome:** tôi xác định ngày đầu bán hàng và bán đều từ dữ liệu nào? Phân biệt không dùng khuyến mãi/giảm giá từ sàn với lưu lượng organic và PPC.
+3. **Operating economics:** ACOS khoảng 30% xuống dưới 20% phản ánh điều gì? Phân biệt ACOS, TACOS, lợi nhuận sau phí, logistics và tồn kho.
+4. **Independent market research:** vì sao tìm được nhà máy may chưa đủ để được chọn làm nhà cung cấp? Giải thích buyer, BOM, nomination và năng lực phục vụ.
+5. **Philippine B2B:** từ 30–40 đầu mối đến khách đến văn phòng trao đổi 30.000 phụ liệu, tôi đã làm gì? Vì sao báo giá chưa cạnh tranh và tôi sẽ điều chỉnh nguồn cung/landed cost ra sao?
+6. **AGO Gemstone/HNH:** tôi đo lỗi thao tác, thời gian xử lý và chi phí mỗi đơn thế nào khi cải tiến SOP? Phân biệt ngân sách quảng cáo tôi trực tiếp quản lý và tổng ngân sách chiến dịch tôi tham gia lập kế hoạch.
+7. **Merchant enablement:** kinh nghiệm dẫn dắt đội B2B tại Chodientu.vn giúp tôi hiểu gì về việc doanh nghiệp chuyển sang bán hàng trực tuyến?
+8. **Vendor dispute:** tôi đã dùng điều khoản, trình tự thao tác và trao đổi hỗ trợ thế nào để xử lý khoản phí SaaS?
+
 
 ## 8. MLOps / AWS & GCP deployment exercise
 
