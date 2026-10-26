@@ -4,10 +4,22 @@ Tôi dùng CV, bản nghiên cứu riêng và kinh nghiệm trực tiếp để 
 
 | Tư liệu | Nội dung sử dụng |
 | --- | --- |
-| **CV cá nhân, cập nhật 26/10/2026 — 6 trang** | Vai trò tại Hoàn Mỹ Zipper (2024–2025), AGO Gemstone/HNH (2014–2022), Chodientu.vn (2011–2013); triển khai Amazon, Brand Registry/FBA, SEO/PPC; các kết quả 1.500+ khách hàng, Top 100 ngành hàng, ACOS khoảng 30% xuống dưới 20%, thời gian xử lý giảm khoảng 50%; phạm vi dự án nghiên cứu thị trường 01–08/2025; việc báo cáo nghiên cứu được lãnh đạo ghi nhận về giá trị chiến lược và khả năng ứng dụng |
+| **CV cá nhân, cập nhật 26/10/2026 — 6 trang** | Vai trò tại Hoàn Mỹ Zipper (2024–2025), AGO Gemstone/HNH (2014–2022), Chodientu.vn; triển khai Amazon, Brand Registry/FBA, SEO/PPC; các kết quả 1.500+ khách hàng, Top 100 ngành hàng, ACOS khoảng 30% xuống dưới 20%, thời gian xử lý giảm khoảng 50%; phạm vi dự án nghiên cứu thị trường 01–08/2025; việc báo cáo nghiên cứu được lãnh đạo ghi nhận về giá trị chiến lược và khả năng ứng dụng |
 | **Bản thảo nghiên cứu chuỗi cung ứng và chiến lược ngành khóa kéo — 48 trang** | Bản nghiên cứu do tôi thực hiện; phân tích sourcing và chuỗi giá trị, buyer/BOM và supplier nomination, phân khúc/đối thủ, hướng nâng cấp nhà cung cấp và ưu tiên chiến lược |
 | **Thông tin tôi bổ sung ngày 26/10/2026** | Trách nhiệm trưởng nhóm từ đầu đến vận hành Amazon; quy mô nhà máy khoảng 70 ha, khoảng 1.000 lao động; có đơn ngay ngày đầu và duy trì bán đều mà không dựa vào khuyến mãi/giảm giá từ sàn; đóng góp của bản nghiên cứu trong việc làm rõ các khúc mắc về gia nhập chuỗi cung ứng toàn cầu |
 | **Kinh nghiệm phát triển B2B tôi đã trình bày** | Khoảng 30–40 đầu mối Philippines, khách đến văn phòng trao đổi cơ hội khoảng 30.000 phụ liệu kim loại; cơ hội không chốt do giá |
+
+## Thông tin nghề nghiệp tôi bổ sung ngày 26/10/2026
+
+| Nội dung | Cách thể hiện trong portfolio |
+| --- | --- |
+| **Học vấn và mốc công việc** | Tốt nghiệp CNTT tại HCMUS năm 2010; bắt đầu Chodientu.vn sau tốt nghiệp và làm đến 2013; chuyển sang trang sức/đá quý từ 2013, mở thêm thời trang linen năm 2021; phụ trách dự án TMĐT/B2B may mặc từ 2024; hiện chờ xét tốt nghiệp AI tại UIT |
+| **Phân tích hai hoạt động bán lẻ** | Xu hướng và hành vi mua, tỷ lệ quay lại, vòng đời khách hàng, giá trị đơn hàng; chi phí quảng cáo bình quân khoảng 12–15% tổng doanh thu; giá trị đơn đặt trước gia công tương đương khoảng 30% doanh thu |
+| **Lựa chọn thị trường** | Tôi và ban giám đốc chọn Philippines, Thái Lan, Indonesia để nghiên cứu sâu, sau đó tập trung triển khai Philippines dựa trên phân tích giá, cạnh tranh và thị trường |
+| **Phương pháp nghiên cứu** | Thông tin thị trường theo ngôn ngữ/bối cảnh địa phương; tài liệu ngành tiếng Trung và tiếng Anh; bài học doanh nghiệp cùng ngành được đối chiếu với thực tiễn doanh nghiệp Việt Nam |
+| **Tình huống giao dịch** | Helium 10 là tài khoản công ty; tôi theo sát nhiều vòng trao đổi để giải quyết khoản phí. Tôi cũng có kinh nghiệm mua đá quý trên eBay |
+
+Các tỷ lệ bán lẻ trên là số liệu tôi bổ sung từ kinh nghiệm vận hành. Mẫu số của tỷ lệ quảng cáo là **tổng doanh thu**; tỷ lệ đơn đặt trước được mô tả theo **giá trị đơn hàng so với doanh thu**. Kết quả Amazon và các tỷ lệ bán lẻ được trình bày trong đúng bối cảnh tương ứng.
 
 ## Đọc bản nghiên cứu
 
