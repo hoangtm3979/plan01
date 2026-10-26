@@ -1,67 +1,101 @@
-# E-commerce Leadership & Business Cases / Kinh nghiệm quản lý thương mại điện tử và phát triển kinh doanh
+# E-commerce Leadership & Business Cases / Kinh nghiệm thương mại điện tử và giải quyết bài toán doanh nghiệp
 
-> **Điểm nổi bật:** Tôi phụ trách triển khai và vận hành thương mại điện tử cho doanh nghiệp sản xuất, bán lẻ và nền tảng marketplace, kết hợp nghiên cứu thị trường, phát triển khách hàng và cải tiến vận hành.
+> **Điểm nổi bật:** Từ nền tảng CNTT, tôi phát triển kinh nghiệm qua marketplace, bán lẻ trang sức và thời trang, rồi triển khai Amazon và nghiên cứu B2B quốc tế; tôi dùng dữ liệu khách hàng, hiệu quả vận hành và bối cảnh thị trường để ra quyết định.
 
 [Tiếng Việt](#tiếng-việt) · [English](#english) · [Nguồn tư liệu](SOURCES.md)
 
 ## Tiếng Việt
 
-### Kinh nghiệm tại doanh nghiệp
+### Hành trình từ CNTT đến thương mại điện tử và AI
 
-Tôi có hơn **10 năm làm thương mại điện tử**, từ hỗ trợ doanh nghiệp bán hàng trên nền tảng đến quản lý D2C và triển khai Amazon cho nhà sản xuất.
+Tôi tốt nghiệp **CNTT tại Đại học Khoa học Tự nhiên – ĐHQG-HCM (HCMUS) năm 2010**. Sau hơn 10 năm làm thương mại điện tử, tôi tiếp tục học AI tại **UIT – ĐHQG-HCM** và hiện đang chờ xét tốt nghiệp. Kinh nghiệm doanh nghiệp là nền tảng để tôi lựa chọn và phát triển các bài toán AI có mục đích sử dụng rõ ràng.
 
-| Doanh nghiệp và giai đoạn | Vai trò và phần việc tôi phụ trách |
+| Giai đoạn | Vai trò và phạm vi công việc |
 | --- | --- |
-| **Hoàn Mỹ Zipper · 2024–2025** | **Trưởng nhóm vận hành Amazon và nghiên cứu thị trường quốc tế.** Triển khai Amazon Mỹ từ nghiên cứu, SKU, thương hiệu, đóng gói và logistics/FBA đến mở bán, SEO/PPC, tồn kho và account health; đồng thời nghiên cứu ngành phụ liệu may mặc và phát triển cơ hội B2B |
-| **AGO Gemstone / HNH · 2014–2022** | **Phụ trách thương mại điện tử và kinh doanh offline.** Quản lý website D2C, Shopee, Lazada, định vị sản phẩm, SEO/PPC, hành trình khách hàng, đơn hàng, tồn kho, logistics, chăm sóc khách hàng và SOP |
-| **Chodientu.vn · 2011–2013** | **Trưởng nhóm kinh doanh B2B.** Dẫn dắt đội hỗ trợ merchant/seller thiết lập gian hàng, đăng sản phẩm, vận hành bán hàng và phát triển kinh doanh trên nền tảng |
+| **2010–2013 · Chodientu.vn** | **Trưởng nhóm kinh doanh B2B.** Tôi dẫn dắt đội kinh doanh, hỗ trợ người bán tham gia marketplace và phát triển bán hàng trực tuyến; công việc cũng gắn với các dịch vụ thanh toán PayPal và Ngân Lượng. |
+| **Từ 2013 · Trang sức và đá quý** | Tôi chuyển sang bán lẻ đá quý, trang sức và gia công theo đơn. Trong giai đoạn **2014–2022 tại AGO Gemstone/HNH**, tôi phụ trách thương mại điện tử và kinh doanh offline, từ sản phẩm, website D2C, Shopee/Lazada đến quảng cáo, đơn hàng và vận hành. |
+| **Từ 2021 · Thời trang linen** | Tôi mở thêm hoạt động bán lẻ thời trang linen, kết nối lựa chọn sản phẩm, phân tích nhu cầu, quảng cáo và đơn đặt trước gia công. |
+| **2024–2025 · Hoàn Mỹ Zipper** | Tôi phụ trách dự án thương mại điện tử, triển khai Amazon Mỹ và nghiên cứu thị trường quốc tế cho doanh nghiệp sản xuất phụ liệu may mặc; cùng ban giám đốc lựa chọn thị trường để phát triển B2B. |
 
-### Hai dự án thương mại tiêu biểu
+### Phân tích khách hàng và hiệu quả bán lẻ
 
-#### [1. Triển khai Amazon cho doanh nghiệp sản xuất](../amazon-manufacturing-launch/README.md)
+Trong hai hoạt động bán lẻ trang sức/đá quý và thời trang linen, tôi theo dõi **xu hướng mua, hành vi khách hàng, tỷ lệ quay lại, vòng đời khách hàng và giá trị đơn hàng**. Tôi dùng các phân tích này để điều chỉnh danh mục, cách tiếp cận khách, ngân sách quảng cáo và kế hoạch gia công.
 
-Tôi chịu trách nhiệm toàn bộ quá trình đưa sản phẩm phụ liệu may mặc lên Amazon Mỹ cho doanh nghiệp có nhà máy khoảng **70 ha và 1.000 lao động**. Thương hiệu mới có đơn ngay ngày đầu lên kệ và duy trì bán đều, không dựa vào chương trình khuyến mãi hay giảm giá từ sàn để tạo đơn mở bán.
+| Chỉ số tôi theo dõi | Mức ghi nhận trong quá trình vận hành |
+| --- | --- |
+| **Chi phí quảng cáo / tổng doanh thu** | Bình quân khoảng **12–15%** |
+| **Giá trị đơn đặt trước gia công** | Tương đương khoảng **30% tổng doanh thu**, hỗ trợ chuẩn bị kế hoạch sản xuất và nguồn hàng |
+| **ROAS, ACOS và hiệu quả theo sản phẩm/kênh** | Tôi theo dõi cùng giá vốn, biên lợi nhuận, tồn kho và hành vi mua để điều chỉnh hoạt động |
 
-Trong giai đoạn triển khai, tôi phục vụ **1.500+ khách hàng**, góp phần đưa sản phẩm vào **Top 100 ngành hàng**, giảm **ACOS từ khoảng 30% xuống dưới 20%** và cải tiến quy trình giúp giảm **khoảng 50% thời gian xử lý nội bộ**.
+Tại **AGO Gemstone/HNH**, tôi trực tiếp quản lý ngân sách quảng cáo khoảng **10–20 triệu đồng trở lên mỗi ngày**. Các cải tiến SOP được ghi nhận trong CV gồm giảm khoảng **30–40% lỗi thao tác**, rút ngắn **40–50% thời gian xử lý đơn**, giảm **10–15% chi phí vận hành mỗi đơn** và tăng trưởng doanh thu online khoảng **12–25%/năm**.
 
-#### [2. Nghiên cứu thị trường quốc tế và phát triển B2B](../garment-accessories-market-entry/README.md)
+### Triển khai Amazon cho doanh nghiệp sản xuất
 
-Tôi tự thực hiện nghiên cứu ngành và thị trường, gồm bản thảo **48 trang về chuỗi cung ứng toàn cầu và chiến lược thâm nhập ngành khóa kéo**. Tôi phân tích buyer, BOM, nominated supplier, đối thủ, phân khúc và năng lực doanh nghiệp cần chuẩn bị. Nghiên cứu được lãnh đạo công ty đánh giá cao, giúp làm rõ các khúc mắc về quyền quyết định mua và điều kiện để doanh nghiệp tham gia sâu hơn vào chuỗi cung ứng toàn cầu.
+Tại **Hoàn Mỹ Zipper**, tôi chịu trách nhiệm từ nghiên cứu thị trường, lựa chọn SKU, đăng ký thương hiệu và đóng gói đến logistics/FBA, mở bán và vận hành. Bối cảnh là một doanh nghiệp phụ liệu may mặc có nhà máy khoảng **70 ha, 1.000 lao động**.
 
-Từ nghiên cứu đến tiếp cận thực tế, tôi xây danh sách **30–40 đầu mối Philippines**; một khách đến văn phòng trao đổi cơ hội khoảng **30.000 phụ liệu kim loại**. Cơ hội không chốt do giá, giúp tôi kiểm tra lại khả năng cạnh tranh của nguồn cung và landed cost.
+Thương hiệu mới **có đơn từ ngày đầu lên kệ và duy trì bán đều**, không dựa vào khuyến mãi hay giảm giá từ sàn để tạo đơn mở bán. Giai đoạn triển khai và vận hành phục vụ **1.500+ khách hàng**; tôi góp phần đưa sản phẩm vào **Top 100 ngành hàng**, giảm **ACOS từ khoảng 30% xuống dưới 20%** và rút ngắn **khoảng 50% thời gian xử lý nội bộ**.
 
-### Vận hành D2C, marketplace và đội kinh doanh
+[**Phạm vi trách nhiệm, quy trình và kết quả Amazon →**](../amazon-manufacturing-launch/README.md)
 
-Tại **AGO Gemstone/HNH**, tôi kết nối hoạt động quảng cáo với SKU, định vị sản phẩm, biên lợi nhuận, tồn kho và mục tiêu doanh thu. Tôi trực tiếp quản lý ngân sách quảng cáo khoảng **10–20 triệu đồng trở lên mỗi ngày**, đồng thời phối hợp vận hành đơn hàng, kho, logistics và dịch vụ khách hàng.
+### Nghiên cứu thị trường quốc tế từ bài toán thực tế
 
-Các cải tiến SOP giúp giảm **khoảng 30–40% lỗi thao tác**, rút ngắn **40–50% thời gian xử lý đơn** và giảm **10–15% chi phí vận hành mỗi đơn**. CV của tôi ghi nhận tăng trưởng doanh thu online khoảng **12–25%/năm** trong giai đoạn công việc này.
+Từ năm 2024, tôi làm việc trong lĩnh vực B2B phụ liệu may mặc với mục tiêu phát triển thương hiệu và khách hàng quốc tế tại **Mỹ và ASEAN**. Tôi cùng ban giám đốc chọn **Philippines, Thái Lan và Indonesia** để khảo sát sâu; sau khi phân tích giá, đối thủ, cách mua hàng và khả năng cung ứng, tôi tập trung triển khai tại **Philippines**.
 
-Tại **Chodientu.vn**, tôi dẫn dắt đội kinh doanh B2B hỗ trợ người bán đưa hoạt động lên môi trường trực tuyến, tư vấn quy trình bán hàng và theo sát mục tiêu quý. Kinh nghiệm này giúp tôi hiểu cả góc nhìn nền tảng, người bán và người mua.
+Thách thức nằm ở dữ liệu phân tán và khác biệt giữa các thị trường. Tôi tìm kiếm theo thuật ngữ và ngữ cảnh địa phương, đối chiếu thông tin sản phẩm, giá và hành vi mua giữa các nguồn để đưa về cùng một bài toán kinh doanh. Công việc đòi hỏi hiểu ý nghĩa thương mại của tài liệu, kiểm tra nguồn và xác định thông tin nào có thể dùng cho quyết định.
 
-### Từ kinh nghiệm doanh nghiệp đến AI Engineering
+Tôi xây danh sách **30–40 đầu mối Philippines**; một khách đến văn phòng trao đổi cơ hội khoảng **30.000 phụ liệu kim loại**. Cơ hội không chốt do giá, cung cấp phản hồi thực tế về sức cạnh tranh của nguồn cung và chi phí đưa hàng tới khách.
 
-Công việc tại thị trường Việt Nam, Amazon Mỹ và B2B Philippines giúp tôi hiểu dữ liệu sản phẩm, nhu cầu khách hàng và các ràng buộc vận hành. Tôi mang góc nhìn này vào các đồ án AI: xác định đúng vấn đề, lựa chọn dữ liệu phù hợp, xây đối chứng và đánh giá kết quả theo mục tiêu sử dụng. Hướng phát triển nghề nghiệp của tôi hiện là **AI Engineer**, tập trung vào thương mại điện tử và phân tích rủi ro.
+### Nghiên cứu riêng về chuỗi cung ứng
 
-### Tình huống bổ sung: xử lý tranh chấp phí SaaS
+Tôi tự thực hiện bản nghiên cứu **48 trang về chuỗi cung ứng toàn cầu và chiến lược thâm nhập ngành khóa kéo**, xuất phát từ những vướng mắc của doanh nghiệp Việt Nam. Tôi kết hợp tài liệu ngành **tiếng Trung và tiếng Anh**, các khung phân tích chuỗi giá trị và bài học từ doanh nghiệp Trung Quốc như **SAB, SBS** trong quá trình phát triển năng lực, tiếp cận buyer và cạnh tranh với YKK.
 
-Khi phát sinh khoản phí Helium 10 mà tôi cho rằng chưa có xác nhận mua gói tương ứng, tôi đối chiếu thao tác, điều khoản và thông báo thanh toán, sau đó theo sát trao đổi hỗ trợ bằng văn bản. Phía hỗ trợ xác nhận **hoàn lại 100% khoản phí tranh chấp**. Đây là một tình huống thực tế về quản lý chi phí và làm việc với nhà cung cấp.
+Nghiên cứu được **lãnh đạo công ty đánh giá cao về giá trị chiến lược và khả năng ứng dụng**. Tôi làm rõ ai có quyền quyết định vật tư, vì sao tiếp cận nhà máy may chưa đủ để được chọn làm nhà cung cấp, và năng lực nào cần ưu tiên để tham gia sâu hơn vào chuỗi cung ứng. Kết quả thể hiện cách tôi tiếp cận một ngành mới: hiểu cấu trúc, xác định rào cản, đối chiếu bằng chứng và đề xuất hướng triển khai phù hợp nguồn lực.
+
+[**Phương pháp nghiên cứu, chuỗi cung ứng và phát triển B2B →**](../garment-accessories-market-entry/README.md)
+
+### Xử lý tình huống vận hành và giao dịch quốc tế
+
+**Khoản phí Helium 10 trên tài khoản công ty:** tôi trực tiếp theo sát nhiều vòng trao đổi hỗ trợ, đối chiếu lịch sử thao tác, điều khoản và thông báo thanh toán để làm rõ khoản phí tranh chấp. Phía hỗ trợ sau đó xác nhận **hoàn lại 100% khoản phí**. Tình huống này thể hiện khả năng lập luận bằng hồ sơ, duy trì tính nhất quán và theo việc đến khi có kết quả cho doanh nghiệp.
+
+**Tìm nguồn đá quý trên eBay:** tôi có kinh nghiệm tìm mua đá quý qua marketplace quốc tế, bổ sung góc nhìn phía người mua cho công việc vận hành bán lẻ và bán hàng xuyên biên giới.
+
+### Nền tảng tôi mang vào AI Engineering
+
+Tôi kết nối **khách hàng – sản phẩm – dữ liệu – quy trình – hiệu quả kinh doanh** khi xác định vấn đề. Kinh nghiệm phân tích hành vi, nghiên cứu nguồn đa ngôn ngữ và xử lý tình huống vận hành giúp tôi đặt câu hỏi cụ thể trước khi xây mô hình: dữ liệu có ý nghĩa gì, kết quả hỗ trợ quyết định nào và cần đánh giá theo mục tiêu nào. Hướng phát triển hiện tại của tôi là **AI Engineer**, tập trung vào thương mại điện tử và phân tích rủi ro.
 
 ## English
 
-> **In one sentence:** I have led e-commerce operations across manufacturing, retail and marketplace businesses, connecting market research, channel launch, customer development and operating improvements.
+> **In one sentence:** I bring an IT background and practical experience across marketplaces, jewelry and linen retail, Amazon operations and international B2B research into my development as an AI Engineer.
 
-My experience spans three business settings:
+### Background and roles
 
-- **Hoan My Zipper, 2024–2025 — Amazon Marketplace Operations Lead & International Market Research:** I owned the Amazon US launch and operations from research and product readiness to brand setup, FBA logistics, SEO/PPC, inventory and account health. The new brand sold from its first day; the operating phase served 1,500+ customers, reached Top 100 category positions and reduced ACOS from about 30% to below 20%.
-- **AGO Gemstone/HNH, 2014–2022 — Head of E-commerce & Offline:** I managed D2C websites, Shopee/Lazada, paid media, product positioning, customer journeys, orders, inventory and fulfillment. My work included direct advertising budgets of approximately VND 10–20M+ per day and SOP improvements across errors, processing time and cost per order.
-- **Chodientu.vn, 2011–2013 — E-commerce Sales Team Leader, B2B:** I led merchant-facing sales, seller onboarding, store setup and marketplace-operation consulting, while managing team targets.
+I graduated in **Information Technology from HCMUS, VNU-HCM, in 2010**. I am now awaiting graduation approval in **AI at UIT, VNU-HCM**.
 
-My [Amazon launch case](../amazon-manufacturing-launch/README.md) details channel ownership and outcomes. My [international market research case](../garment-accessories-market-entry/README.md) covers an independent 48-page supply-chain study and practical Philippine B2B development. Company leadership recognized the research for clarifying supply-chain entry barriers and its practical strategic value. Together, these projects show how I connect analysis with implementation inside businesses.
+- **2010–2013 · Chodientu.vn:** I led B2B sales and supported merchants adopting online selling. My work also involved PayPal and Ngan Luong payment services.
+- **From 2013 · Jewelry and gemstones:** I moved into retail and custom jewelry production. As **Head of E-commerce & Offline at AGO Gemstone/HNH, 2014–2022**, I managed products, D2C websites, Shopee/Lazada, advertising, orders and operations.
+- **From 2021 · Linen fashion:** I launched a linen retail business, connecting product selection, customer research, advertising and orders placed ahead of production.
+- **2024–2025 · Hoan My Zipper:** I led e-commerce work, Amazon US launch and operations, and international market research for a garment-accessory manufacturer.
 
-My current career direction is **AI Engineering**. Experience in Vietnam, Amazon US and Philippine B2B development helps me frame useful problems, understand product and customer data, and evaluate AI applications against operating needs.
+### Customer analysis and retail operations
 
-I also resolved a disputed SaaS charge through documented vendor communication, receiving support confirmation of a full refund. It is a supporting commercial example alongside the larger operating projects.
+Across jewelry and linen retail, I analyzed **buying trends, customer behavior, repeat purchases, customer lifecycle and order value**. Advertising expenditure averaged approximately **12–15% of total revenue**; the value of orders placed ahead of production was equivalent to approximately **30% of total revenue**. I tracked ROAS and ACOS alongside product costs, margins and inventory to guide operating decisions.
+
+At AGO Gemstone/HNH, I directly managed advertising budgets of approximately **VND 10–20M+ per day**. My CV records SOP improvements of approximately **30–40% fewer manual errors**, **40–50% shorter order-processing time**, **10–15% lower operating cost per order**, and **12–25% annual online revenue growth**.
+
+### Amazon and international B2B
+
+For **Hoan My Zipper**, a manufacturer with an approximately **70-hectare site and 1,000 employees**, I owned the Amazon channel from market research, SKU and brand preparation through packaging, FBA logistics, launch and operations. The new brand sold **from day one**, followed by steady sales, without relying on marketplace promotions or discounts for launch orders. The operating phase served **1,500+ customers**, helped products reach **Top 100 category positions**, and reduced **ACOS from about 30% to below 20%**. Internal processing time fell by approximately **50%** through workflow improvements.
+
+For market development, management and I selected **the Philippines, Thailand and Indonesia** for deeper research, then prioritized **the Philippines** after assessing prices, competitors, buying behavior and supply capabilities. I worked with local-market terminology and fragmented sources, interpreting their commercial meaning in context. I researched **30–40 prospects**; one buyer visited our office to discuss around **30,000 metal garment accessories**. The quotation was not competitive enough to close the opportunity, providing practical feedback on pricing and supply economics.
+
+My **48-page independent supply-chain study** combines Chinese- and English-language industry sources, value-chain analysis and lessons from manufacturers such as **SAB and SBS** with the specific constraints of a Vietnamese business. Company leadership recognized its strategic and practical value in clarifying purchasing authority, supplier approval and paths into global value chains.
+
+### Operational problem-solving
+
+I handled a disputed **Helium 10 charge on a company account**, maintaining a consistent record of actions, terms and payment notices across several support exchanges. Support confirmed a **full refund**. I also have experience sourcing and buying gemstones on **eBay**, adding a buyer's perspective to cross-border commerce.
+
+These experiences inform my AI work: defining a useful problem, understanding customer and product data, checking evidence and evaluating results against operating needs. My career direction is **AI Engineering for commerce and risk analysis**.
 
 ---
 
-[Nguồn tư liệu / Sources](SOURCES.md) · [Danh mục dự án / Project index](../README.md) · [Portfolio](../../README.md)
+[Amazon launch & operations](../amazon-manufacturing-launch/README.md) · [Market research & B2B](../garment-accessories-market-entry/README.md) · [Sources / Nguồn tư liệu](SOURCES.md) · [AI project index](../README.md)
