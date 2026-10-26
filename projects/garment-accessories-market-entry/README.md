@@ -29,6 +29,16 @@ Tôi tự thực hiện bản thảo **“Xu hướng tìm nguồn cung ứng to
 
 Đầu ra của nghiên cứu gồm sơ đồ chuỗi giá trị, phân tích cạnh tranh, lộ trình nâng cấp vai trò nhà cung cấp và ma trận ưu tiên chiến lược. Các phương án và kịch bản trong bản thảo phục vụ lựa chọn hướng đi của doanh nghiệp.
 
+### Giá trị đối với doanh nghiệp
+
+Nghiên cứu của tôi được **lãnh đạo công ty đánh giá cao về giá trị chiến lược và khả năng áp dụng thực tế**. Tài liệu giúp tháo gỡ các khúc mắc trong định hướng tham gia sâu hơn vào chuỗi cung ứng toàn cầu:
+
+- **Xác định đúng người quyết định mua:** phân biệt vai trò đặt hàng của nhà máy may với quyền phê duyệt vật tư của buyer và thương hiệu.
+- **Làm rõ rào cản gia nhập:** giải thích vì sao năng lực sản xuất và giá cạnh tranh cần đi cùng điều kiện phê duyệt nhà cung cấp và tham gia danh mục vật tư (BOM).
+- **Chuyển phân tích thành ưu tiên hành động:** đề xuất hướng tiếp cận buyer, chuẩn bị mẫu và tiêu chuẩn, phát triển năng lực sản phẩm và lựa chọn phân khúc phù hợp.
+
+Tôi dùng các kết quả này để hỗ trợ thảo luận chiến lược và xác định bước tiếp cận thị trường cho doanh nghiệp.
+
 ### Từ nghiên cứu đến phát triển khách hàng
 
 Tại **Philippines**, tôi xây danh sách khoảng **30–40 khách hàng B2B tiềm năng**, thu thập nhu cầu, đối chiếu sản phẩm và chuẩn bị trao đổi giá với nguồn cung.
@@ -48,6 +58,8 @@ Alongside Amazon operations at **Hoan My Zipper**, I led international market re
 My **48-page independent draft study** examines global sourcing changes and deeper market entry for zipper manufacturers. I synthesize industry sources and apply global-value-chain and competitive analysis to buyer influence, supplier nomination, BOM approval, product differentiation and the capabilities needed to reach higher-value customers.
 
 The study produces supply-chain maps, competitor and segment analysis, a supplier-development roadmap and strategic priorities across B2B/nomination, recycled products, VMI/JIT, upstream capabilities and digital integration. Its scenarios support strategic choices; they are proposed business directions.
+
+Company leadership **recognized the research for its practical strategic value**. It clarified who makes purchasing and material-approval decisions, why manufacturing capability alone does not secure supplier nomination, and which buyer relationships, product capabilities and market segments to prioritize. I used these findings to support strategic discussions and market-entry planning.
 
 For **Philippine B2B development**, I researched approximately **30–40 prospects**. One buyer visited our office to discuss around **30,000 metal jeans accessories**. The opportunity did not close because the quotation was not competitive against market reference prices. It provided direct feedback on pricing, sourcing and landed-cost assumptions.
 
