@@ -1,69 +1,85 @@
-![Trương Minh Hoàng — E-commerce leadership and applied AI](profile/assets/profile-banner.svg)
+![Trương Minh Hoàng — AI Engineer Portfolio](profile/assets/profile-banner.svg)
 
-# E-commerce & Applied AI Portfolio / Kinh nghiệm thương mại điện tử và dự án AI
+# AI Engineer Portfolio · Trương Minh Hoàng
 
-> Dẫn dắt triển khai thương mại điện tử cho doanh nghiệp — từ nghiên cứu thị trường đến vận hành, phát triển khách hàng và ứng dụng AI.
+**Machine Learning · RAG · Decision Support**  
+*Applied projects informed by experience in e-commerce, international markets and business operations.*
 
-[English](#english) · [Tiếng Việt](#tiếng-việt) · [Projects / Dự án](#projects--dự-án) · [Learning Labs](labs/README.md)
+[AI projects](#ai--software-projects--đồ-án-ai) · [Domain experience](#domain-experience--kinh-nghiệm-doanh-nghiệp) · [Learning labs](labs/README.md) · [GitHub profile](https://github.com/hoangtm3979)
 
-## English
+## About me
 
-I'm **Trương Minh Hoàng**, with **10+ years leading e-commerce operations and business development**.  <br>
-At **Hoan My Zipper**, I led the **Amazon US launch and operations** for a garment-accessory manufacturer with an approximately **70-hectare site and 1,000 employees**.  <br>
-My ownership spanned market research, SKU selection, packaging, trademark/Brand Registry, logistics/FBA, launch and SEO/PPC.  <br>
-The new brand generated sales from its first day on Amazon; I continued improving advertising, inventory, customer experience and operating processes.  <br>
-I also independently researched international markets and supply chains, and developed B2B prospects.  <br>
-Earlier, I headed e-commerce at **AGO Gemstone/HNH** and led a B2B sales team at **Chodientu.vn**.  <br>
-Now studying **AI at UIT**, I connect this business experience with product retrieval, machine learning and risk-analysis projects.
+I'm **Trương Minh Hoàng**, completing my **AI studies at UIT, VNU-HCM**, and currently **awaiting graduation approval**.  <br>
+My studies and projects focus on **machine learning, retrieval-augmented generation (RAG) and decision-support systems**.  <br>
+My thesis explores **graph-assisted risk analysis**; other projects cover product retrieval, time-series modeling and computer vision.  <br>
+I'm interested in how **data, context and careful evaluation** can make AI useful in commerce and risk analysis.  <br>
+I bring **10+ years of e-commerce experience in Vietnam**, including Amazon US launch leadership and B2B market development in the **Philippines**.  <br>
+My independent **supply-chain research** was recognized by company leadership for clarifying buyer decisions, supplier approval and paths into global value chains.  <br>
+My goal is to grow as an **AI Engineer**, building practical systems that connect sound technical work with real business needs.
 
-## Tiếng Việt
+<details>
+<summary><strong>Tiếng Việt · Giới thiệu</strong></summary>
 
-Tôi là **Trương Minh Hoàng**, có hơn **10 năm kinh nghiệm vận hành và phát triển thương mại điện tử cho doanh nghiệp**.  <br>
-Tại **Hoàn Mỹ Zipper**, tôi là trưởng nhóm phụ trách triển khai và vận hành **Amazon Mỹ** cho doanh nghiệp phụ liệu may mặc với nhà máy khoảng **70 ha, 1.000 lao động**.  <br>
-Tôi chịu trách nhiệm từ nghiên cứu thị trường, lựa chọn SKU và đóng gói đến đăng ký thương hiệu, logistics/FBA, mở bán và SEO/PPC.  <br>
-Thương hiệu mới có đơn ngay ngày đầu lên kệ; tôi tiếp tục tối ưu quảng cáo, tồn kho, trải nghiệm khách hàng và quy trình vận hành.  <br>
-Tôi tự thực hiện nghiên cứu thị trường quốc tế, phân tích chuỗi cung ứng và triển khai tiếp cận khách hàng B2B.  <br>
-Trước đó, tôi phụ trách thương mại điện tử tại **AGO Gemstone/HNH** và dẫn dắt đội kinh doanh B2B tại **Chodientu.vn**.  <br>
-Hiện học **AI tại UIT**, tôi kết hợp kinh nghiệm kinh doanh với dự án truy hồi sản phẩm, Machine Learning và phân tích rủi ro.
+### Tiếng Việt
 
-## Projects / Dự án
+Tôi là **Trương Minh Hoàng**, học ngành **Trí tuệ nhân tạo tại UIT – ĐHQG-HCM**, hiện **đang chờ xét tốt nghiệp**.  <br>
+Tôi tập trung học và nghiên cứu **Machine Learning, truy hồi tăng cường sinh (RAG) và hệ thống hỗ trợ quyết định**.  <br>
+Khóa luận của tôi nghiên cứu **phân tích rủi ro có hỗ trợ đồ thị**; các đồ án khác trải rộng từ truy hồi sản phẩm đến chuỗi thời gian và thị giác máy tính.  <br>
+Tôi quan tâm cách kết hợp **dữ liệu, ngữ cảnh và đánh giá mô hình** để ứng dụng AI vào thương mại điện tử và phân tích rủi ro.  <br>
+Tôi có **hơn 10 năm kinh nghiệm thương mại điện tử tại Việt Nam**, từng phụ trách triển khai Amazon **Mỹ** và phát triển cơ hội B2B tại **Philippines**.  <br>
+Nghiên cứu **chuỗi cung ứng** do tôi thực hiện được lãnh đạo công ty đánh giá cao, giúp làm rõ quyền quyết định mua, điều kiện phê duyệt nhà cung cấp và hướng tham gia chuỗi giá trị toàn cầu.  <br>
+Mục tiêu của tôi là phát triển vai trò **AI Engineer**, xây dựng hệ thống hữu ích bằng cách kết hợp nền tảng kỹ thuật với hiểu biết bài toán doanh nghiệp.
 
-| Dự án / Project | Nội dung / Focus | Hồ sơ và mã / Case & code |
-| --- | --- | --- |
-| **Amazon Launch & Operations** | Tôi phụ trách triển khai Amazon Mỹ cho doanh nghiệp sản xuất, từ nghiên cứu thị trường, thương hiệu và logistics đến mở bán, vận hành tăng trưởng. | [VI / EN](projects/amazon-manufacturing-launch/README.md) |
-| **International Market Research & B2B Development** | Tôi tự nghiên cứu thị trường ngành phụ liệu may mặc, xây chiến lược thâm nhập và triển khai tiếp cận khách hàng quốc tế. | [VI / EN](projects/garment-accessories-market-entry/README.md) |
-| **Graph-Assisted Shared Risk Context — KLTN** | Nghiên cứu tác động của đặc trưng đồ thị lên phát hiện mẫu rủi ro hiếm và chuẩn hóa đầu ra tín dụng, bất thường để hỗ trợ rà soát. | [VI / EN](projects/graph-assisted-shared-risk-context/README.md) |
-| **Credit Risk Modeling** | So sánh Logistic Regression và LightGBM để ước lượng rủi ro khoản vay, đồng thời rà soát dữ liệu có thể biết tại thời điểm xét vay. | [VI / EN](projects/credit-risk-modeling/README.md) |
-| **SNJ Hybrid RAG Jewelry Advisor** | Hiểu yêu cầu mua trang sức bằng tiếng Việt để lọc đúng loại hàng và tìm sản phẩm phù hợp trong catalog. | [VI / EN](projects/snj-hybrid-rag-jewelry-advisor/README.md) |
-| **Intelligent Commerce Chatbot** | Thiết kế trợ lý bán hàng nhiều lượt, ghi nhớ nhu cầu và kiểm tra dữ liệu sản phẩm trước khi đưa ra gợi ý. | [VI / EN](projects/intelligent-commerce-chatbot/README.md) |
-| **RegimeLens — Market Regimes** | Khám phá trạng thái thị trường bằng HMM, rồi kiểm tra dự đoán ngày kế tiếp với đối chứng giữ nguyên trạng thái hôm nay. | [VI / EN](projects/regimelens-market-regimes/README.md) |
-| **Multimodal Traffic-Law QA** | Khám phá cách tra cứu luật giao thông bằng tiếng Việt và hướng kết hợp ảnh biển báo, bắt đầu từ đối chứng truy hồi văn bản. | [VI / EN](projects/traffic-law-multimodal-qa/README.md) |
-| **PAR Decision-Support UI** | Bản mẫu giao diện hướng dẫn người dùng phòng ngừa, xác minh hoặc khôi phục khi gặp tình huống rủi ro số. | [VI / EN](projects/par-decision-support/README.md) |
-| **Wine Quality — Classification & Regression** | Dự đoán chất lượng rượu vang từ chỉ số hóa lý, so sánh phân loại và hồi quy với cách chia dữ liệu kiểm soát mẫu trùng. | [VI / EN](projects/wine-quality-prediction/README.md) |
-| **Multi-Camera Face Attendance** | Đồ án nhóm về quy trình điểm danh từ camera đến nhận diện khuôn mặt, kiểm tra sự kiện và lưu lịch sử trong mạng LAN. | [VI / EN](projects/multi-camera-face-attendance/README.md) |
-| **E-commerce Leadership & Business Cases** | Kinh nghiệm quản lý Amazon, D2C và marketplace tại Hoàn Mỹ Zipper, AGO Gemstone/HNH và Chodientu.vn, cùng các tình huống kinh doanh thực tế. | [VI / EN](projects/business-problem-solving/README.md) |
+</details>
 
-[**Xem toàn bộ danh mục, trạng thái chạy và phần còn mở / Full project index and validation scope**](projects/README.md) · [**Tên file cũ → mới / File map**](projects/FILE_MAP.md)
+## AI & software projects / Đồ án AI
+
+| Project / Dự án | Điểm nổi bật |
+| --- | --- |
+| [**Graph-Assisted Shared Risk Context — Thesis**](projects/graph-assisted-shared-risk-context/README.md) | Tôi nghiên cứu đặc trưng đồ thị cho phát hiện rủi ro hiếm và chuẩn hóa đầu ra tín dụng, bất thường để hỗ trợ rà soát. |
+| [**SNJ · Jewelry Product Retrieval**](projects/snj-hybrid-rag-jewelry-advisor/README.md) | Tôi chuyển yêu cầu mua trang sức bằng tiếng Việt thành các ràng buộc và kết quả tìm kiếm phù hợp trong catalog. |
+| [**Wine Quality · ML Pipeline**](projects/wine-quality-prediction/README.md) | Tôi dự đoán chất lượng rượu vang bằng phân loại và hồi quy, kiểm soát mẫu trùng khi chia dữ liệu. |
+| [**RegimeLens · Market States**](projects/regimelens-market-regimes/README.md) | Tôi dùng HMM để khám phá trạng thái thị trường và đánh giá dự đoán ngày kế tiếp so với đối chứng giữ nguyên trạng thái. |
+| [**Credit Risk Modeling**](projects/credit-risk-modeling/README.md) | Tôi so sánh Logistic Regression và LightGBM cho rủi ro khoản vay, chú trọng dữ liệu sẵn có tại thời điểm xét vay. |
+| [**Multimodal Traffic-Law QA**](projects/traffic-law-multimodal-qa/README.md) | Tôi khám phá tra cứu luật giao thông tiếng Việt và hướng kết hợp ảnh biển báo, bắt đầu từ truy hồi văn bản. |
+| [**Multi-Camera Face Attendance**](projects/multi-camera-face-attendance/README.md) | Trong đồ án nhóm, tôi tham gia xây dựng quy trình điểm danh từ camera, nhận diện khuôn mặt đến ghi nhận sự kiện trên mạng LAN. |
+| [**PAR · Decision-Support UI**](projects/par-decision-support/README.md) | Tôi xây dựng bản mẫu giao diện hỗ trợ phòng ngừa, xác minh và khôi phục trong các tình huống rủi ro số. |
+| [**Intelligent Commerce Chatbot · Design**](projects/intelligent-commerce-chatbot/README.md) | Tôi thiết kế trợ lý bán hàng nhiều lượt, ghi nhớ nhu cầu và kiểm tra dữ liệu sản phẩm trước khi gợi ý. |
+
+[**Full project index · Code, notebooks & results**](projects/README.md)
+
+## Domain experience / Kinh nghiệm doanh nghiệp
+
+Tôi kết hợp nền tảng AI với kinh nghiệm tại doanh nghiệp sản xuất, bán lẻ và marketplace. Công việc tại Việt Nam, triển khai Amazon Mỹ và tiếp cận B2B Philippines giúp tôi hiểu dữ liệu gắn với khách hàng, sản phẩm và quy trình vận hành như thế nào.
+
+| Case / Hồ sơ | Vai trò và đóng góp |
+| --- | --- |
+| [**Amazon US · Hoàn Mỹ Zipper**](projects/amazon-manufacturing-launch/README.md) | Tôi dẫn dắt triển khai từ nghiên cứu, thương hiệu, đóng gói và logistics/FBA đến vận hành; thương hiệu mới có đơn từ ngày đầu mở bán. |
+| [**Nghiên cứu thị trường & chuỗi cung ứng**](projects/garment-accessories-market-entry/README.md) | Nghiên cứu riêng 48 trang được lãnh đạo đánh giá cao, làm rõ rào cản gia nhập chuỗi cung ứng; tôi đồng thời triển khai tiếp cận khách hàng B2B Philippines. |
+| [**AGO Gemstone/HNH · Chodientu.vn**](projects/business-problem-solving/README.md) | Tôi phụ trách D2C, marketplace và đội kinh doanh B2B, kết nối nhu cầu khách hàng với sản phẩm, quảng cáo và cải tiến vận hành. |
+
+## Technical foundation / Nền tảng kỹ thuật
+
+- **Tools used in my projects:** Python, pandas, NumPy, scikit-learn, LightGBM, XGBoost and TensorFlow.
+- **Methods:** graph features, retrieval, Vietnamese NLP, time-series modeling and computer vision.
+- **Workflow:** problem definition → data → baseline → implementation → evaluation → documentation.
+- **Next steps:** deepen SQL and API engineering; develop AI applications for commerce and risk analysis.
 
 ## Learning journey / Quá trình học
 
-Tôi lưu lại cả bài tập cơ bản và những thử nghiệm nhỏ trên Google Colab: Python, đại số tuyến tính, PCA, phân cụm, ML cổ điển, mạng nơ-ron, NLP và bài toán thương mại điện tử. Các bài này giúp thấy quá trình học từ khái niệm đến ứng dụng, bên cạnh những đồ án lớn hơn.
+Tôi lưu lại cả bài tập cơ bản và thử nghiệm nhỏ để thể hiện quá trình học từ khái niệm đến ứng dụng.
 
-- [AI Learning Labs / Nhật ký thực hành](labs/README.md) — **7/7 notebook đã chạy từ đầu**, có output, biểu đồ và hướng dẫn tái lập. [Kết quả chạy](labs/EXECUTION_REPORT.md).
-- [Colab archive / Kho bài tập mở rộng](labs/archive/README.md) — 35 notebook bổ sung; ghi riêng bài đã chạy và bài còn phụ thuộc môi trường/dữ liệu.
-- [Technical review notes / Ghi chú rà soát nguồn](labs/REVIEW_QUEUE.md) — đối chiếu các phiên bản Colab, bài còn lỗi và hướng tái lập.
-- [Interview practice / Câu hỏi đào sâu song ngữ](INTERVIEW_DRILL.md) — cách tôi ôn lại cơ sở thuật toán, thiết kế và đánh giá từng hệ thống.
-- [Project evidence & technical notes / Tài liệu đối chiếu](EVIDENCE_REGISTER.md) — nguồn tài liệu và trạng thái kiểm tra chi tiết.
+- [**7 foundation notebooks / Bài thực hành nền tảng**](labs/README.md) — Python, đại số tuyến tính, ML và mạng nơ-ron, kèm output và biểu đồ.
+- [**35 Colab exercises / Bài tập mở rộng**](labs/archive/README.md) — Python/NumPy, ML, NLP, Deep Learning/CV và trực quan hóa.
+- [**Interview practice / Ôn tập kỹ thuật**](INTERVIEW_DRILL.md) — cách tôi giải thích thuật toán, thiết kế và kết quả.
 
-## What I'm working on / Hướng đang phát triển
+<details>
+<summary><strong>Experiment notes & reproducibility / Tài liệu thực nghiệm</strong></summary>
 
-1. Mở rộng kho thực hành từ bảy notebook đã chạy đầy đủ; tiếp tục chọn lọc và tái lập các bài Colab còn lại.
-2. Đào sâu **Python, SQL, Machine Learning và AI Engineering**, đặc biệt cách tránh sai lệch khi xử lý dữ liệu và đánh giá mô hình.
-3. Phát triển **AI cho thương mại điện tử**, kết nối catalog, ngôn ngữ tự nhiên, hành vi mua hàng và hỗ trợ quyết định.
-4. Thực hành API, Docker, cloud deployment, kiểm thử và giám sát trên các dự án phù hợp.
-5. Rèn khả năng trình bày thiết kế, kết quả và đánh đổi kỹ thuật bằng **tiếng Việt và tiếng Anh**.
+[Execution report](labs/EXECUTION_REPORT.md) · [Project evidence](EVIDENCE_REGISTER.md) · [Source notes](labs/REVIEW_QUEUE.md) · [File map](projects/FILE_MAP.md)
+
+</details>
 
 ---
 
 *Portfolio cá nhân của Trương Minh Hoàng · Cập nhật 26/10/2026.*
-
