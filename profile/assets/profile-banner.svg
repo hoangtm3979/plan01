@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="340" viewBox="0 0 1400 340" role="img" aria-labelledby="title desc">
-  <title id="title">Trương Minh Hoàng — E-commerce &amp; Applied AI</title>
-  <desc id="desc">E-commerce leadership, international market development and applied AI.</desc>
+  <title id="title">Trương Minh Hoàng — AI Engineer Portfolio</title>
+  <desc id="desc">AI engineering, machine learning, retrieval and decision support, informed by business experience.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#102238"/><stop offset="1" stop-color="#101A2B"/></linearGradient>
     <radialGradient id="glow"><stop stop-color="#32C4C0" stop-opacity=".14"/><stop offset="1" stop-color="#32C4C0" stop-opacity="0"/></radialGradient>
@@ -12,11 +12,11 @@
   <rect x="62" y="62" width="44" height="4" rx="2" fill="#46D0C8"/>
   <text x="120" y="69" fill="#9CB9CB" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" letter-spacing="3">LEARNING · BUILDING · EVALUATING</text>
   <text x="62" y="151" fill="#F2F7FA" font-family="DejaVu Sans, Arial, sans-serif" font-size="56" font-weight="700">Trương Minh Hoàng</text>
-  <text x="65" y="198" fill="#C4D6E1" font-family="DejaVu Sans, Arial, sans-serif" font-size="25">E-commerce, Market Strategy &amp; Applied AI</text>
+  <text x="65" y="198" fill="#C4D6E1" font-family="DejaVu Sans, Arial, sans-serif" font-size="23">AI Engineer Portfolio · Applied ML &amp; Decision Support</text>
   <g font-family="DejaVu Sans, Arial, sans-serif" font-size="15" fill="#D6E4EC">
-    <rect x="64" y="244" width="148" height="36" rx="18" fill="#20394C"/><text x="138" y="267" text-anchor="middle">Amazon &amp; D2C</text>
-    <rect x="224" y="244" width="152" height="36" rx="18" fill="#20394C"/><text x="300" y="267" text-anchor="middle">Market Research</text>
-    <rect x="388" y="244" width="174" height="36" rx="18" fill="#20394C"/><text x="475" y="267" text-anchor="middle">Applied AI</text>
+    <rect x="64" y="244" width="184" height="36" rx="18" fill="#20394C"/><text x="156" y="267" text-anchor="middle">Machine Learning</text>
+    <rect x="260" y="244" width="152" height="36" rx="18" fill="#20394C"/><text x="336" y="267" text-anchor="middle">RAG &amp; NLP</text>
+    <rect x="424" y="244" width="174" height="36" rx="18" fill="#20394C"/><text x="511" y="267" text-anchor="middle">Risk &amp; Commerce</text>
   </g>
   <g stroke="#4DC6C4" stroke-width="1.5" fill="none">
     <path d="M986 92L1115 65L1250 129L1197 251L1048 261L986 92L1197 251M986 92L1128 166L1250 129M1048 261L1128 166L1115 65" opacity=".35"/>
