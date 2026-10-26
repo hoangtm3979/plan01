@@ -26,7 +26,7 @@ Trong giai đoạn triển khai, tôi phục vụ **1.500+ khách hàng**, góp 
 
 #### [2. Nghiên cứu thị trường quốc tế và phát triển B2B](../garment-accessories-market-entry/README.md)
 
-Tôi tự thực hiện nghiên cứu ngành và thị trường, gồm bản thảo **48 trang về chuỗi cung ứng toàn cầu và chiến lược thâm nhập ngành khóa kéo**. Tôi phân tích buyer, BOM, nominated supplier, đối thủ, phân khúc và năng lực doanh nghiệp cần chuẩn bị.
+Tôi tự thực hiện nghiên cứu ngành và thị trường, gồm bản thảo **48 trang về chuỗi cung ứng toàn cầu và chiến lược thâm nhập ngành khóa kéo**. Tôi phân tích buyer, BOM, nominated supplier, đối thủ, phân khúc và năng lực doanh nghiệp cần chuẩn bị. Nghiên cứu được lãnh đạo công ty đánh giá cao, giúp làm rõ các khúc mắc về quyền quyết định mua và điều kiện để doanh nghiệp tham gia sâu hơn vào chuỗi cung ứng toàn cầu.
 
 Từ nghiên cứu đến tiếp cận thực tế, tôi xây danh sách **30–40 đầu mối Philippines**; một khách đến văn phòng trao đổi cơ hội khoảng **30.000 phụ liệu kim loại**. Cơ hội không chốt do giá, giúp tôi kiểm tra lại khả năng cạnh tranh của nguồn cung và landed cost.
 
@@ -37,6 +37,10 @@ Tại **AGO Gemstone/HNH**, tôi kết nối hoạt động quảng cáo với S
 Các cải tiến SOP giúp giảm **khoảng 30–40% lỗi thao tác**, rút ngắn **40–50% thời gian xử lý đơn** và giảm **10–15% chi phí vận hành mỗi đơn**. CV của tôi ghi nhận tăng trưởng doanh thu online khoảng **12–25%/năm** trong giai đoạn công việc này.
 
 Tại **Chodientu.vn**, tôi dẫn dắt đội kinh doanh B2B hỗ trợ người bán đưa hoạt động lên môi trường trực tuyến, tư vấn quy trình bán hàng và theo sát mục tiêu quý. Kinh nghiệm này giúp tôi hiểu cả góc nhìn nền tảng, người bán và người mua.
+
+### Từ kinh nghiệm doanh nghiệp đến AI Engineering
+
+Công việc tại thị trường Việt Nam, Amazon Mỹ và B2B Philippines giúp tôi hiểu dữ liệu sản phẩm, nhu cầu khách hàng và các ràng buộc vận hành. Tôi mang góc nhìn này vào các đồ án AI: xác định đúng vấn đề, lựa chọn dữ liệu phù hợp, xây đối chứng và đánh giá kết quả theo mục tiêu sử dụng. Hướng phát triển nghề nghiệp của tôi hiện là **AI Engineer**, tập trung vào thương mại điện tử và phân tích rủi ro.
 
 ### Tình huống bổ sung: xử lý tranh chấp phí SaaS
 
@@ -52,7 +56,9 @@ My experience spans three business settings:
 - **AGO Gemstone/HNH, 2014–2022 — Head of E-commerce & Offline:** I managed D2C websites, Shopee/Lazada, paid media, product positioning, customer journeys, orders, inventory and fulfillment. My work included direct advertising budgets of approximately VND 10–20M+ per day and SOP improvements across errors, processing time and cost per order.
 - **Chodientu.vn, 2011–2013 — E-commerce Sales Team Leader, B2B:** I led merchant-facing sales, seller onboarding, store setup and marketplace-operation consulting, while managing team targets.
 
-My [Amazon launch case](../amazon-manufacturing-launch/README.md) details channel ownership and outcomes. My [international market research case](../garment-accessories-market-entry/README.md) covers an independent 48-page supply-chain study and practical Philippine B2B development. Together, these show how I connect analysis with implementation inside businesses.
+My [Amazon launch case](../amazon-manufacturing-launch/README.md) details channel ownership and outcomes. My [international market research case](../garment-accessories-market-entry/README.md) covers an independent 48-page supply-chain study and practical Philippine B2B development. Company leadership recognized the research for clarifying supply-chain entry barriers and its practical strategic value. Together, these projects show how I connect analysis with implementation inside businesses.
+
+My current career direction is **AI Engineering**. Experience in Vietnam, Amazon US and Philippine B2B development helps me frame useful problems, understand product and customer data, and evaluate AI applications against operating needs.
 
 I also resolved a disputed SaaS charge through documented vendor communication, receiving support confirmation of a full refund. It is a supporting commercial example alongside the larger operating projects.
 
