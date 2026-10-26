@@ -5,7 +5,7 @@
 **Machine Learning · RAG · Decision Support**  
 *Applied projects informed by experience in e-commerce, international markets and business operations.*
 
-[AI projects](#ai--software-projects--đồ-án-ai) · [Domain experience](#domain-experience--kinh-nghiệm-doanh-nghiệp) · [Learning labs](labs/README.md) · [GitHub profile](https://github.com/hoangtm3979)
+[AI projects](#ai--software-projects--đồ-án-ai) · [Domain experience](#domain-experience--kinh-nghiệm-doanh-nghiệp) · [Learning labs](labs/README.md) · [Advanced references](references/README.md) · [GitHub profile](https://github.com/hoangtm3979)
 
 ## About me
 
@@ -72,6 +72,7 @@ Tôi lưu lại cả bài tập cơ bản và thử nghiệm nhỏ để thể h
 - [**7 foundation notebooks / Bài thực hành nền tảng**](labs/README.md) — Python, đại số tuyến tính, ML và mạng nơ-ron, kèm output và biểu đồ.
 - [**35 Colab exercises / Bài tập mở rộng**](labs/archive/README.md) — Python/NumPy, ML, NLP, Deep Learning/CV và trực quan hóa.
 - [**Interview practice / Ôn tập kỹ thuật**](INTERVIEW_DRILL.md) — cách tôi giải thích thuật toán, thiết kế và kết quả.
+- [**Advanced Learning & References / Tài liệu tham khảo nâng cao**](references/README.md) — Stanford CS146S (AI-native software development) và Harvard MLSysBook; tài liệu tự học, không phải chứng chỉ hoặc dự án đã hoàn thành.
 
 <details>
 <summary><strong>Experiment notes & reproducibility / Tài liệu thực nghiệm</strong></summary>
