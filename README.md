@@ -9,12 +9,12 @@
 
 ## About me
 
-I'm **Trương Minh Hoàng**, completing my **AI studies at UIT, VNU-HCM**, and currently **awaiting graduation approval**.  <br>
+I'm **Trương Minh Hoàng**, an **Information Technology graduate of HCMUS (2010)**, now **awaiting graduation approval in AI at UIT, VNU-HCM**.  <br>
 My studies and projects focus on **machine learning, retrieval-augmented generation (RAG) and decision-support systems**.  <br>
 My thesis explores **graph-assisted risk analysis**; other projects cover product retrieval, time-series modeling and computer vision.  <br>
 I'm interested in how **data, context and careful evaluation** can make AI useful in commerce and risk analysis.  <br>
 I bring **10+ years of e-commerce experience in Vietnam**, including Amazon US launch leadership and B2B market development in the **Philippines**.  <br>
-My independent **supply-chain research** was recognized by company leadership for clarifying buyer decisions, supplier approval and paths into global value chains.  <br>
+My independent **market and supply-chain research** combines local business context with Chinese- and English-language industry sources and was recognized by company leadership.  <br>
 My goal is to grow as an **AI Engineer**, building practical systems that connect sound technical work with real business needs.
 
 <details>
@@ -22,12 +22,12 @@ My goal is to grow as an **AI Engineer**, building practical systems that connec
 
 ### Tiếng Việt
 
-Tôi là **Trương Minh Hoàng**, học ngành **Trí tuệ nhân tạo tại UIT – ĐHQG-HCM**, hiện **đang chờ xét tốt nghiệp**.  <br>
+Tôi là **Trương Minh Hoàng**, tốt nghiệp **CNTT tại HCMUS – ĐHQG-HCM năm 2010**, hiện **đang chờ xét tốt nghiệp ngành AI tại UIT – ĐHQG-HCM**.  <br>
 Tôi tập trung học và nghiên cứu **Machine Learning, truy hồi tăng cường sinh (RAG) và hệ thống hỗ trợ quyết định**.  <br>
 Khóa luận của tôi nghiên cứu **phân tích rủi ro có hỗ trợ đồ thị**; các đồ án khác trải rộng từ truy hồi sản phẩm đến chuỗi thời gian và thị giác máy tính.  <br>
 Tôi quan tâm cách kết hợp **dữ liệu, ngữ cảnh và đánh giá mô hình** để ứng dụng AI vào thương mại điện tử và phân tích rủi ro.  <br>
 Tôi có **hơn 10 năm kinh nghiệm thương mại điện tử tại Việt Nam**, từng phụ trách triển khai Amazon **Mỹ** và phát triển cơ hội B2B tại **Philippines**.  <br>
-Nghiên cứu **chuỗi cung ứng** do tôi thực hiện được lãnh đạo công ty đánh giá cao, giúp làm rõ quyền quyết định mua, điều kiện phê duyệt nhà cung cấp và hướng tham gia chuỗi giá trị toàn cầu.  <br>
+Tôi tự nghiên cứu **thị trường và chuỗi cung ứng**, kết hợp bối cảnh doanh nghiệp Việt Nam với tài liệu ngành tiếng Trung, tiếng Anh; kết quả được lãnh đạo công ty đánh giá cao.  <br>
 Mục tiêu của tôi là phát triển vai trò **AI Engineer**, xây dựng hệ thống hữu ích bằng cách kết hợp nền tảng kỹ thuật với hiểu biết bài toán doanh nghiệp.
 
 </details>
@@ -56,7 +56,7 @@ Tôi kết hợp nền tảng AI với kinh nghiệm tại doanh nghiệp sản 
 | --- | --- |
 | [**Amazon US · Hoàn Mỹ Zipper**](projects/amazon-manufacturing-launch/README.md) | Tôi dẫn dắt triển khai từ nghiên cứu, thương hiệu, đóng gói và logistics/FBA đến vận hành; thương hiệu mới có đơn từ ngày đầu mở bán. |
 | [**Nghiên cứu thị trường & chuỗi cung ứng**](projects/garment-accessories-market-entry/README.md) | Nghiên cứu riêng 48 trang được lãnh đạo đánh giá cao, làm rõ rào cản gia nhập chuỗi cung ứng; tôi đồng thời triển khai tiếp cận khách hàng B2B Philippines. |
-| [**AGO Gemstone/HNH · Chodientu.vn**](projects/business-problem-solving/README.md) | Tôi phụ trách D2C, marketplace và đội kinh doanh B2B, kết nối nhu cầu khách hàng với sản phẩm, quảng cáo và cải tiến vận hành. |
+| [**Việt Nam · Marketplace & bán lẻ**](projects/business-problem-solving/README.md) | Tôi dẫn dắt kinh doanh B2B và vận hành bán lẻ trang sức, thời trang linen, dùng hành vi mua, tỷ lệ quay lại và giá trị đơn hàng để ra quyết định. |
 
 ## Technical foundation / Nền tảng kỹ thuật
 
