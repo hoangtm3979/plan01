@@ -7,8 +7,7 @@
 <p align="center">
   <a href="#selected-ai-projects"><strong>AI projects</strong></a> ·
   <a href="https://github.com/hoangtm3979/plan01/tree/main/projects"><strong>Full portfolio</strong></a> ·
-  <a href="https://github.com/hoangtm3979/plan01/tree/main/labs"><strong>Learning journal</strong></a> ·
-  <a href="#tiếng-việt"><strong>Tiếng Việt</strong></a>
+  <a href="https://github.com/hoangtm3979/plan01/tree/main/labs"><strong>Learning journal</strong></a>
 </p>
 
 ## About me
