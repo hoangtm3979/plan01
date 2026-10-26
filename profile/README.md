@@ -12,12 +12,12 @@
 
 ## About me
 
-I'm **Trương Minh Hoàng**, completing my **AI studies at UIT, VNU-HCM**, and currently **awaiting graduation approval**.  <br>
+I'm **Trương Minh Hoàng**, an **Information Technology graduate of HCMUS (2010)**, now **awaiting graduation approval in AI at UIT, VNU-HCM**.  <br>
 My studies and projects focus on **machine learning, retrieval-augmented generation (RAG) and decision-support systems**.  <br>
 My thesis explores **graph-assisted risk analysis**; other projects cover product retrieval, time-series modeling and computer vision.  <br>
 I'm interested in how **data, context and careful evaluation** can make AI useful in commerce and risk analysis.  <br>
 I bring **10+ years of e-commerce experience in Vietnam**, including Amazon US launch leadership and B2B market development in the **Philippines**.  <br>
-My independent **supply-chain research** was recognized by company leadership for clarifying buyer decisions, supplier approval and paths into global value chains.  <br>
+My independent **market and supply-chain research** combines local business context with Chinese- and English-language industry sources and was recognized by company leadership.  <br>
 My goal is to grow as an **AI Engineer**, building practical systems that connect sound technical work with real business needs.
 
 <details>
@@ -25,12 +25,12 @@ My goal is to grow as an **AI Engineer**, building practical systems that connec
 
 ### Tiếng Việt
 
-Tôi là **Trương Minh Hoàng**, học ngành **Trí tuệ nhân tạo tại UIT – ĐHQG-HCM**, hiện **đang chờ xét tốt nghiệp**.  <br>
+Tôi là **Trương Minh Hoàng**, tốt nghiệp **CNTT tại HCMUS – ĐHQG-HCM năm 2010**, hiện **đang chờ xét tốt nghiệp ngành AI tại UIT – ĐHQG-HCM**.  <br>
 Tôi tập trung học và nghiên cứu **Machine Learning, truy hồi tăng cường sinh (RAG) và hệ thống hỗ trợ quyết định**.  <br>
 Khóa luận của tôi nghiên cứu **phân tích rủi ro có hỗ trợ đồ thị**; các đồ án khác trải rộng từ truy hồi sản phẩm đến chuỗi thời gian và thị giác máy tính.  <br>
 Tôi quan tâm cách kết hợp **dữ liệu, ngữ cảnh và đánh giá mô hình** để ứng dụng AI vào thương mại điện tử và phân tích rủi ro.  <br>
 Tôi có **hơn 10 năm kinh nghiệm thương mại điện tử tại Việt Nam**, từng phụ trách triển khai Amazon **Mỹ** và phát triển cơ hội B2B tại **Philippines**.  <br>
-Nghiên cứu **chuỗi cung ứng** do tôi thực hiện được lãnh đạo công ty đánh giá cao, giúp làm rõ quyền quyết định mua, điều kiện phê duyệt nhà cung cấp và hướng tham gia chuỗi giá trị toàn cầu.  <br>
+Tôi tự nghiên cứu **thị trường và chuỗi cung ứng**, kết hợp bối cảnh doanh nghiệp Việt Nam với tài liệu ngành tiếng Trung, tiếng Anh; kết quả được lãnh đạo công ty đánh giá cao.  <br>
 Mục tiêu của tôi là phát triển vai trò **AI Engineer**, xây dựng hệ thống hữu ích bằng cách kết hợp nền tảng kỹ thuật với hiểu biết bài toán doanh nghiệp.
 
 </details>
@@ -89,7 +89,7 @@ Mục tiêu của tôi là phát triển vai trò **AI Engineer**, xây dựng h
 | --- | --- |
 | [**Amazon US · Hoan My Zipper**](https://github.com/hoangtm3979/plan01/tree/main/projects/amazon-manufacturing-launch) | I led research, brand setup, packaging, FBA logistics and operations for a manufacturer; the new brand sold from day one. |
 | [**Market research · Supply chains · Philippines B2B**](https://github.com/hoangtm3979/plan01/tree/main/projects/garment-accessories-market-entry) | My independent 48-page study clarified market-entry barriers; I also researched prospects and developed buyer discussions in the Philippines. |
-| [**Vietnam · AGO Gemstone/HNH · Chodientu.vn**](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | I managed D2C/marketplace operations and led merchant-facing B2B sales, connecting customer needs with product and operating decisions. |
+| [**Vietnam · Marketplace & retail**](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | I led B2B sales at Chodientu.vn and operated jewelry and linen retail, using buying behavior, repeat purchases and order value to guide decisions. |
 
 ## Technical foundation & direction
 
