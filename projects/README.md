@@ -26,7 +26,7 @@ My portfolio brings together AI projects, software prototypes and the business e
 | --- | --- |
 | [**Amazon Launch & Operations**](amazon-manufacturing-launch/README.md) | Tôi phụ trách triển khai Amazon Mỹ cho doanh nghiệp sản xuất, từ nghiên cứu thị trường đến logistics và vận hành; thương hiệu mới có đơn từ ngày đầu. |
 | [**International Market Research & B2B Development**](garment-accessories-market-entry/README.md) | Tôi tự thực hiện nghiên cứu 48 trang được lãnh đạo đánh giá cao, làm rõ rào cản chuỗi cung ứng và phát triển cơ hội B2B tại Philippines. |
-| [**E-commerce Leadership & Business Cases**](business-problem-solving/README.md) | Tôi phụ trách vận hành và phát triển thương mại điện tử tại Hoàn Mỹ Zipper, AGO Gemstone/HNH và Chodientu.vn. |
+| [**E-commerce Leadership & Business Cases**](business-problem-solving/README.md) | Tôi kết nối kinh nghiệm Chodientu.vn, bán lẻ trang sức/linen và Hoàn Mỹ Zipper với phân tích hành vi khách hàng, hiệu quả quảng cáo và xử lý tình huống vận hành. |
 
 ## Code, experiments & learning
 
