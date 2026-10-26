@@ -4,9 +4,9 @@ Tôi dùng CV, bản nghiên cứu riêng và kinh nghiệm trực tiếp để 
 
 | Tư liệu | Nội dung sử dụng |
 | --- | --- |
-| **CV cá nhân, cập nhật 26/10/2026 — 6 trang** | Vai trò tại Hoàn Mỹ Zipper (2024–2025), AGO Gemstone/HNH (2014–2022), Chodientu.vn (2011–2013); triển khai Amazon, Brand Registry/FBA, SEO/PPC; các kết quả 1.500+ khách hàng, Top 100 ngành hàng, ACOS khoảng 30% xuống dưới 20%, thời gian xử lý giảm khoảng 50%; phạm vi dự án nghiên cứu thị trường 01–08/2025 |
+| **CV cá nhân, cập nhật 26/10/2026 — 6 trang** | Vai trò tại Hoàn Mỹ Zipper (2024–2025), AGO Gemstone/HNH (2014–2022), Chodientu.vn (2011–2013); triển khai Amazon, Brand Registry/FBA, SEO/PPC; các kết quả 1.500+ khách hàng, Top 100 ngành hàng, ACOS khoảng 30% xuống dưới 20%, thời gian xử lý giảm khoảng 50%; phạm vi dự án nghiên cứu thị trường 01–08/2025; việc báo cáo nghiên cứu được lãnh đạo ghi nhận về giá trị chiến lược và khả năng ứng dụng |
 | **Bản thảo nghiên cứu chuỗi cung ứng và chiến lược ngành khóa kéo — 48 trang** | Bản nghiên cứu do tôi thực hiện; phân tích sourcing và chuỗi giá trị, buyer/BOM và supplier nomination, phân khúc/đối thủ, hướng nâng cấp nhà cung cấp và ưu tiên chiến lược |
-| **Thông tin tôi bổ sung ngày 26/10/2026** | Trách nhiệm trưởng nhóm từ đầu đến vận hành Amazon; quy mô nhà máy khoảng 70 ha, khoảng 1.000 lao động; có đơn ngay ngày đầu và duy trì bán đều mà không dựa vào khuyến mãi/giảm giá từ sàn |
+| **Thông tin tôi bổ sung ngày 26/10/2026** | Trách nhiệm trưởng nhóm từ đầu đến vận hành Amazon; quy mô nhà máy khoảng 70 ha, khoảng 1.000 lao động; có đơn ngay ngày đầu và duy trì bán đều mà không dựa vào khuyến mãi/giảm giá từ sàn; đóng góp của bản nghiên cứu trong việc làm rõ các khúc mắc về gia nhập chuỗi cung ứng toàn cầu |
 | **Kinh nghiệm phát triển B2B tôi đã trình bày** | Khoảng 30–40 đầu mối Philippines, khách đến văn phòng trao đổi cơ hội khoảng 30.000 phụ liệu kim loại; cơ hội không chốt do giá |
 
 ## Đọc bản nghiên cứu
