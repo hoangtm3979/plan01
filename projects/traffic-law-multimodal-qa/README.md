@@ -27,7 +27,7 @@ Báo cáo nhóm mô tả thử nghiệm Precision@1 từ **0,72 (TF-IDF)** đế
 
 ## English
 
-> **In one sentence:** Explore Vietnamese traffic-law lookup and sign-image cues, starting with a separately evaluated text-retrieval baseline.
+> **In one sentence:** I explore Vietnamese traffic-law lookup and sign-image cues, starting with a separately evaluated text-retrieval baseline.
 
 ### Problem
 Our UIT coursework explored a **Vietnamese traffic-law assistant** combining text retrieval with traffic-sign image analysis.

@@ -36,7 +36,7 @@ Phần tôi muốn phát triển tiếp thành case phân tích là: **từ chi 
 
 ## English
 
-> **In one sentence:** Examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons.
+> **In one sentence:** I examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons.
 
 My earlier e-commerce and sourcing work gave me several concrete lessons in **structured problem solving**, especially when contractual details, pricing and market realities matter as much as technical tools.
 

@@ -24,7 +24,7 @@ Báo cáo nhóm ghi nhận **LightGBM là một trong những cấu hình cho k�
 
 ## English
 
-> **In one sentence:** Predict wine quality from physicochemical measurements, comparing classification and regression with duplicate-aware evaluation.
+> **In one sentence:** I predict wine quality from physicochemical measurements, comparing classification and regression with duplicate-aware evaluation.
 
 ### Problem and workflow
 In a UIT Machine Learning team assignment, we explored **binary wine-quality classification** using the UCI red/white wine data.

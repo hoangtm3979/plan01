@@ -27,13 +27,13 @@ Now studying **AI at UIT**, I build projects in retrieval, machine learning and 
 <tr>
 <td width="50%" valign="top">
 <h3>SNJ · Product Retrieval</h3>
-<p>Turn Vietnamese jewelry-shopping requests into catalog-matched suggestions through product-intent parsing, filters and retrieval.</p>
+<p>I turn Vietnamese jewelry-shopping requests into catalog-matched suggestions through product-intent parsing, filters and retrieval.</p>
 <p><sub>RAG · TF-IDF · Product search · Coursework</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/snj-hybrid-rag-jewelry-advisor"><strong>Explore the project →</strong></a></p>
 </td>
 <td width="50%" valign="top">
 <h3>Graph-Assisted Risk Context</h3>
-<p>Investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.</p>
+<p>I investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.</p>
 <p><sub>Graph analytics · LightGBM · Model evaluation · Thesis</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/graph-assisted-shared-risk-context"><strong>Code, notebooks &amp; results →</strong></a></p>
 </td>
@@ -41,13 +41,13 @@ Now studying **AI at UIT**, I build projects in retrieval, machine learning and 
 <tr>
 <td width="50%" valign="top">
 <h3>Wine Quality · ML Pipeline</h3>
-<p>Predict wine quality from physicochemical measurements, comparing classification and regression with duplicate-aware evaluation.</p>
+<p>I predict wine quality from physicochemical measurements, comparing classification and regression with duplicate-aware evaluation.</p>
 <p><sub>Python · scikit-learn · LightGBM · Reproduction</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/wine-quality-prediction"><strong>View the experiment →</strong></a></p>
 </td>
 <td width="50%" valign="top">
 <h3>RegimeLens · Market States</h3>
-<p>Study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.</p>
+<p>I study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.</p>
 <p><sub>Time series · HMM · XGBoost · Research</sub></p>
 <p><a href="https://github.com/hoangtm3979/plan01/tree/main/projects/regimelens-market-regimes"><strong>Read the study →</strong></a></p>
 </td>
@@ -58,12 +58,12 @@ Now studying **AI at UIT**, I build projects in retrieval, machine learning and 
 
 | Project | In one sentence |
 | --- | --- |
-| [Credit Risk](https://github.com/hoangtm3979/plan01/tree/main/projects/credit-risk-modeling) | Compare Logistic Regression and LightGBM for loan-risk estimation while reviewing which features are available at decision time. |
-| [Traffic-Law QA](https://github.com/hoangtm3979/plan01/tree/main/projects/traffic-law-multimodal-qa) | Explore Vietnamese traffic-law lookup and sign-image cues, starting with a separately evaluated text-retrieval baseline. |
-| [Face Attendance — team project](https://github.com/hoangtm3979/plan01/tree/main/projects/multi-camera-face-attendance) | A team project mapping camera input, face matching and event logging into a local-network attendance workflow. |
-| [PAR UI prototype](https://github.com/hoangtm3979/plan01/tree/main/projects/par-decision-support) | Prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations. |
-| [Commerce Chatbot — design](https://github.com/hoangtm3979/plan01/tree/main/projects/intelligent-commerce-chatbot) | Design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations. |
-| [Business cases](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | Examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons. |
+| [Credit Risk](https://github.com/hoangtm3979/plan01/tree/main/projects/credit-risk-modeling) | I compare Logistic Regression and LightGBM for loan-risk estimation while reviewing which features are available at decision time. |
+| [Traffic-Law QA](https://github.com/hoangtm3979/plan01/tree/main/projects/traffic-law-multimodal-qa) | I explore Vietnamese traffic-law lookup and sign-image cues, starting with a separately evaluated text-retrieval baseline. |
+| [Face Attendance — team project](https://github.com/hoangtm3979/plan01/tree/main/projects/multi-camera-face-attendance) | My team project maps camera input, face matching and event logging into a local-network attendance workflow. |
+| [PAR UI prototype](https://github.com/hoangtm3979/plan01/tree/main/projects/par-decision-support) | I prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations. |
+| [Commerce Chatbot — design](https://github.com/hoangtm3979/plan01/tree/main/projects/intelligent-commerce-chatbot) | I design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations. |
+| [Business cases](https://github.com/hoangtm3979/plan01/tree/main/projects/business-problem-solving) | I examine real SaaS billing, B2B sourcing and marketplace situations through the decisions made, outcomes and business lessons. |
 
 
 [**Browse all 10 case studies →**](https://github.com/hoangtm3979/plan01/blob/main/projects/README.md)

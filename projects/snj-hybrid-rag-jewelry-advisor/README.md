@@ -26,7 +26,7 @@ Báo cáo đồ án ghi nhận các chỉ số truy hồi đạt **100% trên 9 
 
 ## English
 
-> **In one sentence:** Turn Vietnamese jewelry-shopping requests into catalog-matched suggestions through product-intent parsing, filters and retrieval.
+> **In one sentence:** I turn Vietnamese jewelry-shopping requests into catalog-matched suggestions through product-intent parsing, filters and retrieval.
 
 ### Context
 Jewelry shoppers often express purchase intent in natural language rather than matching product titles. The core challenge is retrieving the **right kind of item**—for example, loose ruby stones instead of finished ruby earrings.

@@ -2,7 +2,7 @@
 
 > **Điểm nổi bật:** Nghiên cứu tác động của đặc trưng đồ thị lên phát hiện mẫu rủi ro hiếm và chuẩn hóa đầu ra tín dụng, bất thường để hỗ trợ rà soát.
 >
-> **In one sentence:** Investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.
+> **In one sentence:** I investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.
 
 **Khóa luận tốt nghiệp AI · Trương Minh Hoàng · MSSV 25410008 · UIT, ĐHQG-HCM**  
 Hướng dẫn: ThS. Phạm Thế Sơn

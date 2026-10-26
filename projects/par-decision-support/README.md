@@ -29,7 +29,7 @@ Một công cụ hỗ trợ quyết định phải làm rõ người dùng đang
 
 ## English
 
-> **In one sentence:** Prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations.
+> **In one sentence:** I prototype guided prevention, verification and recovery journeys for users facing uncertain digital-risk situations.
 
 ### Problem
 I developed a **bounded decision-support UI prototype** for users navigating uncertain or potentially risky digital situations. Its three example journeys cover prevention/verification and recovery.

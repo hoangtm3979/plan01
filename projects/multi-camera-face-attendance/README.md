@@ -39,7 +39,7 @@ Tôi muốn đào sâu tiếp phần **FAR/FRR, người lạ, chống giả m�
 
 ## English
 
-> **In one sentence:** A team project mapping camera input, face matching and event logging into a local-network attendance workflow.
+> **In one sentence:** My team project maps camera input, face matching and event logging into a local-network attendance workflow.
 
 ### Context and goal
 This was a **five-member UIT team project** exploring a camera-based worker attendance workflow. The team built a **local PC/LAN MVP** that ingests webcam and IP-camera frames, recognizes enrolled workers and stores timestamped attendance events.
@@ -59,7 +59,7 @@ The local attendance workflow and reporting were demonstrated in the coursework 
 
 ## Tư liệu và mức hoàn thiện / Materials and publication scope
 
-Đã đọc lại báo cáo cuối kỳ **nhóm Nam Sài Gòn**, có tên và phân công của Hoàng. [Thiết kế hệ thống và API](SYSTEM_DESIGN.md) nối từng thành phần tới luồng điểm danh, gồm fallback và giới hạn nhiều khuôn mặt.
+Tôi đối chiếu nội dung với báo cáo cuối kỳ **nhóm Nam Sài Gòn**, trong đó ghi rõ phần việc tôi phụ trách. [Thiết kế hệ thống và API](SYSTEM_DESIGN.md) nối từng thành phần tới luồng điểm danh, gồm fallback và giới hạn nhiều khuôn mặt.
 
 Mã đầy đủ đang nằm trong `Code_NhanDienKhuonMat.zip` (555.414.721 bytes), lớn hơn giới hạn tải 256 MiB của kết nối đọc file hiện tại. Đợt này **chưa đọc/kiểm thử độc lập toàn bộ ZIP**, chưa công bố notebook YOLO của nhóm khác thay cho mã đội mình. Dữ liệu khuôn mặt, gallery và database nhân sự không được đưa vào Git.
 

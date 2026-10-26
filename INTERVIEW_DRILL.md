@@ -5,10 +5,10 @@ Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Vi
 ## 1. Credit Risk / Tín dụng
 
 1. **EN:** At what timestamp is a feature available? **VI:** Đặc trưng này biết được tại thời điểm nào? Explain as-of joins and why `credit_history_length` cannot use today's date for an old decision.
-2. **EN:** What does ROC-AUC 0.936 tell us, and what does it miss? **VI:** AUC 0,936 phản ánh điều gì và còn thiếu điều gì? Thảo luận leakage, calibration, drift, định nghĩa nhãn và chính sách nghiệp vụ.
+2. **EN:** What does ROC-AUC 0.936 tell me, and what does it miss? **VI:** AUC 0,936 phản ánh điều gì và còn thiếu điều gì? Thảo luận leakage, calibration, drift, định nghĩa nhãn và chính sách nghiệp vụ.
 3. **EN:** Show how train-only preprocessing works. **VI:** Minh họa `fit` trên train và `transform` trên test; identify the separate imputation risk in the archived v3.1 source.
 4. **EN:** Define default or adverse event and observation window precisely. **VI:** Phân biệt overdue, charged-off, default và thời điểm đo.
-5. **EN:** How would you deploy and roll back this model? **VI:** Hãy thiết kế API, versioned artifacts, monitoring và rollback.
+5. **EN:** How would I deploy and roll back this model? **VI:** Hãy thiết kế API, versioned artifacts, monitoring và rollback.
 
 ## 1A. Graph-Assisted Shared Risk Context — KLTN
 
@@ -58,7 +58,7 @@ Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Vi
 
 ## 5. NLP / CV Traffic QA
 
-1. Why BM25 and Cross-Encoder? Which stage dominates latency and how would you measure it?
+1. Why BM25 and Cross-Encoder? Which stage dominates latency and how would I measure it?
 2. Explain RGB vs HSV, Canny/contours, OCR, and failure cases under low light or occlusion.
 3. What must happen if the retrieved legal provision is outdated, ambiguous or absent?
 4. Design a deployment record linking corpus version, image digest, runtime revision and logs; distinguish a proposed deployment from a verified one.
@@ -77,20 +77,20 @@ Tôi dùng bộ câu hỏi này để **giải thích dự án bằng tiếng Vi
 1. Explain class label >=6, imbalance and whether accuracy is meaningful.
 2. Why use Logistic Regression baseline before LightGBM/XGBoost?
 3. Explain feature scaling for linear models vs trees, hyperparameters, overfitting and regularization.
-4. Which preprocessing belongs inside cross-validation? How would you avoid validation leakage?
+4. Which preprocessing belongs inside cross-validation? How would I avoid validation leakage?
 5. Propose ablation, test-set freeze and experiment-tracking table.
 
 ## 7. Commercial / Kinh doanh
 
 1. **Vendor dispute:** distinguish authorization, refund promise, settlement and business learning — which document supports which assertion?
-2. **B2B Philippines:** why did an interested buyer not convert? Discuss landed cost, competitor pricing, margins, MOQ and what you would change.
+2. **B2B Philippines:** why did an interested buyer not convert? Discuss landed cost, competitor pricing, margins, MOQ and what I would change.
 3. **Ads:** distinguish billed amount from actual spend, revenue, attributable conversions, incrementality and ROAS/ACOS.
 4. **eBay:** compare marketplace purchase versus off-platform direct sourcing, payment protection and authenticity risk.
-5. **Portfolio ownership:** describe decisions you made personally versus actions by teams, suppliers or platforms.
+5. **Portfolio ownership:** describe decisions I made personally versus actions by teams, suppliers or platforms.
 
 ## 8. MLOps / AWS & GCP deployment exercise
 
-For **one** project (recommended: sanitized SNJ read-only retrieval or a UCI Wine demo):
+I use **one** project for this exercise: sanitized SNJ read-only retrieval or a UCI Wine demo.
 
 - Containerize an API with pinned dependencies and a deterministic smoke test.
 - Test locally first: malformed input, unknown categories, timeout, empty result and model version mismatch.

@@ -63,7 +63,7 @@ Khi chuẩn bị bản công khai, tôi đối chiếu 31 tệp với bộ bằn
 
 ## English
 
-> **In one sentence:** Investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.
+> **In one sentence:** I investigate how graph features affect rare-event detection, then standardize independent credit and anomaly outputs for review.
 
 ### Context and problem
 

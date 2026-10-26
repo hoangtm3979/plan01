@@ -1,6 +1,6 @@
 # Multi-Camera Face Attendance — System Design
 
-**Source:** Final team report, Nam Sài Gòn, UIT, 2026. Hoàng's assigned role: image processing, face detection/recognition, multi-face requirements and reducing false matches. This is a report-grounded design summary, not a newly tested implementation.
+**Source:** Final team report, Nam Sài Gòn, UIT, 2026. My assigned role: image processing, face detection/recognition, multi-face requirements and reducing false matches. This is a report-grounded design summary, not a newly tested implementation.
 
 ```mermaid
 flowchart TD

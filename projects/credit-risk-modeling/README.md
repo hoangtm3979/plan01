@@ -28,7 +28,7 @@ Khi đọc lại pipeline, tôi xác định các điểm cần cải tiến: đ
 
 ## English
 
-> **In one sentence:** Compare Logistic Regression and LightGBM for loan-risk estimation while reviewing which features are available at decision time.
+> **In one sentence:** I compare Logistic Regression and LightGBM for loan-risk estimation while reviewing which features are available at decision time.
 
 ### Problem and data
 I explored **loan risk probability estimation** on structured historical records, comparing an interpretable Logistic Regression baseline with LightGBM.

@@ -56,7 +56,7 @@ Khó khăn chính của bài toán không chỉ là chọn model. Tôi cần là
 
 ## English
 
-> **In one sentence:** Design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations.
+> **In one sentence:** I design a multi-turn shopping assistant that tracks preferences and checks product data before making recommendations.
 
 ### Context and goal
 

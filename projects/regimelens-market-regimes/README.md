@@ -27,7 +27,7 @@ Báo cáo ghi **Macro F1 = 0,563**, **Bear Recall = 0,591**, **High-Volatility R
 
 ## English
 
-> **In one sentence:** Study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.
+> **In one sentence:** I study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.
 
 ### Research question
 In this UIT Big Data group project, we explored whether financial **market regimes** could be modeled and used to test a hypothetical risk-allocation strategy.
