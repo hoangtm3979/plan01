@@ -28,3 +28,9 @@ These were recovered from the team's `Data.rar`. The original vendor/download ma
 ## Remaining limits
 
 Fixed source constituents can have survivorship bias; no historical membership reconstruction. Adjusted prices may encode later corporate actions. A same-date VIX join assumes end-of-day availability and does not reconstruct release vintages. Labels are endogenous to a fitted HMM, not independent economic annotations. One split/seed, no external validation, multi-window refitting, SHAP, trading-cost analysis or backtest. The fresh metrics describe this bounded classification task only.
+
+## Reproduction — 26 October 2026
+
+The current three-state notebook was executed from a fresh process on the original CSV snapshot: 5/5 code cells passed. All three forward-filter tests passed. The CSV hashes, 6,374 market days, validation-selected Random Forest and test macro F1 0.94391524581035 match the saved experiment; persistence remains 0.930728299737901. The notebook output and validation record accompany this run.
+
+The full team source archive was requested again through the Drive connection, including streaming mode. Its 301,852,094 bytes exceed the provider's 268,435,456-byte download limit. Its contents and correspondence to the five-state report remain unverified. Findings about the recovered three-state notebook do not establish which code produced the separate report.

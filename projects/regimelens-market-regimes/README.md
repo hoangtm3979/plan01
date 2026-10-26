@@ -1,67 +1,53 @@
 # RegimeLens — Financial Market Regimes / Nghiên cứu trạng thái thị trường tài chính
 
-> **Điểm nổi bật:** Khám phá trạng thái thị trường bằng HMM, rồi kiểm tra dự đoán ngày kế tiếp với đối chứng giữ nguyên trạng thái hôm nay.
+> **Điểm nổi bật:** Tôi nghiên cứu trạng thái thị trường bằng HMM và so sánh dự đoán ngày kế tiếp với đối chứng giữ nguyên trạng thái hiện tại.
 
-[Tiếng Việt](#tiếng-việt) · [English](#english)
-
-> **FRESH_EXPERIMENT:** HMM 3 trạng thái chỉ fit train, đánh giá latent-state prediction; chưa đánh giá lợi nhuận. [Audit](AUDIT.md).
+[Tiếng Việt](#tiếng-việt) · [English](#english) · [Notebook](notebooks/01_chronological_hmm_filtering.ipynb)
 
 ## Tiếng Việt
 
-### Bối cảnh và bài toán
-Đây là **đồ án nhóm môn Big Data tại UIT**. Nhóm nghiên cứu việc phân loại trạng thái thị trường—tăng, giảm, biến động mạnh, hồi phục hoặc đi ngang—để hỗ trợ phân tích rủi ro và kiểm thử quy tắc phân bổ tài sản mô phỏng.
+### Bài toán
 
-- **Input:** dữ liệu giá/khối lượng, chỉ báo kỹ thuật, VIX và biến vĩ mô trong giai đoạn nghiên cứu 2021–2026.
-- **Output:** nhãn một trong năm trạng thái, mô hình dự báo, chỉ số phân loại, SHAP, dashboard nghiên cứu và backtest.
-- **Ràng buộc:** thứ tự thời gian, ngày công bố dữ liệu vĩ mô, cách tạo nhãn HMM, biến động giữa các giai đoạn, chi phí giao dịch và trượt giá.
+Trong đồ án nhóm môn **Big Data tại UIT**, nhóm nghiên cứu cách biểu diễn trạng thái thị trường từ dữ liệu giá, khối lượng và biến động. Tôi trình bày tại đây bản thực nghiệm ba trạng thái, với notebook, mã xử lý và kết quả có thể chạy lại.
 
-### Thiết kế trong đồ án
-Theo báo cáo nhóm, bài toán gồm: tích hợp dữ liệu → tạo đặc trưng → gán trạng thái bằng HMM → so sánh Logistic Regression/Random Forest với XGBoost → đánh giá phân loại → mô phỏng chiến lược theo regime.
+- **Input:** dữ liệu cổ phiếu S&P 500 trong snapshot của nhóm và chỉ số VIX.
+- **Output:** xác suất trạng thái HMM, nhãn trạng thái và dự đoán trạng thái ngày kế tiếp.
+- **Phương pháp:** tạo đặc trưng theo thời gian, HMM, Logistic Regression, Random Forest và XGBoost.
 
-Báo cáo ghi **Macro F1 = 0,563**, **Bear Recall = 0,591**, **High-Volatility Recall = 0,548** với XGBoost; Sharpe của backtest regime khoảng **0,90** so với **0,48** của buy-and-hold. Đây là kết quả của báo cáo nhóm.
+### Cách triển khai
 
-### Điều tôi rút ra khi xem lại mã
-**REVISED — 25/10/2026:** Khi đối chiếu một bản Colab lịch sử, tôi thấy `StandardScaler` và HMM được `fit` trên toàn chuỗi trước khi chia dữ liệu theo thời gian; bước xử lý giá còn có `.bfill()`. Điều này có thể đưa thông tin tương lai vào quan sát quá khứ và khác quy trình rolling/expanding mô tả trong báo cáo. Tôi giữ riêng **số liệu trong báo cáo** và **hành vi của notebook được kiểm tra**, vì chưa xác định được đây có phải cùng phiên bản chạy benchmark cuối hay không.
+Từ **2.087.863 dòng cổ phiếu**, pipeline tạo **6.374 ngày thị trường**. Tôi chia dữ liệu theo thời gian **70% train / 15% validation / 15% test**. Scaler và HMM chỉ học trên tập train; forward filtering tính trạng thái từ những quan sát đã xuất hiện đến ngày đang xét.
 
-Đợt cập nhật bên dưới bổ sung mã nguồn, CSV snapshot đã đối chiếu và một phép thử HMM cố định trên train. Multi-window walk-forward, phí/trượt giá và phân tích độ nhạy vẫn là phần tiếp theo. Đây cũng là bài học của tôi về sự khác nhau giữa một backtest hấp dẫn và một thử nghiệm chuỗi thời gian đáng tin cậy.
+Các cặp dự đoán **t → t+1** được giữ trong từng giai đoạn. Mô hình được chọn bằng macro F1 trên validation và so sánh với **persistence**: dùng trạng thái hôm nay làm dự đoán cho ngày mai.
 
-## English
+### Kết quả thực nghiệm
 
-> **In one sentence:** I study next-day HMM-state prediction and compare machine-learning models with a simple persistence baseline.
-
-### Research question
-In this UIT Big Data group project, we explored whether financial **market regimes** could be modeled and used to test a hypothetical risk-allocation strategy.
-
-- **Input:** price, volume, technical/volatility and macroeconomic features.
-- **Output:** five-regime labels, predictive models, evaluation, interpretability views and a simulated backtest.
-- **Methods described in the group report:** HMM regime labeling, Logistic Regression and Random Forest baselines, XGBoost, SHAP and a regime-based allocation rule.
-
-The report records **Macro F1 0.563**, **Bear Recall 0.591**, **High-Volatility Recall 0.548**, and simulated Sharpe figures of about **0.90 vs 0.48**.
-
-### Code review and next iteration
-**REVISED (25 Oct 2026):** An inspected historical notebook fits its scaler/HMM on the full sequence and backfills price data before the chronological split. That implementation differs from the report's rolling/expanding design and raises look-ahead concerns. I am treating the report metrics and inspected notebook as **different evidence until their versions are matched**.
-
-I would rebuild this experiment with point-in-time features, walk-forward fitting and transaction-cost sensitivity. The main learning is that a time-series model is only as credible as its information boundaries.
-
-*UIT team project. Results are from the course report; the historical notebook is under version and evaluation review.*
-
-
-## Thí nghiệm mới và đối chiếu phiên bản / Fresh experiment and version review
-
-[**Notebook có output**](notebooks/01_chronological_hmm_filtering.ipynb) · [Mã thử nghiệm](chronological_experiment.py) · [Bằng chứng](evidence/chronological_experiment.json) · [Audit và dữ liệu](AUDIT.md)
-
-Đã lấy được `mode_test_.ipynb` và ba CSV từ `Data.rar` của nhóm. Mã này dùng **3 trạng thái**, dữ liệu khoảng **2000–2026**, khác cấu hình 5 trạng thái/2021–2026 được mô tả trong case từ báo cáo. Những chỉ số cũ 0,563/0,90/0,48 được giữ ở mức **HISTORICAL_REPORT**, không xem là kết quả tái lập của mã mới.
-
-Thí nghiệm mới dùng 2.087.863 dòng cổ phiếu để tạo **6.374 ngày thị trường**. Scaler/HMM chỉ fit 4.461 ngày train. Forward filtering không nhìn các quan sát tương lai; cặp t→t+1 không vượt biên train/validation/test. Không dùng backfill. 3/3 kiểm thử filtering đạt.
-
-| Model | Validation macro F1 | Test macro F1 |
+| Mô hình | Validation macro F1 | Test macro F1 |
 | --- | ---: | ---: |
 | Persistence | 0.933908 | 0.930728 |
 | Logistic Regression | 0.932080 | 0.929316 |
 | **Random Forest — chọn bằng validation** | **0.941223** | **0.943915** |
 | XGBoost | 0.935525 | 0.927891 |
 
-Đây là **dự đoán trạng thái ẩn của một HMM đã cố định**, chưa phải độ đúng của trạng thái kinh tế độc lập hoặc lợi nhuận giao dịch. Chỉ một split/seed; universe lịch sử và thời điểm khả dụng của giá điều chỉnh/VIX chưa được xác minh đầy đủ. Backtest/chi phí/slippage chưa chạy.
+Random Forest đạt test macro F1 **0,943915**, so với **0,930728** của persistence. Đây là kết quả dự đoán **nhãn ẩn do HMM tạo ra**, trên một cách chia dữ liệu; chỉ số này đo khả năng dự đoán trạng thái của mô hình. Đánh giá chiến lược giao dịch là một bài toán riêng.
+
+### Bài học và hướng phát triển
+
+Tôi tập trung vào thứ tự thời gian, cách hình thành nhãn và lựa chọn đối chứng. Hướng phát triển tiếp theo là đánh giá qua nhiều cửa sổ walk-forward, kiểm tra độ ổn định của trạng thái và mô phỏng chiến lược có phí giao dịch, trượt giá.
+
+## English
+
+> **In one sentence:** I study next-day HMM-state prediction and compare machine-learning models with a persistence baseline.
+
+This **UIT Big Data team project** explores market-state modeling from price, volume and volatility data. The experiment shared here uses **three HMM states** and **6,374 market days**, aggregated from **2,087,863 stock records** in the team's data snapshot.
+
+I use a chronological **70/15/15 split**, fit the scaler and HMM on training data, and apply forward filtering. Each next-day target stays within its train, validation or test period. Validation macro F1 selects the predictor before test evaluation.
+
+**Random Forest reaches test macro F1 0.943915**, compared with **0.930728** for persistence. These results measure prediction of the fitted HMM's latent labels in one chronological split. My next steps are multi-window evaluation, state stability analysis and a separate trading simulation with transaction costs.
+
+## Mã và cách chạy / Code and reproduction
+
+[**Notebook có output**](notebooks/01_chronological_hmm_filtering.ipynb) · [Pipeline](chronological_experiment.py) · [Kết quả JSON](evidence/chronological_experiment.json) · [Phương pháp, dữ liệu và phiên bản](AUDIT.md) · [Tư liệu môn học](research/README.md)
 
 ```bash
 cd projects/regimelens-market-regimes
@@ -70,10 +56,7 @@ python -m unittest discover -s tests -v
 REGIMELENS_DATA_DIR=/path/to/original/data python run_notebooks.py --in-place
 ```
 
-Thiếu CSV, notebook chạy một **synthetic smoke test** và ghi scope tương ứng; không dùng số của ví dụ đó làm kết quả S&P 500. Cần hai file `SP500_Historical_Data.csv`, `VIXCLS.csv`; `SP500.csv` chỉ được dùng bởi notebook lịch sử.
-
-**English:** the fresh chronological experiment freezes the three-state HMM on training data and compares next-day latent-state prediction with persistence. The saved five-state report metrics and trading claims have not been reproduced. The [historical source](research/regimelens-hmm-xgboost-historical.ipynb) remains available for the code review.
-
+Đặt hai file `SP500_Historical_Data.csv` và `VIXCLS.csv` trong thư mục dữ liệu. Khi thiếu CSV, notebook chạy ví dụ giả lập để kiểm tra luồng xử lý; kết quả ví dụ được ghi riêng với kết quả trên dữ liệu thị trường.
 
 ---
 

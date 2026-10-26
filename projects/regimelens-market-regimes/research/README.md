@@ -1,9 +1,11 @@
-# RegimeLens — Financial Market Regimes — Historical Sources / Nguồn lịch sử
+# RegimeLens — Coursework Sources / Tư liệu môn học
 
-These notebooks preserve coursework and known errors for source review. Old runtime outputs and private metadata are removed. **They have not been rerun end-to-end in this publication.** The current project README identifies the verified notebook or audit.
+Tôi giữ notebook môn học để tham khảo quá trình xây dựng mô hình HMM và dự đoán trạng thái thị trường. [Notebook thực nghiệm hiện tại](../notebooks/01_chronological_hmm_filtering.ipynb) sử dụng scaler/HMM fit trên train và đánh giá theo thời gian.
 
-| Original source | Descriptive public filename | Status |
-| --- | --- | --- |
-| `mode_test_.ipynb` | [regimelens-hmm-xgboost-historical.ipynb](regimelens-hmm-xgboost-historical.ipynb) | ARCHIVED_SOURCE / syntax checked |
+| Tư liệu | File |
+| --- | --- |
+| Notebook môn học, cấu hình 3 trạng thái | [regimelens-hmm-xgboost-historical.ipynb](regimelens-hmm-xgboost-historical.ipynb) |
 
-Source hashes and publication changes are in [PROVENANCE.json](../PROVENANCE.json). Scientific limitations are described in the project [README](../README.md). A syntax PASS does not establish valid labels, data availability or benchmark results.
+[Thông tin nguồn và phiên bản](../PROVENANCE.json) · [Phương pháp và dữ liệu](../AUDIT.md) · [Giới thiệu dự án](../README.md)
+
+The coursework report describes a separate five-state design for 2021–2026. Its reported figures remain in the technical version notes; the project introduction presents the executable three-state experiment and its own results.

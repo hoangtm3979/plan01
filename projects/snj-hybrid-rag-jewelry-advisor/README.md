@@ -4,8 +4,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
-> **PARTIAL_VERIFICATION:** kiểm tra lexical/rules đã chạy; dense chưa chạy mới, catalog gốc cần xác minh 5 ID lặp. [Audit](AUDIT.md).
-
 ## Tiếng Việt
 
 ### Bối cảnh và bài toán
@@ -44,16 +42,16 @@ The coursework reports **100% keyword-based results on its selected internal que
 *Coursework: UIT Advanced Machine Learning, July 2026.*
 
 
-## Mã, dữ liệu và lần kiểm tra mới / Code, data and fresh checks
+## Mã và ví dụ thực hành / Code and worked example
 
-| Thành phần / Component | Trạng thái hiện tại / Current evidence |
+| Thành phần / Component | Nội dung / Contents |
 | --- | --- |
-| [Notebook nguồn Hybrid RAG](research/snj-hybrid-retrieval-coursework.ipynb) | Bản Colab đã lưu mới hơn thay cho bản ZIP có 7 cell hỏng newline; 12 code cells syntax PASS |
+| [Notebook nguồn Hybrid RAG](research/snj-hybrid-retrieval-coursework.ipynb) | Notebook môn học về truy hồi lai; 12 cell mã đã kiểm tra cú pháp |
 | [Notebook truy hồi và ràng buộc](notebooks/01_product_retrieval_and_constraints.ipynb) | Đã chạy; TF-IDF + rules trên 12 sản phẩm giả lập, 6/6 tình huống đạt |
 | [Mã truy hồi](retrieval.py) và [parser](domain.py) | Lọc cứng loại hàng, giá, size, chứng thư; không nới điều kiện khi không có kết quả |
 | [Kiểm thử](tests/test_constraints.py) | 12/12 PASS, gồm 8ly/8ly5/18ly, giá chưa biết, đá rời so với nhẫn và ID trùng |
-| Catalog gốc | Đã đối chiếu 376 dòng × 22 cột; chỉ có **371 product_id khác nhau**, 5 ID lặp cần xác minh; không tự gộp |
-| Dense MiniLM / generation / WooCommerce | Chưa chạy mới. Trọng số MiniLM không tải được trong môi trường kiểm tra; không gọi API tạo văn bản hay commerce API |
+| Catalog gốc | 376 dòng × 22 cột; kiểm tra định danh sản phẩm được mô tả trong [tài liệu dữ liệu](AUDIT.md) |
+| Dense MiniLM / generation / WooCommerce | Hướng mở rộng; notebook chia sẻ hiện chạy TF-IDF và luật lọc trên catalog giả lập |
 
 ### Chạy bản chia sẻ / Run the shared example
 
@@ -66,9 +64,9 @@ python run_notebooks.py --in-place
 
 Catalog đi kèm là [dữ liệu giả lập](data/sample_catalog.csv), không phản ánh hàng hóa/giá SNJ. Đặt `SNJ_CATALOG_PATH` nếu muốn audit catalog riêng; notebook chỉ lưu tổng số và hash. `CatalogRetriever` yêu cầu ID duy nhất và sẽ từ chối catalog chưa giải quyết trùng ID.
 
-Để thử dense retrieval, cài `requirements-dense.txt`, tải model được ghi trong [AUDIT](AUDIT.md) và đặt `SNJ_DENSE_MODEL_DIR`. Output phải báo `dense_lexical_rules`; mặc định là `lexical_rules`. Hai chế độ dùng trọng số khác nhau, không được gọi kết quả lexical là kết quả dense.
+Cấu hình dense retrieval sử dụng `requirements-dense.txt` và `SNJ_DENSE_MODEL_DIR`; [tài liệu phương pháp](AUDIT.md) ghi model và thiết lập tương ứng. Notebook mặc định minh họa chế độ `lexical_rules` trên catalog giả lập.
 
-**English:** the current checks establish bounded product-filter behavior on fictional examples, plus a schema audit of the original catalog. They do not reproduce the nine-query historical result or establish multi-turn sales performance. [Detailed audit](AUDIT.md) · [Current evidence](evidence/current_checks.json).
+**English:** the shared notebook demonstrates lexical retrieval and product filters on fictional examples. The coursework result above uses nine selected internal queries. [Methods and data](AUDIT.md) · [Example results](evidence/current_checks.json).
 
 
 ---

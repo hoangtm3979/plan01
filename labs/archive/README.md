@@ -84,6 +84,6 @@ Thông tin người thực hành của hai bài đã thống nhất: **Trương 
 
 Danh mục gồm **35 notebook bài tập bổ sung**. Phân biệt bài đã thực thi, bài chỉ kiểm tra kiến trúc và mã cần dữ liệu/thư viện riêng trong [bảng kỹ thuật](inventory.json). Bảy notebook chính có [báo cáo chạy riêng](../EXECUTION_REPORT.md).
 
-**REVISED:** hai mục trước đây chờ đối chiếu đã được thêm làm bài tham khảo/thực hành có thông tin người học chuẩn hóa; tên nguồn gốc vẫn được giữ. Cập nhật này không biến tên người thực hành thành thông tin tác giả gốc.
+Các bài tham khảo giữ ghi nguồn gốc; phần thực hành ghi thông tin của tôi: **Trương Minh Hoàng · MSSV 25410008**.
 
 Các bản trùng mã được dẫn về bản chính. File trống và nguồn thuộc dự án riêng vẫn nằm trong kiểm kê, không được đếm thành dự án độc lập.

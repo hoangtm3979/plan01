@@ -71,11 +71,11 @@ historical training environment in `PROVENANCE.json`.
 
 ## Interpretation
 
-**STILL VALID:** graph-derived features improved AP/ROC-AUC in the reported setup while
+**Thông tin tiếp tục áp dụng:** graph-derived features improved AP/ROC-AUC in the reported setup while
 Top‑1% positives fell from 62 to 55. Neither a shared score nor a real customer join is
 part of the thesis design. The system checks establish conformance to its declared
 academic contract; they do not measure real banking decision quality.
 
-**REVISED — publication coverage:** the portfolio now contains source code and executable
+**Cập nhật — publication coverage:** the portfolio now contains source code and executable
 demonstrations in addition to the original case study. Saved experimental outputs have
 been independently recomputed; the historic benchmark is not relabeled as new training.

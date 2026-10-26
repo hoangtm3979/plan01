@@ -1,5 +1,5 @@
 {
-  "started_at_utc": "2026-10-25T16:46:40.744236+00:00",
+  "started_at_utc": "2026-10-26T00:36:24.377815+00:00",
   "python": "3.12.14",
   "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
   "packages": {
@@ -9,6 +9,7 @@
     "scikit-learn": "1.8.0",
     "matplotlib": "3.10.8",
     "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
     "ipykernel": "7.4.0",
     "jupyter-client": "8.10.0"
   },
@@ -31,11 +32,11 @@
   "notebooks": [
     {
       "notebook": "01_chronological_hmm_filtering.ipynb",
-      "source_sha256": "b51facb0902af3d96b75a890c3163ead5da4a3217b839c7c526dde935df32876",
+      "source_sha256": "b650c032302ebbeecfacea9eb75d4a0b99da524006535f10b0c957a73afeda3d",
       "code_cells": 5,
       "status": "PASS",
       "executed_code_cells": 5,
-      "started_at_utc": "2026-10-25T16:46:40.939145+00:00",
+      "started_at_utc": "2026-10-26T00:36:24.594302+00:00",
       "metrics": {
         "status": "PASS",
         "scope": "NEW_CHRONOLOGICAL_LATENT_STATE_EXPERIMENT",
@@ -295,15 +296,15 @@
           "usable_market_days": 6374,
           "universe": "tickers supplied in source export; historical membership not reconstructed"
         },
-        "completed_at_utc": "2026-10-25T16:46:47.845645+00:00"
+        "completed_at_utc": "2026-10-26T00:36:32.344233+00:00"
       },
       "executed_notebook": "notebooks/01_chronological_hmm_filtering.ipynb",
-      "executed_file_sha256": "bb83c8ba243013ad53ae3e1ae74ed43ca3c6fafd098f3773b00ded876cb294e5",
-      "duration_seconds": 6.941,
-      "completed_at_utc": "2026-10-25T16:46:47.851580+00:00"
+      "executed_file_sha256": "ebc87adf1033b3d43675d9eabaeea53d0b2b54603fcd13b35ea11bf6c4b59774",
+      "duration_seconds": 7.789,
+      "completed_at_utc": "2026-10-26T00:36:32.350087+00:00"
     }
   ],
-  "completed_at_utc": "2026-10-25T16:46:48.355278+00:00",
+  "completed_at_utc": "2026-10-26T00:36:32.885296+00:00",
   "passed": 1,
   "total": 1
 }

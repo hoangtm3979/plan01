@@ -19,4 +19,4 @@ Notebook dưới `research/` giữ phương pháp lịch sử để có thể gi
 
 Trước khi chạy benchmark tiếp: chốt terminal outcomes và horizon; tạo feature allowlist theo thời điểm; đưa preprocessing vào pipeline; chia development/validation/holdout theo thời gian; khóa cấu hình rồi mới mở holdout. Chưa có số liệu mới cho quy trình này.
 
-**REVISED:** sửa được lỗi cú pháp không có nghĩa đã chứng minh “no leakage”. Cụm đó được bỏ khỏi phần mô tả của bản nguồn mới.
+**Cập nhật:** sửa được lỗi cú pháp không có nghĩa đã chứng minh “no leakage”. Cụm đó được bỏ khỏi phần mô tả của bản nguồn mới.

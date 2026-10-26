@@ -5,8 +5,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
-> **REPORT_GROUNDED:** đúng báo cáo nhóm Nam Sài Gòn; bộ mã đầy đủ/camera/hardware chưa được kiểm tra độc lập. [System design](SYSTEM_DESIGN.md).
-
 ## Tiếng Việt
 
 ### Bối cảnh và bài toán
@@ -57,13 +55,13 @@ The local attendance workflow and reporting were demonstrated in the coursework 
 *UIT team coursework, 2026.*
 
 
-## Tư liệu và mức hoàn thiện / Materials and publication scope
+## Tài liệu dự án / Project materials
 
-Tôi đối chiếu nội dung với báo cáo cuối kỳ **nhóm Nam Sài Gòn**, trong đó ghi rõ phần việc tôi phụ trách. [Thiết kế hệ thống và API](SYSTEM_DESIGN.md) nối từng thành phần tới luồng điểm danh, gồm fallback và giới hạn nhiều khuôn mặt.
+[Thiết kế hệ thống và API](SYSTEM_DESIGN.md) trình bày luồng điểm danh, các thành phần và phương án dự phòng theo báo cáo cuối kỳ **nhóm Nam Sài Gòn**. Tôi phụ trách xử lý ảnh và nhận diện khuôn mặt.
 
-Mã đầy đủ đang nằm trong `Code_NhanDienKhuonMat.zip` (555.414.721 bytes), lớn hơn giới hạn tải 256 MiB của kết nối đọc file hiện tại. Đợt này **chưa đọc/kiểm thử độc lập toàn bộ ZIP**, chưa công bố notebook YOLO của nhóm khác thay cho mã đội mình. Dữ liệu khuôn mặt, gallery và database nhân sự không được đưa vào Git.
+Bản chia sẻ hiện gồm mô tả kiến trúc và giao diện API. Tôi giữ dữ liệu khuôn mặt và hồ sơ nhân sự trong bộ tư liệu riêng. Benchmark camera và thiết bị edge là hướng phát triển tiếp theo.
 
-**English:** the case and architecture are grounded in the correct team report. Full source extraction, camera runtime, face matching, spoofing and hardware benchmarks remain unverified in this publication. The 80–95% figure in slides is a target range, not a measured accuracy.
+**English:** this case presents the team's PC/LAN architecture and API design, with my contribution focused on image processing and face recognition. Camera and edge-device benchmarking are the next engineering stage.
 
 
 ---

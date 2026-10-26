@@ -45,10 +45,10 @@ verification results and notebook outputs. The replay reads original prediction 
 to check metrics and field preservation; it does not refit LightGBM. The saved bootstrap
 array is hash-verified and its quantiles recalculated, rather than resampled again.
 
-**STILL VALID:** original AP/ROC-AUC/Top‑1% results, their interpretation limits, and the
+**Thông tin tiếp tục áp dụng:** original AP/ROC-AUC/Top‑1% results, their interpretation limits, and the
 separation of LendingClub and DGraphFin populations. The main post-hoc next steps remain
 directional feature ablation and tie-sensitivity analysis.
 
-**REVISED:** the portfolio previously offered only a case-study page for this thesis.
+**Cập nhật:** the portfolio previously offered only a case-study page for this thesis.
 It now includes academic source code, research notebooks, runnable examples and an
 evidence replay. This changes publication coverage, not the historical experiment results.

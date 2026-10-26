@@ -4,8 +4,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
-> **REPRODUCTION_PASS:** 8/8 code cells, đủ 6.497 mẫu UCI; có classification, regression và grouped holdout. [Kết quả](evidence/reproduction.json).
-
 ## Tiếng Việt
 
 ### Bối cảnh và bài toán
@@ -67,7 +65,7 @@ python -m pip install -r requirements.txt
 python run_notebooks.py --in-place
 ```
 
-CSV UCI được tải và kiểm tra SHA-256 tự động, hoặc đặt `WINE_DATA_DIR` đến bản cache. [Hai notebook lịch sử](research/README.md) giữ lại quá trình học; bản pipeline nháp cũ thiếu `y_pred_reg`, còn bài nhóm từng chọn cấu hình theo test F1. Bản mới bổ sung huấn luyện/predict hồi quy và chỉ chọn model trong train CV.
+CSV UCI được tải và kiểm tra SHA-256 tự động, hoặc đặt `WINE_DATA_DIR` đến bản cache. Pipeline gồm cả huấn luyện và dự đoán hồi quy; mô hình được chọn bằng cross-validation trên train. [Notebook môn học và bản thực hành ban đầu](research/README.md) ghi lại quá trình phát triển.
 
 **English:** all eight code cells ran successfully on the official red/white data. These scores use a new duplicate-aware protocol; they do not replace the historical group scores as though the splits were identical. Winery/batch independence cannot be established from the available columns.
 

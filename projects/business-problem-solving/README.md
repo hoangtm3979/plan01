@@ -4,8 +4,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
-> **CASE_RECORD:** ba tình huống kinh doanh, kết quả và bài học theo phạm vi nguồn đã nêu.
-
 ## Tiếng Việt
 
 Trước khi tập trung vào AI, tôi đã làm thương mại điện tử, nghiên cứu sản phẩm, quảng cáo, tìm nguồn hàng và làm việc với đối tác. Những tình huống dưới đây giúp tôi hình thành thói quen **đọc điều khoản, phân tích chi phí, kiểm tra dữ kiện và ra quyết định từ ràng buộc thực tế**.
@@ -52,13 +50,11 @@ I have worked with product research, eBay purchases, Amazon-related learning and
 *These are condensed business case studies; original commercial correspondence and transaction records are kept separately.*
 
 
-## Cách tham khảo bằng chứng / Reading the evidence
+## Cách tôi trình bày case / Case structure
 
-Case này mô tả kinh nghiệm kinh doanh, không yêu cầu notebook để được xem là đầy đủ. Các kết quả được giữ đúng phạm vi: hỗ trợ xác nhận hoàn phí SaaS; một cơ hội B2B khoảng 30.000 sản phẩm **không chốt đơn**; hoạt động marketplace/ads chưa có bảng KPI chuẩn hóa công khai.
+Tôi dùng khung **bối cảnh → dữ kiện → quyết định → kết quả → bài học**. Hóa đơn, trao đổi đối tác và dữ liệu khách hàng được giữ riêng; phần chia sẻ tập trung vào cách phân tích và quyết định kinh doanh.
 
-Tôi dùng cùng khung **bối cảnh → dữ kiện → quyết định → kết quả → bài học**. Hóa đơn, trao đổi đối tác, giá mua và dữ liệu khách hàng vẫn ở bộ hồ sơ riêng. Chưa công bố doanh thu, ROAS hoặc mức tiết kiệm mới khi không có bảng đối chiếu.
-
-**English:** narrative business cases are complete at the stated evidence level. They are not presented as software projects or newly audited financial outcomes.
+**English:** I organize each case around context, facts, decisions, outcomes and lessons, while keeping commercial correspondence and customer records private.
 
 
 ---

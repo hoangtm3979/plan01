@@ -4,8 +4,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english)
 
-> **DESIGN_RECORD:** hồ sơ thiết kế và kế hoạch beta; chưa xác nhận artifact thực thi riêng. [Evaluation plan](EVALUATION_PLAN.md).
-
 ## Tiếng Việt
 
 ### Bối cảnh và ý tưởng
@@ -94,9 +92,9 @@ This project is teaching me how to combine **retrieval, structured business rule
 
 [Kế hoạch đánh giá nhiều lượt](EVALUATION_PLAN.md) · [12 tình huống có cấu trúc](evaluation_cases.json) · [Nguồn và phạm vi](PROVENANCE.json)
 
-**DESIGN_RECORD:** chưa tìm thấy artifact thực thi riêng của chatbot đa lượt để xác nhận beta runtime hoặc benchmark. Mã SNJ single-turn đã được bổ sung ở [dự án tiền nhiệm](../snj-hybrid-rag-jewelry-advisor/README.md); không coi nó là bằng chứng cho memory, tool orchestration hoặc image understanding của chatbot mới. Các tình huống ở đây đều **NOT_RUN**.
+Tôi chia sẻ thiết kế hệ thống và **12 tình huống đánh giá dự kiến** cho phần mở rộng nhiều lượt. Phần mã truy hồi một lượt nằm trong [đồ án SNJ Hybrid RAG](../snj-hybrid-rag-jewelry-advisor/README.md). Bộ nhớ phiên, điều phối công cụ và xử lý ảnh thuộc giai đoạn phát triển tiếp theo.
 
-**English:** this folder is the design/evaluation record for the multi-turn extension. The internal-beta direction is a development goal; a separate runnable artifact and measured results are still needed.
+**English:** this folder contains my system design and 12 planned evaluation scenarios. The single-turn retrieval implementation is available in the SNJ predecessor project; multi-turn runtime evaluation is a later milestone.
 
 
 ---

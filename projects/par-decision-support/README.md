@@ -4,8 +4,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english) · [Personal source repository](https://github.com/hoangtm3979/aegi-par-demo)
 
-> **RELEASE_EVIDENCE_REVIEW:** đã đối chiếu mã cá nhân và nghiệm thu UI 1.1 ngày 25/09/2026; chưa kiểm tra endpoint mới. [Runbook](RUNBOOK.md).
-
 ## Tiếng Việt
 
 ### Bối cảnh và bài toán
@@ -44,15 +42,13 @@ The repository describes a **40/40 PAR and 40/40 baseline** test on the example 
 *Public UI case from my personal repository.*
 
 
-## Đối chiếu release / Release evidence review
+## Triển khai và tài liệu / Release and documentation
 
-**REVISED — 25/10/2026:** README nguồn vẫn mô tả phần triển khai là công việc tiếp theo, nhưng [`UI_RELEASE.json`](https://github.com/hoangtm3979/aegi-par-demo/blob/main/UI_RELEASE.json) và [biên bản nghiệm thu](https://github.com/hoangtm3979/aegi-par-demo/blob/main/PRODUCTION_ACCEPTANCE_UI_1.1.md) ghi nhận UI 1.1 / core rc4 đã được nghiệm thu triển khai **25/09/2026**: readiness/health/assets và 3/3 luồng, evidence 3/3, dọn 3/3 demo cases. Đây là bằng chứng triển khai lịch sử; không phải một lần kiểm tra endpoint mới trong đợt portfolio này.
+Bản **UI 1.1 / core rc4** có biên bản nghiệm thu ngày **25/09/2026**, gồm kiểm tra readiness/health/assets và **3/3 luồng tương tác**. Tôi liên kết [thông tin release](https://github.com/hoangtm3979/aegi-par-demo/blob/main/UI_RELEASE.json), [biên bản nghiệm thu](https://github.com/hoangtm3979/aegi-par-demo/blob/main/PRODUCTION_ACCEPTANCE_UI_1.1.md) và [hướng dẫn kỹ thuật](RUNBOOK.md) để trình bày phiên bản đã triển khai.
 
-[Code cá nhân](https://github.com/hoangtm3979/aegi-par-demo) · [Các tệp UI](https://github.com/hoangtm3979/aegi-par-demo/tree/main/submission_overlay) · [Hướng dẫn đọc và kiểm tra](RUNBOOK.md)
+Bộ tình huống 40/40 ở trên đo hành vi luồng xử lý trong môi trường thử nghiệm nội bộ. Đánh giá trải nghiệm và tác động với người dùng thực tế là bước phát triển tiếp theo.
 
-Bộ 40/40 PAR và 40/40 baseline là internal source-grounded offline evaluation có development exposure, không có ưu thế action-level giữa hai cấu hình và chưa có gold độc lập. Lần rà soát này không công bố thêm mã lõi nội bộ hoặc thay đổi backend.
-
-**English:** public release records establish a historical UI 1.1 production acceptance, while the README is older in its deployment wording. The portfolio now links directly to the release evidence and separates runtime/UI acceptance from effectiveness and user-outcome evaluation.
+**English:** the release records document UI 1.1 acceptance on 25 September 2026, including three interaction flows. The scenario checks measure workflow behavior; user-outcome evaluation is a separate next step.
 
 
 ---

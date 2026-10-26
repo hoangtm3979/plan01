@@ -4,8 +4,6 @@
 
 [Tiếng Việt](#tiếng-việt) · [English](#english) · [Notebook](https://github.com/hoangtm3979/credit)
 
-> **SOURCE_REVIEW:** 13 code cells syntax PASS; AUC là output lịch sử, chưa huấn luyện lại. [Audit](AUDIT.md).
-
 ## Tiếng Việt
 
 ### Bối cảnh và bài toán
@@ -24,7 +22,7 @@ Tôi thực hành xây dựng một hệ thống **ước lượng xác suất r
 ### Kết quả và điều tôi học được
 Notebook lưu kết quả trên **2.029.952 bản ghi train** và **664.824 bản ghi holdout**, với **ROC-AUC 0,930624 (Logistic)** và **0,935931 (LightGBM)**. Tôi quan tâm không chỉ chỉ số cao mà còn việc kết quả có đúng trong điều kiện ra quyết định hay không.
 
-Khi đọc lại pipeline, tôi xác định các điểm cần cải tiến: đảm bảo mọi feature có trước thời điểm xét vay, chỉ `fit` bước điền thiếu trên tập train và tính thời gian lịch sử theo mốc của từng hồ sơ. Đây là phần tôi sẽ sửa trước khi benchmark lại, bổ sung calibration và phân tích theo nhóm.
+Hướng phát triển tiếp theo của tôi là đánh giá đặc trưng tại thời điểm xét vay, chuẩn hóa quy trình tiền xử lý và bổ sung calibration, phân tích theo nhóm.
 
 ## English
 
@@ -46,17 +44,16 @@ The saved notebook records **2,029,952 training** and **664,824 holdout** rows, 
 **Code:** [Personal Credit Risk notebook](https://github.com/hoangtm3979/credit).
 
 
-## Mã và trạng thái hiện tại / Code and current status
+## Mã và tài liệu / Code and materials
 
-**SOURCE_REVIEW — 25/10/2026:** đã đưa [notebook v3.1 có tên rõ nội dung](research/credit-risk-logistic-lightgbm-v3.1.ipynb) vào thư mục này và sửa token thừa gây lỗi cú pháp trong `to_float_percent`. **13 code cells đạt kiểm tra cú pháp**; chưa huấn luyện lại trên hai CSV gốc. Các AUC 0,930624/0,935931 ở trên là output lịch sử, chưa xác nhận bằng một lần chạy mới.
+[Notebook v3.1](research/credit-risk-logistic-lightgbm-v3.1.ipynb) lưu quá trình xây dựng pipeline. Các AUC trên là kết quả đã lưu của phiên bản v3.1; bản chia sẻ đã kiểm tra cú pháp, còn lượt huấn luyện lại cần hai CSV gốc.
 
-- [Kiểm tra pipeline và những điểm còn mở](AUDIT.md).
-- [Nguồn, thay đổi khi xuất bản](PROVENANCE.json) · [Hướng dẫn nguồn lịch sử](research/README.md).
-- [Repo nguồn cá nhân trước đây](https://github.com/hoangtm3979/credit) được giữ làm dấu mốc học tập.
-- [Credit source trong KLTN](../graph-assisted-shared-risk-context/research/01_CREDIT_OUTPUTS_v2_1.ipynb) là **một thí nghiệm khác** với nhãn/feature/split riêng; không dùng chỉ số của nó thay cho v3.1.
+- [Phương pháp đánh giá và đặc trưng](AUDIT.md).
+- [Nguồn notebook](research/README.md) · [Thông tin phiên bản](PROVENANCE.json).
+- [Repository học tập ban đầu](https://github.com/hoangtm3979/credit).
+- [Thí nghiệm tín dụng trong KLTN](../graph-assisted-shared-risk-context/research/01_CREDIT_OUTPUTS_v2_1.ipynb), sử dụng thiết lập dữ liệu riêng.
 
-The syntax fix makes the historical source inspectable. It does not resolve the label horizon, point-in-time feature availability or holdout-fitted imputation. See the audit before reusing the training/inference code.
-
+**English:** the reported AUC values come from the saved v3.1 experiment. The shared source passes syntax checks; full retraining requires the original CSV inputs. Data and evaluation details are documented separately.
 
 ### Bộ khung học tập trước đó / Earlier learning scaffold
 

@@ -52,9 +52,6 @@ và [kết quả JSON](validation/execution-results.json).
 | MNIST FCN | **8/8 PASS** | Test accuracy **97,72%**, 10 epochs; tải lại mô hình giữ nguyên xác suất dự đoán |
 | E-commerce intent & EV | **8/8 PASS** | **12.330 phiên UCI**; Random Forest test AUC **0,7578**, AP **0,3560** |
 
-**SUPERSEDED:** bảng cũ “4 bài đã chạy, 2 bài mới kiểm tra syntax, 1 bài chờ dữ liệu”
-được thay bằng kết quả trên sau khi cài TensorFlow và lấy được CSV gốc từ UCI.
-Các cell được gộp hoặc bổ sung kiểm tra nên số cell khác bản trước.
 
 MNIST dùng đủ dữ liệu chính thức: **54.000 train / 6.000 validation / 10.000 test** cho mỗi bài.
 Bài e-commerce chọn mô hình bằng validation log loss; EV là mô phỏng theo giả định,

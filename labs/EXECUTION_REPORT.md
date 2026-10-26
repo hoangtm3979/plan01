@@ -100,9 +100,9 @@ support later offline runs. See [data provenance and checksums](DATA_SOURCES.md)
 - [Machine-readable execution results](validation/execution-results.json): environment, timestamps,
   cell counts, model metrics, notebook source fingerprints and executed-file SHA-256 hashes.
 - [Executed notebooks](notebooks/): actual text/table/plot outputs from the successful run.
-- **SUPERSEDED:** trạng thái “4/7 đã chạy, 2 syntax-only, 1 chờ dữ liệu” được thay bằng **7/7 đã chạy**.
+- **Tiến độ hiện tại:** trạng thái “4/7 đã chạy, 2 syntax-only, 1 chờ dữ liệu” được thay bằng **7/7 đã chạy**.
   Hai lượt chạy đầy đủ trên môi trường này cho cùng metric; thời gian chạy và byte của output
   có thể thay đổi. Điều này chưa chứng minh tính tái lập giữa mọi phần cứng/phiên bản thư viện.
-- **STILL VALID:** các bài toy và EV có giới hạn dữ liệu/giả định đã ghi trong từng notebook.
+- **Thông tin tiếp tục áp dụng:** các bài toy và EV có giới hạn dữ liệu/giả định đã ghi trong từng notebook.
 - **Scope:** đợt này hoàn thiện bảy bài hiện có. Danh mục 103 mục Colab cũ vẫn là công việc
   kiểm kê và lựa chọn tiếp theo; các dự án lớn có trạng thái riêng trong case study.
